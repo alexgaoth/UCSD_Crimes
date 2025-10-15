@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-dom/client';
-import './App.css';
+import { Link } from 'react-router-dom';
+import '../App.css';
 
 export default function Home() {
   const [reports, setReports] = useState([]);
@@ -172,9 +172,3 @@ export default function Home() {
     </div>
   );
 }
-
-ReactDOM.createRoot(document.getElementById("app")).render(
-  <React.StrictMode>
-    <Home/>
-  </React.StrictMode>
-);
