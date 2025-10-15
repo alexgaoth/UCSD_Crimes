@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Pages.css';
 
 export default function Search() {
@@ -101,6 +102,7 @@ export default function Search() {
         <div className="header-wrapper">
           <div className="header-illustration"></div>
           <div className="header-text">
+            <Link to="/" className="back-link">← Back to Home</Link>
             <h1>Search Reports</h1>
             <p>Find Specific Incidents</p>
           </div>
