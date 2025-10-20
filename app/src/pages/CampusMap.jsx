@@ -10,7 +10,31 @@ export default function CampusMap() {
 
   const { reports, loading } = useReports();
 
+  useEffect(() => {
+    if (!loading && reports.length > 0) {
+      const locationMap = {};
+      reports.forEach(report => {
+        if (!locationMap[report.location]) {
+          locationMap[report.location] = {
+            name: report.location,
+            count: 0,
+            reports: []
+          };
+        }
+        locationMap[report.location].count++;
+        locationMap[report.location].reports.push(report);
+      });
+
+      const sorted = Object.values(locationMap).sort((a, b) => b.count - a.count);
+      setLocationData(sorted.slice(0, 20));
+    }
+  }, [reports, loading]);
+
   const maxCount = locationData.length > 0 ? locationData[0].count : 1;
+
+  if (loading) {
+    return <div className="loading">Loading campus map...</div>;
+  }
 
   return (
     <div className="app">
@@ -33,7 +57,7 @@ export default function CampusMap() {
         </section>
 
         <section className="location-ranking">
-          <h2 className="section-title">Locations by Report Frequency</h2>
+          <h2 className="section-title">Top 20 Locations by Report Frequency</h2>
           <div className="ranking-list">
             {locationData.map((location, idx) => (
               <div 
@@ -60,8 +84,8 @@ export default function CampusMap() {
                 
                 {selectedLocation === location.name && (
                   <div className="location-details">
-                    <h4>Recent Incidents</h4>
-                    {location.reports.map(report => (
+                    <h4>Recent Incidents (showing up to 10)</h4>
+                    {location.reports.slice(0, 10).map(report => (
                       <div key={report.incident_case} className="detail-incident">
                         <div className="detail-header">
                           <span className="detail-category">{report.category}</span>
@@ -86,9 +110,9 @@ export default function CampusMap() {
               <p className="insight-detail">{locationData[0]?.count || 0} incidents reported</p>
             </div>
             <div className="insight-card">
-              <h3>Total Locations</h3>
+              <h3>Top 20 Locations</h3>
               <p className="insight-number">{locationData.length}</p>
-              <p className="insight-detail">Areas with reported incidents</p>
+              <p className="insight-detail">Areas with most incidents</p>
             </div>
             <div className="insight-card">
               <h3>Average per Location</h3>

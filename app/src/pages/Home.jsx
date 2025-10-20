@@ -1,5 +1,4 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useReports } from '../context/ReportsContext.jsx';
 import '../App.css';
@@ -8,7 +7,7 @@ export default function Home() {
   const { reports, loading } = useReports();
 
   const topReports = reports.slice(0, 3);
-  const otherReports = reports.slice(3);
+  const otherReports = reports.slice(3, 10);
 
   if (loading) {
     return <div className="loading">Loading reports...</div>;
