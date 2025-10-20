@@ -1,103 +1,14 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useReports } from '../context/ReportsContext.jsx';
 import './Pages.css';
 
 export default function CampusMap() {
   const [locationData, setLocationData] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
 
-  useEffect(() => {
-    const mockData = [
-      {
-        category: "Attempt to Contact",
-        location: "Tioga Hall",
-        date_reported: "10/7/2025",
-        incident_case: "2510070084",
-        date_occurred: "10/7/2025",
-        time_occurred: "6:50 PM",
-        summary: "Reporting party is student's brother, has not heard from sister for about 20 hours",
-        disposition: "Cancelled"
-      },
-      {
-        category: "Theft",
-        location: "Price Center",
-        date_reported: "10/6/2025",
-        incident_case: "2510060042",
-        date_occurred: "10/6/2025",
-        time_occurred: "2:30 PM",
-        summary: "Student reported missing laptop from study area.",
-        disposition: "Reported"
-      },
-      {
-        category: "Suspicious Activity",
-        location: "Geisel Library",
-        date_reported: "10/5/2025",
-        incident_case: "2510050018",
-        date_occurred: "10/5/2025",
-        time_occurred: "11:15 PM",
-        summary: "Campus safety observed individuals loitering",
-        disposition: "Investigated"
-      },
-      {
-        category: "Vandalism",
-        location: "Warren Quad",
-        date_reported: "10/4/2025",
-        incident_case: "2510040055",
-        date_occurred: "10/4/2025",
-        time_occurred: "8:00 AM",
-        summary: "Graffiti discovered on exterior wall",
-        disposition: "Reported"
-      },
-      {
-        category: "Traffic Incident",
-        location: "North Torrey Pines Road",
-        date_reported: "10/3/2025",
-        incident_case: "2510030091",
-        date_occurred: "10/3/2025",
-        time_occurred: "5:45 PM",
-        summary: "Minor vehicle collision",
-        disposition: "Resolved"
-      },
-      {
-        category: "Theft",
-        location: "Price Center",
-        date_reported: "10/3/2025",
-        incident_case: "2510030045",
-        date_occurred: "10/3/2025",
-        time_occurred: "1:20 PM",
-        summary: "Bicycle theft reported",
-        disposition: "Reported"
-      },
-      {
-        category: "Theft",
-        location: "Price Center",
-        date_reported: "10/2/2025",
-        incident_case: "2510020032",
-        date_occurred: "10/2/2025",
-        time_occurred: "3:15 PM",
-        summary: "Backpack stolen from unattended table",
-        disposition: "Reported"
-      }
-    ];
-
-    // Group by location and count
-    const locationMap = {};
-    mockData.forEach(report => {
-      if (!locationMap[report.location]) {
-        locationMap[report.location] = {
-          name: report.location,
-          count: 0,
-          reports: []
-        };
-      }
-      locationMap[report.location].count++;
-      locationMap[report.location].reports.push(report);
-    });
-
-    const sorted = Object.values(locationMap).sort((a, b) => b.count - a.count);
-    setLocationData(sorted);
-  }, []);
+  const { reports, loading } = useReports();
 
   const maxCount = locationData.length > 0 ? locationData[0].count : 1;
 
