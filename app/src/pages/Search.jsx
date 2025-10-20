@@ -8,22 +8,34 @@ export default function Search() {
   const [allReports, setAllReports] = useState([]);
   const [filteredReports, setFilteredReports] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
   const [categories, setCategories] = useState([]);
   const [locations, setLocations] = useState([]);
 
-  
   const { reports, loading } = useReports();
+
+  useEffect(() => {
+    if (!loading && reports.length > 0) {
+      setAllReports(reports);
+      setFilteredReports(reports.slice(0, 10));
+
+      const uniqueCategories = [...new Set(reports.map(r => r.category))];
+      const uniqueLocations = [...new Set(reports.map(r => r.location))];
+      setCategories(uniqueCategories);
+      setLocations(uniqueLocations);
+    }
+  }, [reports, loading]);
 
   useEffect(() => {
     let filtered = allReports;
 
-    if (searchTerm) {
+    if (activeSearchTerm) {
       filtered = filtered.filter(report =>
-        report.summary.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        report.location.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        report.category.toLowerCase().includes(searchTerm.toLowerCase())
+        report.summary.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+        report.location.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+        report.category.toLowerCase().includes(activeSearchTerm.toLowerCase())
       );
     }
 
@@ -35,8 +47,23 @@ export default function Search() {
       filtered = filtered.filter(report => report.location === selectedLocation);
     }
 
-    setFilteredReports(filtered);
-  }, [searchTerm, selectedCategory, selectedLocation, allReports]);
+    setFilteredReports(filtered.slice(0, 10));
+  }, [activeSearchTerm, selectedCategory, selectedLocation, allReports]);
+
+  const handleKeyDown = (e) => {
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      setActiveSearchTerm(searchTerm);
+    }
+  };
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+  };
+
+  if (loading) {
+    return <div className="loading">Loading search...</div>;
+  }
 
   return (
     <div className="app">
@@ -56,9 +83,10 @@ export default function Search() {
           <div className="search-bar">
             <input
               type="text"
-              placeholder="Search by summary, location, or category..."
+              placeholder="Search by summary, location, or category... (Press Space to search)"
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={handleSearchChange}
+              onKeyDown={handleKeyDown}
               className="search-input"
             />
           </div>
@@ -97,7 +125,40 @@ export default function Search() {
         <section className="search-results">
           <div className="results-header">
             <h2 className="section-title">Search Results</h2>
-            <span className="results-count">{filteredReports.length} reports found</span>
+            <span className="results-count">Showing top {filteredReports.length} of {
+              (() => {
+                let count = allReports.length;
+                if (activeSearchTerm) {
+                  count = allReports.filter(report =>
+                    report.summary.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                    report.location.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                    report.category.toLowerCase().includes(activeSearchTerm.toLowerCase())
+                  ).length;
+                }
+                if (selectedCategory !== 'all') {
+                  count = allReports.filter(report => 
+                    report.category === selectedCategory &&
+                    (!activeSearchTerm || 
+                      report.summary.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                      report.location.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                      report.category.toLowerCase().includes(activeSearchTerm.toLowerCase())
+                    )
+                  ).length;
+                }
+                if (selectedLocation !== 'all') {
+                  count = allReports.filter(report => 
+                    report.location === selectedLocation &&
+                    (!activeSearchTerm || 
+                      report.summary.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                      report.location.toLowerCase().includes(activeSearchTerm.toLowerCase()) ||
+                      report.category.toLowerCase().includes(activeSearchTerm.toLowerCase())
+                    ) &&
+                    (selectedCategory === 'all' || report.category === selectedCategory)
+                  ).length;
+                }
+                return count;
+              })()
+            } reports</span>
           </div>
 
           <div className="results-list">
@@ -117,7 +178,7 @@ export default function Search() {
                   </div>
                   <p className="result-summary">{report.summary}</p>
                   <div className="result-footer">
-                    <span className="result-date">{report.date_occurred} at {report.time_occurred}</span>
+                    <span className="result-date">{report.date_occurred} at {report.time_occurred || 'N/A'}</span>
                     <span className={`status-pill status-${report.disposition.toLowerCase()}`}>
                       {report.disposition}
                     </span>

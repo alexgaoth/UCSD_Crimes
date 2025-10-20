@@ -5,31 +5,90 @@ import { useReports } from '../context/ReportsContext.jsx';
 import './Pages.css';
 
 export default function Timeline() {
-  
-
   const { reports, loading } = useReports();
   const [timeData, setTimeData] = useState({ reported: [], occurred: [] });
 
   useEffect(() => {
-    fetch('/police_reports.json')
-      .then((res) => {
-        if (!res.ok) throw new Error('Failed to load police_reports.json');
-        return res.json();
-      })
-      .then((data) => {
-        const allIncidents = data.reports.flatMap((reportFile) => reportFile.incidents);
-        const sorted = allIncidents.sort((a, b) => b.summary.length - a.summary.length);
-        setReports(sorted);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error(err);
-        setLoading(false);
-      });
-    }, []);
-  
+    if (!loading && reports.length > 0) {
+      const reportedByHour = Array(24).fill(0);
+      const occurredByHour = Array(24).fill(0);
 
-  const maxValue = Math.max(...timeData.occurred, ...timeData.reported);
+      reports.forEach(report => {
+        // Parse time_occurred
+        if (report.time_occurred) {
+          const time = report.time_occurred.trim();
+          const match = time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+          
+          if (match) {
+            let hour = parseInt(match[1]);
+            const isPM = match[3].toUpperCase() === 'PM';
+            
+            // Convert to 24-hour format
+            if (isPM && hour !== 12) {
+              hour += 12;
+            } else if (!isPM && hour === 12) {
+              hour = 0;
+            }
+            
+            if (hour >= 0 && hour < 24) {
+              occurredByHour[hour]++;
+            }
+          }
+        }
+
+        // Parse date_reported time if available, otherwise use same as occurred
+        if (report.time_reported) {
+          const time = report.time_reported.trim();
+          const match = time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+          
+          if (match) {
+            let hour = parseInt(match[1]);
+            const isPM = match[3].toUpperCase() === 'PM';
+            
+            if (isPM && hour !== 12) {
+              hour += 12;
+            } else if (!isPM && hour === 12) {
+              hour = 0;
+            }
+            
+            if (hour >= 0 && hour < 24) {
+              reportedByHour[hour]++;
+            }
+          }
+        } else if (report.time_occurred) {
+          // If no reported time, use occurred time
+          const time = report.time_occurred.trim();
+          const match = time.match(/(\d+):(\d+)\s*(AM|PM)/i);
+          
+          if (match) {
+            let hour = parseInt(match[1]);
+            const isPM = match[3].toUpperCase() === 'PM';
+            
+            if (isPM && hour !== 12) {
+              hour += 12;
+            } else if (!isPM && hour === 12) {
+              hour = 0;
+            }
+            
+            if (hour >= 0 && hour < 24) {
+              reportedByHour[hour]++;
+            }
+          }
+        }
+      });
+
+      setTimeData({
+        reported: reportedByHour,
+        occurred: occurredByHour
+      });
+    }
+  }, [reports, loading]);
+
+  const maxValue = Math.max(...timeData.occurred, ...timeData.reported, 1);
+
+  if (loading) {
+    return <div className="loading">Loading timeline...</div>;
+  }
 
   return (
     <div className="app">
@@ -53,7 +112,7 @@ export default function Timeline() {
                 <div key={hour} className="bar-group">
                   <div 
                     className="bar occurred-bar"
-                    style={{ height: `${maxValue > 0 ? (count / maxValue) * 200 : 0}px` }}
+                    style={{ height: `${maxValue > 0 ? (count / maxValue) * 200 : 2}px` }}
                   >
                     {count > 0 && <span className="bar-value">{count}</span>}
                   </div>
@@ -74,7 +133,7 @@ export default function Timeline() {
                 <div key={hour} className="bar-group">
                   <div 
                     className="bar reported-bar"
-                    style={{ height: `${maxValue > 0 ? (count / maxValue) * 200 : 0}px` }}
+                    style={{ height: `${maxValue > 0 ? (count / maxValue) * 200 : 2}px` }}
                   >
                     {count > 0 && <span className="bar-value">{count}</span>}
                   </div>
@@ -90,10 +149,10 @@ export default function Timeline() {
         <section className="timeline-list">
           <h2 className="section-title">Recent Reports</h2>
           <div className="timeline-items">
-            {reports.map(report => (
+            {reports.slice(0, 20).map(report => (
               <div key={report.incident_case} className="timeline-item">
                 <div className="timeline-time">
-                  <span className="time-display">{report.time_occurred}</span>
+                  <span className="time-display">{report.time_occurred || 'N/A'}</span>
                   <span className="date-display">{report.date_occurred}</span>
                 </div>
                 <div className="timeline-content">
