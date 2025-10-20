@@ -96,7 +96,7 @@ def parse_pdf_content(text):
     
     return incidents
 
-def parse_pdfs_to_json(pdf_dir="ucsd_police_reports", output_file="police_reports.json"):
+def parse_pdfs_to_json(pdf_dir="ucsd_police_reports", output_file="app/public/police_reports.json"):
     pdf_path = Path(pdf_dir)
     
     if os.path.exists(output_file):

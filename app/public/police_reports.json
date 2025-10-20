@@ -16899,6 +16899,274 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "October 12, 2025.pdf",
+      "date": "October 12, 2025",
+      "page_count": 5,
+      "incident_count": 26,
+      "incidents": [
+        {
+          "category": "Suspicious Person",
+          "location": "Earth Hall",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120002",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "12:11 AM",
+          "summary": "Casing bikes",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Smoke Check",
+          "location": "One Miramar Street",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120003",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "12:13 AM",
+          "summary": "Smell of smoke",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Tioga Hall",
+          "date_reported": "10/12/2025",
+          "incident_case": "2025-1794",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "12:59AM-1:29AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Explosion",
+          "location": "Neighborhood - La Jolla Del Sol",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120008",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "1:10 AM",
+          "summary": "",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Pulse",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120009",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "1:10 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Tapestry",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120012",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "1:29 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120015",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "1:52 AM",
+          "summary": "Disposition Gone on Arrival",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Warren Mall",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120018",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "2:13 AM",
+          "summary": "Unknown race male, no shirt black basketball shorts on a scooter",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Thornton",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120019",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "2:28 AM",
+          "summary": "Reporting party requesting officers due to elder abuse from a doctor",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Rya",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120023",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "5:15 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Muir Tennis Courts",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120035",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "12:58 PM",
+          "summary": "Men's bathroom a/c at muir apartments",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Cala",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120039",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "1:55 PM",
+          "summary": "Abandoned call on call back male answered phone and said it was accidental and everything is",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Coalition",
+          "date_reported": "10/12/2025",
+          "incident_case": "2025-1795",
+          "date_occurred": "10/10/2025",
+          "time_occurred": "5:00PM-3:10PM",
+          "summary": "Secured Electric Scooter Stolen; Loss $30",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Information",
+          "location": "Cala",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120042",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "3:43 PM",
+          "summary": "Chronic smoking in building",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "La Jolla Shores Drive",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120046",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "4:13 PM",
+          "summary": "Automated message stating owner of this iPhone has been in a severe car crash and not",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Moore's Cancer Center",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120047",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "4:46 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Latin America Hall",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120050",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "5:12 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120051",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "5:20 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Burglary",
+          "location": "Scholars Parking",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120057",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "7:52 PM",
+          "summary": "Reporting party's jacket and air pods taken from inside vehicle",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Stay Away Order Issuance",
+          "location": "Price Center",
+          "date_reported": "10/12/2025",
+          "incident_case": "2025-1796",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "8:12PM-8:30PM",
+          "summary": "Non-affiliate contacted for loitering on campus",
+          "disposition": "Closed By Other Means"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Price Center",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120064",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "8:52 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Jacobs Medical Center",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120068",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "10:09 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Battery",
+          "location": "Alianza",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120072",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "10:37 PM",
+          "summary": "Reporting party was walking down the stairwell when an unknown subject threw 2 cans at her",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Computer Science and Engineering",
+          "date_reported": "10/12/2025",
+          "incident_case": "2025-1798",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "11:07 PM",
+          "summary": "19yr old male fell off scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Brisa",
+          "date_reported": "10/12/2025",
+          "incident_case": "2510120075",
+          "date_occurred": "10/12/2025",
+          "time_occurred": "11:19 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Simple Assault",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "10/12/2025",
+          "incident_case": "HC25-10-11-0771",
+          "date_occurred": "10/11/2025",
+          "time_occurred": "2:25 AM",
+          "summary": "Report of a medical staff being spat on",
+          "disposition": "Hospital Incident Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -16961,6 +17229,7 @@
     "September 6, 2025.pdf",
     "September 7, 2025.pdf",
     "September 8, 2025.pdf",
-    "September 9, 2025.pdf"
+    "September 9, 2025.pdf",
+    "October 12, 2025.pdf"
   ]
 }
