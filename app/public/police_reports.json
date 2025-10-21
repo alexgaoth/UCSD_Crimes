@@ -19515,6 +19515,184 @@
           "disposition": ""
         }
       ]
+    },
+    {
+      "filename": "October 19, 2025.pdf",
+      "date": "October 19, 2025",
+      "page_count": 3,
+      "incident_count": 17,
+      "incidents": [
+        {
+          "category": "Fire Alarm",
+          "location": "Tapestry",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190003",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "12:32 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Central Mesa Apartments #9230",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190005",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "12:56 AM",
+          "summary": "Loud music",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Pulse",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190005",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "1:11 AM",
+          "summary": "Basketball courts",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Movement",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190008",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "6:52 AM",
+          "summary": "Vehicle parked in grass",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190010",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "9:02 AM",
+          "summary": "MTS Security advised bathrooms have been locked for several hours, unknown if anyone is",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Animal Call",
+          "location": "La Jolla Del Sol Apartments #8162",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190012",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "10:29 AM",
+          "summary": "A foot-long snake underneath a yoga mat",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Geisel Library",
+          "date_reported": "10/19/2025",
+          "incident_case": "2025-1857",
+          "date_occurred": "10/17/2025",
+          "time_occurred": "5:00 PM - 12:00 PM",
+          "summary": "Secured e-scooter taken; Loss of $180.00",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "South Mesa Apartments #9138",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190019",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "2:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Discovery Hall",
+          "date_reported": "10/19/2025",
+          "incident_case": "2025-1858",
+          "date_occurred": "10/17/2025",
+          "time_occurred": "7:00 PM - 11:00 AM",
+          "summary": "Secured e-scooter taken; Loss of $380.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190029",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "5:03 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Injury",
+          "location": "South Mesa Apartments #9188",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190030",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "5:49 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Seventh College West #2",
+          "date_reported": "10/19/2025",
+          "incident_case": "2025-1859",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "5:59 PM - 6:53 PM",
+          "summary": "Male hit while on scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Burglary",
+          "location": "Piedra",
+          "date_reported": "10/19/2025",
+          "incident_case": "2025-1860",
+          "date_occurred": "10/18/2025",
+          "time_occurred": "12:00 PM - 7:25 PM",
+          "summary": "E-bike taken, loss of $1,100.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Galathea Hall",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190036",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "8:25 PM",
+          "summary": "Secured e-scooter taken; loss of $193.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Price Center West",
+          "date_reported": "10/19/2025",
+          "incident_case": "T25000251",
+          "date_occurred": "10/17/2025",
+          "time_occurred": "9:00 PM - 12:00 PM",
+          "summary": "Male shouting statements about depression",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tierra",
+          "date_reported": "10/19/2025",
+          "incident_case": "2510190049",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "10:56 PM",
+          "summary": "Group of people being loud outside",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "UCSD Hillcrest",
+          "date_reported": "10/19/2025",
+          "incident_case": "HC25-10-18-0800",
+          "date_occurred": "10/18/2025",
+          "time_occurred": "6:28 AM",
+          "summary": "Security agent smelled gas from rear building",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -19584,6 +19762,7 @@
     "October 11, 2025.pdf",
     "October 13, 2025.pdf",
     "October 8, 2025.pdf",
-    "October 9, 2025.pdf"
+    "October 9, 2025.pdf",
+    "October 19, 2025.pdf"
   ]
 }
