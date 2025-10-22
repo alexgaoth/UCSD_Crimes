@@ -29,7 +29,7 @@ export default function Home() {
       <header className="header">
         <div className="header-wrapper">
           <div className="header-illustration" style={{
-            backgroundImage: 'url(/header-logo.png)',
+            backgroundImage: 'url(/header-logo1.png)',
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center'
@@ -63,24 +63,28 @@ export default function Home() {
               title="Report Timeline"
               description="View incidents by time of day"
               className="widget-1"
+              img="timeline.jpg"
             />
             <WidgetCard
               to="/search"
               title="Search Reports"
               description="Find specific incidents"
               className="widget-2"
+              img="campus2.jpg"
             />
             <WidgetCard
               to="/statistics"
               title="Statistics"
               description="Category breakdown"
               className="widget-3"
+              img="campus3.jpg"
             />
             <WidgetCard
               to="/campus-map"
               title="Campus Map"
               description="Incident locations"
               className="widget-4"
+              img="campus1.jpg"
             />
           </div>
         </section>

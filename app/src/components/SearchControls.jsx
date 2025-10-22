@@ -16,7 +16,7 @@ export default function SearchControls({
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search by summary, location, or category... (Press Space to search)"
+          placeholder="Search by summary, location, or category... (Press Enter to search)"
           value={searchTerm}
           onChange={onSearchChange}
           onKeyDown={onKeyDown}
