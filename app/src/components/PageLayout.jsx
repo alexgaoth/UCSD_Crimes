@@ -6,7 +6,13 @@ export default function PageLayout({ title, subtitle, showBackLink = true, child
     <div className="app">
       <header className="header">
         <div className="header-wrapper">
-          <div className="header-illustration"></div>
+          <div className="header-illustration" 
+              style={{
+                backgroundImage: 'url(/header-logo1.png)',
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: 'center'
+              }}></div>
           <div className="header-text">
             {showBackLink && (
               <Link to="/" className="back-link">← Back to Home</Link>

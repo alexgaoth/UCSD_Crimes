@@ -4,7 +4,7 @@ export default function FeaturedCard({ report, imageIndex }) {
   return (
     <article className={`featured-card card-${imageIndex}`}>
       <div className="card-image" style={{ 
-        backgroundImage: `url(/home${imageIndex}.png)`,
+        backgroundImage: `url(/resources/home${imageIndex}.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}></div>
