@@ -9,7 +9,7 @@ export default function IncidentRow({ report }) {
       </div>
       <div className="incident-stats">
         <span className="incident-date">{report.date_occurred}</span>
-        <span className={`status-pill status-${report.disposition.toLowerCase()}`}>
+        <span className={`status-pill status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
           {report.disposition}
         </span>
       </div>

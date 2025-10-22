@@ -1,13 +1,10 @@
 import React from 'react';
 
-export default function LocationStatItem({ name, count, rank }) {
+export default function StatCard({ number, label }) {
   return (
-    <div className="location-stat-item">
-      <span className="location-rank">#{rank}</span>
-      <div className="location-info">
-        <h3>{name}</h3>
-        <p>{count} {count === 1 ? 'report' : 'reports'}</p>
-      </div>
+    <div className="stat-card">
+      <span className="stat-number">{number}</span>
+      <span className="stat-label">{label}</span>
     </div>
   );
 }
