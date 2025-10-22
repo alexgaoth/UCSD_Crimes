@@ -1,13 +1,24 @@
 import React from 'react';
 
-export default function LocationStatItem({ name, count, rank }) {
+export default function ResultCard({ report }) {
   return (
-    <div className="location-stat-item">
-      <span className="location-rank">#{rank}</span>
-      <div className="location-info">
-        <h3>{name}</h3>
-        <p>{count} {count === 1 ? 'report' : 'reports'}</p>
+    <article className="result-card">
+      <div className="result-header">
+        <div>
+          <h3>{report.location}</h3>
+          <span className="result-category">{report.category}</span>
+        </div>
+        <span className="result-case">#{report.incident_case}</span>
       </div>
-    </div>
+      <p className="result-summary">{report.summary}</p>
+      <div className="result-footer">
+        <span className="result-date">
+          {report.date_occurred} at {report.time_occurred || 'N/A'}
+        </span>
+        <span className={`status-pill status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
+          {report.disposition}
+        </span>
+      </div>
+    </article>
   );
 }

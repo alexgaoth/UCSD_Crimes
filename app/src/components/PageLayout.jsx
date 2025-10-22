@@ -8,7 +8,9 @@ export default function PageLayout({ title, subtitle, showBackLink = true, child
         <div className="header-wrapper">
           <div className="header-illustration"></div>
           <div className="header-text">
-            {showBackLink && <Link to="/" className="back-link">← Back to Home</Link>}
+            {showBackLink && (
+              <Link to="/" className="back-link">← Back to Home</Link>
+            )}
             <h1>{title}</h1>
             <p>{subtitle}</p>
           </div>
