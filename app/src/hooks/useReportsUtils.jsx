@@ -55,22 +55,38 @@ export function useReportsUtils(reports) {
     return null;
   };
 
-  // Get hourly distribution
-  const getHourlyDistribution = useMemo(() => {
-    return (timeField) => {
-      const hourlyData = Array(24).fill(0);
-      
-      if (!reports || reports.length === 0) return hourlyData;
-      
-      reports.forEach(report => {
-        const hour = parseTime(report[timeField]);
-        if (hour !== null) {
-          hourlyData[hour]++;
-        }
-      });
-      
-      return hourlyData;
-    };
+  // Get hourly distribution for occurred times
+  const occurredDistribution = useMemo(() => {
+    const hourlyData = Array(24).fill(0);
+    
+    if (!reports || reports.length === 0) return hourlyData;
+    
+    reports.forEach(report => {
+      const hour = parseTime(report.time_occurred);
+      if (hour !== null) {
+        hourlyData[hour]++;
+      }
+    });
+    
+    return hourlyData;
+  }, [reports]);
+
+  // Get hourly distribution for reported times
+  const reportedDistribution = useMemo(() => {
+    const hourlyData = Array(24).fill(0);
+    
+    if (!reports || reports.length === 0) return hourlyData;
+    
+    reports.forEach(report => {
+      // Try time_reported first, fallback to time_occurred
+      const timeToUse = report.time_reported || report.time_occurred;
+      const hour = parseTime(timeToUse);
+      if (hour !== null) {
+        hourlyData[hour]++;
+      }
+    });
+    
+    return hourlyData;
   }, [reports]);
 
   return {
@@ -78,6 +94,7 @@ export function useReportsUtils(reports) {
     uniqueCategories,
     uniqueLocations,
     parseTime,
-    getHourlyDistribution
+    occurredDistribution,
+    reportedDistribution
   };
 }

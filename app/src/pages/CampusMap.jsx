@@ -1,18 +1,21 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
 import { useReports } from '../context/ReportsContext.jsx';
+import PageLayout from '../components/PageLayout.jsx';
+import SectionTitle from '../components/SectionTitle.jsx';
+import RankingItem from '../components/RankingItem.jsx';
+import InsightCard from '../components/InsightCard.jsx';
+import LoadingState from '../components/LoadingState.jsx';
 import './Pages.css';
 
 export default function CampusMap() {
+  const { reports, loading } = useReports();
   const [locationData, setLocationData] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
-
-  const { reports, loading } = useReports();
 
   useEffect(() => {
     if (!loading && reports.length > 0) {
       const locationMap = {};
+      
       reports.forEach(report => {
         if (!locationMap[report.location]) {
           locationMap[report.location] = {
@@ -25,107 +28,75 @@ export default function CampusMap() {
         locationMap[report.location].reports.push(report);
       });
 
-      const sorted = Object.values(locationMap).sort((a, b) => b.count - a.count);
-      setLocationData(sorted.slice(0, 20));
+      const sorted = Object.values(locationMap)
+        .sort((a, b) => b.count - a.count)
+        .slice(0, 20);
+      
+      setLocationData(sorted);
     }
   }, [reports, loading]);
 
   const maxCount = locationData.length > 0 ? locationData[0].count : 1;
+  const avgPerLocation = locationData.length > 0 
+    ? (locationData.reduce((sum, loc) => sum + loc.count, 0) / locationData.length).toFixed(1)
+    : 0;
 
   if (loading) {
-    return <div className="loading">Loading campus map...</div>;
+    return <LoadingState message="Loading campus map..." />;
   }
 
   return (
-    <div className="app">
-      <header className="header">
-        <div className="header-wrapper">
-          <div className="header-illustration"></div>
-          <div className="header-text">
-            <Link to="/" className="back-link">← Back to Home</Link>
-            <h1>Campus Map</h1>
-            <p>Incident Locations Overview</p>
-          </div>
+    <PageLayout
+      title="Campus Map"
+      subtitle="Incident Locations Overview"
+    >
+      <section className="map-placeholder">
+        <div className="map-visual">
+          <span className="map-text">Campus Map Visualization</span>
         </div>
-      </header>
+      </section>
 
-      <main className="main">
-        <section className="map-placeholder">
-          <div className="map-visual">
-            <span className="map-text">Campus Map Visualization</span>
-          </div>
-        </section>
+      <section className="location-ranking">
+        <SectionTitle>Top 20 Locations by Report Frequency</SectionTitle>
+        <div className="ranking-list">
+          {locationData.map((location, idx) => (
+            <RankingItem
+              key={location.name}
+              location={location}
+              rank={idx + 1}
+              maxCount={maxCount}
+              isSelected={selectedLocation === location.name}
+              onClick={() => setSelectedLocation(
+                selectedLocation === location.name ? null : location.name
+              )}
+            />
+          ))}
+        </div>
+      </section>
 
-        <section className="location-ranking">
-          <h2 className="section-title">Top 20 Locations by Report Frequency</h2>
-          <div className="ranking-list">
-            {locationData.map((location, idx) => (
-              <div 
-                key={location.name} 
-                className={`ranking-item ${selectedLocation === location.name ? 'selected' : ''}`}
-                onClick={() => setSelectedLocation(selectedLocation === location.name ? null : location.name)}
-              >
-                <div className="ranking-header">
-                  <div className="ranking-left">
-                    <span className="ranking-number">#{idx + 1}</span>
-                    <h3>{location.name}</h3>
-                  </div>
-                  <div className="ranking-right">
-                    <span className="ranking-count">{location.count}</span>
-                    <span className="ranking-label">{location.count === 1 ? 'report' : 'reports'}</span>
-                  </div>
-                </div>
-                <div className="ranking-bar">
-                  <div 
-                    className="ranking-fill"
-                    style={{ width: `${(location.count / maxCount) * 100}%` }}
-                  ></div>
-                </div>
-                
-                {selectedLocation === location.name && (
-                  <div className="location-details">
-                    <h4>Recent Incidents (showing up to 10)</h4>
-                    {location.reports.slice(0, 10).map(report => (
-                      <div key={report.incident_case} className="detail-incident">
-                        <div className="detail-header">
-                          <span className="detail-category">{report.category}</span>
-                          <span className="detail-date">{report.date_occurred}</span>
-                        </div>
-                        <p className="detail-summary">{report.summary}</p>
-                      </div>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="location-insights">
-          <h2 className="section-title">Key Insights</h2>
-          <div className="insights-grid">
-            <div className="insight-card">
-              <h3>Highest Activity</h3>
-              <p className="insight-location">{locationData[0]?.name || 'N/A'}</p>
-              <p className="insight-detail">{locationData[0]?.count || 0} incidents reported</p>
-            </div>
-            <div className="insight-card">
-              <h3>Top 20 Locations</h3>
-              <p className="insight-number">{locationData.length}</p>
-              <p className="insight-detail">Areas with most incidents</p>
-            </div>
-            <div className="insight-card">
-              <h3>Average per Location</h3>
-              <p className="insight-number">
-                {locationData.length > 0 ? 
-                  (locationData.reduce((sum, loc) => sum + loc.count, 0) / locationData.length).toFixed(1) 
-                  : 0}
-              </p>
-              <p className="insight-detail">Reports per location</p>
-            </div>
-          </div>
-        </section>
-      </main>
-    </div>
+      <section className="location-insights">
+        <SectionTitle>Key Insights</SectionTitle>
+        <div className="insights-grid">
+          <InsightCard
+            title="Highest Activity"
+            mainContent={locationData[0]?.name || 'N/A'}
+            detail={`${locationData[0]?.count || 0} incidents reported`}
+            isNumber={false}
+          />
+          <InsightCard
+            title="Top 20 Locations"
+            mainContent={locationData.length}
+            detail="Areas with most incidents"
+            isNumber={true}
+          />
+          <InsightCard
+            title="Average per Location"
+            mainContent={avgPerLocation}
+            detail="Reports per location"
+            isNumber={true}
+          />
+        </div>
+      </section>
+    </PageLayout>
   );
 }
