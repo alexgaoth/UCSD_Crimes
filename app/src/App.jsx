@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Timeline from './pages/Timeline';
 import Search from './pages/Search';
@@ -9,7 +9,6 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
@@ -17,7 +16,6 @@ function App() {
         <Route path="/statistics" element={<Statistics />} />
         <Route path="/campus-map" element={<CampusMap />} />
       </Routes>
-    </Router>
   );
 }
 
