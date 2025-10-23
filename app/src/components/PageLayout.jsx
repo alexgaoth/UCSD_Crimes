@@ -8,7 +8,7 @@ export default function PageLayout({ title, subtitle, showBackLink = true, child
         <div className="header-wrapper">
           <div className="header-illustration" 
               style={{
-                backgroundImage: 'url(/header-logo1.png)',
+                backgroundImage: `url(${import.meta.env.BASE_URL}resources/header-logo1.png)`,
                 backgroundSize: 'contain',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center'
