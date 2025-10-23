@@ -5,7 +5,7 @@ export default function WidgetCard({ to, title, description, className, img}) {
   return (
     <Link to={to} className={`widget ${className}`}>
       <div className="widget-image" style={{
-            backgroundImage: `url(/resources/${img})`,
+            backgroundImage: `url(${import.meta.env.BASE_URL}resources/${img})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}></div>
@@ -16,3 +16,4 @@ export default function WidgetCard({ to, title, description, className, img}) {
     </Link>
   );
 }
+
