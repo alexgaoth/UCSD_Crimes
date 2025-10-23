@@ -3,6 +3,10 @@ name: Deploy Vite React app
 on:
   push:
     branches: [main]
+    
+defaults:
+  run:
+    working-directory: ./app
 
 permissions:
   contents: write  
