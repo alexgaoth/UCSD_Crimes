@@ -10,9 +10,6 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./app  
 
     steps:
       - uses: actions/checkout@v4
@@ -28,4 +25,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }} 
-          publish_dir: ./app/dist
+          publish_dir: ./dist
