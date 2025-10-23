@@ -7,7 +7,7 @@ import App from './App.jsx';
 
 createRoot(document.getElementById('app')).render(
   <StrictMode>
-    <HashRouter>
+    <HashRouter basename="/">
       <ReportsProvider>
         <App />
       </ReportsProvider>

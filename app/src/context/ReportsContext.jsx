@@ -9,7 +9,6 @@ export function ReportsProvider({ children }) {
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}police_reports.json`)
       .then((res) => res.json())
-      .then(data => console.log(data))
       .then((data) => {
         const allIncidents = data.reports.flatMap((r) => r.incidents);
         const sorted = allIncidents.sort(

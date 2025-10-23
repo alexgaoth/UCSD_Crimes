@@ -29,7 +29,7 @@ export default function Home() {
       <header className="header">
         <div className="header-wrapper">
           <div className="header-illustration" style={{
-            backgroundImage: 'url(/header-logo1.png)',
+            backgroundImage: `url(${import.meta.env.BASE_URL}resources/home${imageIndex}.jpg)`,
             backgroundSize: 'contain',
             backgroundRepeat: 'no-repeat',
             backgroundPosition: 'center'
