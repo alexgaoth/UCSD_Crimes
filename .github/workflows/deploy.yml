@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: write  
 
 jobs:
   build-and-deploy:
@@ -21,17 +21,11 @@ jobs:
         with:
           node-version: 20
 
-      # Clean any previous build artifacts
-      - run: rm -rf node_modules package-lock.json
-
-      # Install dependencies safely (avoiding the npm optional deps bug)
       - run: npm install
-
       - run: npm run build
 
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }} 
           publish_dir: ./app/dist
