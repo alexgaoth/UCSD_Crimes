@@ -1,8 +1,12 @@
 import React from 'react';
 
-export default function FeaturedCard({ report, imageIndex }) {
+export default function FeaturedCard({ report, imageIndex, onClick }) {
   return (
-    <article className={`featured-card card-${imageIndex}`}>
+    <article 
+      className={`featured-card card-${imageIndex}`}
+      onClick={onClick}
+      style={{ cursor: 'pointer' }}
+    >
       <div className="card-image" style={{ 
         backgroundImage: `url(${import.meta.env.BASE_URL}resources/home${imageIndex}.jpg)`,
         backgroundSize: 'cover',
