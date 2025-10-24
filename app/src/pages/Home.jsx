@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
 import PageLayout from '../components/PageLayout.jsx';
@@ -7,11 +7,14 @@ import IncidentRow from '../components/IncidentRow.jsx';
 import WidgetCard from '../components/WidgetCard.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import Modal from '../components/Modal.jsx';
 import '../App.css';
 
 export default function Home() {
   const { reports, loading } = useReports();
   const { topRecentReports } = useReportsUtils(reports);
+  const [selectedReport, setSelectedReport] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   // Use top 3 longest summaries from last 5 days, fallback to most recent
   const featuredReports = topRecentReports.length > 0 
@@ -19,6 +22,16 @@ export default function Home() {
     : reports.slice(0, 3);
   
   const otherReports = reports.slice(3, 10);
+
+  const handleCardClick = (report) => {
+    setSelectedReport(report);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setTimeout(() => setSelectedReport(null), 300);
+  };
 
   if (loading) {
     return <LoadingState message="Loading reports..." />;
@@ -38,6 +51,7 @@ export default function Home() {
               key={report.incident_case} 
               report={report} 
               imageIndex={idx + 1}
+              onClick={() => handleCardClick(report)}
             />
           ))}
         </div>
@@ -87,6 +101,12 @@ export default function Home() {
           </div>
         </section>
       )}
+
+      <Modal 
+        isOpen={isModalOpen} 
+        onClose={handleCloseModal} 
+        report={selectedReport} 
+      />
     </PageLayout>
   );
 }
