@@ -239,6 +239,12 @@ body {
   color: #2e7d32;
 }
 
+.incident-summary {
+  color: #777;           
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .quick-access {
   margin-bottom: 3rem;
 }

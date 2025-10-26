@@ -18,10 +18,12 @@ export default function Home() {
 
   // Use top 3 longest summaries from last 5 days, fallback to most recent
   const featuredReports = topRecentReports.length > 0 
-    ? topRecentReports 
+    ? topRecentReports.slice(0, 3) 
     : reports.slice(0, 3);
   
-  const otherReports = reports.slice(3, 10);
+  const otherReports = topRecentReports.length > 0 
+    ? topRecentReports.slice(3, 15)
+    : reports.slice(3, 15);
 
   const handleCardClick = (report) => {
     setSelectedReport(report);
@@ -39,7 +41,7 @@ export default function Home() {
 
   return (
     <PageLayout
-      title="Campus Safety Reports"
+      title="Webapp for Campus Safety"
       subtitle="UCSD Security Incidents & Alerts"
       showBackLink={false}
     >
@@ -58,7 +60,7 @@ export default function Home() {
       </section>
 
       <section className="quick-access">
-        <SectionTitle>Explore More</SectionTitle>
+        <SectionTitle>Check out more</SectionTitle>
         <div className="widgets">
           <WidgetCard
             to="/timeline"
