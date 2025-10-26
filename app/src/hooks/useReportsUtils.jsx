@@ -22,13 +22,13 @@ export function useReportsUtils(reports) {
   // Get unique categories
   const uniqueCategories = useMemo(() => {
     if (!reports || reports.length === 0) return [];
-    return [...new Set(reports.map(r => r.category))];
+    return [...new Set(reports.map(r => r.location).filter(loc => /[a-zA-Z]/.test(loc)))];
   }, [reports]);
 
   // Get unique locations
   const uniqueLocations = useMemo(() => {
     if (!reports || reports.length === 0) return [];
-    return [...new Set(reports.map(r => r.location))];
+    return [...new Set(reports.map(r => r.location).filter(loc => /[a-zA-Z]/.test(loc)))];
   }, [reports]);
 
   // Parse time string to 24-hour format
