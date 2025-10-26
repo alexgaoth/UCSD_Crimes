@@ -64,12 +64,12 @@ export default function Statistics() {
     >
       <section className="stats-overview">
         <StatCard number={stats.total} label="Total Reports" />
-        <StatCard number={stats.totalCategories} label="Categories" />
-        <StatCard number={stats.totalDispositions} label="Dispositions" />
+        <StatCard number={stats.totalCategories} label="Categories (20+ occurrences)" />
+        <StatCard number={stats.totalDispositions} label="Dispositions (20+ occurrences)" />
       </section>
 
       <section className="stats-section">
-        <SectionTitle>Reports by Category</SectionTitle>
+        <SectionTitle>Reports by Category (20+ occurrences)</SectionTitle>
         {stats.byCategory.length === 0 ? (
           <div className="no-results">
             <p>No category data available</p>
@@ -98,7 +98,6 @@ export default function Statistics() {
         ) : (
           <div className="stat-bars">
             {stats.byDisposition.map(item => {
-              // Normalize disposition name for CSS class
               const normalizedName = item.name
                 .toLowerCase()
                 .replace(/\s+/g, '-')
@@ -110,7 +109,7 @@ export default function Statistics() {
                   name={item.name}
                   count={item.count}
                   maxValue={maxDisposition}
-                  fillClass={`disposition-fill-${normalizedName}`}
+                  fillClass={`disposition-fill`}
                 />
               );
             })}

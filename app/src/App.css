@@ -211,40 +211,6 @@ body {
   font-weight: 600;
 }
 
-.status {
-  padding: 0.4rem 0.9rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.3px;
-}
-
-.status-cancelled {
-  background: #ffebee;
-  color: #c62828;
-}
-
-.status-reported {
-  background: #fff3e0;
-  color: #e65100;
-}
-
-.status-investigated {
-  background: #e3f2fd;
-  color: #1565c0;
-}
-
-.status-resolved {
-  background: #e8f5e9;
-  color: #2e7d32;
-}
-
-.incident-summary {
-  color: #777;           
-  font-size: 0.9rem;
-  line-height: 1.5;
-}
-
 .quick-access {
   margin-bottom: 3rem;
 }
@@ -321,17 +287,17 @@ body {
   flex-direction: column;
   gap: 1rem;
 }
-
 .incident-row {
   background: white;
   padding: 1.2rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   border: 1px solid #e8e3d8;
   border-left: 4px solid #9b8b7e;
   transition: border-left-color 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  cursor: pointer;
 }
 
 .incident-row:hover {
@@ -339,57 +305,32 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.incident-info h4 {
-  font-size: 1.05rem;
-  color: #2c2416;
-  margin-bottom: 0.3rem;
-  font-weight: 700;
-}
-
-.incident-info p {
-  font-size: 0.85rem;
-  color: #999;
-}
-
 .incident-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: flex-end;
+  min-width: 200px;
+}
+
+.incident-stats-row {
   display: flex;
   gap: 1rem;
   align-items: center;
-  flex-wrap: wrap;
+}
+
+.incident-summary {
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: right;
+  max-width: 400px;
 }
 
 .incident-date {
   font-size: 0.85rem;
   color: #999;
   font-weight: 500;
-}
-
-.status-pill {
-  padding: 0.35rem 0.75rem;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2px;
-}
-
-.status-pill.status-cancelled {
-  background: #ffebee;
-  color: #c62828;
-}
-
-.status-pill.status-reported {
-  background: #fff3e0;
-  color: #e65100;
-}
-
-.status-pill.status-investigated {
-  background: #e3f2fd;
-  color: #1565c0;
-}
-
-.status-pill.status-resolved {
-  background: #e8f5e9;
-  color: #2e7d32;
 }
 
 .loading {
@@ -724,4 +665,56 @@ body {
 .header-credit a:hover {
   color: white;
 }
+
+.report-case-cta {
+  margin: 3rem 0;
+}
+
+.report-case-button {
+  display: block;
+  background: linear-gradient(135deg, #7cb342 0%, #558b2f 100%);
+  padding: 2.5rem 2rem;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(124, 179, 66, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.report-case-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.report-case-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(124, 179, 66, 0.4);
+}
+
+.report-button-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.report-button-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.report-button-content p {
+  font-size: 1rem;
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+
 

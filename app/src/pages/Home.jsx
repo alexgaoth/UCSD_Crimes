@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
 import PageLayout from '../components/PageLayout.jsx';
@@ -16,7 +17,6 @@ export default function Home() {
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Use top 3 longest summaries from last 5 days, fallback to most recent
   const featuredReports = topRecentReports.length > 0 
     ? topRecentReports.slice(0, 3) 
     : reports.slice(0, 3);
@@ -93,12 +93,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="report-case-cta">
+        <Link to="/report-case" className="report-case-button">
+          <div className="report-button-content">
+            <h3>Report an Incident</h3>
+            <p>Help keep campus safe by reporting suspicious activity or safety concerns</p>
+          </div>
+        </Link>
+      </section>
+
       {otherReports.length > 0 && (
         <section className="other-incidents">
           <SectionTitle>Other Recent Incidents</SectionTitle>
           <div className="incidents-list">
             {otherReports.map((report) => (
-              <IncidentRow key={report.incident_case} report={report} />
+              <IncidentRow 
+                key={report.incident_case} 
+                report={report}
+                onClick={() => handleCardClick(report)}
+              />
             ))}
           </div>
         </section>

@@ -34,15 +34,6 @@ export default function Timeline() {
         />
       </section>
 
-      <section className="chart-section">
-        <SectionTitle>When Incidents Were Reported</SectionTitle>
-        <TimelineChart 
-          data={reportedDistribution} 
-          maxValue={maxValue} 
-          type="reported"
-        />
-      </section>
-
       <section className="timeline-list">
         <SectionTitle>Recent Reports</SectionTitle>
         <div className="timeline-items">
