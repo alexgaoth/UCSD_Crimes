@@ -16,7 +16,7 @@ export function useReportsUtils(reports) {
     
     return recentReports
       .sort((a, b) => b.summary.length - a.summary.length)
-      .slice(0, 3);
+      .slice(0, 15);
   }, [reports]);
 
   // Get unique categories
