@@ -144,5 +144,5 @@ def download_ucsd_police_pdfs(output_dir="ucsd_police_reports"):
         driver.quit()
 
 if __name__ == "__main__":
-    #download_ucsd_police_pdfs()
-    download_newest_pdf()
+    download_ucsd_police_pdfs()
+    #download_newest_pdf()
