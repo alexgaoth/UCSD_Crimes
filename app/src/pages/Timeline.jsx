@@ -35,7 +35,7 @@ export default function Timeline() {
       </section>
 
       <section className="timeline-list">
-        <SectionTitle>Recent Reports</SectionTitle>
+        <SectionTitle>Literally most recent Reports released</SectionTitle>
         <div className="timeline-items">
           {reports.slice(0, 20).map(report => (
             <TimelineItem key={report.incident_case} report={report} />

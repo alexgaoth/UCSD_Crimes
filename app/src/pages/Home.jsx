@@ -46,7 +46,7 @@ export default function Home() {
       showBackLink={false}
     >
       <section className="featured">
-        <SectionTitle>Most Significant Recent Reports</SectionTitle>
+        <SectionTitle>Most Significant Reports of Recent</SectionTitle>
         <div className="featured-grid">
           {featuredReports.map((report, idx) => (
             <FeaturedCard 
@@ -104,7 +104,7 @@ export default function Home() {
 
       {otherReports.length > 0 && (
         <section className="other-incidents">
-          <SectionTitle>Other Recent Incidents</SectionTitle>
+          <SectionTitle>Other Recent and Signficant Incidents</SectionTitle>
           <div className="incidents-list">
             {otherReports.map((report) => (
               <IncidentRow 
