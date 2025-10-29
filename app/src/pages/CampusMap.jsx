@@ -12,11 +12,18 @@ export default function CampusMap() {
   const [locationData, setLocationData] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
 
+  
   useEffect(() => {
     if (!loading && reports.length > 0) {
       const locationMap = {};
       
-      reports.forEach(report => {
+      // Filter out reports with empty locations
+      const validReports = reports.filter(report => 
+        report.location && 
+        report.location.trim().length > 0
+      );
+
+      validReports.forEach(report => {
         if (!locationMap[report.location]) {
           locationMap[report.location] = {
             name: report.location,
@@ -35,6 +42,8 @@ export default function CampusMap() {
       setLocationData(sorted);
     }
   }, [reports, loading]);
+
+  
 
   const maxCount = locationData.length > 0 ? locationData[0].count : 1;
   const avgPerLocation = locationData.length > 0 

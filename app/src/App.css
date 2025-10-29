@@ -716,5 +716,93 @@ body {
   font-weight: 400;
 }
 
+.detail-value {
+  font-size: 1rem;
+  color: #3c3227;
+  font-weight: 600;
+}
 
+.modal-share-section {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f0f0f0;
+}
+
+.modal-share-section h3 {
+  font-size: 1rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.share-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid #e8e3d8;
+  background: white;
+  color: #3c3227;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.share-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.share-button.screenshot-button {
+  border-color: #d4a574;
+  color: #c99560;
+}
+
+.share-button.screenshot-button:hover {
+  background: #fef5e7;
+  border-color: #c99560;
+}
+
+.share-button.sms-button {
+  border-color: #7cb342;
+  color: #558b2f;
+}
+
+.share-button.sms-button:hover {
+  background: #e8f5e9;
+  border-color: #558b2f;
+}
+
+.share-button.copy-button {
+  border-color: #9b7ba0;
+  color: #8b6f94;
+}
+
+.share-button.copy-button:hover {
+  background: #f3e5f5;
+  border-color: #8b6f94;
+}
+
+.share-icon {
+  font-size: 1.3rem;
+}
+
+.share-note {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  font-style: italic;
+}
 
