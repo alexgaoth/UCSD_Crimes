@@ -913,3 +913,182 @@
     font-size: 2rem;
   }
 }
+
+.map-container {
+  width: 100%;
+}
+
+/* Map container styling */
+.map-placeholder {
+  margin-bottom: 3rem;
+}
+
+.map-visual {
+  background: linear-gradient(135deg, #e8dcc8 0%, #d9cfc0 100%);
+  height: 500px;
+  border: 1px solid #e8e3d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.map-text {
+  font-size: 1.2rem;
+  color: #9b8b7e;
+  font-weight: 600;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Map legend styling */
+.map-legend {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: white;
+  border: 1px solid #e8e3d8;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.map-legend strong {
+  color: #3c3227;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.map-legend span {
+  margin-right: 0.3rem;
+}
+
+/* Google Maps custom info window overrides */
+.gm-style .gm-style-iw-c {
+  padding: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gm-style .gm-style-iw-d {
+  overflow: auto !important;
+  max-height: 300px;
+}
+
+.gm-style .gm-style-iw-tc::after {
+  background: white;
+}
+
+/* Custom scrollbar for info windows */
+.gm-style .gm-style-iw-d::-webkit-scrollbar {
+  width: 6px;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-track {
+  background: #f5f1e8;
+}
+
+.gm-style .gm-style-iw-d::-webkit-scrollbar-thumb {
+  background: #9b8b7e;
+  border-radius: 3px;
+}
+
+/* Location ranking section */
+.location-ranking {
+  margin-bottom: 3rem;
+}
+
+/* Map loading state */
+.map-visual.loading {
+  background: linear-gradient(135deg, #e8dcc8 0%, #d9cfc0 100%);
+}
+
+.map-visual.loading::before {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: 4px solid #d9cfc0;
+  border-top-color: #9b8b7e;
+  border-radius: 50%;
+  animation: mapSpin 1s linear infinite;
+}
+
+@keyframes mapSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Marker cluster styling (if needed in future) */
+.marker-cluster {
+  background: rgba(124, 179, 66, 0.6);
+  border: 3px solid rgba(124, 179, 66, 0.8);
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .map-visual {
+    height: 350px;
+  }
+
+  .map-legend {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+
+  .gm-style .gm-style-iw-c {
+    max-width: 280px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-visual {
+    height: 300px;
+  }
+
+  .map-text {
+    font-size: 1rem;
+  }
+
+  .gm-style .gm-style-iw-c {
+    max-width: 240px !important;
+  }
+}
+
+/* Fix for map controls positioning */
+.gm-style .gm-control-active {
+  background-color: white !important;
+  border: 1px solid #e8e3d8 !important;
+}
+
+.gm-style .gm-control-active:hover {
+  background-color: #faf7f2 !important;
+}
+
+/* Map type control styling */
+.gm-style .gm-style-mtc {
+  background-color: white;
+  border: 1px solid #e8e3d8;
+  border-radius: 2px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gm-style .gm-style-mtc button {
+  color: #3c3227;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Ensure map fills container properly */
+.map-visual > div {
+  width: 100% !important;
+  height: 100% !important;
+}
