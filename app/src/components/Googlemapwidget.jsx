@@ -16,12 +16,8 @@ export default function GoogleMapWidget({ locationData, selectedLocation, onLoca
         return;
       }
 
-      const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-      if (!apiKey || apiKey === 'YOUR_API_KEY_HERE') {
-        console.error('Google Maps API key not configured. Please add VITE_GOOGLE_MAPS_API_KEY to your .env file');
-        return;
-      }
-
+      //const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+      const apiKey = "AIzaSyBYOuOtlXP4lAjsf9CHOTY5PpV-Vgrepcc";
       const script = document.createElement('script');
       script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places`;
       script.async = true;
