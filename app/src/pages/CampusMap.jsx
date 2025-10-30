@@ -5,6 +5,7 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import RankingItem from '../components/RankingItem.jsx';
 import InsightCard from '../components/InsightCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import GoogleMapWidget from '../components/GoogleMapWidget.jsx';
 import './Pages.css';
 
 export default function CampusMap() {
@@ -12,12 +13,10 @@ export default function CampusMap() {
   const [locationData, setLocationData] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
 
-  
   useEffect(() => {
     if (!loading && reports.length > 0) {
       const locationMap = {};
       
-      // Filter out reports with empty locations
       const validReports = reports.filter(report => 
         report.location && 
         report.location.trim().length > 0
@@ -43,7 +42,9 @@ export default function CampusMap() {
     }
   }, [reports, loading]);
 
-  
+  const handleLocationClick = (locationName) => {
+    setSelectedLocation(selectedLocation === locationName ? null : locationName);
+  };
 
   const maxCount = locationData.length > 0 ? locationData[0].count : 1;
   const avgPerLocation = locationData.length > 0 
@@ -60,9 +61,11 @@ export default function CampusMap() {
       subtitle="Incident Locations Overview"
     >
       <section className="map-placeholder">
-        <div className="map-visual">
-          <span className="map-text">Campus Map Visualization</span>
-        </div>
+        <GoogleMapWidget 
+          locationData={locationData}
+          selectedLocation={selectedLocation}
+          onLocationSelect={setSelectedLocation}
+        />
       </section>
 
       <section className="location-ranking">
@@ -75,9 +78,7 @@ export default function CampusMap() {
               rank={idx + 1}
               maxCount={maxCount}
               isSelected={selectedLocation === location.name}
-              onClick={() => setSelectedLocation(
-                selectedLocation === location.name ? null : location.name
-              )}
+              onClick={() => handleLocationClick(location.name)}
             />
           ))}
         </div>
