@@ -11,6 +11,7 @@ import './Pages.css';
 export default function CampusMap() {
   const { reports, loading } = useReports();
   const [locationData, setLocationData] = useState([]);
+  const [filteredLocationData, setFilteredLocationData] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
 
   useEffect(() => {
@@ -39,16 +40,22 @@ export default function CampusMap() {
         .slice(0, 20);
       
       setLocationData(sorted);
+      setFilteredLocationData(sorted);
     }
   }, [reports, loading]);
+
+  const handleValidLocationsUpdate = (validLocationNames) => {
+    const filtered = locationData.filter(loc => validLocationNames.has(loc.name));
+    setFilteredLocationData(filtered);
+  };
 
   const handleLocationClick = (locationName) => {
     setSelectedLocation(selectedLocation === locationName ? null : locationName);
   };
 
-  const maxCount = locationData.length > 0 ? locationData[0].count : 1;
-  const avgPerLocation = locationData.length > 0 
-    ? (locationData.reduce((sum, loc) => sum + loc.count, 0) / locationData.length).toFixed(1)
+  const maxCount = filteredLocationData.length > 0 ? filteredLocationData[0].count : 1;
+  const avgPerLocation = filteredLocationData.length > 0 
+    ? (filteredLocationData.reduce((sum, loc) => sum + loc.count, 0) / filteredLocationData.length).toFixed(1)
     : 0;
 
   if (loading) {
@@ -65,13 +72,14 @@ export default function CampusMap() {
           locationData={locationData}
           selectedLocation={selectedLocation}
           onLocationSelect={setSelectedLocation}
+          onValidLocationsUpdate={handleValidLocationsUpdate}
         />
       </section>
 
       <section className="location-ranking">
-        <SectionTitle>Top 20 Locations by Report Frequency</SectionTitle>
+        <SectionTitle>Top Locations by Report Frequency (On Campus)</SectionTitle>
         <div className="ranking-list">
-          {locationData.map((location, idx) => (
+          {filteredLocationData.map((location, idx) => (
             <RankingItem
               key={location.name}
               location={location}
@@ -89,14 +97,14 @@ export default function CampusMap() {
         <div className="insights-grid">
           <InsightCard
             title="Highest Activity"
-            mainContent={locationData[0]?.name || 'N/A'}
-            detail={`${locationData[0]?.count || 0} incidents reported`}
+            mainContent={filteredLocationData[0]?.name || 'N/A'}
+            detail={`${filteredLocationData[0]?.count || 0} incidents reported`}
             isNumber={false}
           />
           <InsightCard
-            title="Top 20 Locations"
-            mainContent={locationData.length}
-            detail="Areas with most incidents"
+            title="Mapped Locations"
+            mainContent={filteredLocationData.length}
+            detail="Areas successfully mapped"
             isNumber={true}
           />
           <InsightCard
