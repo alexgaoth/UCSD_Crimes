@@ -44,12 +44,12 @@ export default function Home() {
     <>
       <WelcomeBanner />
       <PageLayout
-        title="Webapp for Campus Safety"
-        subtitle="UCSD Security Incidents & Alerts"
+        title="The Website for Campus Safety"
+        subtitle="See all the reported Crimes in UCSD"
         showBackLink={false}
       >
         <section className="featured">
-          <SectionTitle>Most Significant Reports of Recent</SectionTitle>
+          <SectionTitle>Reports of Recent</SectionTitle>
           <div className="featured-grid">
             {featuredReports.map((report, idx) => (
               <FeaturedCard 
