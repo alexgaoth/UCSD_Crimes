@@ -688,7 +688,7 @@ body {
 
 .welcome-banner {
   background: white;
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
@@ -714,7 +714,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 6px;
+  height: 8px;
   background: linear-gradient(90deg, #9b8b7e, #8b7355);
 }
 
@@ -723,7 +723,7 @@ body {
 }
 
 .welcome-content h2 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: #2c2416;
   margin-bottom: 1.2rem;
   font-weight: 700;
@@ -734,8 +734,13 @@ body {
   font-size: 1.05rem;
   color: #666;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.7rem;
   text-align: center;
+}
+
+.welcome-content-end{
+  font-weight:750;
+  margin-top: 0.8em;
 }
 
 .welcome-checkbox-container {
