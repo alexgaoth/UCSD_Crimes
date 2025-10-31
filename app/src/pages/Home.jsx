@@ -9,6 +9,7 @@ import WidgetCard from '../components/WidgetCard.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
+import WelcomeBanner from '../components/WelcomeBanner.jsx';
 import '../App.css';
 
 export default function Home() {
@@ -40,88 +41,91 @@ export default function Home() {
   }
 
   return (
-    <PageLayout
-      title="Webapp for Campus Safety"
-      subtitle="UCSD Security Incidents & Alerts"
-      showBackLink={false}
-    >
-      <section className="featured">
-        <SectionTitle>Most Significant Reports of Recent</SectionTitle>
-        <div className="featured-grid">
-          {featuredReports.map((report, idx) => (
-            <FeaturedCard 
-              key={report.incident_case} 
-              report={report} 
-              imageIndex={idx + 1}
-              onClick={() => handleCardClick(report)}
-            />
-          ))}
-        </div>
-      </section>
-
-      <section className="quick-access">
-        <SectionTitle>Check out more</SectionTitle>
-        <div className="widgets">
-          <WidgetCard
-            to="/timeline"
-            title="Report Timeline"
-            description="View incidents by time of day"
-            className="widget-1"
-            img="timeline.jpg"
-          />
-          <WidgetCard
-            to="/search"
-            title="Search Reports"
-            description="Find specific incidents"
-            className="widget-2"
-            img="campus2.jpg"
-          />
-          <WidgetCard
-            to="/statistics"
-            title="Statistics"
-            description="Category breakdown"
-            className="widget-3"
-            img="campus3.jpg"
-          />
-          <WidgetCard
-            to="/campus-map"
-            title="Campus Map"
-            description="Incident locations"
-            className="widget-4"
-            img="campus1.jpg"
-          />
-        </div>
-      </section>
-
-      <section className="report-case-cta">
-        <Link to="/report-case" className="report-case-button">
-          <div className="report-button-content">
-            <h3>Report an Incident</h3>
-            <p>Help keep campus safe by reporting suspicious activity or safety concerns</p>
-          </div>
-        </Link>
-      </section>
-
-      {otherReports.length > 0 && (
-        <section className="other-incidents">
-          <SectionTitle>Other Recent and Signficant Incidents</SectionTitle>
-          <div className="incidents-list">
-            {otherReports.map((report) => (
-              <IncidentRow 
+    <>
+      <WelcomeBanner />
+      <PageLayout
+        title="Webapp for Campus Safety"
+        subtitle="UCSD Security Incidents & Alerts"
+        showBackLink={false}
+      >
+        <section className="featured">
+          <SectionTitle>Most Significant Reports of Recent</SectionTitle>
+          <div className="featured-grid">
+            {featuredReports.map((report, idx) => (
+              <FeaturedCard 
                 key={report.incident_case} 
-                report={report}
+                report={report} 
+                imageIndex={idx + 1}
                 onClick={() => handleCardClick(report)}
               />
             ))}
           </div>
         </section>
-      )}
 
-      <Modal 
-        isOpen={isModalOpen} 
-        onClose={handleCloseModal} 
-        report={selectedReport} 
-      />
-    </PageLayout>
+        <section className="quick-access">
+          <SectionTitle>Check out more</SectionTitle>
+          <div className="widgets">
+            <WidgetCard
+              to="/timeline"
+              title="Report Timeline"
+              description="View incidents by time of day"
+              className="widget-1"
+              img="timeline.jpg"
+            />
+            <WidgetCard
+              to="/search"
+              title="Search Reports"
+              description="Find specific incidents"
+              className="widget-2"
+              img="campus2.jpg"
+            />
+            <WidgetCard
+              to="/statistics"
+              title="Statistics"
+              description="Category breakdown"
+              className="widget-3"
+              img="campus3.jpg"
+            />
+            <WidgetCard
+              to="/campus-map"
+              title="Campus Map"
+              description="Incident locations"
+              className="widget-4"
+              img="campus1.jpg"
+            />
+          </div>
+        </section>
+
+        <section className="report-case-cta">
+          <Link to="/report-case" className="report-case-button">
+            <div className="report-button-content">
+              <h3>Report an Incident</h3>
+              <p>Help keep campus safe by reporting suspicious activity or safety concerns</p>
+            </div>
+          </Link>
+        </section>
+
+        {otherReports.length > 0 && (
+          <section className="other-incidents">
+            <SectionTitle>Other Recent and Significant Incidents</SectionTitle>
+            <div className="incidents-list">
+              {otherReports.map((report) => (
+                <IncidentRow 
+                  key={report.incident_case} 
+                  report={report}
+                  onClick={() => handleCardClick(report)}
+                />
+              ))}
+            </div>
+          </section>
+        )}
+
+        <Modal 
+          isOpen={isModalOpen} 
+          onClose={handleCloseModal} 
+          report={selectedReport} 
+        />
+      </PageLayout>
+    </>
   );
 }
