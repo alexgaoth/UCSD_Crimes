@@ -1,4 +1,4 @@
-# UCSD Crime Logs
+# 🔱UCSD🔱 Crime Logs
 
 A comprehensive web application for tracking, visualizing, and analyzing UCSD campus security incidents and crime reports. 
 Built by a UCSD student for UCSD students to stay informed about campus safety.
@@ -8,6 +8,12 @@ Built by a UCSD student for UCSD students to stay informed about campus safety.
 ##  Overview
 
 UCSD Crime Logs provides an accessible, user-friendly interface to explore campus security incidents reported by the UCSD Police Department. The application features interactive maps, comprehensive statistics, timeline visualizations, and powerful search capabilities to help students, faculty, and community members stay informed about campus safety.
+
+## Developer
+
+Created by a UCSD student passionate about campus safety and web development.
+
+**Portfolio**: [alexgaoth.github.io/](https://alexgaoth.github.io/)
 
 ## Tech Stack
 
@@ -52,12 +58,6 @@ Contributions are welcome! If you'd like to improve UCSD Crime Logs:
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## Developer
-
-Created by a UCSD student passionate about campus safety and web development.
-
-**Portfolio**: [alexgaoth.github.io/](https://alexgaoth.github.io/)
 
 ## Acknowledgments
 
