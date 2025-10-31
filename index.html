@@ -1,23 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E37FK1XH71"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-E37FK1XH71');
-    </script>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/UCSD_Crimes/logo.avif" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>UCSD Police Crime Logs</title>
-    <script type="module" crossorigin src="/UCSD_Crimes/assets/index-B0FN2heu.js"></script>
-    <link rel="stylesheet" crossorigin href="/UCSD_Crimes/assets/index-BYfDUeS3.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/UCSD_Crimes/manifest.json">
+  
+  <!-- Primary Meta Tags -->
+  <title>UCSD Crime Logs | Campus Safety Incidents & Security Reports</title>
+  <meta name="title" content="UCSD Crime Logs | Campus Safety Incidents & Security Reports">
+  <meta name="description" content="Track and explore UCSD campus security incidents, crime reports, and safety alerts. View interactive maps, statistics, and timelines of incidents at UC San Diego to stay informed about campus safety.">
+  <meta name="keywords" content="UCSD crime, UC San Diego safety, UCSD police reports, campus security, UCSD incidents, La Jolla crime, college safety, UCSD alerts, campus crime statistics, UC San Diego police">
+  <meta name="author" content="UCSD Student">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://alexgaoth.github.io/UCSD_Crimes/">
+  <meta property="og:title" content="UCSD Crime Logs | Campus Safety Incidents & Security Reports">
+  <meta property="og:description" content="Track and explore UCSD campus security incidents, crime reports, and safety alerts. Stay informed about campus safety at UC San Diego.">
+  <meta property="og:image" content="https://alexgaoth.github.io/UCSD_Crimes/header-logo1.png">
+  <meta property="og:site_name" content="UCSD Crime Logs">
+  <meta property="og:locale" content="en_US">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://alexgaoth.github.io/UCSD_Crimes/">
+  <meta property="twitter:title" content="UCSD Crime Logs | Campus Safety Incidents & Security Reports">
+  <meta property="twitter:description" content="Track and explore UCSD campus security incidents, crime reports, and safety alerts. Stay informed about campus safety at UC San Diego.">
+  <meta property="twitter:image" content="https://alexgaoth.github.io/UCSD_Crimes/header-logo1.png">
+  
+  <!-- Additional SEO Meta Tags -->
+  <meta name="theme-color" content="#8b7355">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="UCSD Crime Logs">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://alexgaoth.github.io/UCSD_Crimes/">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/UCSD_Crimes/header-logo1.png">
+  <link rel="apple-touch-icon" href="/UCSD_Crimes/header-logo1.png">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "UCSD Crime Logs",
+    "applicationCategory": "SafetyApplication",
+    "description": "A comprehensive web application for tracking and analyzing UCSD campus security incidents, crime reports, and safety alerts.",
+    "url": "https://alexgaoth.github.io/UCSD_Crimes/",
+    "author": {
+      "@type": "Person",
+      "name": "UCSD Student Developer"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "operatingSystem": "Web Browser",
+    "about": {
+      "@type": "Place",
+      "name": "University of California San Diego",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "9500 Gilman Drive",
+        "addressLocality": "La Jolla",
+        "addressRegion": "CA",
+        "postalCode": "92093",
+        "addressCountry": "US"
+      }
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "UCSD Campus Crime and Safety Incidents",
+    "description": "A dataset of crime reports and safety incidents occurring on the UC San Diego campus, including location, category, date, and disposition information.",
+    "url": "https://alexgaoth.github.io/UCSD_Crimes/",
+    "keywords": ["UCSD", "crime", "safety", "campus security", "incidents", "UC San Diego"],
+    "creator": {
+      "@type": "Person",
+      "name": "UCSD Student Developer"
+    },
+    "spatialCoverage": {
+      "@type": "Place",
+      "name": "University of California San Diego Campus"
+    },
+    "temporalCoverage": "2020/..",
+    "distribution": {
+      "@type": "DataDownload",
+      "encodingFormat": "JSON",
+      "contentUrl": "https://alexgaoth.github.io/UCSD_Crimes/police_reports.json"
+    }
+  }
+  </script>
+  <script type="module" crossorigin src="/UCSD_Crimes/assets/index-B0FN2heu.js"></script>
+  <link rel="stylesheet" crossorigin href="/UCSD_Crimes/assets/index-BYfDUeS3.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
 </html>
