@@ -1,0 +1,33 @@
+{
+  "name": "UCSD Crime Logs - Campus Safety Reports",
+  "short_name": "UCSD Crime Logs",
+  "description": "Track and explore UCSD campus security incidents, crime reports, and safety alerts",
+  "start_url": "/UCSD_Crimes/",
+  "display": "standalone",
+  "background_color": "#faf7f2",
+  "theme_color": "#8b7355",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/UCSD_Crimes/header-logo1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/UCSD_Crimes/header-logo1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "safety", "utilities"],
+  "screenshots": [
+    {
+      "src": "/UCSD_Crimes/resources/home1.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "label": "UCSD Crime Logs Home Screen"
+    }
+  ]
+}
