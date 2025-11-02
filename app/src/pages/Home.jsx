@@ -44,7 +44,7 @@ export default function Home() {
     <>
       <WelcomeBanner />
       <PageLayout
-        title="The Website for Campus Safety"
+        title="The Website to be Safe on Campus"
         subtitle="See all the reported Crimes in UCSD"
         showBackLink={false}
       >
@@ -107,7 +107,7 @@ export default function Home() {
 
         {otherReports.length > 0 && (
           <section className="other-incidents">
-            <SectionTitle>Other Recent and Significant Incidents</SectionTitle>
+            <SectionTitle>Other Recent Reports</SectionTitle>
             <div className="incidents-list">
               {otherReports.map((report) => (
                 <IncidentRow 
