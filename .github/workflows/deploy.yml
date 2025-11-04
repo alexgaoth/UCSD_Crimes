@@ -31,14 +31,13 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
           
-      - name: Install ChromeDriver
+      - name: Set up ChromeDriver
+        uses: nanasess/setup-chromedriver@v2
+          
+      - name: Verify installations
         run: |
-          CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1)
-          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}")
-          wget -q "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
-          unzip chromedriver_linux64.zip
-          sudo mv chromedriver /usr/local/bin/
-          sudo chmod +x /usr/local/bin/chromedriver
+          google-chrome --version
+          chromedriver --version
           
       - name: Install Python dependencies
         run: |
@@ -52,11 +51,13 @@ jobs:
       - name: Run scraper (download new PDFs)
         run: |
           python scraper.py
+        timeout-minutes: 15
         continue-on-error: false
         
       - name: Run PDF reader (parse to JSON)
         run: |
           python pdf_reader.py
+        timeout-minutes: 10
         continue-on-error: false
         
       - name: Check for changes
