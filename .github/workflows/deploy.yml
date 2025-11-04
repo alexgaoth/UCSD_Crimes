@@ -1,32 +1,88 @@
-name: Deploy Vite React app
+name: Update Crime Data
 
 on:
-  push:
-    branches: [main]
-    
-defaults:
-  run:
-    working-directory: ./app
-
+  schedule:
+    # Runs every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Allows manual triggering from Actions tab
+  
 permissions:
-  contents: write  
+  contents: write
 
 jobs:
-  build-and-deploy:
+  update-data:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          node-version: 20
-
-      - run: npm ci
-      - run: npm run build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} 
-          publish_dir: ./app/dist
+          python-version: '3.11'
+          
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          
+      - name: Install ChromeDriver
+        run: |
+          CHROME_VERSION=$(google-chrome --version | awk '{print $3}' | cut -d '.' -f 1)
+          CHROMEDRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${CHROME_VERSION}")
+          wget -q "https://chromedriver.storage.googleapis.com/${CHROMEDRIVER_VERSION}/chromedriver_linux64.zip"
+          unzip chromedriver_linux64.zip
+          sudo mv chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+          
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+          
+      - name: Create output directories
+        run: |
+          mkdir -p ucsd_police_reports
+          mkdir -p app/public
+          
+      - name: Run scraper (download new PDFs)
+        run: |
+          python scraper.py
+        continue-on-error: false
+        
+      - name: Run PDF reader (parse to JSON)
+        run: |
+          python pdf_reader.py
+        continue-on-error: false
+        
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code app/public/police_reports.json || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --exit-code ucsd_police_reports/ || echo "changes=true" >> $GITHUB_OUTPUT
+          
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add app/public/police_reports.json
+          git add ucsd_police_reports/*.pdf
+          git commit -m "Auto-update crime data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
+          
+      - name: Log completion
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          echo "Crime data updated successfully at $(date)"
+          echo "New data committed and pushed to repository"
+          echo "Deployment will be triggered automatically by push to main branch"
+          
+      - name: Log no changes
+        if: steps.check_changes.outputs.changes != 'true'
+        run: |
+          echo "No new crime data found at $(date)"
