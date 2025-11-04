@@ -27,11 +27,11 @@ export default function WelcomeBanner() {
       <div className="welcome-banner">
         <div className="welcome-content">
             <h2>Welcome to UCSD Crime Logs</h2>
-            <p>This website collects all the public UCSD police crime logs and displays them here.</p>
+            <p>This website collects all the public REAL UCSD police crime logs and displays them here.</p>
             <p>
                 Click on reports to see detailed summaries (and options to share them), explore the data broken down, search for specific incidents, or report a case of your own
             </p>
-            <p className="welcome-content-end">We keep the Safe Campus even safer</p>
+            <p className="welcome-content-end">We keep the Safe Campus even Safer</p>
           
           <div className="welcome-checkbox-container">
             <label className="welcome-checkbox-label">
