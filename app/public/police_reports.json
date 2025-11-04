@@ -27027,6 +27027,424 @@
           "disposition": "Will Cooperate"
         }
       ]
+    },
+    {
+      "filename": "November 3, 2025.pdf",
+      "date": "November 3, 2025",
+      "page_count": 7,
+      "incident_count": 41,
+      "incidents": [
+        {
+          "category": "Noise Disturbance",
+          "location": "Pepper Canyon Apartments",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030001",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "12:08 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Alianza",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030003",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "12:23 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030009",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "4:49 AM",
+          "summary": "Ground floor, reporting party advised subject sleeping on the floor of the station",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Mosaic",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030011",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "6:23 AM",
+          "summary": "Subject sleeping in classroom",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Villa La Jolla Drive",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030015",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "7:18 AM",
+          "summary": "By urgent care employee entrance non-affiliate sleeping won't move on after being asked multiple times by security guard",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Eucalyptus Grove Lane",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030017",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "7:21 AM",
+          "summary": "Spray paint over posters and flags on windows",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Injury",
+          "location": "Blacks Beach",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030021",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "9:31 AM",
+          "summary": "Stingray sting Disposition Referred to Other Agency Property Damage Parking Lot P605",
+          "disposition": ""
+        },
+        {
+          "category": "Property Damage",
+          "location": "Parking Lot P605",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2001",
+          "date_occurred": "",
+          "time_occurred": "9:47 AM",
+          "summary": "Damage to a UC Cart",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Jacobs Medical Center",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030025",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "9:56 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "47th Street",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030026",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "10:14 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Moore's Cancer Center",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030027",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "10:14 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "CSA/Clery Fondling",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030028",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "10:24 AM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "I-5",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030030",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "10:36 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Actri",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030033",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "11:18 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Eucalyptus Grove Lane",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2009",
+          "date_occurred": "",
+          "time_occurred": "12:00AM-9:00AM",
+          "summary": "Four public windows vandalized with graffiti; Estimated repair cost $400",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Property Damage",
+          "location": "CSC Shops",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2003",
+          "date_occurred": "",
+          "time_occurred": "1:48 PM",
+          "summary": "Damage to UC Vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Genesee Avenue",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030041",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "1:57 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030042",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "1:59 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Triton Core",
+          "location": "Women's Center - Student Center",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030043",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "2:14 PM",
+          "summary": "For female crying at location",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Tioga Hall",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030044",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "2:36 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Tioga Hall",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030045",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "2:37 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Survivance",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030046",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "2:42 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Triton Core",
+          "location": "Pepper Canyon Apartments",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030049",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "3:15 PM",
+          "summary": "Reporting party's friend expressed having suicidal ideations",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Mesa Apartments - South",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030050",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "3:15 PM",
+          "summary": "Laundry",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Rape",
+          "location": "Unknown",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030051",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fraud",
+          "location": "Piedra",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030053",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "4:22 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030056",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "5:05 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Brown Hall",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030057",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "5:14 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Hit and Run - No Injuries",
+          "location": "Hopkins Drive",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030058",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "5:19 PM",
+          "summary": "Reporting party witnessed a white tesla hit another vehicle in the Hopkins parking structure",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Preserve the Peace",
+          "location": "Tamarack Apartments",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030060",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "5:51 PM",
+          "summary": "Male partner of student is at the apartment with the student drinking, Muir housing assistant sent a directive that the male is not allowed to be on the premise",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Hopkins Parking",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2006",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "6:27PM-6:32PM",
+          "summary": "Staff member in flatbed cart hit a vehicle in the parking structure",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2005",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "4:20 PM - 6:00 PM",
+          "summary": "Secured Bicycle Stolen; Loss $700",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "La Jolla Shores Drive",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030063",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "6:50 PM",
+          "summary": "Male in a large SUV hit the reporting party, no injuries",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Black Resource Center",
+          "date_reported": "8/7/2025",
+          "incident_case": "2508070065",
+          "date_occurred": "8/7/2025",
+          "time_occurred": "5:18 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Gilman Drive",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2010",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:00PM-1:30PM",
+          "summary": "Secured Bicycle Stolen; Loss $400",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tata Hall",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030066",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "8:32 PM",
+          "summary": "Odor of smoke coming from elevator, elevator not functional, no visible smoke or fire seen",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Nobel Drive",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2011",
+          "date_occurred": "10/29/2025",
+          "time_occurred": "8:20PM",
+          "summary": "Stolen wallet that was left outside of location; Loss $675",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Injury",
+          "location": "Lion tree Arena",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030070",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "9:21 PM",
+          "summary": "Fire got call from AMR, someone was injured outside of the arena, nothing further",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Circumstances",
+          "location": "Tapestry",
+          "date_reported": "11/3/2025",
+          "incident_case": "2511030073",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "9:57 PM",
+          "summary": "Occurred In the last hour reporting party was walking back from Geisel when she noticed two college aged males walking in the same direction as her, reporting party and both subjects entered the elevator at that point, one of the subjects began to stare at her intensely and stood 8 inches away from her, reporting party got off on her floor, subjects did not block her exit or follow her",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Geisel Library",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2012",
+          "date_occurred": "11/3/2025",
+          "time_occurred": "9:40PM-10:50PM",
+          "summary": "Secured E-Scooter Stolen; Loss $300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Eucalyptus Grove Lane",
+          "date_reported": "11/3/2025",
+          "incident_case": "2025-2009",
+          "date_occurred": "",
+          "time_occurred": "12:00AM-9:00AM",
+          "summary": "Four public windows vandalized with graffiti; Estimated repair cost $400",
+          "disposition": "Online Report Taken"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -27115,6 +27533,7 @@
     "October 28, 2025.pdf",
     "October 29, 2025.pdf",
     "October 30, 2025.pdf",
-    "October 31, 2025.pdf"
+    "October 31, 2025.pdf",
+    "November 3, 2025.pdf"
   ]
 }
