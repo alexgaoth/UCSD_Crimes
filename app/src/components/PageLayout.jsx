@@ -6,7 +6,10 @@ export default function PageLayout({ title, subtitle, showBackLink = true, child
     <div className="app">
       <header className="header">
         <div className="header-wrapper">
-          <div className="header-illustration" 
+          <div
+              className="header-illustration"
+              role="img"
+              aria-label="UCSD Crime Logs logo and header illustration"
               style={{
                 backgroundImage: `url(${import.meta.env.BASE_URL}header-logo1.png)`,
                 backgroundSize: 'contain',
