@@ -6,6 +6,8 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import SearchControls from '../components/SearchControls.jsx';
 import ResultCard from '../components/ResultCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import SEO from '../components/SEO.jsx';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
 export default function Search() {
@@ -80,10 +82,17 @@ export default function Search() {
   }
 
   return (
-    <PageLayout
-      title="Search Reports"
-      subtitle="Find Specific Incidents"
-    >
+    <>
+      <SEO
+        title="Search Reports"
+        description="Search through UCSD crime reports using filters for location, category, and keywords. Find specific incidents that matter to you with our detailed search tool for campus safety data."
+        path="/search"
+      />
+      <Breadcrumbs items={[{ name: 'Search', path: '/search' }]} />
+      <PageLayout
+        title="Search Reports"
+        subtitle="Find Specific Incidents"
+      >
       <SearchControls
         searchTerm={searchTerm}
         onSearchChange={(e) => setSearchTerm(e.target.value)}
@@ -117,5 +126,6 @@ export default function Search() {
         </div>
       </section>
     </PageLayout>
+    </>
   );
 }
