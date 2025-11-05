@@ -72,6 +72,37 @@ function parseDate(dateStr) {
 }
 
 /**
+ * Format date to W3C format (YYYY-MM-DD)
+ * Handles various input formats and ensures valid output
+ */
+function formatToW3CDate(dateStr) {
+  if (!dateStr) {
+    return getCurrentDate();
+  }
+
+  try {
+    // Parse the date string
+    const date = new Date(dateStr);
+    
+    // Check if date is valid
+    if (isNaN(date.getTime())) {
+      console.warn(`Invalid date format: ${dateStr}, using current date`);
+      return getCurrentDate();
+    }
+
+    // Format to YYYY-MM-DD
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    
+    return `${year}-${month}-${day}`;
+  } catch (error) {
+    console.warn(`Error formatting date: ${dateStr}, using current date`);
+    return getCurrentDate();
+  }
+}
+
+/**
  * Generate URL entry for sitemap
  */
 function generateUrlEntry(loc, lastmod, changefreq, priority) {
@@ -173,9 +204,8 @@ function generateSitemap() {
 
     topIncidents.forEach(incident => {
       const url = generateIncidentUrl(incident.incident_case);
-      const lastmod = incident.date_occurred ?
-        incident.date_occurred.split(' ')[0] :
-        currentDate;
+      // Use the new formatToW3CDate function to ensure proper date formatting
+      const lastmod = formatToW3CDate(incident.date_occurred);
 
       urlEntries.push(generateUrlEntry(
         url,
