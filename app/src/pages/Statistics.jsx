@@ -5,6 +5,8 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import StatCard from '../components/StatCard.jsx';
 import StatBar from '../components/StatBar.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import SEO from '../components/SEO.jsx';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
 
@@ -58,10 +60,17 @@ export default function Statistics() {
   }
 
   return (
-    <PageLayout
-      title="Statistics"
-      subtitle="Crime Report Analytics"
-    >
+    <>
+      <SEO
+        title="Crime Statistics"
+        description="Comprehensive statistics and analytics on UCSD campus crime reports. Explore data breakdowns by category, disposition, and trends to better understand campus safety patterns at UC San Diego."
+        path="/statistics"
+      />
+      <Breadcrumbs items={[{ name: 'Statistics', path: '/statistics' }]} />
+      <PageLayout
+        title="Statistics"
+        subtitle="Crime Report Analytics"
+      >
       <section className="stats-overview">
         <StatCard number={stats.total} label="Total Reports" />
         <StatCard number={stats.totalCategories} label="Categories (20+ occurrences)" />
@@ -117,5 +126,6 @@ export default function Statistics() {
         )}
       </section>
     </PageLayout>
+    </>
   );
 }
