@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <!-- Only include the main page -->
+  <!-- Home Page -->
   <url>
     <loc>https://alexgaoth.github.io/UCSD_Crimes/</loc>
-    <lastmod>2025-11-01</lastmod>
+    <lastmod>2025-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  
+  <!-- Timeline Page -->
+  <url>
+    <loc>https://alexgaoth.github.io/UCSD_Crimes/#/timeline</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Search Page -->
+  <url>
+    <loc>https://alexgaoth.github.io/UCSD_Crimes/#/search</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Statistics Page -->
+  <url>
+    <loc>https://alexgaoth.github.io/UCSD_Crimes/#/statistics</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Campus Map Page -->
+  <url>
+    <loc>https://alexgaoth.github.io/UCSD_Crimes/#/campus-map</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Report Case Page -->
+  <url>
+    <loc>https://alexgaoth.github.io/UCSD_Crimes/#/report-case</loc>
+    <lastmod>2025-10-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   
 </urlset>
