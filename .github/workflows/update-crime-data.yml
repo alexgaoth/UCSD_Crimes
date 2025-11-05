@@ -3,7 +3,7 @@ name: Update Crime Data
 on:
   schedule:
     # Runs every 2 hours
-    - cron: '0 */2 * * *'
+    - cron: '0 */8 * * *'
   workflow_dispatch: # Allows manual triggering from Actions tab
   
 permissions:
