@@ -10,6 +10,7 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
 import WelcomeBanner from '../components/WelcomeBanner.jsx';
+import SEO from '../components/SEO.jsx';
 import '../App.css';
 
 export default function Home() {
@@ -42,6 +43,11 @@ export default function Home() {
 
   return (
     <>
+      <SEO
+        title="Campus Safety Incidents"
+        description="Access comprehensive UCSD campus crime data and safety reports. Track recent incidents, explore interactive maps, and view detailed statistics to stay informed about campus security at UC San Diego."
+        path="/"
+      />
       <WelcomeBanner />
       <PageLayout
         title="The Website to be Safe on Campus"
