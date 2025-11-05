@@ -6,6 +6,8 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import TimelineChart from '../components/TimelineChart.jsx';
 import TimelineItem from '../components/TimelineItem.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import SEO from '../components/SEO.jsx';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
 export default function Timeline() {
@@ -21,10 +23,17 @@ export default function Timeline() {
   }
 
   return (
-    <PageLayout
-      title="Report Timeline"
-      subtitle="Incidents by Time of Day"
-    >
+    <>
+      <SEO
+        title="Report Timeline"
+        description="Visualize when campus incidents occur throughout the day at UCSD. Interactive charts show temporal patterns of crime reports, helping you understand peak times for different types of incidents on campus."
+        path="/timeline"
+      />
+      <Breadcrumbs items={[{ name: 'Timeline', path: '/timeline' }]} />
+      <PageLayout
+        title="Report Timeline"
+        subtitle="Incidents by Time of Day"
+      >
       <section className="chart-section">
         <SectionTitle>When Incidents Occurred</SectionTitle>
         <TimelineChart 
@@ -43,5 +52,6 @@ export default function Timeline() {
         </div>
       </section>
     </PageLayout>
+    </>
   );
 }

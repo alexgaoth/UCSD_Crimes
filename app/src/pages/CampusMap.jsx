@@ -6,6 +6,8 @@ import RankingItem from '../components/RankingItem.jsx';
 import InsightCard from '../components/InsightCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import GoogleMapWidget from '../components/GoogleMapWidget.jsx';
+import SEO from '../components/SEO.jsx';
+import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
 export default function CampusMap() {
@@ -63,10 +65,17 @@ export default function CampusMap() {
   }
 
   return (
-    <PageLayout
-      title="Campus Map"
-      subtitle="Incident Locations Overview"
-    >
+    <>
+      <SEO
+        title="Campus Map"
+        description="Interactive map showing crime incident locations across UCSD campus. See which areas have the most reported incidents and explore geographic patterns of campus safety data at UC San Diego."
+        path="/campus-map"
+      />
+      <Breadcrumbs items={[{ name: 'Campus Map', path: '/campus-map' }]} />
+      <PageLayout
+        title="Campus Map"
+        subtitle="Incident Locations Overview"
+      >
       <section className="map-placeholder">
         <GoogleMapWidget 
           locationData={locationData}
@@ -116,5 +125,6 @@ export default function CampusMap() {
         </div>
       </section>
     </PageLayout>
+    </>
   );
 }

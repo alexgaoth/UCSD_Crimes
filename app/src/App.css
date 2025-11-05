@@ -987,3 +987,46 @@ body {
     font-size: 0.85rem;
   }
 }
+
+/* ========== BREADCRUMBS ========== */
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1.5rem;
+}
+
+.breadcrumb-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #6b5d52;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item a {
+  color: #8b7355;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-item a:hover {
+  color: #a0826d;
+  text-decoration: underline;
+}
+
+.breadcrumb-item span[aria-current="page"] {
+  color: #3c3227;
+  font-weight: 500;
+}
+
+.breadcrumb-separator {
+  margin: 0 0.3rem;
+  color: #b8a89a;
+}
