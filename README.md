@@ -34,9 +34,135 @@ Created by a UCSD student passionate about campus safety and web development.
 
 ## Data Source
 
-Crime data is sourced from UCSD Police Department public reports. 
+Crime data is sourced from UCSD Police Department public reports.
 
 **Note**: This is an independent student project and is not officially affiliated with UCSD or the UCSD Police Department.
+
+## User Report Submissions
+
+The application now supports user-submitted crime reports! Community members can submit incidents through the website, which are reviewed and added to the database.
+
+### Features
+
+- **Public Submission Form**: Users can submit crime reports at `/report-case`
+- **Approval Workflow**: All submissions are reviewed before being displayed
+- **Automated Sync**: Approved reports are automatically synced to the website every 8 hours
+- **Case Number Tracking**: Each submission receives a unique case number (e.g., `USER-2025-001`)
+
+### Supabase Integration
+
+This application uses [Supabase](https://supabase.com/) for user report management.
+
+#### Setting Up Supabase
+
+1. **Create a Supabase Project**
+   - Go to [supabase.com](https://supabase.com/) and create a free account
+   - Create a new project (note: free tier includes 500MB database and 2GB bandwidth)
+   - Wait for the project to finish setting up (~2 minutes)
+
+2. **Run the Database Schema**
+   - In your Supabase dashboard, navigate to the SQL Editor
+   - Copy the contents of `supabase_schema.sql` from this repository
+   - Paste and run the SQL script
+   - This creates the `user_reports` table, indexes, RLS policies, and helper functions
+
+3. **Get Your API Keys**
+   - Go to Settings > API in your Supabase dashboard
+   - Copy your Project URL and both API keys:
+     - **anon/public key**: For frontend submissions (safe to expose publicly)
+     - **service_role key**: For backend sync script (keep secret!)
+
+4. **Configure Environment Variables**
+
+   **For Local Development:**
+   ```bash
+   # Root directory (for Python sync script)
+   cp .env.example .env
+   # Edit .env and add your Supabase credentials
+
+   # Frontend directory (for React app)
+   cd app
+   cp .env.example .env
+   # Edit .env and add your Supabase credentials
+   ```
+
+   **For GitHub Actions:**
+   - Go to your GitHub repository
+   - Navigate to Settings > Secrets and variables > Actions
+   - Add the following secrets:
+     - `SUPABASE_URL`: Your Supabase project URL
+     - `SUPABASE_KEY`: Your Supabase service role key (NOT the anon key!)
+
+5. **Install Dependencies**
+   ```bash
+   # Python dependencies (for sync script)
+   pip install -r requirements.txt
+
+   # Node dependencies (for frontend)
+   cd app
+   npm install
+   ```
+
+6. **Test the Integration**
+
+   **Frontend (Local):**
+   ```bash
+   cd app
+   npm run dev
+   ```
+   - Navigate to `/report-case`
+   - Submit a test report
+   - Check your Supabase dashboard to verify the submission
+
+   **Sync Script (Local):**
+   ```bash
+   python sync_supabase.py
+   ```
+   - This will sync any approved reports to `app/public/police_reports.json`
+
+#### Managing User Submissions
+
+**Viewing Submissions:**
+- Log into your Supabase dashboard
+- Go to Table Editor > `user_reports`
+- View all submissions with their status (pending/approved/rejected)
+
+**Approving Reports:**
+- Use the SQL Editor with queries from `admin_queries.sql`
+- Example: `UPDATE user_reports SET status = 'approved' WHERE id = 1;`
+- Or build a custom admin interface (see roadmap)
+
+**Automatic Sync:**
+- GitHub Actions runs every 8 hours
+- Fetches approved, unprocessed reports from Supabase
+- Adds them to `police_reports.json`
+- Marks them as processed in Supabase
+- Deploys updated site
+
+#### Row Level Security (RLS)
+
+The database is configured with RLS policies for security:
+- **Public INSERT**: Anyone can submit a report (INSERT only)
+- **Public SELECT**: Anyone can view reports (read-only)
+- **Service Role**: Full access for sync script (server-side only)
+- **Authenticated**: UPDATE access for admin operations
+
+This ensures:
+- Users can submit reports without authentication
+- Users cannot modify or delete existing reports
+- Only the server-side sync script can mark reports as processed
+- Admin operations require authentication
+
+#### Files Reference
+
+- `supabase_schema.sql`: Database schema and setup
+- `sync_supabase.py`: Python script that syncs reports from Supabase to JSON
+- `app/src/lib/supabaseClient.js`: Frontend Supabase client configuration
+- `app/src/pages/ReportCase.jsx`: User submission form
+- `app/public/sync_state.json`: Tracks sync progress
+- `admin_queries.sql`: Helpful SQL queries for managing submissions
+- `.env.example`: Environment variable template
+- `app/.env.example`: Frontend environment variable template
 
 ## Privacy & Safety
 
@@ -67,11 +193,16 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Roadmap
 
+- [x] User-submitted crime reports via Supabase
+- [x] Automated sync of approved reports
+- [ ] Admin dashboard for managing submissions
 - [ ] Real-time notifications for new incidents
 - [ ] Email/SMS alert subscriptions
 - [ ] Export functionality for data analysis
 - [ ] Integration with campus safety apps
 - [ ] Dark mode support
+- [ ] User authentication for report tracking
+- [ ] Email notifications to users when reports are approved/rejected
 
 ## Known Issues
 

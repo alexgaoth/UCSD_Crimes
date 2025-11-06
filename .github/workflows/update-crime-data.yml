@@ -59,11 +59,21 @@ jobs:
           python pdf_reader.py
         timeout-minutes: 10
         continue-on-error: false
-        
+
+      - name: Sync user reports from Supabase
+        run: |
+          python sync_supabase.py
+        timeout-minutes: 5
+        continue-on-error: false
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+
       - name: Check for changes
         id: check_changes
         run: |
           git diff --exit-code app/public/police_reports.json || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --exit-code app/public/sync_state.json || echo "changes=true" >> $GITHUB_OUTPUT
           git diff --exit-code ucsd_police_reports/ || echo "changes=true" >> $GITHUB_OUTPUT
           
       - name: Commit and push changes
@@ -72,6 +82,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add app/public/police_reports.json
+          git add app/public/sync_state.json
           git add ucsd_police_reports/*.pdf
           git commit -m "Auto-update crime data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
