@@ -20,7 +20,7 @@ Environment Variables Required:
     SUPABASE_URL: Your Supabase project URL
     SUPABASE_KEY: Your Supabase service role key (for authenticated operations)
 """
-
+import io
 import os
 import sys
 import json
@@ -28,6 +28,12 @@ import logging
 from datetime import datetime, timezone
 from collections import defaultdict
 from typing import List, Dict, Any, Optional
+
+
+# Force UTF-8 encoding for stdout/stderr on Windows
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # Configure logging
 logging.basicConfig(
@@ -72,13 +78,13 @@ def load_json_file(filepath: str) -> Dict[str, Any]:
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        logger.info(f"✓ Loaded {filepath}")
+        logger.info(f" Loaded {filepath}")
         return data
     except FileNotFoundError:
-        logger.error(f"✗ File not found: {filepath}")
+        logger.error(f" File not found: {filepath}")
         raise
     except json.JSONDecodeError as e:
-        logger.error(f"✗ Invalid JSON in {filepath}: {e}")
+        logger.error(f" Invalid JSON in {filepath}: {e}")
         raise
 
 
