@@ -2,3 +2,4 @@ requests>=2.31.0
 selenium>=4.15.0
 pdfplumber>=0.10.3
 schedule>=1.2.0
+supabase>=2.0.0
