@@ -331,10 +331,23 @@ def integrate_reports_into_json(
             added_count += len(incidents)
 
     # Sort reports by date (most recent first)
-    police_reports['reports'].sort(
-        key=lambda x: datetime.strptime(x['date'], '%B %d, %Y'),
-        reverse=True
-    )
+    def safe_date_parse(report):
+        """Safely parse date, handling malformed dates gracefully."""
+        try:
+            date_str = report['date'].strip()
+            # Try to parse the date, removing any extra text after the year
+            # Handle cases like "January 15, 2025 Updated"
+            parts = date_str.split()
+            if len(parts) > 3:
+                # If there are more than 3 parts, take only the first 3 (Month Day, Year)
+                date_str = ' '.join(parts[:3])
+            return datetime.strptime(date_str, '%B %d, %Y')
+        except (ValueError, AttributeError) as e:
+            logger.warning(f"⚠ Could not parse date '{report.get('date', 'N/A')}': {e}")
+            # Return a very old date so malformed entries go to the end
+            return datetime(1900, 1, 1)
+    
+    police_reports['reports'].sort(key=safe_date_parse, reverse=True)
 
     logger.info(f"✓ Added {added_count} total incident(s) to JSON")
     return added_count
