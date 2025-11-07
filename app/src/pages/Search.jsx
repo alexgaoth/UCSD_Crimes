@@ -26,11 +26,18 @@ export default function Search() {
 
   useEffect(() => {
     if (!loading && reports.length > 0) {
-      // Sort reports by most recent first
+      // Sort reports by most recent first (date + time for accurate sorting)
       const sorted = [...reports].sort((a, b) => {
-        const dateA = new Date(a.date_reported || a.date_occurred);
-        const dateB = new Date(b.date_reported || b.date_occurred);
-        return dateB - dateA; // Most recent first
+        // Create datetime by combining date and time for accurate sorting
+        const dateStrA = a.date_reported || a.date_occurred;
+        const timeStrA = a.time_occurred || '00:00';
+        const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
+
+        const dateStrB = b.date_reported || b.date_occurred;
+        const timeStrB = b.time_occurred || '00:00';
+        const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
+
+        return dateTimeB - dateTimeA; // Most recent first
       });
       setAllReports(sorted);
       setFilteredReports(sorted.slice(0, 10));
@@ -57,11 +64,18 @@ export default function Search() {
       filtered = filtered.filter(report => report.location === selectedLocation);
     }
 
-    // Sort by most recent first (date_reported)
+    // Sort by most recent first (date + time for accurate sorting)
     filtered = filtered.sort((a, b) => {
-      const dateA = new Date(a.date_reported || a.date_occurred);
-      const dateB = new Date(b.date_reported || b.date_occurred);
-      return dateB - dateA; // Most recent first
+      // Create datetime by combining date and time for accurate sorting
+      const dateStrA = a.date_reported || a.date_occurred;
+      const timeStrA = a.time_occurred || '00:00';
+      const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
+
+      const dateStrB = b.date_reported || b.date_occurred;
+      const timeStrB = b.time_occurred || '00:00';
+      const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
+
+      return dateTimeB - dateTimeA; // Most recent first
     });
 
     setFilteredReports(filtered.slice(0, 10));
