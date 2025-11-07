@@ -1,9 +1,15 @@
 import React from 'react';
 import html2canvas from 'html2canvas';
 
+// Helper function to check if a report is user-submitted
+const isUserSubmitted = (caseNumber) => {
+  return caseNumber && caseNumber.startsWith('USER-');
+};
+
 export default function Modal({ isOpen, onClose, report }) {
   if (!isOpen || !report) return null;
 
+  const userSubmitted = isUserSubmitted(report.incident_case);
   const websiteUrl = window.location.href.split('#')[0] + '#/';
 
   const handleShare = async (platform) => {
@@ -95,14 +101,22 @@ export default function Modal({ isOpen, onClose, report }) {
 
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+      <div
+        className={`modal-content ${userSubmitted ? 'modal-content-user-submitted' : 'modal-content-official'}`}
+        onClick={(e) => e.stopPropagation()}
+      >
         <button className="modal-close" onClick={onClose}>×</button>
-        
+
         <div className="modal-header">
           <h2>{report.location}</h2>
           <div className="modal-meta">
             <span className="modal-badge">{report.category}</span>
             <span className="modal-case-id">#{report.incident_case}</span>
+            {userSubmitted ? (
+              <span className="badge-source badge-user-submitted">User-Submitted Report</span>
+            ) : (
+              <span className="badge-source badge-official">Official Police Report</span>
+            )}
           </div>
         </div>
 
