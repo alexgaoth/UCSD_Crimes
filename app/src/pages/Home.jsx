@@ -111,6 +111,15 @@ export default function Home() {
           </Link>
         </section>
 
+        <section className="full-directory-cta">
+          <Link to="/full-directory" className="full-directory-button">
+            <div className="directory-button-content">
+              <h3>Browse Full Directory</h3>
+              <p>View all crime reports organized by date</p>
+            </div>
+          </Link>
+        </section>
+
         {otherReports.length > 0 && (
           <section className="other-incidents">
             <SectionTitle>Other Recent Reports</SectionTitle>
