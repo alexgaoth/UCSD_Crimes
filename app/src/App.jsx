@@ -6,6 +6,7 @@ import Search from './pages/Search';
 import Statistics from './pages/Statistics';
 import CampusMap from './pages/CampusMap';
 import ReportCase from './pages/ReportCase';
+import FullDirectory from './pages/FullDirectory';
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/statistics" element={<Statistics />} />
       <Route path="/campus-map" element={<CampusMap />} />
       <Route path="/report-case" element={<ReportCase />} />
+      <Route path="/full-directory" element={<FullDirectory />} />
     </Routes>
   );
 }
