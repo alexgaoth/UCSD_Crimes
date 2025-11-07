@@ -1,12 +1,24 @@
 import React from 'react';
 
-export default function ResultCard({ report }) {
+// Helper function to check if a report is user-submitted
+const isUserSubmitted = (caseNumber) => {
+  return caseNumber && caseNumber.startsWith('USER-');
+};
+
+export default function ResultCard({ report, onClick }) {
+  const userSubmitted = isUserSubmitted(report.incident_case);
+
   return (
-    <article className="result-card">
+    <article
+      className={`result-card ${userSubmitted ? 'result-card-user-submitted' : ''}`}
+      onClick={onClick}
+      style={{ cursor: 'pointer' }}
+    >
       <div className="result-header">
         <div>
           <h3>{report.location}</h3>
           <span className="result-category">{report.category}</span>
+          {userSubmitted && <span className="badge-user-report">User Report</span>}
         </div>
         <span className="result-case">#{report.incident_case}</span>
       </div>

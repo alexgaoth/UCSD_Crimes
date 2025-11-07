@@ -1,9 +1,16 @@
 import React from 'react';
 
+// Helper function to check if a report is user-submitted
+const isUserSubmitted = (caseNumber) => {
+  return caseNumber && caseNumber.startsWith('USER-');
+};
+
 export default function FeaturedCard({ report, imageIndex, onClick }) {
+  const userSubmitted = isUserSubmitted(report.incident_case);
+
   return (
     <article
-      className={`featured-card card-${imageIndex}`}
+      className={`featured-card card-${imageIndex} ${userSubmitted ? 'featured-card-user-submitted' : ''}`}
       onClick={onClick}
       style={{ cursor: 'pointer' }}
     >
@@ -20,6 +27,7 @@ export default function FeaturedCard({ report, imageIndex, onClick }) {
         <div className="card-meta">
           <span className="badge">{report.category}</span>
           <span className="case-id">#{report.incident_case}</span>
+          {userSubmitted && <span className="badge-user-report">User Report</span>}
         </div>
         <h3>{report.location}</h3>
         <p className="card-summary">{report.summary}</p>
