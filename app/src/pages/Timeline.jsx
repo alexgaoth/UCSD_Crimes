@@ -21,6 +21,15 @@ export default function Timeline() {
     return Math.max(...occurredDistribution, ...reportedDistribution, 1);
   }, [occurredDistribution, reportedDistribution]);
 
+  // Sort reports by most recent first (date_reported)
+  const sortedReports = useMemo(() => {
+    return [...reports].sort((a, b) => {
+      const dateA = new Date(a.date_reported || a.date_occurred);
+      const dateB = new Date(b.date_reported || b.date_occurred);
+      return dateB - dateA; // Most recent first
+    });
+  }, [reports]);
+
   const handleCardClick = (report) => {
     setSelectedReport(report);
     setIsModalOpen(true);
@@ -57,9 +66,9 @@ export default function Timeline() {
       </section>
 
       <section className="timeline-list">
-        <SectionTitle>Literally most recent Reports released</SectionTitle>
+        <SectionTitle>Most Recent Reports</SectionTitle>
         <div className="timeline-items">
-          {reports.slice(0, 20).map(report => (
+          {sortedReports.slice(0, 20).map(report => (
             <TimelineItem
               key={report.incident_case}
               report={report}
