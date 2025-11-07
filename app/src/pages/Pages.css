@@ -1095,6 +1095,275 @@
 
 /* ========== FULL DIRECTORY PAGE ========== */
 
+/* Directory Controls Section */
+.directory-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Calendar Container */
+.directory-calendar-container {
+  background: white;
+  border: 1px solid #e8e3d8;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/* Calendar Widget */
+.calendar-widget {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Calendar Header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e8e3d8;
+}
+
+.calendar-month-year {
+  font-size: 1.4rem;
+  color: #2c2416;
+  font-weight: 700;
+  margin: 0;
+}
+
+.calendar-nav-button {
+  background: #faf7f2;
+  border: 2px solid #e8e3d8;
+  color: #9b8b7e;
+  font-size: 1.8rem;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.calendar-nav-button:hover {
+  background: #9b8b7e;
+  color: white;
+  border-color: #9b8b7e;
+}
+
+/* Calendar Weekdays */
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.calendar-weekday {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0.5rem 0;
+}
+
+/* Calendar Days Grid */
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+
+/* Individual Calendar Day */
+.calendar-day {
+  aspect-ratio: 1;
+  background: #faf7f2;
+  border: 2px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: default;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  padding: 0.3rem;
+}
+
+.calendar-day-number {
+  font-size: 0.95rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Other month days (greyed out) */
+.calendar-day-other-month {
+  opacity: 0.3;
+}
+
+.calendar-day-other-month .calendar-day-number {
+  color: #999;
+}
+
+/* Days with reports (green indicator) */
+.calendar-day-has-reports {
+  background: #f0f8eb;
+  cursor: pointer;
+}
+
+.calendar-day-has-reports .calendar-day-number {
+  color: #558b2f;
+  font-weight: 600;
+}
+
+.calendar-day-indicator {
+  width: 6px;
+  height: 6px;
+  background: #7cb342;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 6px;
+}
+
+/* Clickable days */
+.calendar-day-clickable:hover {
+  background: #e8f5e9;
+  border-color: #7cb342;
+  transform: scale(1.05);
+}
+
+/* Selected day (blue) */
+.calendar-day-selected {
+  background: #e3f2fd !important;
+  border-color: #2196f3 !important;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+}
+
+.calendar-day-selected .calendar-day-number {
+  color: #1976d2 !important;
+  font-weight: 700;
+}
+
+.calendar-day-selected .calendar-day-indicator {
+  background: #2196f3;
+}
+
+/* Today indicator */
+.calendar-day-today {
+  font-weight: 700;
+}
+
+.calendar-day-today .calendar-day-number {
+  text-decoration: underline;
+}
+
+/* Future dates (disabled) */
+.calendar-day-future {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Calendar Legend */
+.calendar-legend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.calendar-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.calendar-legend-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #e8e3d8;
+}
+
+.calendar-legend-green {
+  background: #7cb342;
+  border-color: #7cb342;
+}
+
+.calendar-legend-blue {
+  background: #2196f3;
+  border-color: #2196f3;
+}
+
+.calendar-legend-text {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Directory Filters */
+.directory-filters {
+  background: white;
+  border: 1px solid #e8e3d8;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.directory-filter-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #3c3227;
+  user-select: none;
+  font-weight: 500;
+}
+
+.directory-filter-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #9b8b7e;
+}
+
+/* Directory Summary with Filter Note */
+.filter-active-note {
+  color: #7cb342;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* Selected Date Group Styling */
+.date-group-selected {
+  scroll-margin-top: 20px;
+}
+
+.date-group-selected .date-group-header {
+  border-bottom-color: #2196f3;
+  background: linear-gradient(90deg, rgba(33, 150, 243, 0.05) 0%, transparent 100%);
+  padding: 1rem;
+  margin: -1rem -1rem 0 -1rem;
+  margin-bottom: 1rem;
+}
+
+.date-selected-indicator {
+  color: #2196f3;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
 /* Full Directory CTA Button on Home Page */
 .full-directory-cta {
   margin: 3rem 0;
@@ -1378,6 +1647,69 @@
 
 /* Mobile Responsive Styles */
 @media (max-width: 768px) {
+  /* Calendar Mobile Styles */
+  .directory-calendar-container {
+    padding: 1rem;
+  }
+
+  .calendar-month-year {
+    font-size: 1.1rem;
+  }
+
+  .calendar-nav-button {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+  }
+
+  .calendar-weekday {
+    font-size: 0.75rem;
+    padding: 0.3rem 0;
+  }
+
+  .calendar-days {
+    gap: 0.3rem;
+  }
+
+  .calendar-day {
+    padding: 0.2rem;
+  }
+
+  .calendar-day-number {
+    font-size: 0.85rem;
+  }
+
+  .calendar-day-indicator {
+    width: 5px;
+    height: 5px;
+    bottom: 4px;
+  }
+
+  .calendar-legend {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  .calendar-legend-text {
+    font-size: 0.8rem;
+  }
+
+  /* Directory Filters Mobile */
+  .directory-filters {
+    padding: 1rem;
+  }
+
+  .directory-filter-checkbox-label {
+    font-size: 0.9rem;
+  }
+
+  .directory-filter-checkbox {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Date Groups Mobile */
   .date-group-header {
     flex-direction: column;
     align-items: flex-start;
@@ -1386,6 +1718,10 @@
 
   .date-heading {
     font-size: 1.4rem;
+  }
+
+  .date-selected-indicator {
+    font-size: 1.2rem;
   }
 
   .incident-count {
@@ -1423,6 +1759,43 @@
 }
 
 @media (max-width: 480px) {
+  /* Calendar Extra Small Screens */
+  .calendar-month-year {
+    font-size: 1rem;
+  }
+
+  .calendar-nav-button {
+    width: 32px;
+    height: 32px;
+    font-size: 1.3rem;
+  }
+
+  .calendar-weekday {
+    font-size: 0.7rem;
+  }
+
+  .calendar-day-number {
+    font-size: 0.8rem;
+  }
+
+  .calendar-legend {
+    gap: 0.6rem;
+  }
+
+  .calendar-legend-indicator {
+    width: 10px;
+    height: 10px;
+  }
+
+  .calendar-legend-text {
+    font-size: 0.75rem;
+  }
+
+  /* Directory Extra Small Screens */
+  .directory-filter-checkbox-label {
+    font-size: 0.85rem;
+  }
+
   .date-heading {
     font-size: 1.2rem;
   }

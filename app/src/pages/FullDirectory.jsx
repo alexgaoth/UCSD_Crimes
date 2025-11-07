@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useReports } from '../context/ReportsContext.jsx';
 import PageLayout from '../components/PageLayout.jsx';
 import DirectoryCard from '../components/DirectoryCard.jsx';
@@ -7,18 +7,36 @@ import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
 import SEO from '../components/SEO.jsx';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
+import Calendar from '../components/Calendar.jsx';
 import './Pages.css';
 
 /**
  * FullDirectory page - Browse all crime reports organized by date
- * Groups reports by date_occurred and displays them in chronological order (newest first)
+ * Features:
+ * - Interactive calendar with date selection
+ * - Filter out future dates
+ * - Checkbox to hide dates with empty summaries
+ * - Smart default date selection (nearest date to today with reports)
+ * - Smooth scrolling to selected dates
  */
 export default function FullDirectory() {
   const { reports, loading } = useReports();
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedDate, setSelectedDate] = useState(null);
+  const [hideEmptySummaries, setHideEmptySummaries] = useState(false);
 
-  // Group reports by date_occurred
+  // Refs for scrolling to date sections
+  const dateRefs = useRef({});
+
+  // Get today's date (normalized to midnight)
+  const today = useMemo(() => {
+    const date = new Date();
+    date.setHours(0, 0, 0, 0);
+    return date;
+  }, []);
+
+  // Filter out future dates and group reports by date_occurred
   const groupedReports = useMemo(() => {
     if (!reports || reports.length === 0) return [];
 
@@ -27,6 +45,12 @@ export default function FullDirectory() {
 
     reports.forEach(report => {
       const date = report.date_occurred;
+      const dateObj = new Date(date);
+      dateObj.setHours(0, 0, 0, 0);
+
+      // FILTER OUT FUTURE DATES
+      if (dateObj > today) return;
+
       if (!dateMap.has(date)) {
         dateMap.set(date, []);
       }
@@ -43,11 +67,58 @@ export default function FullDirectory() {
       .sort((a, b) => b.dateObj - a.dateObj);
 
     return sortedGroups;
-  }, [reports]);
+  }, [reports, today]);
 
-  // Format date nicely (e.g., "November 5, 2025")
+  // Apply empty summary filter
+  const filteredGroupedReports = useMemo(() => {
+    if (!hideEmptySummaries) return groupedReports;
+
+    // Filter out date groups where ALL reports have empty/very short summaries
+    return groupedReports.filter(({ reports: dateReports }) => {
+      // Check if at least one report has a meaningful summary (> 10 characters)
+      return dateReports.some(report => {
+        const summary = report.incident_summary || '';
+        return summary.trim().length > 10;
+      });
+    });
+  }, [groupedReports, hideEmptySummaries]);
+
+  // Get array of available dates (for calendar highlighting)
+  const availableDates = useMemo(() => {
+    return filteredGroupedReports.map(({ date }) => date);
+  }, [filteredGroupedReports]);
+
+  // Smart default date selection - find nearest date to today with reports
+  useEffect(() => {
+    if (!selectedDate && filteredGroupedReports.length > 0) {
+      // Find the date closest to today
+      let nearestDate = null;
+      let minDiff = Infinity;
+
+      filteredGroupedReports.forEach(({ date, dateObj }) => {
+        const diff = Math.abs(today - dateObj);
+        if (diff < minDiff) {
+          minDiff = diff;
+          nearestDate = date;
+        }
+      });
+
+      if (nearestDate) {
+        setSelectedDate(nearestDate);
+        // Scroll to this date after a short delay to ensure DOM is ready
+        setTimeout(() => scrollToDate(nearestDate), 300);
+      }
+    }
+  }, [filteredGroupedReports, selectedDate, today]);
+
+  // Format date nicely (e.g., "Monday, November 5, 2025")
   const formatDate = (date) => {
-    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    const options = {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    };
     return new Date(date).toLocaleDateString('en-US', options);
   };
 
@@ -63,9 +134,36 @@ export default function FullDirectory() {
     setTimeout(() => setSelectedReport(null), 300);
   };
 
+  // Handle date selection from calendar
+  const handleDateSelect = (date) => {
+    setSelectedDate(date);
+    scrollToDate(date);
+  };
+
+  // Scroll to a specific date section
+  const scrollToDate = (date) => {
+    const element = dateRefs.current[date];
+    if (element) {
+      const yOffset = -20; // Offset from top
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  };
+
+  // Handle checkbox toggle
+  const handleCheckboxToggle = (e) => {
+    setHideEmptySummaries(e.target.checked);
+    // Reset selected date when filter changes
+    setSelectedDate(null);
+  };
+
   if (loading) {
     return <LoadingState message="Loading crime reports..." />;
   }
+
+  // Check if we have any reports after filtering
+  const hasReports = filteredGroupedReports.length > 0;
+  const totalIncidents = filteredGroupedReports.reduce((sum, group) => sum + group.reports.length, 0);
 
   return (
     <>
@@ -82,39 +180,93 @@ export default function FullDirectory() {
       >
         <Breadcrumbs items={[{ name: 'Full Directory', path: '/full-directory' }]} />
 
-        {groupedReports.length === 0 ? (
+        {!hasReports && groupedReports.length === 0 ? (
           <div className="no-reports">
             <p>No reports available at this time.</p>
           </div>
         ) : (
-          <div className="directory-content">
-            <div className="directory-summary">
-              <p className="directory-total-count">
-                Showing <strong>{reports.length}</strong> total incidents across <strong>{groupedReports.length}</strong> dates
-              </p>
+          <>
+            {/* Calendar and Filter Controls */}
+            <div className="directory-controls">
+              {/* Calendar Widget */}
+              <div className="directory-calendar-container">
+                <Calendar
+                  availableDates={availableDates}
+                  selectedDate={selectedDate}
+                  onDateSelect={handleDateSelect}
+                />
+              </div>
+
+              {/* Filter Checkbox */}
+              <div className="directory-filters">
+                <label className="directory-filter-checkbox-label">
+                  <input
+                    type="checkbox"
+                    checked={hideEmptySummaries}
+                    onChange={handleCheckboxToggle}
+                    className="directory-filter-checkbox"
+                  />
+                  <span>Hide dates with no detailed summaries</span>
+                </label>
+              </div>
+
+              {/* Summary Stats */}
+              <div className="directory-summary">
+                <p className="directory-total-count">
+                  {hasReports ? (
+                    <>
+                      Showing <strong>{totalIncidents}</strong> total incident{totalIncidents !== 1 ? 's' : ''} across <strong>{filteredGroupedReports.length}</strong> date{filteredGroupedReports.length !== 1 ? 's' : ''}
+                      {hideEmptySummaries && <span className="filter-active-note"> (filtered)</span>}
+                    </>
+                  ) : (
+                    'No dates match your filter criteria'
+                  )}
+                </p>
+              </div>
             </div>
 
-            {groupedReports.map(({ date, reports: dateReports }) => (
-              <section key={date} className="date-group">
-                <div className="date-group-header">
-                  <h2 className="date-heading">{formatDate(date)}</h2>
-                  <span className="incident-count">
-                    {dateReports.length} {dateReports.length === 1 ? 'incident' : 'incidents'}
-                  </span>
-                </div>
+            {/* Date Groups */}
+            {hasReports ? (
+              <div className="directory-content">
+                {filteredGroupedReports.map(({ date, dateObj, reports: dateReports }) => {
+                  const isSelected = selectedDate === date;
 
-                <div className="date-group-cards">
-                  {dateReports.map((report) => (
-                    <DirectoryCard
-                      key={report.incident_case}
-                      report={report}
-                      onClick={() => handleCardClick(report)}
-                    />
-                  ))}
-                </div>
-              </section>
-            ))}
-          </div>
+                  return (
+                    <section
+                      key={date}
+                      ref={el => dateRefs.current[date] = el}
+                      className={`date-group ${isSelected ? 'date-group-selected' : ''}`}
+                      id={`date-${date.replace(/\//g, '-')}`}
+                    >
+                      <div className="date-group-header">
+                        <h2 className="date-heading">
+                          {formatDate(date)}
+                          {isSelected && <span className="date-selected-indicator"> ✓</span>}
+                        </h2>
+                        <span className="incident-count">
+                          {dateReports.length} {dateReports.length === 1 ? 'incident' : 'incidents'}
+                        </span>
+                      </div>
+
+                      <div className="date-group-cards">
+                        {dateReports.map((report) => (
+                          <DirectoryCard
+                            key={report.incident_case}
+                            report={report}
+                            onClick={() => handleCardClick(report)}
+                          />
+                        ))}
+                      </div>
+                    </section>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="no-reports">
+                <p>No dates match your filter criteria. Try unchecking the filter above.</p>
+              </div>
+            )}
+          </>
         )}
 
         <Modal
