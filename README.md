@@ -1,4 +1,4 @@
-# 🔱UCSD🔱 Crime Logs
+# UCSD Crime Logs
 
 A comprehensive web application for tracking, visualizing, and analyzing UCSD campus security incidents and crime reports. 
 Built by a UCSD student for UCSD students to stay informed about campus safety.
