@@ -141,6 +141,8 @@ body {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid rgba(0,0,0,0.04);
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .featured-card::before {
@@ -163,6 +165,7 @@ body {
   height: 180px;
   background: linear-gradient(135deg, #e8dcc8 0%, #d9cfc0 100%);
   border-bottom: 1px solid #e8e3d8;
+  flex-shrink: 0;
 }
 
 .featured-card.card-1 .card-image {
@@ -179,6 +182,9 @@ body {
 
 .card-content {
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .card-meta {
@@ -216,6 +222,7 @@ body {
   color: #666;
   line-height: 1.7;
   margin-bottom: 1.3rem;
+  flex-grow: 1;
 }
 
 .card-footer {
@@ -224,6 +231,7 @@ body {
   align-items: center;
   padding-top: 1.2rem;
   border-top: 1px solid #f0f0f0;
+  margin-top: auto;
 }
 
 .footer-left {
