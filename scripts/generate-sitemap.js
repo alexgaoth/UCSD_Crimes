@@ -14,7 +14,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const BASE_URL = 'https://alexgaoth.github.io/UCSD_Crimes';
+const BASE_URL = 'https://alexgaoth.com/UCSD_Crimes';
 const OUTPUT_PATH = path.join(__dirname, '../app/public/sitemap.xml');
 const REPORTS_PATH = path.join(__dirname, '../app/public/police_reports.json');
 
