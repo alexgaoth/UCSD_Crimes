@@ -6,6 +6,7 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import SearchControls from '../components/SearchControls.jsx';
 import ResultCard from '../components/ResultCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import Modal from '../components/Modal.jsx';
 import SEO from '../components/SEO.jsx';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
@@ -13,13 +14,15 @@ import './Pages.css';
 export default function Search() {
   const { reports, loading } = useReports();
   const { uniqueCategories, uniqueLocations } = useReportsUtils(reports);
-  
+
   const [allReports, setAllReports] = useState([]);
   const [filteredReports, setFilteredReports] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
+  const [selectedReport, setSelectedReport] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     if (!loading && reports.length > 0) {
@@ -77,6 +80,16 @@ export default function Search() {
     }
   };
 
+  const handleCardClick = (report) => {
+    setSelectedReport(report);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setTimeout(() => setSelectedReport(null), 300);
+  };
+
   if (loading) {
     return <LoadingState message="Loading search..." />;
   }
@@ -120,11 +133,21 @@ export default function Search() {
             </div>
           ) : (
             filteredReports.map(report => (
-              <ResultCard key={report.incident_case} report={report} />
+              <ResultCard
+                key={report.incident_case}
+                report={report}
+                onClick={() => handleCardClick(report)}
+              />
             ))
           )}
         </div>
       </section>
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        report={selectedReport}
+      />
     </PageLayout>
     </>
   );

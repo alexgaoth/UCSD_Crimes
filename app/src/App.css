@@ -1038,3 +1038,134 @@ body {
   margin: 0 0.3rem;
   color: #b8a89a;
 }
+
+/* ========== USER-SUBMITTED REPORT STYLING ========== */
+
+/* User Report Badge (appears on cards) */
+.badge-user-report {
+  background: #f3e5f5;
+  color: #7b1fa2;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(123, 31, 162, 0.2);
+  display: inline-block;
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+/* Modal Source Badges */
+.badge-source {
+  padding: 0.4rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.badge-user-submitted {
+  background: #f3e5f5;
+  color: #7b1fa2;
+  border: 1px solid rgba(123, 31, 162, 0.2);
+}
+
+.badge-official {
+  background: #e8f5e9;
+  color: #558b2f;
+  border: 1px solid rgba(88, 139, 47, 0.2);
+}
+
+/* Modal Content - User Submitted */
+.modal-content-user-submitted::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #9c27b0, #7b1fa2);
+}
+
+.modal-content-official::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #7cb342, #558b2f);
+}
+
+/* Featured Card - User Submitted */
+.featured-card-user-submitted::before {
+  background: linear-gradient(90deg, #9c27b0, #7b1fa2);
+}
+
+.featured-card-user-submitted:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(156, 39, 176, 0.15);
+}
+
+/* Incident Row - User Submitted */
+.incident-row-user-submitted {
+  border-left-color: #9c27b0;
+}
+
+.incident-row-user-submitted:hover {
+  border-left-color: #7b1fa2;
+  box-shadow: 0 2px 8px rgba(156, 39, 176, 0.1);
+}
+
+/* Timeline Item - User Submitted */
+.timeline-item-user-submitted {
+  border-left-color: #9c27b0;
+}
+
+.timeline-item-user-submitted:hover {
+  border-left-color: #7b1fa2;
+}
+
+/* Result Card - User Submitted */
+.result-card-user-submitted {
+  border-left: 4px solid #9c27b0;
+}
+
+.result-card-user-submitted:hover {
+  box-shadow: 0 4px 12px rgba(156, 39, 176, 0.12);
+  border-left-color: #7b1fa2;
+}
+
+/* Adjust card-meta to wrap badges nicely */
+.card-meta {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.result-header > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.incident-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+@media (max-width: 768px) {
+  .badge-user-report {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .badge-source {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.85rem;
+  }
+}
