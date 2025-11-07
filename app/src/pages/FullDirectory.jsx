@@ -69,47 +69,72 @@ export default function FullDirectory() {
     return sortedGroups;
   }, [reports, today]);
 
-  // Apply empty summary filter
-  const filteredGroupedReports = useMemo(() => {
-    if (!hideEmptySummaries) return groupedReports;
+  // Get reports for the selected date only
+  const selectedDateReports = useMemo(() => {
+    if (!selectedDate) return [];
 
-    // Filter out date groups where ALL reports have empty/very short summaries
-    return groupedReports.filter(({ reports: dateReports }) => {
-      // Check if at least one report has a meaningful summary (> 10 characters)
-      return dateReports.some(report => {
+    // Find the date group for the selected date
+    const dateGroup = groupedReports.find(({ date }) => date === selectedDate);
+    if (!dateGroup) return [];
+
+    // Sort reports within the selected date by most recent first (date_reported)
+    const sortedReports = [...dateGroup.reports].sort((a, b) => {
+      const dateA = new Date(a.date_reported || a.date_occurred);
+      const dateB = new Date(b.date_reported || b.date_occurred);
+      return dateB - dateA; // Most recent first
+    });
+
+    // Apply empty summary filter if enabled
+    if (hideEmptySummaries) {
+      return sortedReports.filter(report => {
         const summary = report.incident_summary || '';
         return summary.trim().length > 10;
       });
-    });
-  }, [groupedReports, hideEmptySummaries]);
+    }
 
-  // Get array of available dates (for calendar highlighting)
+    return sortedReports;
+  }, [groupedReports, selectedDate, hideEmptySummaries]);
+
+  // Get array of available dates for calendar (dates that have at least one valid report)
   const availableDates = useMemo(() => {
-    return filteredGroupedReports.map(({ date }) => date);
-  }, [filteredGroupedReports]);
+    if (!hideEmptySummaries) {
+      return groupedReports.map(({ date }) => date);
+    }
+
+    // When filter is active, only show dates that have at least one report with a meaningful summary
+    return groupedReports
+      .filter(({ reports: dateReports }) => {
+        return dateReports.some(report => {
+          const summary = report.incident_summary || '';
+          return summary.trim().length > 10;
+        });
+      })
+      .map(({ date }) => date);
+  }, [groupedReports, hideEmptySummaries]);
 
   // Smart default date selection - find nearest date to today with reports
   useEffect(() => {
-    if (!selectedDate && filteredGroupedReports.length > 0) {
-      // Find the date closest to today
+    if (!selectedDate && groupedReports.length > 0 && availableDates.length > 0) {
+      // Find the date closest to today from available dates
       let nearestDate = null;
       let minDiff = Infinity;
 
-      filteredGroupedReports.forEach(({ date, dateObj }) => {
-        const diff = Math.abs(today - dateObj);
-        if (diff < minDiff) {
-          minDiff = diff;
-          nearestDate = date;
+      groupedReports.forEach(({ date, dateObj }) => {
+        // Only consider dates that are in availableDates (i.e., pass the filter)
+        if (availableDates.includes(date)) {
+          const diff = Math.abs(today - dateObj);
+          if (diff < minDiff) {
+            minDiff = diff;
+            nearestDate = date;
+          }
         }
       });
 
       if (nearestDate) {
         setSelectedDate(nearestDate);
-        // Scroll to this date after a short delay to ensure DOM is ready
-        setTimeout(() => scrollToDate(nearestDate), 300);
       }
     }
-  }, [filteredGroupedReports, selectedDate, today]);
+  }, [groupedReports, availableDates, selectedDate, today]);
 
   // Format date nicely (e.g., "Monday, November 5, 2025")
   const formatDate = (date) => {
@@ -161,9 +186,9 @@ export default function FullDirectory() {
     return <LoadingState message="Loading crime reports..." />;
   }
 
-  // Check if we have any reports after filtering
-  const hasReports = filteredGroupedReports.length > 0;
-  const totalIncidents = filteredGroupedReports.reduce((sum, group) => sum + group.reports.length, 0);
+  // Check if we have any reports for the selected date
+  const hasReports = selectedDateReports.length > 0;
+  const hasSelectedDate = selectedDate !== null;
 
   return (
     <>
@@ -213,57 +238,65 @@ export default function FullDirectory() {
               {/* Summary Stats */}
               <div className="directory-summary">
                 <p className="directory-total-count">
-                  {hasReports ? (
-                    <>
-                      Showing <strong>{totalIncidents}</strong> total incident{totalIncidents !== 1 ? 's' : ''} across <strong>{filteredGroupedReports.length}</strong> date{filteredGroupedReports.length !== 1 ? 's' : ''}
-                      {hideEmptySummaries && <span className="filter-active-note"> (filtered)</span>}
-                    </>
+                  {hasSelectedDate ? (
+                    hasReports ? (
+                      <>
+                        Showing <strong>{selectedDateReports.length}</strong> incident{selectedDateReports.length !== 1 ? 's' : ''} for <strong>{formatDate(selectedDate)}</strong>
+                        {hideEmptySummaries && <span className="filter-active-note"> (filtered to show only detailed summaries)</span>}
+                      </>
+                    ) : (
+                      <>
+                        No reports for <strong>{formatDate(selectedDate)}</strong>
+                        {hideEmptySummaries && <span> matching your filter criteria. Try unchecking the filter above.</span>}
+                      </>
+                    )
                   ) : (
-                    'No dates match your filter criteria'
+                    'Select a date from the calendar to view reports'
                   )}
                 </p>
               </div>
             </div>
 
-            {/* Date Groups */}
-            {hasReports ? (
-              <div className="directory-content">
-                {filteredGroupedReports.map(({ date, dateObj, reports: dateReports }) => {
-                  const isSelected = selectedDate === date;
+            {/* Selected Date Reports */}
+            {hasSelectedDate ? (
+              hasReports ? (
+                <div className="directory-content">
+                  <section
+                    className="date-group date-group-selected"
+                    id={`date-${selectedDate.replace(/\//g, '-')}`}
+                  >
+                    <div className="date-group-header">
+                      <h2 className="date-heading">
+                        {formatDate(selectedDate)}
+                        <span className="date-selected-indicator"> ✓</span>
+                      </h2>
+                      <span className="incident-count">
+                        {selectedDateReports.length} {selectedDateReports.length === 1 ? 'incident' : 'incidents'}
+                      </span>
+                    </div>
 
-                  return (
-                    <section
-                      key={date}
-                      ref={el => dateRefs.current[date] = el}
-                      className={`date-group ${isSelected ? 'date-group-selected' : ''}`}
-                      id={`date-${date.replace(/\//g, '-')}`}
-                    >
-                      <div className="date-group-header">
-                        <h2 className="date-heading">
-                          {formatDate(date)}
-                          {isSelected && <span className="date-selected-indicator"> ✓</span>}
-                        </h2>
-                        <span className="incident-count">
-                          {dateReports.length} {dateReports.length === 1 ? 'incident' : 'incidents'}
-                        </span>
-                      </div>
-
-                      <div className="date-group-cards">
-                        {dateReports.map((report) => (
-                          <DirectoryCard
-                            key={report.incident_case}
-                            report={report}
-                            onClick={() => handleCardClick(report)}
-                          />
-                        ))}
-                      </div>
-                    </section>
-                  );
-                })}
-              </div>
+                    <div className="date-group-cards">
+                      {selectedDateReports.map((report) => (
+                        <DirectoryCard
+                          key={report.incident_case}
+                          report={report}
+                          onClick={() => handleCardClick(report)}
+                        />
+                      ))}
+                    </div>
+                  </section>
+                </div>
+              ) : (
+                <div className="no-reports">
+                  <p>
+                    No reports for {formatDate(selectedDate)}
+                    {hideEmptySummaries && ' matching your filter criteria. Try unchecking the filter above.'}
+                  </p>
+                </div>
+              )
             ) : (
               <div className="no-reports">
-                <p>No dates match your filter criteria. Try unchecking the filter above.</p>
+                <p>Select a date from the calendar above to view reports.</p>
               </div>
             )}
           </>

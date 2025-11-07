@@ -4,7 +4,7 @@ import React, { useState, useMemo } from 'react';
  * Calendar Component
  * - Displays a month view calendar
  * - Highlights dates with crime reports (green)
- * - Highlights the selected date (blue)
+ * - Highlights the selected date (orange)
  * - Allows navigation between months
  * - Mobile responsive
  */
@@ -202,7 +202,7 @@ export default function Calendar({
           <span className="calendar-legend-text">Has reports</span>
         </div>
         <div className="calendar-legend-item">
-          <span className="calendar-legend-indicator calendar-legend-blue"></span>
+          <span className="calendar-legend-indicator calendar-legend-orange"></span>
           <span className="calendar-legend-text">Selected</span>
         </div>
       </div>

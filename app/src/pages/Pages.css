@@ -1239,20 +1239,20 @@
   transform: scale(1.05);
 }
 
-/* Selected day (blue) */
+/* Selected day (orange) */
 .calendar-day-selected {
-  background: #e3f2fd !important;
-  border-color: #2196f3 !important;
-  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.2);
+  background: #fff3e0 !important;
+  border-color: #ff9800 !important;
+  box-shadow: 0 0 0 2px rgba(255, 152, 0, 0.2);
 }
 
 .calendar-day-selected .calendar-day-number {
-  color: #1976d2 !important;
+  color: #f57c00 !important;
   font-weight: 700;
 }
 
 .calendar-day-selected .calendar-day-indicator {
-  background: #2196f3;
+  background: #ff9800;
 }
 
 /* Today indicator */
@@ -1298,9 +1298,9 @@
   border-color: #7cb342;
 }
 
-.calendar-legend-blue {
-  background: #2196f3;
-  border-color: #2196f3;
+.calendar-legend-orange {
+  background: #ff9800;
+  border-color: #ff9800;
 }
 
 .calendar-legend-text {
@@ -1350,15 +1350,15 @@
 }
 
 .date-group-selected .date-group-header {
-  border-bottom-color: #2196f3;
-  background: linear-gradient(90deg, rgba(33, 150, 243, 0.05) 0%, transparent 100%);
+  border-bottom-color: #ff9800;
+  background: linear-gradient(90deg, rgba(255, 152, 0, 0.05) 0%, transparent 100%);
   padding: 1rem;
   margin: -1rem -1rem 0 -1rem;
   margin-bottom: 1rem;
 }
 
 .date-selected-indicator {
-  color: #2196f3;
+  color: #ff9800;
   font-size: 1.4rem;
   font-weight: 700;
   margin-left: 0.5rem;

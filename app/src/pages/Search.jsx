@@ -26,8 +26,14 @@ export default function Search() {
 
   useEffect(() => {
     if (!loading && reports.length > 0) {
-      setAllReports(reports);
-      setFilteredReports(reports.slice(0, 10));
+      // Sort reports by most recent first
+      const sorted = [...reports].sort((a, b) => {
+        const dateA = new Date(a.date_reported || a.date_occurred);
+        const dateB = new Date(b.date_reported || b.date_occurred);
+        return dateB - dateA; // Most recent first
+      });
+      setAllReports(sorted);
+      setFilteredReports(sorted.slice(0, 10));
     }
   }, [reports, loading]);
 
@@ -50,6 +56,13 @@ export default function Search() {
     if (selectedLocation !== 'all') {
       filtered = filtered.filter(report => report.location === selectedLocation);
     }
+
+    // Sort by most recent first (date_reported)
+    filtered = filtered.sort((a, b) => {
+      const dateA = new Date(a.date_reported || a.date_occurred);
+      const dateB = new Date(b.date_reported || b.date_occurred);
+      return dateB - dateA; // Most recent first
+    });
 
     setFilteredReports(filtered.slice(0, 10));
   }, [activeSearchTerm, selectedCategory, selectedLocation, allReports]);

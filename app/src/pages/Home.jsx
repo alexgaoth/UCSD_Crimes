@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
@@ -19,13 +19,22 @@ export default function Home() {
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const featuredReports = topRecentReports.length > 0 
-    ? topRecentReports.slice(0, 3) 
-    : reports.slice(0, 3);
-  
-  const otherReports = topRecentReports.length > 0 
+  // Sort all reports by most recent first (for fallback when topRecentReports is empty)
+  const sortedReports = useMemo(() => {
+    return [...reports].sort((a, b) => {
+      const dateA = new Date(a.date_reported || a.date_occurred);
+      const dateB = new Date(b.date_reported || b.date_occurred);
+      return dateB - dateA; // Most recent first
+    });
+  }, [reports]);
+
+  const featuredReports = topRecentReports.length > 0
+    ? topRecentReports.slice(0, 3)
+    : sortedReports.slice(0, 3);
+
+  const otherReports = topRecentReports.length > 0
     ? topRecentReports.slice(3, 15)
-    : reports.slice(3, 15);
+    : sortedReports.slice(3, 15);
 
   const handleCardClick = (report) => {
     setSelectedReport(report);
