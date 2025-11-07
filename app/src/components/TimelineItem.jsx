@@ -17,7 +17,9 @@ export default function TimelineItem({ report, onClick }) {
       <div className="result-header">
         <div>
           <h3>{report.location}</h3>
-          <span className="result-category">{report.category}</span>
+          <span className={`result-category ${userSubmitted ? 'result-category-user-submitted' : 'result-category'}`}>
+            {report.category}
+          </span>
           {userSubmitted && <span className="badge-user-report">User Report</span>}
         </div>
         <span className="result-case">#{report.incident_case}</span>

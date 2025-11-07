@@ -270,6 +270,12 @@
   font-weight: 600;
 }
 
+.result-category-user-submitted{
+  font-size: 0.85rem;
+  color: #7b1fa2;
+  font-weight: 600;
+}
+
 .result-case {
   font-size: 0.85rem;
   color: #999;
