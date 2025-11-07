@@ -77,11 +77,18 @@ export default function FullDirectory() {
     const dateGroup = groupedReports.find(({ date }) => date === selectedDate);
     if (!dateGroup) return [];
 
-    // Sort reports within the selected date by most recent first (date_reported)
+    // Sort reports within the selected date by most recent first (date + time for accurate sorting)
     const sortedReports = [...dateGroup.reports].sort((a, b) => {
-      const dateA = new Date(a.date_reported || a.date_occurred);
-      const dateB = new Date(b.date_reported || b.date_occurred);
-      return dateB - dateA; // Most recent first
+      // Create datetime by combining date and time for accurate sorting
+      const dateStrA = a.date_reported || a.date_occurred;
+      const timeStrA = a.time_occurred || '00:00';
+      const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
+
+      const dateStrB = b.date_reported || b.date_occurred;
+      const timeStrB = b.time_occurred || '00:00';
+      const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
+
+      return dateTimeB - dateTimeA; // Most recent first
     });
 
     // Apply empty summary filter if enabled
@@ -178,8 +185,8 @@ export default function FullDirectory() {
   // Handle checkbox toggle
   const handleCheckboxToggle = (e) => {
     setHideEmptySummaries(e.target.checked);
-    // Reset selected date when filter changes
-    setSelectedDate(null);
+    // Keep the current selected date - let the UI show filtered results or "no reports" message
+    // Don't reset to null as that would cause no reports to show until a new date is selected
   };
 
   if (loading) {
