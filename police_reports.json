@@ -27919,6 +27919,244 @@
           "disposition": "Under Review"
         }
       ]
+    },
+    {
+      "filename": "November 5, 2025.pdf",
+      "date": "November 5, 2025",
+      "page_count": 4,
+      "incident_count": 23,
+      "incidents": [
+        {
+          "category": "University Curfew Violation, Stay Away Order Issuancer",
+          "location": "Brisa",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050002",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "12:18 AM",
+          "summary": "Original callf or suspicious person; unknown subject banging on building and attempting to get in",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Tenaya Hall",
+          "date_reported": "11/5/2025",
+          "incident_case": "2025-2030",
+          "date_occurred": "",
+          "time_occurred": "6:00 PM - 8:00 AM",
+          "summary": "Secured e-bike stolen; loss $300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Cancer Center",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050017",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "8:49 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Seventh College",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050018",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "8:53 AM",
+          "summary": "Reporting party's daughter hasn't texted back since last night",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Perlman Ambulatory",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050023",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "9:17 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050026",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "10:27 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department - UCSD"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Hopkins Drive",
+          "date_reported": "11/5/2025",
+          "incident_case": "T25000290",
+          "date_occurred": "10/19/2025",
+          "time_occurred": "Unknown",
+          "summary": "Black headphones stolen from bench in locker room; Loss $400",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Parking Lot P510",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050029",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "12:43 PM",
+          "summary": "Disposition Service Provided Animal Call Thornton Pavilion",
+          "disposition": ""
+        },
+        {
+          "category": "Animal Call",
+          "location": "Thornton Pavilion",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050030",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "1:00 PM",
+          "summary": "Dog of a patient bit doctor",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "Via Barletta",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050032",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "1:24 PM",
+          "summary": "Reporting party submitted a get it done request to city of san Diego which was misrouted to UCPD",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "General Disturbance",
+          "location": "Regents Park Row",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050035",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "2:07 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Atkinson Hall",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050036",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "2:09 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Stolen Vehicle",
+          "location": "Torrey Pines Center",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050040",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "2:53 PM",
+          "summary": "Blue UC Columbia Cart, unknown if other employee had permission to use",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Lost Property",
+          "location": "Library Walk",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050042",
+          "date_occurred": "10/27/2025",
+          "time_occurred": "Unknown",
+          "summary": "Reporting party was working a tabling event and lost her diamond engagement ring",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Torrey Pines Center",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050045",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "3:36 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Regents Park Row",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050046",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "3:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Hit and Run Collision - No Injuries",
+          "location": "Hopkins Parking",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050056",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "5:24 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "Tamarack Avenue",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050060",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "6:21 PM",
+          "summary": "Reporting parting reporting a swimmer in the water, unknown if he is in distress or not",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Astilla",
+          "date_reported": "11/5/2025",
+          "incident_case": "22511050061",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "6:37 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Pulse",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050065",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "8:27 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Pulse",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050067",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "10:05 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Kathmandu",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050069",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "11:18 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Charles David Keeling Apartments",
+          "date_reported": "11/5/2025",
+          "incident_case": "2511050070",
+          "date_occurred": "11/5/2025",
+          "time_occurred": "11:34 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -28009,6 +28247,7 @@
     "October 30, 2025.pdf",
     "October 31, 2025.pdf",
     "November 3, 2025.pdf",
-    "November 4, 2025.pdf"
+    "November 4, 2025.pdf",
+    "November 5, 2025.pdf"
   ]
 }
