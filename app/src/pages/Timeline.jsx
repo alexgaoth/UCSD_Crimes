@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
 import PageLayout from '../components/PageLayout.jsx';
@@ -6,6 +6,7 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import TimelineChart from '../components/TimelineChart.jsx';
 import TimelineItem from '../components/TimelineItem.jsx';
 import LoadingState from '../components/LoadingState.jsx';
+import Modal from '../components/Modal.jsx';
 import SEO from '../components/SEO.jsx';
 import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
@@ -13,10 +14,22 @@ import './Pages.css';
 export default function Timeline() {
   const { reports, loading } = useReports();
   const { occurredDistribution, reportedDistribution } = useReportsUtils(reports);
+  const [selectedReport, setSelectedReport] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const maxValue = useMemo(() => {
     return Math.max(...occurredDistribution, ...reportedDistribution, 1);
   }, [occurredDistribution, reportedDistribution]);
+
+  const handleCardClick = (report) => {
+    setSelectedReport(report);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setTimeout(() => setSelectedReport(null), 300);
+  };
 
   if (loading) {
     return <LoadingState message="Loading timeline..." />;
@@ -47,10 +60,20 @@ export default function Timeline() {
         <SectionTitle>Literally most recent Reports released</SectionTitle>
         <div className="timeline-items">
           {reports.slice(0, 20).map(report => (
-            <TimelineItem key={report.incident_case} report={report} />
+            <TimelineItem
+              key={report.incident_case}
+              report={report}
+              onClick={() => handleCardClick(report)}
+            />
           ))}
         </div>
       </section>
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        report={selectedReport}
+      />
     </PageLayout>
     </>
   );
