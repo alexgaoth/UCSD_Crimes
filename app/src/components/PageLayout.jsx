@@ -25,7 +25,7 @@ export default function PageLayout({ title, subtitle, showBackLink = true, child
           </div>
           <div className="header-credit">
             <p>made by a ucsd student for ucsd students</p>
-            <a href="https://alexgaoth.github.io/main-section/" target="_blank" rel="noopener noreferrer">
+            <a href="https://alexgaoth.com" target="_blank" rel="noopener noreferrer">
               check out more about me here
             </a>
           </div>
