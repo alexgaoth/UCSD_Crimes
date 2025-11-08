@@ -10,15 +10,6 @@ import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import Calendar from '../components/Calendar.jsx';
 import './Pages.css';
 
-/**
- * FullDirectory page - Browse all crime reports organized by date
- * Features:
- * - Interactive calendar with date selection
- * - Filter out future dates
- * - Checkbox to hide dates with empty summaries
- * - Smart default date selection (nearest date to today with reports)
- * - Smooth scrolling to selected dates
- */
 export default function FullDirectory() {
   const { reports, loading } = useReports();
   const [selectedReport, setSelectedReport] = useState(null);
@@ -94,7 +85,7 @@ export default function FullDirectory() {
     // Apply empty summary filter if enabled
     if (hideEmptySummaries) {
       return sortedReports.filter(report => {
-        const summary = report.incident_summary || '';
+        const summary = report.summary || '';
         return summary.trim().length > 10;
       });
     }
