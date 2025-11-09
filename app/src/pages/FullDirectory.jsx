@@ -42,10 +42,13 @@ export default function FullDirectory() {
       // FILTER OUT FUTURE DATES
       if (dateObj > today) return;
 
-      if (!dateMap.has(date)) {
-        dateMap.set(date, []);
+      const normalizedDate = `${String(dateObj.getMonth() + 1).padStart(2, '0')}/${String(dateObj.getDate()).padStart(2, '0')}/${dateObj.getFullYear()}`;
+
+
+      if (!dateMap.has(normalizedDate)) {
+        dateMap.set(normalizedDate, []);
       }
-      dateMap.get(date).push(report);
+      dateMap.get(normalizedDate).push(report);
     });
 
     // Convert to array and sort by date (newest first)
@@ -229,7 +232,7 @@ export default function FullDirectory() {
                     onChange={handleCheckboxToggle}
                     className="directory-filter-checkbox"
                   />
-                  <span>Hide dates with no detailed summaries</span>
+                  <span>hide reports with no detailed summaries</span>
                 </label>
               </div>
 

@@ -21,15 +21,14 @@ export default function Timeline() {
     return Math.max(...occurredDistribution, ...reportedDistribution, 1);
   }, [occurredDistribution, reportedDistribution]);
 
-  // Sort reports by most recent first (date_reported + time_occurred for accurate sorting)
   const sortedReports = useMemo(() => {
     return [...reports].sort((a, b) => {
-      // Create datetime by combining date and time for accurate sorting
-      const dateStrA = a.date_reported || a.date_occurred;
+      // Always sort by date_occurred for consistency
+      const dateStrA = a.date_occurred;
       const timeStrA = a.time_occurred || '00:00';
       const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
 
-      const dateStrB = b.date_reported || b.date_occurred;
+      const dateStrB = b.date_occurred;
       const timeStrB = b.time_occurred || '00:00';
       const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
 
