@@ -29,11 +29,11 @@ export default function Search() {
       // Sort reports by most recent first (date + time for accurate sorting)
       const sorted = [...reports].sort((a, b) => {
         // Create datetime by combining date and time for accurate sorting
-        const dateStrA = a.date_reported || a.date_occurred;
+        const dateStrA = a.date_occurred;
         const timeStrA = a.time_occurred || '00:00';
         const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
 
-        const dateStrB = b.date_reported || b.date_occurred;
+        const dateStrB = b.date_occurred;
         const timeStrB = b.time_occurred || '00:00';
         const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
 
@@ -67,11 +67,11 @@ export default function Search() {
     // Sort by most recent first (date + time for accurate sorting)
     filtered = filtered.sort((a, b) => {
       // Create datetime by combining date and time for accurate sorting
-      const dateStrA = a.date_reported || a.date_occurred;
+      const dateStrA = a.date_occurred;
       const timeStrA = a.time_occurred || '00:00';
       const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
 
-      const dateStrB = b.date_reported || b.date_occurred;
+      const dateStrB = b.date_occurred;
       const timeStrB = b.time_occurred || '00:00';
       const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
 

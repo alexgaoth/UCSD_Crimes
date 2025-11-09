@@ -19,7 +19,9 @@ export default function DirectoryCard({ report, onClick }) {
         <span className="directory-case">#{report.incident_case}</span>
       </div>
 
-      <p className="directory-summary">{report.summary}</p>
+      {report.summary && report.summary.trim().length > 0 && (
+        <p className="directory-summary">{report.summary}</p>
+      )}
 
       <div className="directory-card-footer">
         <div className="directory-footer-left">
