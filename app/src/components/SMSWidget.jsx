@@ -1,140 +1,153 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { supabase } from '../lib/supabaseClient.js';
-import { sendVerificationCode } from '../lib/smsService.js';
+import {
+  isNotificationSupported,
+  getNotificationPermission,
+  requestNotificationPermission,
+  sendTestNotification,
+  isSubscribed,
+  subscribe,
+  unsubscribe,
+  getEnableInstructions,
+  initializeNotifications
+} from '../lib/notificationService.js';
 import '../App.css';
 
 export default function SMSWidget() {
   const [isOpen, setIsOpen] = useState(false);
-  const [phoneNumber, setPhoneNumber] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [isSubscribed, setIsSubscribed] = useState(false);
-  const navigate = useNavigate();
+  const [success, setSuccess] = useState(null);
+  const [subscribed, setSubscribed] = useState(false);
+  const [notificationSupported, setNotificationSupported] = useState(true);
+  const [agreedToTerms, setAgreedToTerms] = useState(false);
 
-  // Check if user is already subscribed
+  // Initialize notifications and check subscription status on mount
   useEffect(() => {
-    const checkSubscription = async () => {
-      const storedPhone = localStorage.getItem('sms_phone_number');
-      if (storedPhone) {
-        try {
-          const { data, error } = await supabase
-            .from('sms_subscribers')
-            .select('verified')
-            .eq('phone_number', storedPhone)
-            .eq('verified', true)
-            .single();
-
-          if (data && !error) {
-            setIsSubscribed(true);
-          } else {
-            localStorage.removeItem('sms_phone_number');
-          }
-        } catch (err) {
-          console.error('Error checking subscription:', err);
-        }
+    const initialize = async () => {
+      // Check if notifications are supported
+      if (!isNotificationSupported()) {
+        setNotificationSupported(false);
+        return;
       }
+
+      // Initialize notification system
+      await initializeNotifications();
+
+      // Check if already subscribed
+      const currentlySubscribed = isSubscribed();
+      setSubscribed(currentlySubscribed);
     };
 
-    checkSubscription();
+    initialize();
   }, []);
 
-  const formatPhoneNumber = (value) => {
-    // Remove all non-digit characters
-    const digits = value.replace(/\D/g, '');
-
-    // Limit to 10 digits (US phone number)
-    const limitedDigits = digits.slice(0, 10);
-
-    // Format as (XXX) XXX-XXXX
-    if (limitedDigits.length <= 3) {
-      return limitedDigits;
-    } else if (limitedDigits.length <= 6) {
-      return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(3)}`;
-    } else {
-      return `(${limitedDigits.slice(0, 3)}) ${limitedDigits.slice(3, 6)}-${limitedDigits.slice(6)}`;
-    }
-  };
-
-  const handlePhoneChange = (e) => {
-    const formatted = formatPhoneNumber(e.target.value);
-    setPhoneNumber(formatted);
-    setError(null);
-  };
-
-  const validatePhoneNumber = (phone) => {
-    // Remove all non-digit characters
-    const digits = phone.replace(/\D/g, '');
-    return digits.length === 10;
-  };
-
-  const handleSubmit = async (e) => {
+  // Handle subscribe button click
+  const handleSubscribe = async (e) => {
     e.preventDefault();
     setError(null);
-
-    // Validate phone number
-    if (!validatePhoneNumber(phoneNumber)) {
-      setError('Please enter a valid 10-digit phone number');
-      return;
-    }
-
+    setSuccess(null);
     setLoading(true);
 
     try {
-      // Extract digits only and add +1 prefix
-      const digits = phoneNumber.replace(/\D/g, '');
-      const e164Phone = `+1${digits}`;
+      // Request notification permission
+      const permission = await requestNotificationPermission();
 
-      // Send verification code
-      const result = await sendVerificationCode(e164Phone);
+      if (permission === 'granted') {
+        // Store subscription
+        subscribe();
+        setSubscribed(true);
+        setSuccess("✓ Notifications enabled! You'll be alerted of new reports.");
 
-      if (result.success) {
-        // Store phone number in localStorage for verification page
-        localStorage.setItem('sms_phone_number', e164Phone);
+        // Send test notification
+        setTimeout(() => {
+          sendTestNotification();
+        }, 500);
 
-        // Navigate to verification page
-        navigate('/sms-verification', { state: { phoneNumber: e164Phone } });
+        // Close modal after 2 seconds
+        setTimeout(() => {
+          setIsOpen(false);
+          setSuccess(null);
+        }, 2000);
+      } else if (permission === 'denied') {
+        setError(
+          '⚠ Notifications blocked. To receive alerts, please enable notifications in your browser settings.'
+        );
       } else {
-        setError(result.error || 'Failed to send verification code. Please try again.');
+        // Permission prompt dismissed (default state)
+        setError('Please allow notifications to receive crime alerts.');
       }
     } catch (err) {
-      console.error('Error sending verification:', err);
+      console.error('Error requesting notification permission:', err);
       setError('An unexpected error occurred. Please try again.');
     } finally {
       setLoading(false);
     }
   };
 
-  const handleUnsubscribe = async () => {
-    const storedPhone = localStorage.getItem('sms_phone_number');
-    if (storedPhone && window.confirm('Are you sure you want to unsubscribe from SMS alerts?')) {
-      try {
-        const { error } = await supabase
-          .from('sms_subscribers')
-          .delete()
-          .eq('phone_number', storedPhone);
-
-        if (!error) {
-          localStorage.removeItem('sms_phone_number');
-          setIsSubscribed(false);
-          setIsOpen(false);
-          alert('You have been unsubscribed from SMS alerts.');
-        }
-      } catch (err) {
-        console.error('Error unsubscribing:', err);
-        alert('Failed to unsubscribe. Please try again.');
-      }
+  // Handle unsubscribe
+  const handleUnsubscribe = () => {
+    if (window.confirm('Are you sure you want to unsubscribe from notifications?')) {
+      unsubscribe();
+      setSubscribed(false);
+      setIsOpen(false);
+      setSuccess(null);
+      setError(null);
     }
   };
 
-  // Don't show widget if already subscribed
-  if (isSubscribed) {
+  // Handle "Try Again" after permission denied
+  const handleTryAgain = () => {
+    setError(null);
+    // Show browser-specific instructions
+    const instructions = getEnableInstructions();
+    setError(`To enable notifications: ${instructions}`);
+  };
+
+  // If notifications are not supported
+  if (!notificationSupported) {
+    return (
+      <>
+        <button
+          className="sms-widget-button sms-widget-disabled"
+          onClick={() => setIsOpen(true)}
+          aria-label="Notifications Not Available"
+          disabled
+        >
+          <span className="sms-widget-icon">🔔</span>
+        </button>
+
+        {isOpen && (
+          <div className="modal-overlay" onClick={() => setIsOpen(false)}>
+            <div className="modal-content sms-modal" onClick={(e) => e.stopPropagation()}>
+              <button className="modal-close" onClick={() => setIsOpen(false)}>×</button>
+
+              <div className="sms-modal-header">
+                <h2>Notifications Unavailable</h2>
+                <p className="sms-modal-subtext">
+                  Your browser doesn't support notifications
+                </p>
+              </div>
+
+              <div className="sms-modal-body">
+                <p className="sms-privacy-note">
+                  Please use a modern browser like Chrome, Firefox, Safari, or Edge to enable notifications.
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+      </>
+    );
+  }
+
+  // Already subscribed state
+  if (subscribed) {
     return (
       <>
         <button
           className="sms-widget-button sms-widget-subscribed"
           onClick={() => setIsOpen(true)}
-          aria-label="SMS Subscription Settings"
+          aria-label="Notification Settings"
         >
           <span className="sms-widget-icon">✓</span>
         </button>
@@ -145,16 +158,16 @@ export default function SMSWidget() {
               <button className="modal-close" onClick={() => setIsOpen(false)}>×</button>
 
               <div className="sms-modal-header">
-                <h2>SMS Alerts Subscribed</h2>
+                <h2>You're Subscribed</h2>
                 <p className="sms-modal-subtext">
-                  You're receiving notifications for new crime reports
+                  Receiving notifications for new crime reports
                 </p>
               </div>
 
               <div className="sms-modal-body">
                 <div className="sms-subscribed-info">
                   <div className="sms-check-icon">✓</div>
-                  <p>You'll receive SMS alerts when new reports are added to the system.</p>
+                  <p>You'll receive browser notifications when new reports are added to the system.</p>
                 </div>
 
                 <button
@@ -164,6 +177,10 @@ export default function SMSWidget() {
                 >
                   Unsubscribe
                 </button>
+
+                <p className="sms-privacy-note">
+                  You can also manage notifications in your browser settings.
+                </p>
               </div>
             </div>
           </div>
@@ -172,12 +189,13 @@ export default function SMSWidget() {
     );
   }
 
+  // Not subscribed - show subscription form
   return (
     <>
       <button
         className="sms-widget-button"
         onClick={() => setIsOpen(true)}
-        aria-label="Subscribe to SMS Alerts"
+        aria-label="Subscribe to Crime Alerts"
       >
         <span className="sms-widget-icon">🔔</span>
       </button>
@@ -188,48 +206,63 @@ export default function SMSWidget() {
             <button className="modal-close" onClick={() => setIsOpen(false)}>×</button>
 
             <div className="sms-modal-header">
-              <h2>Get Crime Alerts via SMS</h2>
+              <h2>Get Crime Alerts</h2>
               <p className="sms-modal-subtext">
-                Receive instant notifications when new reports are added
+                Receive instant browser notifications when new reports are added
               </p>
             </div>
 
             <div className="sms-modal-body">
+              {success && (
+                <div className="sms-success">
+                  <p>{success}</p>
+                </div>
+              )}
+
               {error && (
                 <div className="sms-error">
                   <p>{error}</p>
                 </div>
               )}
 
-              <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                  <label htmlFor="sms-phone">Phone Number</label>
-                  <div className="sms-phone-input-wrapper">
-                    <span className="sms-country-code">+1</span>
+              <form onSubmit={handleSubscribe}>
+                <div className="form-group notification-checkbox-group">
+                  <label className="notification-checkbox-label">
                     <input
-                      type="tel"
-                      id="sms-phone"
-                      value={phoneNumber}
-                      onChange={handlePhoneChange}
-                      placeholder="(555) 123-4567"
-                      required
+                      type="checkbox"
+                      checked={agreedToTerms}
+                      onChange={(e) => setAgreedToTerms(e.target.checked)}
                       disabled={loading}
-                      autoFocus
                     />
-                  </div>
+                    <span className="notification-checkbox-text">
+                      Enable notifications for new crime reports
+                    </span>
+                  </label>
+                  <p className="notification-info-text">
+                    Stay informed about campus safety
+                  </p>
                 </div>
 
-                <button
-                  type="submit"
-                  className="submit-button sms-submit-button"
-                  disabled={loading}
-                >
-                  {loading ? 'Sending Code...' : 'Send Verification Code'}
-                </button>
+                {getNotificationPermission() === 'denied' ? (
+                  <button
+                    type="button"
+                    className="submit-button sms-submit-button"
+                    onClick={handleTryAgain}
+                  >
+                    Show Instructions
+                  </button>
+                ) : (
+                  <button
+                    type="submit"
+                    className="submit-button sms-submit-button"
+                    disabled={loading || !agreedToTerms}
+                  >
+                    {loading ? 'Requesting Permission...' : 'Enable Notifications'}
+                  </button>
+                )}
 
                 <p className="sms-privacy-note">
-                  By subscribing, you agree to receive SMS notifications. Standard message and data rates may apply.
-                  You can unsubscribe at any time.
+                  You can unsubscribe anytime from your browser settings or by clicking the notification icon.
                 </p>
               </form>
             </div>
