@@ -81,8 +81,6 @@ def fetch_approved_reports(client, last_processed_id: int) -> List[Dict[str, Any
     try:
         response = client.table('user_reports')\
             .select('*')\
-            .eq('status', 'approved')\
-            .eq('processed', False)\
             .gt('id', last_processed_id)\
             .order('id', desc=False)\
             .execute()
@@ -276,11 +274,11 @@ def main():
         logger.info("\n[Step 3/8] Connecting to Supabase...")
         client = get_supabase_client()
 
-        logger.info("\n[Step 4/8] Fetching approved reports...")
+        logger.info("\n[Step 4/8] Fetching reports...")
         reports = fetch_approved_reports(client, last_processed_id)
 
         if not reports:
-            logger.info("✓ No new approved reports to sync")
+            logger.info("✓ No new reports to sync")
             logger.info("=" * 70)
             return 0
 
