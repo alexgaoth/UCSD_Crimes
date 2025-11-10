@@ -6,15 +6,50 @@ export function useReportsUtils(reports) {
     if (!reports || reports.length === 0) return [];
     
     const today = new Date();
+    today.setHours(0, 0, 0, 0);
     const fiveDaysAgo = new Date(today);
     fiveDaysAgo.setDate(today.getDate() - 5);
     
     const recentReports = reports.filter(report => {
-      const [month, day, year] = report.date_occurred.split('/').map(Number);
-      const reportDate = new Date(year, month - 1, day); // month is 0-indexed
-      reportDate.setHours(0, 0, 0, 0);
-      
-      return reportDate >= fiveDaysAgo && reportDate <= today;
+      try {
+        // Validate date_occurred exists and is a string
+        if (!report.date_occurred || typeof report.date_occurred !== 'string') {
+          return false;
+        }
+        
+        // Parse the date (MM/DD/YYYY format)
+        const parts = report.date_occurred.split('/');
+        if (parts.length !== 3) {
+          return false;
+        }
+        
+        const [month, day, year] = parts.map(Number);
+        
+        // Validate that all parts are valid numbers
+        if (isNaN(month) || isNaN(day) || isNaN(year)) {
+          return false;
+        }
+        
+        // Validate ranges
+        if (month < 1 || month > 12 || day < 1 || day > 31 || year < 2000 || year > 2100) {
+          return false;
+        }
+        
+        // Create date object (month is 0-indexed in JS)
+        const reportDate = new Date(year, month - 1, day);
+        reportDate.setHours(0, 0, 0, 0);
+        
+        // Check if date is valid (catches invalid dates like 2/30)
+        if (isNaN(reportDate.getTime())) {
+          return false;
+        }
+        
+        // Check if date is within the last 5 days
+        return reportDate >= fiveDaysAgo && reportDate <= today;
+      } catch (error) {
+        console.warn('Error parsing date for report:', report.incident_case, error);
+        return false;
+      }
     });
     
     return recentReports

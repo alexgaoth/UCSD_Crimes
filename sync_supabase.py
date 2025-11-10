@@ -1,5 +1,3 @@
-
-
 import io
 import os
 import sys
@@ -118,16 +116,33 @@ def format_time(time_str: Optional[str]) -> str:
         logger.warning(f"⚠ Invalid time format: {time_str} - {e}")
         return time_str  
 
-def format_date(date_str: str) -> str:
-
+def format_date(date_str: Optional[str]) -> str:
+    """Format date string from YYYY-MM-DD to MM/DD/YYYY"""
+    if not date_str:
+        logger.warning("⚠ Empty date string provided")
+        return datetime.now().strftime('%m/%d/%Y')
+    
     try:
+        # Handle both date and datetime strings
+        if 'T' in date_str or ' ' in date_str:
+            # It's a datetime string, extract just the date part
+            date_str = date_str.split('T')[0].split(' ')[0]
+        
         date_obj = datetime.strptime(date_str, '%Y-%m-%d')
         return date_obj.strftime('%m/%d/%Y')
     except ValueError as e:
         logger.warning(f"⚠ Invalid date format: {date_str} - {e}")
-        return date_str  
+        # Return today's date as fallback
+        return datetime.now().strftime('%m/%d/%Y')
 
 def transform_report_to_incident(report: Dict[str, Any]) -> Dict[str, Any]:
+    """Transform a Supabase report into a crime incident format"""
+    # Get date_reported - use created_at if date_reported doesn't exist
+    date_reported = report.get('date_reported')
+    if not date_reported:
+        # Fallback to created_at timestamp
+        date_reported = report.get('created_at', datetime.now().strftime('%Y-%m-%d'))
+        logger.info(f"Using created_at as date_reported for case {report.get('incident_case', 'unknown')}")
 
     return {
         'incident_case': report['incident_case'],
@@ -135,7 +150,7 @@ def transform_report_to_incident(report: Dict[str, Any]) -> Dict[str, Any]:
         'location': report['location'],
         'date_occurred': format_date(report['date_occurred']),
         'time_occurred': format_time(report.get('time_occurred')),
-        'date_reported': format_date(report['date_reported']),
+        'date_reported': format_date(date_reported),
         'summary': report['summary'],
         'disposition': report.get('disposition', 'Under Review')
     }
