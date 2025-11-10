@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/UCSD_Crimes/sw.js', { scope: '/UCSD_Crimes/' })})}
