@@ -10,7 +10,10 @@ export function useReportsUtils(reports) {
     fiveDaysAgo.setDate(today.getDate() - 5);
     
     const recentReports = reports.filter(report => {
-      const reportDate = new Date(report.date_occurred);
+      const [month, day, year] = report.date_occurred.split('/').map(Number);
+      const reportDate = new Date(year, month - 1, day); // month is 0-indexed
+      reportDate.setHours(0, 0, 0, 0);
+      
       return reportDate >= fiveDaysAgo && reportDate <= today;
     });
     

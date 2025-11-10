@@ -28157,6 +28157,314 @@
           "disposition": "False Alarm"
         }
       ]
+    },
+    {
+      "filename": "November 2, 2025.pdf",
+      "date": "November 2, 2025",
+      "page_count": 5,
+      "incident_count": 30,
+      "incidents": [
+        {
+          "category": "Illegal Camping",
+          "location": "Matthews Apartments A",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020001",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:05 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Harlan Hall",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020005",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:41 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Seventh College West #1",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020006",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:42 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Justice on Thurgood Marshall Ln",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020008",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:24 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Excessive Alcohol",
+          "location": "Pulse",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1994",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:39 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Domestic Violence Disturbance",
+          "location": "Alianza",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020010",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:54 AM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Mobil Gas Station",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020011",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:21 AM",
+          "summary": "Disposition Logged Event Disturbance, Argument Asante House",
+          "disposition": ""
+        },
+        {
+          "category": "Disturbance, Argument",
+          "location": "Asante House",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020013",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:51 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Brown Hall",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020014",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:58 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Excessive Alcohol",
+          "location": "Harlan Hall",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1995",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "2:15 AM - 2:40 AM",
+          "summary": "Male unconscious, but breathing - outside building by main entrance",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Excessive Alcohol",
+          "location": "Asante House",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1996",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "2:55 AM - 3:29 AM",
+          "summary": "19 year old found unresponsive, but breathing",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Pepper Canyon Apartments",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1997",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "2:00 AM - 9:30 AM",
+          "summary": "Unknown suspect(s) damaged a fire extinguisher glass door cover, damage cost $50",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Genesee Ave",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020023",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:33 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020029",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "11:44 AM",
+          "summary": "Transient male lying on the grass",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Injury",
+          "location": "Warren Field",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020030",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:17 PM",
+          "summary": "18 year old male with possible broken leg",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020031",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "12:41 PM",
+          "summary": "RP concerned about having class with male student who saw her at off campus party and made her feel scared and uncomfortable",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Umoja",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020032",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:09 PM",
+          "summary": "Professor received email from student, mentioning having attempted to unalive themselves",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020033",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "1:31 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Trespass",
+          "location": "Communications Building 2 - Mt. Soledad",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020038",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "3:16 PM",
+          "summary": "3 males on property, appear to be smoking and throwing rocks",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report of Sexual Battery",
+          "location": "Unknown Off Campus Location",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020039",
+          "date_occurred": "11/1/2025",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020047",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "7:44 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Excessive Alcohol / Mental Health Detention",
+          "location": "Tamarack Apartments",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1999",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "9:36 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020057",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "9:50 PM",
+          "summary": "RP waiting for trolley, advised when she got on platform, a subject was slowly getting closer to her",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Elvator Problem",
+          "location": "Tioga Hall",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020059",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:01 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020060",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:02 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Hazard Situation",
+          "location": "Marine Science Development Center - A",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020061",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:05 PM",
+          "summary": "2 subjects sitting on the ledge of roof",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Sankofa",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020062",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:13 PM",
+          "summary": "",
+          "disposition": "Verbal Warning Issued"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Regents Rd.",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020064",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:30 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Trespass: Refuse to Leave Property",
+          "location": "Thornton Pavilion",
+          "date_reported": "11/2/2025",
+          "incident_case": "2025-1998",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "10:20 PM - 11:37 PM",
+          "summary": "Per security, subject placed under citizen's arrest after being discharged as a patient but refusing to leave",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "University Credit Union",
+          "date_reported": "11/2/2025",
+          "incident_case": "2511020068",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "11:19 PM",
+          "summary": "Subject with his head down, not responding, possibly drunk in public",
+          "disposition": "Checks OK"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -28248,6 +28556,7 @@
     "October 31, 2025.pdf",
     "November 3, 2025.pdf",
     "November 4, 2025.pdf",
-    "November 5, 2025.pdf"
+    "November 5, 2025.pdf",
+    "November 2, 2025.pdf"
   ]
 }

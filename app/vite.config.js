@@ -12,8 +12,8 @@ export default defineConfig({
         name: 'UCSD Crime app',
         short_name: 'App',
         description: 'the App to see, track, report all Crimes that happen in and around UCSD',
-        theme_color: '#ffffff',
-        background_color: '#ffffff',
+        theme_color: '#8b7355',
+        background_color: '#8b7355',
         display: 'standalone',
         icons: [
           {
