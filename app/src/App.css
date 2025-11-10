@@ -1150,6 +1150,207 @@ body {
   align-items: center;
 }
 
+/* ========== SMS WIDGET ========== */
+.sms-widget-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7cb342 0%, #558b2f 100%);
+  border: none;
+  box-shadow: 0 4px 15px rgba(124, 179, 66, 0.4);
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: smsWidgetPulse 2s infinite;
+}
+
+.sms-widget-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(124, 179, 66, 0.5);
+  animation: none;
+}
+
+.sms-widget-button.sms-widget-subscribed {
+  background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+  animation: none;
+}
+
+.sms-widget-icon {
+  font-size: 1.8rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+@keyframes smsWidgetPulse {
+  0%, 100% {
+    box-shadow: 0 4px 15px rgba(124, 179, 66, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 25px rgba(124, 179, 66, 0.6), 0 0 0 8px rgba(124, 179, 66, 0.2);
+  }
+}
+
+/* SMS Modal */
+.sms-modal {
+  max-width: 500px;
+}
+
+.sms-modal-header {
+  padding: 2rem 2rem 1rem;
+  border-bottom: 2px solid #f0f0f0;
+  text-align: center;
+}
+
+.sms-modal-header h2 {
+  font-size: 1.6rem;
+  color: #2c2416;
+  margin-bottom: 0.5rem;
+}
+
+.sms-modal-subtext {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.sms-modal-body {
+  padding: 2rem;
+}
+
+.sms-error {
+  background: #fee;
+  border: 2px solid #c33;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sms-error p {
+  color: #c33;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.sms-phone-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #e8e3d8;
+  background: #faf7f2;
+  padding: 0.5rem 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.sms-phone-input-wrapper:focus-within {
+  border-color: #9b8b7e;
+}
+
+.sms-country-code {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.sms-phone-input-wrapper input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 0.4rem 0;
+  font-size: 1rem;
+  color: #3c3227;
+  outline: none;
+}
+
+.sms-submit-button {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.sms-privacy-note {
+  font-size: 0.8rem;
+  color: #999;
+  text-align: center;
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Subscribed State */
+.sms-subscribed-info {
+  background: #e8f5e9;
+  border: 2px solid #7cb342;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.sms-check-icon {
+  font-size: 3rem;
+  color: #558b2f;
+  margin-bottom: 1rem;
+}
+
+.sms-subscribed-info p {
+  color: #2e7d32;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.sms-unsubscribe-button {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #c33;
+  color: #c33;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.sms-unsubscribe-button:hover {
+  background: #c33;
+  color: white;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .sms-widget-button {
+    width: 50px;
+    height: 50px;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  .sms-widget-icon {
+    font-size: 1.5rem;
+  }
+
+  .sms-modal {
+    max-width: 95%;
+    margin: 1rem;
+  }
+
+  .sms-modal-header {
+    padding: 1.5rem 1.5rem 1rem;
+  }
+
+  .sms-modal-header h2 {
+    font-size: 1.4rem;
+  }
+
+  .sms-modal-body {
+    padding: 1.5rem;
+  }
+}
+
 .result-header > div {
   display: flex;
   flex-direction: column;
