@@ -10,6 +10,7 @@ export default function Breadcrumbs({ items }) {
     { name: 'Home', path: '/' },
     ...items
   ];
+  
 
   // Generate JSON-LD structured data
   const structuredData = {
