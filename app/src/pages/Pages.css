@@ -1814,3 +1814,242 @@
     font-size: 0.9rem;
   }
 }
+
+/* ========== SMS VERIFICATION PAGE ========== */
+.sms-verification-section {
+  margin-bottom: 3rem;
+}
+
+.sms-verification-container {
+  background: white;
+  border: 1px solid #e8e3d8;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sms-verification-message {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.sms-verification-message strong {
+  color: #3c3227;
+  font-weight: 600;
+}
+
+.sms-error-box {
+  background: #fee;
+  border: 2px solid #c33;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sms-error-box p {
+  color: #c33;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.sms-verification-form {
+  margin-bottom: 2rem;
+}
+
+.sms-code-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.sms-code-input {
+  width: 50px;
+  height: 60px;
+  font-size: 1.8rem;
+  text-align: center;
+  border: 2px solid #e8e3d8;
+  background: #faf7f2;
+  color: #3c3227;
+  font-weight: 700;
+  transition: border-color 0.3s ease, background 0.3s ease;
+  font-family: 'Courier New', monospace;
+}
+
+.sms-code-input:focus {
+  outline: none;
+  border-color: #7cb342;
+  background: white;
+}
+
+.sms-code-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.sms-verify-button {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.sms-verification-actions {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f0f0f0;
+  margin-bottom: 1.5rem;
+}
+
+.sms-link-button {
+  background: transparent;
+  border: none;
+  color: #7cb342;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+}
+
+.sms-link-button:hover {
+  color: #558b2f;
+}
+
+.sms-link-button:disabled {
+  color: #999;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.sms-help-note {
+  font-size: 0.85rem;
+  color: #999;
+  line-height: 1.6;
+  margin-top: 1.5rem;
+}
+
+/* Success State */
+.sms-success-container {
+  background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+  border: 3px solid #7cb342;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.sms-success-icon {
+  font-size: 5rem;
+  color: #558b2f;
+  margin-bottom: 1.5rem;
+  animation: successBounce 0.5s ease;
+}
+
+@keyframes successBounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.sms-success-container h2 {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.sms-success-container p {
+  font-size: 1.1rem;
+  color: #558b2f;
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.sms-redirect-note {
+  font-size: 0.95rem;
+  color: #999;
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .sms-verification-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .sms-code-inputs {
+    gap: 0.5rem;
+  }
+
+  .sms-code-input {
+    width: 42px;
+    height: 52px;
+    font-size: 1.5rem;
+  }
+
+  .sms-verification-actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .sms-link-button {
+    width: 100%;
+  }
+
+  .sms-success-container {
+    padding: 3rem 1.5rem;
+  }
+
+  .sms-success-icon {
+    font-size: 4rem;
+  }
+
+  .sms-success-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .sms-success-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sms-verification-container {
+    padding: 1.5rem 1rem;
+  }
+
+  .sms-code-inputs {
+    gap: 0.4rem;
+  }
+
+  .sms-code-input {
+    width: 38px;
+    height: 48px;
+    font-size: 1.3rem;
+  }
+
+  .sms-verification-message {
+    font-size: 0.9rem;
+  }
+
+  .sms-success-container {
+    padding: 2rem 1rem;
+  }
+
+  .sms-success-icon {
+    font-size: 3.5rem;
+  }
+
+  .sms-success-container h2 {
+    font-size: 1.4rem;
+  }
+}
