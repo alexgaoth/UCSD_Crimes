@@ -195,7 +195,7 @@ function generateSitemap() {
       page.priority
     ));
   });
-
+/*
   // Load reports and add top 20 incidents
   const reports = loadReports();
   if (reports.length > 0) {
@@ -214,7 +214,7 @@ function generateSitemap() {
         '0.6'
       ));
     });
-  }
+  }*/
 
   // Build complete sitemap XML
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
