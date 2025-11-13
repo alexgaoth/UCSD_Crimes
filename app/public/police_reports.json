@@ -28465,6 +28465,334 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "November 6, 2025.pdf",
+      "date": "November 6, 2025",
+      "page_count": 6,
+      "incident_count": 32,
+      "incidents": [
+        {
+          "category": "Mental Health Detention",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2033",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "12:39 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Pangea Drive",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060005",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "1:01 AM",
+          "summary": "",
+          "disposition": "Referred to Student Conduct"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Rya",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060006",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "1:20 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Scholars Drive",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060009",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "2:44 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060019",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "8:00 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rya",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060021",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "8:21 AM",
+          "summary": "Student has been saying that she is ill and had a stroke and requesting an exemption from the midterm",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Drunk Driving",
+          "location": "La Jolla Shores Drive",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060024",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "8:53 AM",
+          "summary": "Male driver stopped in the middle of the road blocking the fire lane, male is reclined in the seat possibly intoxicated Disposition Field Interview Citizen Contact Triton Track and Field Stadium",
+          "disposition": ""
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Triton Track and Field Stadium",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060025",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "9:04 AM",
+          "summary": "Reporting party was riding his bike earlier this am and was concerned about a tree branch possibly intentionally placed in the bike lane",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Fraud",
+          "location": "Charles David Keeling Apartment",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060026",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "9:00 AM",
+          "summary": "Reporting party was notified by bank after hard inquiries logged",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Kaleidoscope",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060029",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "9:41 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Scripps Memorial Hospital",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060031",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "9:44 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Viento",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060032",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "9:48 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "George Palade Laboratories",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060034",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "10:10 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Pangea Parking",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2034",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "2:00AM-10:26AM",
+          "summary": "License plate taken from reporting party's motorcycle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Garden View Road",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060037",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "11:19 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Jacobs Medical Center",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060038",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "12:38 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060039",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "12:55 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Seventh College",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060040",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "1:09 PM",
+          "summary": "Unhoused male wandering various areas attempting to access secured areas such as a game room/lounge, washing clothes in public bathroom",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Scholars Parking",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060044",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "2:11 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Found Property",
+          "location": "Gilman Parking",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060050",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "3:06 PM",
+          "summary": "Bike sitting on the stairs",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Bookstore",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2035",
+          "date_occurred": "11/1/2025",
+          "time_occurred": "5:30PM-5:34PM",
+          "summary": "Loss Approximately $60",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060056",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "4:51 PM",
+          "summary": "Reporting party is waiting outside lobby requesting to speak with a lieutenant",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060057",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "4:52 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Voigt Drive",
+          "date_reported": "11/6/2025",
+          "incident_case": "T25000291",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "5:00PM-6:00PM",
+          "summary": "Secured Electric Scooter Stolen; Loss $786",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Target",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2036",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "5:00PM-5:41PM",
+          "summary": "Secured Electric Bicycle stolen; Loss $860",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060060",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "5:31 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "North Torrey Pines Road",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060061",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "5:56 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information Only",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2037",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "6:03PM-6:28PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Black Apartments",
+          "date_reported": "11/6/2025",
+          "incident_case": "2025-2038",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "7:11PM-7:46PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Tenaya Hall",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060071",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "10:11 PM",
+          "summary": "",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Discovery Hall",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060072",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "10:12 PM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "11/6/2025",
+          "incident_case": "2511060074",
+          "date_occurred": "11/6/2025",
+          "time_occurred": "11:34 PM",
+          "summary": "Reporting party is custodian, says bathroom door is locked from inside no one is opening door thinks subject is inside",
+          "disposition": "Will Cooperate"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -28557,6 +28885,7 @@
     "September 6, 2025.pdf",
     "September 7, 2025.pdf",
     "September 8, 2025.pdf",
-    "September 9, 2025.pdf"
+    "September 9, 2025.pdf",
+    "November 6, 2025.pdf"
   ]
 }
