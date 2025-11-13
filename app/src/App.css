@@ -534,49 +534,52 @@ body {
   font-weight: 500;
 }
 
-/* Upvote Button Styles */
-.upvote-button {
+/* Upvote Button Styles - Circular (Modal) */
+.upvote-container {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: #e8f5e9;
-  color: #558b2f;
-  padding: 0.4rem 1rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  border: 1px solid rgba(88,139,47,0.2);
-  border-radius: 3px;
+  gap: 0.6rem;
+}
+
+.upvote-button-round {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: white;
+  color: #7cb342;
+  border: 2px solid #7cb342;
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
-.upvote-button:hover:not(:disabled) {
-  background: #c8e6c9;
-  border-color: #558b2f;
+.upvote-button-round:hover:not(:disabled) {
+  box-shadow: 0 4px 12px rgba(124,179,66,0.3);
   transform: translateY(-2px);
-  box-shadow: 0 2px 8px rgba(88,139,47,0.2);
 }
 
-.upvote-button:active:not(:disabled) {
+.upvote-button-round:active:not(:disabled) {
   transform: translateY(0);
 }
 
-.upvote-button:disabled {
+.upvote-button-round:disabled {
   cursor: not-allowed;
   opacity: 0.7;
 }
 
-.upvote-button.upvoted {
+.upvote-button-round.upvoted {
   background: #7cb342;
   color: white;
   border-color: #558b2f;
   animation: upvoteSuccess 0.5s ease;
 }
 
-.upvote-button.upvoted:hover {
+.upvote-button-round.upvoted:hover {
   background: #689f38;
-  transform: none;
 }
 
 @keyframes upvoteSuccess {
@@ -591,20 +594,31 @@ body {
   }
 }
 
-.upvote-icon {
-  font-size: 1rem;
+.upvote-button-round .upvote-icon {
+  font-size: 1.1rem;
   font-weight: bold;
   line-height: 1;
 }
 
-.upvote-count {
-  font-size: 0.85rem;
-  font-weight: 700;
+.upvote-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
 }
 
-.upvote-label {
-  font-size: 0.85rem;
+.upvote-count-modal {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #558b2f;
+  line-height: 1.2;
+}
+
+.upvote-label-modal {
+  font-size: 0.75rem;
   font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
 }
 
 .upvote-error {
@@ -615,6 +629,25 @@ body {
   font-size: 0.85rem;
   margin-top: 0.8rem;
   border: 1px solid rgba(198,40,40,0.2);
+}
+
+/* Upvote Count Display - Cards */
+.upvote-display {
+  font-size: 0.85rem;
+  color: #7cb342;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.upvote-display-compact {
+  font-size: 0.8rem;
+}
+
+/* Featured Card - Upvote Display Styling */
+.upvote-display-featured {
+  font-size: 0.85rem;
+  color: #7cb342;
+  font-weight: 600;
 }
 
 .modal-body {
@@ -1009,18 +1042,29 @@ body {
     gap: 1rem;
   }
 
-  .upvote-button {
-    font-size: 0.8rem;
-    padding: 0.35rem 0.8rem;
+  .upvote-button-round {
+    width: 36px;
+    height: 36px;
   }
 
-  .upvote-icon {
+  .upvote-button-round .upvote-icon {
+    font-size: 1rem;
+  }
+
+  .upvote-count-modal {
     font-size: 0.9rem;
   }
 
-  .upvote-count,
-  .upvote-label {
-    font-size: 0.8rem;
+  .upvote-label-modal {
+    font-size: 0.7rem;
+  }
+
+  .upvote-display {
+    font-size: 0.75rem;
+  }
+
+  .upvote-display-compact {
+    font-size: 0.7rem;
   }
 
   /* Welcome Banner */

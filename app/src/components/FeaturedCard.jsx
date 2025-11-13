@@ -1,4 +1,5 @@
 import React from 'react';
+import UpvoteCount from './UpvoteCount';
 
 // Helper function to check if a report is user-submitted
 const isUserSubmitted = (caseNumber) => {
@@ -36,6 +37,7 @@ export default function FeaturedCard({ report, imageIndex, onClick }) {
             <span className="time-label">Reported</span>
             <span className="time-value">{report.date_occurred}</span>
           </div>
+          <UpvoteCount incidentCase={report.incident_case} compact={false} />
           <span className={`status status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
             {report.disposition}
           </span>
