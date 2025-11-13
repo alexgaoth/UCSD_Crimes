@@ -1,4 +1,5 @@
 import React from 'react';
+import UpvoteCount from './UpvoteCount';
 
 /**
  * DirectoryCard component displays a crime incident card for the Full Directory page
@@ -30,6 +31,7 @@ export default function DirectoryCard({ report, onClick }) {
               {report.time_occurred}
             </span>
           )}
+          <UpvoteCount incidentCase={report.incident_case} compact={true} />
         </div>
         <span className={`status-pill status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
           {report.disposition}

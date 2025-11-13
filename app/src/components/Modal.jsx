@@ -202,20 +202,24 @@ export default function Modal({ isOpen, onClose, report }) {
             ) : (
               <span className="badge-source badge-official">Official Police Report</span>
             )}
-            <button
-              className={`upvote-button ${hasUpvoted ? 'upvoted' : ''}`}
-              onClick={handleUpvote}
-              disabled={hasUpvoted || isUpvoting || isLoadingUpvotes}
-              title={hasUpvoted ? 'You have already upvoted this report' : 'Upvote this report'}
-            >
-              <span className="upvote-icon">{hasUpvoted ? '\u2713' : '\u2191'}</span>
-              <span className="upvote-count">
-                {isLoadingUpvotes ? '...' : upvoteCount}
-              </span>
-              <span className="upvote-label">
-                {upvoteCount === 1 ? 'upvote' : 'upvotes'}
-              </span>
-            </button>
+            <div className="upvote-container">
+              <button
+                className={`upvote-button-round ${hasUpvoted ? 'upvoted' : ''}`}
+                onClick={handleUpvote}
+                disabled={hasUpvoted || isUpvoting || isLoadingUpvotes}
+                title={hasUpvoted ? 'You have already upvoted this report' : 'Upvote this report'}
+              >
+                <span className="upvote-icon">{hasUpvoted ? '\u2713' : '\u2191'}</span>
+              </button>
+              <div className="upvote-stats">
+                <span className="upvote-count-modal">
+                  {isLoadingUpvotes ? '...' : upvoteCount}
+                </span>
+                <span className="upvote-label-modal">
+                  {upvoteCount === 1 ? 'upvote' : 'upvotes'}
+                </span>
+              </div>
+            </div>
           </div>
           {upvoteError && (
             <div className="upvote-error">{upvoteError}</div>
