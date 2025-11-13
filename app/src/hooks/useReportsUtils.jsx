@@ -7,8 +7,8 @@ export function useReportsUtils(reports) {
     
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const fiveDaysAgo = new Date(today);
-    fiveDaysAgo.setDate(today.getDate() - 5);
+    const recentDefinition = new Date(today);
+    recentDefinition.setDate(today.getDate() - 10);
     
     const recentReports = reports.filter(report => {
       try {
@@ -45,7 +45,7 @@ export function useReportsUtils(reports) {
         }
         
         // Check if date is within the last 5 days
-        return reportDate >= fiveDaysAgo && reportDate <= today;
+        return reportDate >= recentDefinition && reportDate <= today;
       } catch (error) {
         console.warn('Error parsing date for report:', report.incident_case, error);
         return false;
