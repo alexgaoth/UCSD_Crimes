@@ -297,6 +297,13 @@
   border-top: 1px solid #f0f0f0;
 }
 
+.result-footer-left {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .result-date {
   font-size: 0.85rem;
   color: #999;

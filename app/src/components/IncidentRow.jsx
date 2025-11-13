@@ -1,4 +1,5 @@
 import React from 'react';
+import UpvoteCount from './UpvoteCount';
 
 // Helper function to check if a report is user-submitted
 const isUserSubmitted = (caseNumber) => {
@@ -22,6 +23,7 @@ export default function IncidentRow({ report, onClick }) {
       <div className="incident-stats">
         <div className="incident-stats-row">
           <span className="incident-date">{report.date_occurred}</span>
+          <UpvoteCount incidentCase={report.incident_case} compact={true} />
           <span className={`status-pill status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
             {report.disposition}
           </span>
