@@ -1,4 +1,5 @@
 import React from 'react';
+import UpvoteCount from './UpvoteCount';
 
 // Helper function to check if a report is user-submitted
 const isUserSubmitted = (caseNumber) => {
@@ -26,9 +27,12 @@ export default function TimelineItem({ report, onClick }) {
       </div>
       <p className="result-summary">{report.summary}</p>
       <div className="result-footer">
-        <span className="result-date">
-          {report.date_occurred} at {report.time_occurred || 'N/A'}
-        </span>
+        <div className="result-footer-left">
+          <span className="result-date">
+            {report.date_occurred} at {report.time_occurred || 'N/A'}
+          </span>
+          <UpvoteCount incidentCase={report.incident_case} compact={true} />
+        </div>
         <span className={`status-pill status-${report.disposition.toLowerCase().replace(/\s+/g, '-')}`}>
           {report.disposition}
         </span>
