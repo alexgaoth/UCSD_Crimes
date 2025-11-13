@@ -86,13 +86,32 @@ jobs:
           git add ucsd_police_reports/*.pdf
           git commit -m "Auto-update crime data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
+
+      - name: Set up Node.js
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies and build
+        if: steps.check_changes.outputs.changes == 'true'
+        working-directory: ./app
+        run: |
+          npm ci --legacy-peer-deps
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./app/dist
           
       - name: Log completion
         if: steps.check_changes.outputs.changes == 'true'
         run: |
           echo "Crime data updated successfully at $(date)"
-          echo "New data committed and pushed to repository"
-          echo "Deployment will be triggered automatically by push to main branch"
+          echo "New data committed, built, and deployed to GitHub Pages"
           
       - name: Log no changes
         if: steps.check_changes.outputs.changes != 'true'
