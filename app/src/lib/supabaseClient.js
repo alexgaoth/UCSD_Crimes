@@ -62,3 +62,87 @@ export async function submitCrimeReport(reportData) {
     return { success: false, error };
   }
 }
+
+/**
+ * Get upvote count for a specific incident case
+ */
+export async function getUpvoteCount(incidentCase) {
+  try {
+    const { data, error } = await supabase
+      .from('report_upvotes')
+      .select('upvote_count')
+      .eq('incident_case', incidentCase)
+      .single();
+
+    if (error) {
+      // If record doesn't exist, return 0
+      if (error.code === 'PGRST116') {
+        return { success: true, count: 0 };
+      }
+      console.error('Error fetching upvote count:', error);
+      return { success: false, error };
+    }
+
+    return { success: true, count: data.upvote_count };
+  } catch (error) {
+    console.error('Failed to fetch upvote count:', error);
+    return { success: false, error };
+  }
+}
+
+/**
+ * Increment upvote count for a specific incident case
+ * Creates the record if it doesn't exist
+ */
+export async function incrementUpvote(incidentCase) {
+  try {
+    // First, try to fetch the existing record
+    const { data: existing, error: fetchError } = await supabase
+      .from('report_upvotes')
+      .select('upvote_count')
+      .eq('incident_case', incidentCase)
+      .single();
+
+    if (fetchError && fetchError.code !== 'PGRST116') {
+      console.error('Error checking existing upvote:', fetchError);
+      return { success: false, error: fetchError };
+    }
+
+    let newCount;
+
+    if (existing) {
+      // Record exists, increment it
+      newCount = existing.upvote_count + 1;
+      const { data, error } = await supabase
+        .from('report_upvotes')
+        .update({ upvote_count: newCount })
+        .eq('incident_case', incidentCase)
+        .select()
+        .single();
+
+      if (error) {
+        console.error('Error incrementing upvote:', error);
+        return { success: false, error };
+      }
+
+      return { success: true, count: data.upvote_count };
+    } else {
+      // Record doesn't exist, create it with count of 1
+      const { data, error } = await supabase
+        .from('report_upvotes')
+        .insert([{ incident_case: incidentCase, upvote_count: 1 }])
+        .select()
+        .single();
+
+      if (error) {
+        console.error('Error creating upvote record:', error);
+        return { success: false, error };
+      }
+
+      return { success: true, count: data.upvote_count };
+    }
+  } catch (error) {
+    console.error('Failed to increment upvote:', error);
+    return { success: false, error };
+  }
+}

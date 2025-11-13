@@ -1,12 +1,97 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import html2canvas from 'html2canvas';
+import { getUpvoteCount, incrementUpvote } from '../lib/supabaseClient';
 
 // Helper function to check if a report is user-submitted
 const isUserSubmitted = (caseNumber) => {
   return caseNumber && caseNumber.startsWith('USER-');
 };
 
+// Helper functions for localStorage management
+const UPVOTED_CASES_KEY = 'upvoted_cases';
+
+const getUpvotedCases = () => {
+  try {
+    const stored = localStorage.getItem(UPVOTED_CASES_KEY);
+    return stored ? JSON.parse(stored) : [];
+  } catch (error) {
+    console.error('Error reading upvoted cases from localStorage:', error);
+    return [];
+  }
+};
+
+const addUpvotedCase = (incidentCase) => {
+  try {
+    const upvoted = getUpvotedCases();
+    if (!upvoted.includes(incidentCase)) {
+      upvoted.push(incidentCase);
+      localStorage.setItem(UPVOTED_CASES_KEY, JSON.stringify(upvoted));
+    }
+  } catch (error) {
+    console.error('Error saving upvoted case to localStorage:', error);
+  }
+};
+
+const hasUserUpvoted = (incidentCase) => {
+  const upvoted = getUpvotedCases();
+  return upvoted.includes(incidentCase);
+};
+
 export default function Modal({ isOpen, onClose, report }) {
+  const [upvoteCount, setUpvoteCount] = useState(0);
+  const [isLoadingUpvotes, setIsLoadingUpvotes] = useState(true);
+  const [hasUpvoted, setHasUpvoted] = useState(false);
+  const [isUpvoting, setIsUpvoting] = useState(false);
+  const [upvoteError, setUpvoteError] = useState(null);
+
+  // Fetch upvote count when modal opens or report changes
+  useEffect(() => {
+    if (!isOpen || !report) {
+      return;
+    }
+
+    const fetchUpvoteCount = async () => {
+      setIsLoadingUpvotes(true);
+      setUpvoteError(null);
+
+      const result = await getUpvoteCount(report.incident_case);
+
+      if (result.success) {
+        setUpvoteCount(result.count);
+      } else {
+        setUpvoteError('Failed to load upvote count');
+      }
+
+      setIsLoadingUpvotes(false);
+    };
+
+    // Check if user has already upvoted this case
+    setHasUpvoted(hasUserUpvoted(report.incident_case));
+
+    fetchUpvoteCount();
+  }, [isOpen, report]);
+
+  const handleUpvote = async () => {
+    if (hasUpvoted || isUpvoting || !report) {
+      return;
+    }
+
+    setIsUpvoting(true);
+    setUpvoteError(null);
+
+    const result = await incrementUpvote(report.incident_case);
+
+    if (result.success) {
+      setUpvoteCount(result.count);
+      setHasUpvoted(true);
+      addUpvotedCase(report.incident_case);
+    } else {
+      setUpvoteError('Failed to upvote. Please try again.');
+    }
+
+    setIsUpvoting(false);
+  };
+
   if (!isOpen || !report) return null;
 
   const userSubmitted = isUserSubmitted(report.incident_case);
@@ -117,7 +202,24 @@ export default function Modal({ isOpen, onClose, report }) {
             ) : (
               <span className="badge-source badge-official">Official Police Report</span>
             )}
+            <button
+              className={`upvote-button ${hasUpvoted ? 'upvoted' : ''}`}
+              onClick={handleUpvote}
+              disabled={hasUpvoted || isUpvoting || isLoadingUpvotes}
+              title={hasUpvoted ? 'You have already upvoted this report' : 'Upvote this report'}
+            >
+              <span className="upvote-icon">{hasUpvoted ? '\u2713' : '\u2191'}</span>
+              <span className="upvote-count">
+                {isLoadingUpvotes ? '...' : upvoteCount}
+              </span>
+              <span className="upvote-label">
+                {upvoteCount === 1 ? 'upvote' : 'upvotes'}
+              </span>
+            </button>
           </div>
+          {upvoteError && (
+            <div className="upvote-error">{upvoteError}</div>
+          )}
         </div>
 
         <div className="modal-body">
