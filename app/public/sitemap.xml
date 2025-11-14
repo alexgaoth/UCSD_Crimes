@@ -10,35 +10,35 @@
   </url>
   
   <url>
-    <loc>https://alexgaoth.com/UCSD_Crimes/timeline</loc>
+    <loc>https://alexgaoth.com/UCSD_Crimes/#/timeline</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://alexgaoth.com/UCSD_Crimes/search</loc>
+    <loc>https://alexgaoth.com/UCSD_Crimes/#/search</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://alexgaoth.com/UCSD_Crimes/statistics</loc>
+    <loc>https://alexgaoth.com/UCSD_Crimes/#/statistics</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://alexgaoth.com/UCSD_Crimes/campus-map</loc>
+    <loc>https://alexgaoth.com/UCSD_Crimes/#/campus-map</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://alexgaoth.com/UCSD_Crimes/report-case</loc>
+    <loc>https://alexgaoth.com/UCSD_Crimes/#/report-case</loc>
     <lastmod>2025-11-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
