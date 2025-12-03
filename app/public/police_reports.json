@@ -38259,6 +38259,264 @@
           "disposition": "Field Interview"
         }
       ]
+    },
+    {
+      "filename": "December 1, 2025.pdf",
+      "date": "December 1, 2025",
+      "page_count": 5,
+      "incident_count": 25,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Kaleidoscope",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010006",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "2:31 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "RYA",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2220",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "3:21 AM",
+          "summary": "Unaffiliated male subject sleeping on the couches of the 1st floor lobby //WMA 40-50 years old",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Israni Biomedical Facility",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010013",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "4:29 AM",
+          "summary": "Subject sleeping on the 5th floor lobby",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Central Utilities Plant",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010017",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "6:39 AM",
+          "summary": "",
+          "disposition": "Cancelled Before Dispatch"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Central Utilities Plant",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2221",
+          "date_occurred": "11/26/2025",
+          "time_occurred": "Unknown",
+          "summary": "Graffiti on the sound wall, cost of damage is $100.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Powell- Focht Bioengineering",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010031",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "10:40 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Campus Security Authority Report",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2222",
+          "date_occurred": "11/01/2024",
+          "time_occurred": "Unknown",
+          "summary": "Stalking Disposition Campus Security Authority Report Taken Disturbance, General Goody's Marketplace",
+          "disposition": ""
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Goody's Marketplace",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010033",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "10:52 AM",
+          "summary": "WMA or HMA attempting to get into a room",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Mesa Apartments Central",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2223",
+          "date_occurred": "10/6/2025",
+          "time_occurred": "8:00 AM",
+          "summary": "Damage to a UCSD maintenance cart, cost to repair is $3.000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Rimac Gym",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2227",
+          "date_occurred": "11/29/2025",
+          "time_occurred": "1:10 PM",
+          "summary": "Wallet taken from a gym locker, loss $80.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Shiley Eye Center",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010040",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "2:30 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Trespass",
+          "location": "S. Pacific St.",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010042",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "2:47 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "Raza Resource Centro",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010043",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "3:08 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010044",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "3:41 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "One Miramar Street",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010045",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "3:41 PM",
+          "summary": "Rp lives on the 3rd floor and can see a campfire near the onramp",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/ Accidental Wireless 911",
+          "location": "Engineer Bldg",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010046",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "4:04 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/ Accidental Wireless 911",
+          "location": "Coalition",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010048",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "4:50 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Campus Security Authority Report",
+          "location": "Preuss School",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2224",
+          "date_occurred": "11/2/2025",
+          "time_occurred": "Unknown",
+          "summary": "Rape",
+          "disposition": "Campus Security Authority Report Filed"
+        },
+        {
+          "category": "Non Injury Accident",
+          "location": "Preuss School",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010050",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "5:18 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Umoja",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010052",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "6:21 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Lost Property",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010053",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "7:09 PM",
+          "summary": "Rp dropped wallet at In & Out in PB.",
+          "disposition": "Service provided"
+        },
+        {
+          "category": "Petty Theft",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2230",
+          "date_occurred": "11/25/2025",
+          "time_occurred": "2:00 PM",
+          "summary": "A secured bike was stolen, loss is $500.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Petty Theft- Micro Mobility Device",
+          "location": "Design & Innovation Building",
+          "date_reported": "12/1/2025",
+          "incident_case": "2025-2225",
+          "date_occurred": "11/26/2025",
+          "time_occurred": "6:35 AM - 9:30 PM",
+          "summary": "A secured e-bike was stolen, loss is $850.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Non Injury Accident",
+          "location": "Scholars Dr. North",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010069",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "10:37 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Minor Injury Accident",
+          "location": "Trolley- Central Campus Station",
+          "date_reported": "12/1/2025",
+          "incident_case": "2512010072",
+          "date_occurred": "12/1/2025",
+          "time_occurred": "11:50 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -38381,6 +38639,7 @@
     "November 27, 2025.pdf",
     "November 28, 2025.pdf",
     "November 29, 2025.pdf",
-    "November 30, 2025.pdf"
+    "November 30, 2025.pdf",
+    "December 1, 2025.pdf"
   ]
 }
