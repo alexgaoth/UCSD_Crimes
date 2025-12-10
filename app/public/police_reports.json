@@ -40615,6 +40615,334 @@
           "disposition": "Checks OK"
         }
       ]
+    },
+    {
+      "filename": "December 8, 2025.pdf",
+      "date": "December 8, 2025",
+      "page_count": 6,
+      "incident_count": 32,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Movement",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080008",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "1:14 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Podemos",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080011",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "3:18 AM",
+          "summary": "Outside in the courtyard, lots of screaming and yelling, sounds like fighting",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Leichtag Family Foundation Biomedical Research",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080014",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "4:14 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Tahini",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080017",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "5:22 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Costa Verde Boulevard",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080022",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "7:42 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Ellentown Road",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080025",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "8:49 AM",
+          "summary": "Rambling about theft that occurred a long time ago",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Early Childhood Education Center A",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080027",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "9:19 AM",
+          "summary": "Reporting party hit parked vehicle Disposition Service Provided Campus Security Authority Report Alvarado Hospital - East Campus Medical",
+          "disposition": ""
+        },
+        {
+          "category": "Campus Security Authority Report",
+          "location": "Alvarado Hospital - East Campus Medical",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2272",
+          "date_occurred": "12/6/2025",
+          "time_occurred": "9:35 PM",
+          "summary": "Aggravated Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Marine Sciences Development Center - C",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080032",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "10:26 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Atkinson Hall",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080035",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "11:35 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Powell Structural Components Laboratory",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080037",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "11:45 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Parking Lot P004",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2273",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "12:00 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Kaleidoscope",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080040",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "12:49 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Umoja",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080043",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "2:21 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Parking Lot P671",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2274",
+          "date_occurred": "12/7/2025",
+          "time_occurred": "Unknown",
+          "summary": "2 tires stolen from bus in lower lot. Loss of $800.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Marfac",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2275",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "3:21 PM",
+          "summary": "Staff member possibly took scrap metal. Amount of loss unknown",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Burglary to Vehicle",
+          "location": "La Jolla Shores Drive/Ruette Monte Carlo",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080047",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "3:24 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Burglary to Vehicle",
+          "location": "Scholars Parking Structure",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2276",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "3:52 PM",
+          "summary": "Level B3, broken window. Items taken.",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080049",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "5:04 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Grand Theft - Micro Mobility Device",
+          "location": "Pepper Canyon Hall",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2278",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "4:00 PM - 7:00 PM",
+          "summary": "Secured e-skateboard stolen, loss of $3,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080052",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "7:08 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Powell-Focht Bioengineering Building",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080053",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Battery",
+          "location": "Thornton Pavilion",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080058",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "7:46 PM",
+          "summary": "Intoxicated patient pushing staff, no injuries",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Geisel Library",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080065",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "8:57 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Miramar Street",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080066",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "8:59 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Price Center East",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2279",
+          "date_occurred": "12/4/2025",
+          "time_occurred": "5:00 PM - 8:50 PM",
+          "summary": "ID card. Loss of $25.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Extortion",
+          "location": "Africa hall",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2280",
+          "date_occurred": "11/28/2025",
+          "time_occurred": "",
+          "summary": "Reporting party had a relationship with a non-affiliate in October. He started asking for money and threatening that he would release video of her",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2281",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "6:30 AM - 10:00 PM",
+          "summary": "Secured e-scooter stolen. Loss of $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Person of Concern",
+          "location": "Brisa",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2282",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "10:16PM",
+          "summary": "Roommate was pounding at reporting party's door earlier, saying she was raped and she is drunk right now",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Asante Hall",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080075",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "10:54 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Scholars Drive North",
+          "date_reported": "12/8/2025",
+          "incident_case": "2512080077",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "11:08 PM",
+          "summary": "For 20 minutes, 3 males in 1 vehicle driving up and down the street shouting at women to scare them",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Vehicle Impound",
+          "location": "2900 Theatre District Drive",
+          "date_reported": "12/8/2025",
+          "incident_case": "2025-2283",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "11:29 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -40744,6 +41072,7 @@
     "December 4, 2025.pdf",
     "December 5, 2025.pdf",
     "December 6, 2025.pdf",
-    "December 7, 2025.pdf"
+    "December 7, 2025.pdf",
+    "December 8, 2025.pdf"
   ]
 }
