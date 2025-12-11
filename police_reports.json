@@ -40943,6 +40943,722 @@
           "disposition": "Information Only"
         }
       ]
+    },
+    {
+      "filename": "December 10, 2025.pdf",
+      "date": "December 10, 2025",
+      "page_count": 6,
+      "incident_count": 34,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Catalyst",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100002",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "12:15 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Seventh College West #1",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100003",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "12:22 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Seventh College West #1",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100004",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "12:22 AM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "North Torrey Pines Living and Learning Neighborhood",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100006",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "12:47 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "University Curfew/Stay Away Order",
+          "location": "Muir Lane/Scholars Drive South",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2298",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "1:04 AM",
+          "summary": "",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Sea Strand Lane",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100011",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "2:55 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "University Curfew/Stay Away Order",
+          "location": "Social Sciences Building",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2299",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "5:08 AM",
+          "summary": "4th floor, unhoused female with a dog sleeping in the hallway",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Campus Security Authority Report",
+          "location": "UC San Diego",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2300",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "Unknown",
+          "summary": "Stalking Disposition CSA Report Filed Fire Alarm Seventh College East #3",
+          "disposition": ""
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Seventh College East #3",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100021",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:27 AM",
+          "summary": "Disposition False Alarm UC Policy Violation Library Walk",
+          "disposition": ""
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Library Walk",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100022",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:32 AM",
+          "summary": "Subjects with no reservations to hand out food and obtaining signatures for various measures",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Vela",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100028",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "2:38 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100030",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "3:01 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Villa La Jolla Drive/Gilman Drive (On-campus)",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2302",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "3:07 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Stay Away Order/Found Property",
+          "location": "Veteran's Affairs Medical Center",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2301",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "3:19 PM",
+          "summary": "Subject riding e-scooter and carrying a scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Outside Agency Warrant Arrest",
+          "location": "Trolley - VA Medical Center",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2303",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "3:34 PM",
+          "summary": "Original call for assist other agency - MTS",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "JK Wood Lounge",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2304",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "8:30 PM - 2:00 PM",
+          "summary": "Unsecured e-scooter stolen, loss of $700.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Information",
+          "location": "Hopkins Drive/Voigt Drive",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100039",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "4:59 PM",
+          "summary": "About 6 juveniles on e-bikes, popping wheelies",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Mosaic",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100040",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "5:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Kaleidoscope",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100042",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "5:22 PM",
+          "summary": "Reporting party transferred to poison control regarding running after taking prescription meds",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Argo Hall",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100044",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "5:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Movement",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2305",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "2:30 PM - 5:00 PM",
+          "summary": "Secured e-scooter stolen, Loss of $700.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Capa",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100049",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "6:59 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Sorrento Valley Boulevard/Sorrento Valley Road",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100052",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "7:30 PM",
+          "summary": "Subject singing and dancing in the middle of the road",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Drunk in Public",
+          "location": "Design and Innovation Building",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100053",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "7:40 PM",
+          "summary": "Male on 2nd floor landing drinking a can of some type of alcoholic beverage, and appears drunk",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Hit and Run",
+          "location": "Athena Parking Structure",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2306",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:30 AM - 7:30 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100057",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "8:24 PM",
+          "summary": "Subject not answering dad on phone",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Piedra",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100059",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "8:37 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100061",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "9:14 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Marea",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100063",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "9:51 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Voluntary Psychiatric Referral",
+          "location": "Podemos",
+          "date_reported": "12/10/2025",
+          "incident_case": "2025-2307",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "10:41 PM",
+          "summary": "",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Kaleidoscope",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100073",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:26 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Catalyst",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100074",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:32 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Survivance",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100077",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:49 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Viento",
+          "date_reported": "12/10/2025",
+          "incident_case": "2512100078",
+          "date_occurred": "12/10/2025",
+          "time_occurred": "11:52 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        }
+      ]
+    },
+    {
+      "filename": "December 9, 2025.pdf",
+      "date": "December 9, 2025",
+      "page_count": 6,
+      "incident_count": 36,
+      "incidents": [
+        {
+          "category": "Report of Battery",
+          "location": "Oceania Hall",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2284",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "7:01 PM - 7:10 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Brennan Hall",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090005",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "12:34 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Movement",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090006",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "12:35 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pepper Canyon Apartments 1700",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090014",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "1:46 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Viento",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090016",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "2:11 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Escort",
+          "location": "Franklin Antonio Hall",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090020",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "4:33 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Student Services Center",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090031",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "7:19 AM",
+          "summary": "Disposition False Alarm Injury Urey Hall",
+          "disposition": ""
+        },
+        {
+          "category": "Injury",
+          "location": "Urey Hall",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2285",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "7:15 AM",
+          "summary": "Male custodian fell and cannot walk",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Grand Theft - Micro Mobility Device",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2287",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "10:00 PM - 7:30 AM",
+          "summary": "Secured e-bike stolen, loss of $2,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Fraud",
+          "location": "Pulse",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090034",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "7:43 AM",
+          "summary": "Reference phone scam, reporting party gave $450.00",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "Natural Sciences Building",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090036",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "7:55 AM",
+          "summary": "Plumbers set off alarm, no fire",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Injury",
+          "location": "Pepper Canyon Apartments 1400",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2288",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "11:14 AM",
+          "summary": "21 year-old female fell in the shower, on her back",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Sixth Place and Market",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2289",
+          "date_occurred": "12/8/2025",
+          "time_occurred": "10:35 AM - 10:35 AM",
+          "summary": "Unsecured bicycle stolen, loss of $3,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Rya",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2295",
+          "date_occurred": "7/13/2025",
+          "time_occurred": "12:00 PM - 12:00 PM",
+          "summary": "Damages to e-lock",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2296",
+          "date_occurred": "12/7/2025",
+          "time_occurred": "3:00 PM - 6:00 PM",
+          "summary": "Secured e-bike stolen, loss of $800.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Sankofa",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2290",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "1:59 PM",
+          "summary": "20 year-old female tripped and hurt left leg",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2291",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "2:34 PM",
+          "summary": "On walkway, scooter vs bicyclist, 20 year-old male bleeding from nose and puncture in abdomen",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090051",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "3:03 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Theft by Use of Access Card Information/Lost Property",
+          "location": "Geisel Library",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2294",
+          "date_occurred": "12/7/2025",
+          "time_occurred": "6:19 PM - 2:30 PM",
+          "summary": "Reference wallet with fraudulent charges on debit card",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "South Mesa Apartments 9156",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2292",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "3:00 PM - 3:41 PM",
+          "summary": "Laundry taken, left about 30 minutes. Loss of $700.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Cresta",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2293",
+          "date_occurred": "12/4/2025",
+          "time_occurred": "3:00 PM - 2:30 PM",
+          "summary": "Secured e-bike stolen, loss of $650.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Artesa",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090057",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "4:03 PM",
+          "summary": "Secondhand information, blood smeared along the wall",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Applied Physics and Mathematics",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090063",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "5:00 PM",
+          "summary": "Student meeting with reporting party and wanted to speak to Core",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090069",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "6:35 PM",
+          "summary": "Patient is under influence and trying to leave the location to drive home",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Sankofa",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090071",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "6:59 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "Costa Verde Boulevard",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090072",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "7:11 PM",
+          "summary": "Welfare check on extended studies student who has not checked in with program administrators in three weeks",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Scripps Memorial Hospital",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090082",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "8:12 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090085",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "8:26 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Battery",
+          "location": "Thornton Pavilion",
+          "date_reported": "12/9/2025",
+          "incident_case": "2025-2297",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "8:30 PM",
+          "summary": "Security request police for subject under citizen arrest who assaulted 2 staff members",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Shores Diner",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090089",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "9:02 PM",
+          "summary": "Tall male with long hair was yelling vulgarities",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Pepper Canyon Apartments 1400",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090098",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "10:22 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Regents Road/La Jolla Village Drive",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090101",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "10:55 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Astilla",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090102",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "11:03 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090103",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "11:12 PM",
+          "summary": "Smells like gas and heard a hissing from a yellow pipe by food pantry",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Security Check",
+          "location": "Campus Service Complex - Building A",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090104",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "11:33 PM",
+          "summary": "Triton Print office, door found open",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "12/9/2025",
+          "incident_case": "2512090105",
+          "date_occurred": "12/9/2025",
+          "time_occurred": "11:46 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -41073,6 +41789,8 @@
     "December 5, 2025.pdf",
     "December 6, 2025.pdf",
     "December 7, 2025.pdf",
-    "December 8, 2025.pdf"
+    "December 8, 2025.pdf",
+    "December 10, 2025.pdf",
+    "December 9, 2025.pdf"
   ]
 }
