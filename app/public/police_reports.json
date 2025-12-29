@@ -46169,6 +46169,370 @@
           "disposition": "CSA Report Filed"
         }
       ]
+    },
+    {
+      "filename": "December 26, 2025.pdf",
+      "date": "December 26, 2025",
+      "page_count": 3,
+      "incident_count": 14,
+      "incidents": [
+        {
+          "category": "Security Alarm",
+          "location": "Triton Center",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260008",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "7:11 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Sankofa",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260011",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "8:15 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Central Mesa Apartments #9250",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260017",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "11:42 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Stay Away Order/Grand Theft - Micro Mobility Device",
+          "location": "Asante Hall",
+          "date_reported": "12/26/2025",
+          "incident_case": "2025-2388",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "12:27 PM - 1:01 PM",
+          "summary": "Person attempting to steal an e-bike",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Information",
+          "location": "Jacobs Hall",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260020",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "12:46 PM",
+          "summary": "Reporting party with Facilities Maintenance Paint Shop, thinks they set off security alarm",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Chancellor House",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260023",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "1:53 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Vandalism",
+          "location": "One Miramar Street Parking Garage",
+          "date_reported": "12/26/2025",
+          "incident_case": "2025-2389",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "Unknown",
+          "summary": "Scratches from a tool and spray paint graffiti inside of the elevator, cost of $200.00 Disposition Report Taken Fire Alarm Sankofa",
+          "disposition": ""
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Sankofa",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260028",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "2:53 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Campus Point Parking East",
+          "date_reported": "12/26/2025",
+          "incident_case": "2612260030",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "3:11 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260032",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "4:40 PM",
+          "summary": "Unhoused male inside the building",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Sixth Market",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260034",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "4:59 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Bicycle",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "12/26/2025",
+          "incident_case": "2025-2391",
+          "date_occurred": "12/2/2025",
+          "time_occurred": "3:00 PM - 4:35 PM",
+          "summary": "Secured bike stolen, loss of $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Stein Clinical Research Building",
+          "date_reported": "12/26/2025",
+          "incident_case": "2025-2390",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "4:45 PM - 7:00 PM",
+          "summary": "Staff member's jacket stolen from custodial closet, loss of $41.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Genesee Avenue/John Jay Hopkins Drive",
+          "date_reported": "12/26/2025",
+          "incident_case": "2512260040",
+          "date_occurred": "12/26/2025",
+          "time_occurred": "7:43 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        }
+      ]
+    },
+    {
+      "filename": "December 27, 2025.pdf",
+      "date": "December 27, 2025",
+      "page_count": 2,
+      "incident_count": 12,
+      "incidents": [
+        {
+          "category": "Fire Alarm",
+          "location": "Porton",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270002",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "1:04 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Douglas Hall",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270004",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "2:09 AM",
+          "summary": "Smoking",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Animal Bite",
+          "location": "Mesa Footbridge",
+          "date_reported": "12/27/2025",
+          "incident_case": "2025-2392",
+          "date_occurred": "12/25/2025",
+          "time_occurred": "9:30 PM",
+          "summary": "Reporting party was bitten by a coyote near location while walking back to residence",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Bicycle",
+          "location": "South Mesa Apartments #9114",
+          "date_reported": "12/27/2025",
+          "incident_case": "T25000359",
+          "date_occurred": "12/24/2025",
+          "time_occurred": "11:30 AM - 11:30 AM",
+          "summary": "Unsecured bike stolen off first floor patio, loss of $200.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270022",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "2:13 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Burglary to Vehicle",
+          "location": "La Jolla Shores/Naga Way",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270028",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "Multiple vehicles were broken into",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Porton",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270029",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "3:31 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270031",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "3:37 PM",
+          "summary": "Disposition Referred to Other Agency Incomplete/Accidental Wireless 911 Thornton Pavilion",
+          "disposition": ""
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270032",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "3:40 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270036",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "4:38 PM",
+          "summary": "Male outside entrance of location going through trash cans and making mess",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Sankofa",
+          "date_reported": "12/27/2025",
+          "incident_case": "2512270038",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "4:57 PM",
+          "summary": "Group of skateboarding outside the Dora Ristorante",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Mental Health Detention",
+          "location": "Arena",
+          "date_reported": "12/27/2025",
+          "incident_case": "2025-2393",
+          "date_occurred": "12/27/2025",
+          "time_occurred": "8:44 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        }
+      ]
+    },
+    {
+      "filename": "December 28, 2025.pdf",
+      "date": "December 28, 2025",
+      "page_count": 2,
+      "incident_count": 8,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "Medical Center Dr / Gilman Dr",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280001",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "12:36 AM",
+          "summary": "Sleeper",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "George Palade Laboratories for CMMW",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280007",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "10:58 AM",
+          "summary": "",
+          "disposition": "Referred to Other UCSD Department"
+        },
+        {
+          "category": "Animal Call",
+          "location": "SIO Pier",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280009",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "11:12 AM",
+          "summary": "Female was aggressive to RP when asked to put her dog on a leash",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "SIO Pier",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280013",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "1:29 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Thornton Pavilion",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280015",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "1:31 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Security Check",
+          "location": "Sankofa",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280016",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "1:57 PM",
+          "summary": "Truck pulling a bike ramp, parked near loading dock, male on BMX bike also present and another setting up a tripod with camera",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Piedra",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280028",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "7:08 PM",
+          "summary": "Disposition Checks OK UC Policy Violation Neighborhood - ECEC/MDCD",
+          "disposition": ""
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Neighborhood - ECEC/MDCD",
+          "date_reported": "12/28/2025",
+          "incident_case": "2512280037",
+          "date_occurred": "12/28/2025",
+          "time_occurred": "9:18 PM",
+          "summary": "",
+          "disposition": "Referred to Student Conduct"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -46321,6 +46685,9 @@
     "December 22, 2025.pdf",
     "December 23, 2025.pdf",
     "December 24, 2025.pdf",
-    "December 25, 2025.pdf"
+    "December 25, 2025.pdf",
+    "December 26, 2025.pdf",
+    "December 27, 2025.pdf",
+    "December 28, 2025.pdf"
   ]
 }
