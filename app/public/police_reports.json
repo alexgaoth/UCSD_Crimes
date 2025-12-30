@@ -46533,6 +46533,164 @@
           "disposition": "Referred to Student Conduct"
         }
       ]
+    },
+    {
+      "filename": "December 29, 2025.pdf",
+      "date": "December 29, 2025",
+      "page_count": 3,
+      "incident_count": 15,
+      "incidents": [
+        {
+          "category": "Noise Disturbance",
+          "location": "Hubbs Hall",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290001",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "12:27 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Solidarity",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290004",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "1:08 AM",
+          "summary": "Outside laundry room, RP heard a machine like sound, smelled like burnt metal, saw unknown male walk past and leave upon seeing RP",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Found Property",
+          "location": "Vela",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290008",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "6:06 AM",
+          "summary": "RP saw a spent bullet casing on sidewalk near driveway entrance",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "George Palade Laboratories",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290015",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "9:14 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290016",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "9:17 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Coalition",
+          "date_reported": "12/29/2025",
+          "incident_case": "2025-2397",
+          "date_occurred": "11/19/2025",
+          "time_occurred": "9:00 AM - 12:00 PM",
+          "summary": "Unknown suspect(s) attempted to gain money from victim under false pretenses and threatened deportation",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Trespass",
+          "location": "Engineering Building Unit II",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290026",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "11:40 AM",
+          "summary": "Non-affiliate adult male in lobby talking on phone",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Battery on Emergency Personnel - Simple Assault",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/29/2025",
+          "incident_case": "2025-2398",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "Unknown",
+          "summary": "Security requesting assistance with patient under citizen's arrest for assault",
+          "disposition": "Cleared by Other Means"
+        },
+        {
+          "category": "CSA/Clery: Motor Vehicle Theft",
+          "location": "UC San Diego Medical Center - Hillcrest",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290034",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "The Exchange",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290037",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "2:45 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance",
+          "location": "Biology Field Station - Main Building",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290038",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "4:30 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Target - PC West",
+          "date_reported": "12/29/2025",
+          "incident_case": "2025-2399",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "Unknown",
+          "summary": "Original call for subject upset and yelling about stolen property, unknown suspect(s) stole victim's miscellaneous property, loss $53",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290047",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "7:03 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Scholars Drive North",
+          "date_reported": "12/29/2025",
+          "incident_case": "2512290062",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "9:45 PM",
+          "summary": "RP's bunk ladder fell and unable to get down from bunk bed",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Fraud: Obtain Money by False Pretenses",
+          "location": "North America Hall",
+          "date_reported": "12/29/2025",
+          "incident_case": "2025-2401",
+          "date_occurred": "10/10/2025",
+          "time_occurred": "Unknown",
+          "summary": "Loss $280,000",
+          "disposition": "Report Taken"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -46688,6 +46846,7 @@
     "December 25, 2025.pdf",
     "December 26, 2025.pdf",
     "December 27, 2025.pdf",
-    "December 28, 2025.pdf"
+    "December 28, 2025.pdf",
+    "December 29, 2025.pdf"
   ]
 }
