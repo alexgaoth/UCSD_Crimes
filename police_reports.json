@@ -46691,6 +46691,194 @@
           "disposition": "Report Taken"
         }
       ]
+    },
+    {
+      "filename": "December 30, 2025.pdf",
+      "date": "December 30, 2025",
+      "page_count": 4,
+      "incident_count": 18,
+      "incidents": [
+        {
+          "category": "Fire Alarm",
+          "location": "Discovery Way",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300003",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "4:43 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Under Influence of Drugs",
+          "location": "IGPP - Munk Laboratory",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300012",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "8:25 AM",
+          "summary": "Male in building using a needle, possibly injecting drugs",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300013",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "9:09 AM",
+          "summary": "RP needs signature on her I-20",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "University Center Ln",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300017",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "9:49 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Torrey Pines Center North Parking",
+          "date_reported": "12/30/2025",
+          "incident_case": "2025-2402",
+          "date_occurred": "12/29/2025",
+          "time_occurred": "2:00 PM - 8:40 AM",
+          "summary": "Unknown suspect(s) damaged door to storage room in parking structure",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Mosaic",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300020",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "10:36 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Shiley Eye Institute",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300021",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "11:23 AM",
+          "summary": "Disposition Referred to Other Agency Vandalism to Vehicle Ola Parking",
+          "disposition": ""
+        },
+        {
+          "category": "Vandalism to Vehicle",
+          "location": "Ola Parking",
+          "date_reported": "12/30/2025",
+          "incident_case": "2025-2403",
+          "date_occurred": "12/09/2025",
+          "time_occurred": "12:00 PM - 11:23 AM",
+          "summary": "RP found a vehicle with a broken rear passenger window",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911 Call",
+          "location": "Ola Parking",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300023",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "11:31 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Villa La Jolla Dr",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300025",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "12:15 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300028",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "1:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Circumstances",
+          "location": "Exchange",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300031",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "1:43 PM",
+          "summary": "White male adult has some packages in the brush area outside of the building",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Coast Blvd.",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300033",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "3:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Rya",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300035",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "3:17 PM",
+          "summary": "Custodian requesting to speak to officer regarding unknown subject who has been camping in common areas of building",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Garden View Road",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300038",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "4:04 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Psych Subject",
+          "location": "North America Hall",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300042",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "5:04 PM",
+          "summary": "RP was scammed yesterday and now feeling guilty and depressed, feels like they shouldn't be alone",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Via Capri/ La Jolla Scenic Dr S.",
+          "date_reported": "12/30/2025",
+          "incident_case": "2512300058",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "8:58 PM",
+          "summary": "RP advising vehicle crashed into a tree",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Mental Health Detention",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "12/30/2025",
+          "incident_case": "2025-2405",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "9:24 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -46847,6 +47035,7 @@
     "December 26, 2025.pdf",
     "December 27, 2025.pdf",
     "December 28, 2025.pdf",
-    "December 29, 2025.pdf"
+    "December 29, 2025.pdf",
+    "December 30, 2025.pdf"
   ]
 }
