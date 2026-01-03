@@ -46879,6 +46879,252 @@
           "disposition": "Report Taken"
         }
       ]
+    },
+    {
+      "filename": "December 31, 2025.pdf",
+      "date": "December 31, 2025",
+      "page_count": 2,
+      "incident_count": 12,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "One Miramar Street, Parking Garage",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310004",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "5:00 AM",
+          "summary": "Reporting party was having a panic attack",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Petty Theft - Bicycle",
+          "location": "Seventh College West #7",
+          "date_reported": "12/31/2025",
+          "incident_case": "2026-0004",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "7:55 AM - 12:00 PM",
+          "summary": "Secured bike stolen, loss of $200.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310008",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "8:33 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Student Center Building A",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310017",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "12:23 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Capa",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310024",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "3:16 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "East Campus Utilities Plant",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310025",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "3:18 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Capa",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310026",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "3:34 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Bird Rock Café",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310027",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "3:55 PM",
+          "summary": "Disposition Service Provided Incomplete/Accidental Wireless 911 North Torrey Pines Road",
+          "disposition": ""
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "North Torrey Pines Road",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310043",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "10:09 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Gilman Drive",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310046",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "10:32 PM",
+          "summary": "Multiple calls regarding power outage",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Information",
+          "location": "Umoja",
+          "date_reported": "12/31/2025",
+          "incident_case": "2512310047",
+          "date_occurred": "12/31/2025",
+          "time_occurred": "10:32 PM",
+          "summary": "Multiple calls regarding power outage",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "UCSD Hillcrest Medical Center",
+          "date_reported": "12/31/2025",
+          "incident_case": "HC25-12-30-0989",
+          "date_occurred": "12/30/2025",
+          "time_occurred": "4:22 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        }
+      ]
+    },
+    {
+      "filename": "January 1, 2026.pdf",
+      "date": "January 1, 2026",
+      "page_count": 2,
+      "incident_count": 11,
+      "incidents": [
+        {
+          "category": "Security Check",
+          "location": "Deep Sea Drilling Building",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010005",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "12:53 AM",
+          "summary": "Security advising there is a security alarm in the area, unknown the exact location",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Stay Away Order",
+          "location": "Taco Villa",
+          "date_reported": "1/1/2026",
+          "incident_case": "2025-0001",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "1:16 AM - 1:45 AM",
+          "summary": "Non affiliate was issued a 7 day stay away order for violating campus curfew hours",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/ Accidental Wireless 911",
+          "location": "Costa Verde Blvd",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010007",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "1:57 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Flag down",
+          "location": "Trolley- Central Campus Station",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010008",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "2:28 AM",
+          "summary": "Student asking for a ride",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Interstate 5 NB",
+          "date_reported": "1/1/2026",
+          "incident_case": "26010100014",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "9:56 AM",
+          "summary": "Caller advised she was in a crash on the freeway",
+          "disposition": "Referred To Other Agency (California Highway Patrol)"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010019",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "11:54 AM",
+          "summary": "Subject sleeping on the couch near the kitchen on the 4th floor",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Burglary",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "1/1/2026",
+          "incident_case": "2025-0002",
+          "date_occurred": "12/21/2025",
+          "time_occurred": "7:00 PM - 1:00 PM",
+          "summary": "An unknown subject took the victims bike from his balcony, loss is $ 3,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "La Jolla Family House",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010032",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "6:55 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Viento",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010036",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "7:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "1/1/2026",
+          "incident_case": "2601010045",
+          "date_occurred": "1/1/2026",
+          "time_occurred": "9:02 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Trolley- Central Campus Station",
+          "date_reported": "1/1/2025",
+          "incident_case": "2601010047",
+          "date_occurred": "1/1/2025",
+          "time_occurred": "9:41 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -47036,6 +47282,8 @@
     "December 27, 2025.pdf",
     "December 28, 2025.pdf",
     "December 29, 2025.pdf",
-    "December 30, 2025.pdf"
+    "December 30, 2025.pdf",
+    "December 31, 2025.pdf",
+    "January 1, 2026.pdf"
   ]
 }
