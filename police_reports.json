@@ -47919,6 +47919,344 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "January 5, 2025.pdf",
+      "date": "January 5, 2025",
+      "page_count": 6,
+      "incident_count": 33,
+      "incidents": [
+        {
+          "category": "Send/ False Fire Alarm By Any Method",
+          "location": "Seventh College East #1",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0022",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "2:16 AM",
+          "summary": "Unknown suspect pulled the fire alarm pull station",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Torrey Pines Gliderport",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050019",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "7:43 AM",
+          "summary": "Male fell on the sidewalk",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Gilman Dr./ Theatre District Dr.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050021",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "8:01 AM",
+          "summary": "Stranded motorist",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "La Jolla Village Dr./ North Torrey Pines Rd.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050023",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "8:31 AM",
+          "summary": "Female walking in the middle of the street on her phone",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Detention",
+          "location": "Trolley- La Jolla Health Station",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0023",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "9:20 AM",
+          "summary": "Subject with suicidal ideations was transported to the hospital for further medical evaluation",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0024",
+          "date_occurred": "12/12/2025",
+          "time_occurred": "9:00 PM - 6:00 PM",
+          "summary": "A secured bike was stolen, loss is $400.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Pangea Drive",
+          "date_reported": "1/5/2025",
+          "incident_case": "T26000003",
+          "date_occurred": "01/04/2025",
+          "time_occurred": "1:55 PM - 2:00 AM",
+          "summary": "A secured bike was stolen, loss is $100.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Nierenberg Hall",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0025",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "Unknown suspect drew graffiti on the staircase, damage is estimated at $100.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Grand Theft- Micro Mobility Device",
+          "location": "Grassroots",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0026",
+          "date_occurred": "12/12/2025",
+          "time_occurred": "11:52 AM - 12:17 PM",
+          "summary": "A secured e bike that was taken over the break was located and returned to owner",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Library Walk",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050035",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "12:31 PM",
+          "summary": "Male exposed himself to caller",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Brian C Malk Hall",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050039",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "1:45 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Tierra On Miramar Street",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050041",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "1:52 PM",
+          "summary": "Stolen package was located in the brush area, caller will CB to make a report",
+          "disposition": "Information only"
+        },
+        {
+          "category": "Information",
+          "location": "Bates Hall",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050042",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "2:19 PM",
+          "summary": "Rp injecting himself, might have gotten needle stuck in the muscle, will CB if he needs medics",
+          "disposition": "Information only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Library Walk",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050043",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "2:34 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Theft Of Personal Property",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "1/5/2026",
+          "incident_case": "2026-0027",
+          "date_occurred": "12/11/2025",
+          "time_occurred": "2:30 PM - 12:30 PM",
+          "summary": "Several items missing from reporting party's apartment, loss is $96.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050045",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "3:15 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050046",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "3:17 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050048",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "4:09 PM",
+          "summary": "Found bike",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sulpizio Family Cardiovascular Center",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050048",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "4:09 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Traffic Hazard",
+          "location": "Villa La Jolla Dr./ La Jolla Village Dr.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050049",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "5:00 PM",
+          "summary": "Vehicle blocking traffic in the middle of the road",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Villa La Jolla Dr./ La Jolla Village Dr.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050050",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "5:14 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Kaleidoscope",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050051",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "5:34 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050053",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "5:58 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Chemical Spill",
+          "location": "Structural And Material Engineering",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050054",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "6:30 PM",
+          "summary": "Nitrogen tank leaking outside of the caller's room",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Tapestry",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050056",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "7:28 PM 0",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Pulse",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050057",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "7:34 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Injury",
+          "location": "Trolley- La Jolla Health Station",
+          "date_reported": "1/5/2025",
+          "incident_case": "2601050061",
+          "date_occurred": "1/5/2025",
+          "time_occurred": "8:22 PM",
+          "summary": "Female fell and unable to get back up",
+          "disposition": "Checks Ok"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Alianza/Umoja",
+          "date_reported": "1/5/2025",
+          "incident_case": "T26000004",
+          "date_occurred": "12/14/2025",
+          "time_occurred": "6:08 PM - 8:10 PM",
+          "summary": "A secured bike was stolen, loss is $200.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Campus Point Dr/ Genesee Ave.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050067",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "9:38 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Chancellor House On La Jolla Farms Rd.",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050068",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "9:57 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Neighborhood",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050075",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "11:38 PM",
+          "summary": "Basketball Courts",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "North America Hall",
+          "date_reported": "1/5/2026",
+          "incident_case": "2601050076",
+          "date_occurred": "1/5/2026",
+          "time_occurred": "11:43 PM",
+          "summary": "Eval for an intoxicated subject",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Battery",
+          "location": "UCSD Hillcrest",
+          "date_reported": "1/5/2026",
+          "incident_case": "HC26-01-05-0009",
+          "date_occurred": "1/4/2025",
+          "time_occurred": "11:39 PM",
+          "summary": "patient spat at a staff member",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -48081,6 +48419,7 @@
     "January 1, 2026.pdf",
     "January 2, 2026.pdf",
     "January 3, 2026.pdf",
-    "January 4, 2026.pdf"
+    "January 4, 2026.pdf",
+    "January 5, 2025.pdf"
   ]
 }
