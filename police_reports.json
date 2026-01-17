@@ -51837,6 +51837,562 @@
           "disposition": ""
         }
       ]
+    },
+    {
+      "filename": "January 14, 2026.pdf",
+      "date": "January 14, 2026",
+      "page_count": 4,
+      "incident_count": 24,
+      "incidents": [
+        {
+          "category": "Mental Health Detention",
+          "location": "Gilman Drive/Pepper Canyon Drive",
+          "date_reported": "1/14/2026",
+          "incident_case": "2026-0103",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "12:20 AM - 12:45 AM",
+          "summary": "Subject yelling \"take me home\"",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Escort",
+          "location": "Tata Hall",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140004",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "1:15 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Mental Health Detention/Excessive Alcohol/Attempt Suicide",
+          "location": "Tapestry",
+          "date_reported": "1/14/2026",
+          "incident_case": "2026-0104",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "2:10 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Central Mesa Apartments #9254",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140013",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "8:56 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Injury",
+          "location": "Shiley Eye Institute",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140015",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "9:22 AM",
+          "summary": "Patient hurt knee",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Directors Place",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140019",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "10:21 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Alianza",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140027",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "12:19 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Oceanview Terrace",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140028",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "12:57 PM",
+          "summary": "Disposition Referred to Other Department (UCSD) Medical Aid Mandeville Center",
+          "disposition": ""
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Mandeville Center",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140029",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "1:17 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140033",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "1:39 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Nonstudent Refuse to Leave University",
+          "location": "Copa Vida Café",
+          "date_reported": "1/14/2026",
+          "incident_case": "2025-0105",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "1:56 PM",
+          "summary": "Stay away order violation",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Information",
+          "location": "Geisel Library",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140037",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "1:55 PM",
+          "summary": "Male in 40's, asking to take pictures of male and female hands for a survey",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Information",
+          "location": "Student Services Center",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140039",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "3:38 PM",
+          "summary": "Outside cashier's office, student with history of being agitated regarding tuition refunds",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Villa La Jolla Drive (On-Campus)/La Jolla Village Drive",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140045",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "6:50 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Hazard Situation",
+          "location": "Scholars Drive South/Revelle College Drive",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140046",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "6:55 PM",
+          "summary": "White, male adult sitting at bus stop pointing strobe light at drivers on roadway",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Information",
+          "location": "Copa Vida Café",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140051",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "8:21 PM",
+          "summary": "Reporting party lost the key to his U-lock, will be cutting U-lock to free his bicycle",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Central Mesa Apartments #9250",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140053",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "8:27 PM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Conrad Prebys Music Center",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140055",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "8:51 PM",
+          "summary": "Non-affiliate female at location asking for assistance getting a hold of friend's mother.",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Pepper Canyon East #200",
+          "date_reported": "1/14/2026",
+          "incident_case": "2025-0110",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "9:45 AM - 9:45 PM",
+          "summary": "Secured e-scooter stolen, loss of $453.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Seventh College East #3",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140061",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "10:56 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Seventh College West #2",
+          "date_reported": "1/14/2026",
+          "incident_case": "2025-0107",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "11:05 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Astilla",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140062",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "11:06 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "1/14/2026",
+          "incident_case": "2601140065",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "11:28 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Tresspass",
+          "location": "East Campus Medical Center",
+          "date_reported": "1/14/2026",
+          "incident_case": "EC26-01-13-0029",
+          "date_occurred": "1/13/2026",
+          "time_occurred": "12:37 AM",
+          "summary": "Discharged patient refusing to leave",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
+    },
+    {
+      "filename": "January 15, 2026.pdf",
+      "date": "January 15, 2026",
+      "page_count": 6,
+      "incident_count": 30,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "North Torrey Pines Living and Learning Neighborhood",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150002",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:31 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Escort",
+          "location": "Urey Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150003",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:50 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tioga Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150004",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:55 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Scholars Drive North",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150006",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "1:12 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Campus Security Authority Report",
+          "location": "UC San Deigo",
+          "date_reported": "1/15/2026",
+          "incident_case": "2026-0108",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "8:00 AM - 12:15 AM",
+          "summary": "Dating Violence",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Brisa",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150008",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "3:03 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Trespass",
+          "location": "UC Extended Studies",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150009",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "4:47 AM",
+          "summary": "",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Center for Novel Therapeutics",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150015",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "8:29 AM",
+          "summary": "Reporting party saw a male with binoculars possible looking towards student housing across",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Shiley Eye Center",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150020",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "10:09 AM",
+          "summary": "Disposition Referred to Other Agency Medical Aid Shiley Eye Center",
+          "disposition": ""
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Shiley Eye Center",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150021",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "10:10 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Pepper Canyon Apartments 700",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150022",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "10:31 AM",
+          "summary": "Reporting party's son has stopped taking his medication and his care team feels like someone",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Tioga Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150027",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "11:30 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "UCSD Cancer Center",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150028",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:19 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Riverside University Health System",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150029",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:20 PM",
+          "summary": "Reporting party is with Riverside University Health Systems and student was brought in by law enforcement after found running on the freeway",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Grand Theft - Micro Mobility Device",
+          "location": "Center Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2026-0109",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "8:00 AM - 12:15 AM",
+          "summary": "Secured e-scooter stolen, loss of $900.00",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "The Jeannie",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150036",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "1:53 PM",
+          "summary": "Petitioners outside, just north of location, asking students to sign their petition",
+          "disposition": "Cancelled Before Dispatch"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Tapestry",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150041",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "3:33 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Student Health and Wellness Expansion",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150042",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "3:33 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Outback Adventures",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150045",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "3:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Parking Lot P510",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150047",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "4:44 PM",
+          "summary": "Someone is lying down underneath a blue blanket",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150048",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "5:13 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Geisel Library",
+          "date_reported": "1/15/2026",
+          "incident_case": "2026-0111",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:00 PM - 8:46 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Pepper Canyon Apartments 700",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150051",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "5:30 PM",
+          "summary": "",
+          "disposition": "Cancelled Before Dispatch"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Multipurpose and Meta Gallery",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150053",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "6:01 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Peterson Hall",
+          "date_reported": "1/15/2026",
+          "incident_case": "2026-0112",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "4:50 PM - 6:10 PM",
+          "summary": "Secured e-scooter stolen, loss of $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Traffic Hazard",
+          "location": "Genesee Avenue",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150059",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "7:45 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "John Jay Hopkins Drive",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150064",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "9:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Brisa",
+          "date_reported": "1/15/2026",
+          "incident_case": "2601150067",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "10:14 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Report of Grand Theft - Micro Mobility Device",
+          "location": "Target",
+          "date_reported": "1/15/2026",
+          "incident_case": "2026-0113",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "6:50 PM - 9:15 PM",
+          "summary": "E-bike stolen, loss of $1,200.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Battery",
+          "location": "UCSD Hillcrest Medical Center",
+          "date_reported": "1/15/2026",
+          "incident_case": "HC26-01-14-0036",
+          "date_occurred": "1/14/2026",
+          "time_occurred": "3:50 AM",
+          "summary": "Patient spat on two medical staff",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -52010,6 +52566,8 @@
     "January 12, 2026.pdf",
     "January 11, 2026 UPDATED.pdf",
     "January 12, 2026 UPDATED.pdf",
-    "January 13, 2026.pdf"
+    "January 13, 2026.pdf",
+    "January 14, 2026.pdf",
+    "January 15, 2026.pdf"
   ]
 }
