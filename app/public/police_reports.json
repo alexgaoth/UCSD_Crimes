@@ -52393,6 +52393,424 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "January 16, 2026.pdf",
+      "date": "January 16, 2026",
+      "page_count": 7,
+      "incident_count": 41,
+      "incidents": [
+        {
+          "category": "Escort",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160010",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "3:20 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Matthews Apartments E",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160011",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "4:22 AM",
+          "summary": "Smoking contact X4",
+          "disposition": "Referred to Student Conduct"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Avenue",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160013",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:34 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Central Mesa Apartments",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160017",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:00 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Corte Jardin Del Mar",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160021",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:50 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160022",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:58 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Kaleidoscope",
+          "date_reported": "1/16/2026",
+          "incident_case": "2026-0114",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "9:19 AM - 9:55 AM",
+          "summary": "Unknown suspect(s) intentionally caused damage to door strike plate, damage $100",
+          "disposition": ""
+        },
+        {
+          "category": "Security Alarm",
+          "location": "SIO New Director's Office",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160030",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "9:26 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Parking Lot P303",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160032",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "9:56 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Gilman Drive",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160034",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "10:42 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Housing, Dining & Hospitality Services",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160035",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "10:46 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160036",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "11:03 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Mesa Apartments Central",
+          "date_reported": "1/16/2026",
+          "incident_case": "2026-0116",
+          "date_occurred": "1/11/2026",
+          "time_occurred": "Unknown - 6:00 PM",
+          "summary": "Secured e-scooter stolen, loss $300",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Cognitive Sciences Building",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160038",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "12:09 PM",
+          "summary": "Past employee has not returned laptop",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Blue Peak Credit Union - GPS",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160039",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "12:15 PM",
+          "summary": "Elderly female patron refusing to leave",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160040",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "12:17 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Check",
+          "location": "Torrey Pines Center South",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160048",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "1:30 PM",
+          "summary": "Subject was in the unisex bathroom possibly using shower",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Cala",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160050",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "1:46 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "La Jolla Shores Dr/North Torrey Pines Rd",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160058",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "3:25 PM",
+          "summary": "X2 juveniles, approx. 5 yrs old, seen sitting on sidewalk alone",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160059",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "3:35 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160061",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "3:45 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160063",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "4:14 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Disturbance, Argument",
+          "location": "Robinson Building 2 - Auditorium",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160067",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "4:56 PM",
+          "summary": "Disagreement with cab driver over payment",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Asante House",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160068",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:00 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Battery",
+          "location": "International Ln",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160069",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:02 PM",
+          "summary": "Disagreement with cab driver, RP claiming cab driver pushed and grabbed RP's friend",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Robinson Building 3 - Library",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160070",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:07 PM",
+          "summary": "RP is taxi driver, says no physical contact, claiming 2 males attempted to run without paying cab fare",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Information",
+          "location": "Copa Vida Café - RW Academic Bldg",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160072",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:35 PM",
+          "summary": "RP lost key to U-lock, advising will be cutting own lock",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Campus Point Parking West",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160073",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "6:16 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160074",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "6:21 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Information",
+          "location": "Regents Road",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160076",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "6:33 PM",
+          "summary": "Genesee to Regents, roads are all blacked out",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Mesa Apartments Central",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160080",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:49 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160081",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "8:12 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Brisa",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160083",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "8:45 PM",
+          "summary": "Subject seen on roof of building, across from Triton Food Pantry, yelling something",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Security Check",
+          "location": "Kaleidoscope",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160084",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "8:55 PM",
+          "summary": "Teenagers going in and out of building and knocking on doors",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Mesa Apartments - Central",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160085",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "8:58 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Cresta",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160087",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "9:12 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Marine Conservation & Technology Facility",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160091",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "10:15 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Brennan Apartments",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160095",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "10:34 PM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Voigt Drive",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160098",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "11:05 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Movement",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160101",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "11:21 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Seventh College East #4",
+          "date_reported": "1/16/2026",
+          "incident_case": "2601160102",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "11:28 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -52568,6 +52986,7 @@
     "January 12, 2026 UPDATED.pdf",
     "January 13, 2026.pdf",
     "January 14, 2026.pdf",
-    "January 15, 2026.pdf"
+    "January 15, 2026.pdf",
+    "January 16, 2026.pdf"
   ]
 }
