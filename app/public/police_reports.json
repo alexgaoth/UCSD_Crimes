@@ -52811,6 +52811,354 @@
           "disposition": "Checks OK"
         }
       ]
+    },
+    {
+      "filename": "January 17, 2026.pdf",
+      "date": "January 17, 2026",
+      "page_count": 6,
+      "incident_count": 34,
+      "incidents": [
+        {
+          "category": "Security Check",
+          "location": "Mosaic",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170001",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "12:00 AM",
+          "summary": "Two juveniles on bicycles, riding around and asking for change and stated they were middle school rapist",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Excessive Alcohol: Public Over intoxication",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0117",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "12:13 AM",
+          "summary": "Original call for welfare check of male near the apartments, grunting, possibly having trouble breathing",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Pulse",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170005",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "12:57 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Unknown Trouble",
+          "location": "Normal Avenue",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170008",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "1:21 AM",
+          "summary": "RP reporting an incident in Chico, California",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Excessive Alcohol: Public Over intoxication",
+          "location": "Movement",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0118",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "1:33 AM",
+          "summary": "Original call for medaid, 20 yr old female throwing up, conscious and breathing",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Brennan Apartments",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170010",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "1:49 AM",
+          "summary": "Report of student seen extremely drunk and now not answering door",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Escort",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170011",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "2:11 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "East Campus Office Building",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170012",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "4:00 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Stolen Vehicle",
+          "location": "Kaleidoscope",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170013",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "5:01 AM",
+          "summary": "",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Thornton Pavilion",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170015",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "6:56 AM",
+          "summary": "Patient eloped with IV in arm",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Umoja",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170016",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "7:34 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Mesa Apartments Central",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170017",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "7:46 AM",
+          "summary": "Male walking in roadway",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170019",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "9:48 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0119",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:00 PM - 10:00 AM",
+          "summary": "Secured e-bike stolen, loss $650",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Franklin Antonio Hall",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170021",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "10:07 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Traffic Hazard",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170022",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "11:09 AM",
+          "summary": "Multiple vehicles parked along curb/red zone, causing other vehicles to drive in opposite lane of traffic, to go around",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Scholars Parking Structure",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0120",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "5:00 PM - 11:15 AM",
+          "summary": "Secured bicycle stolen, loss $55",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Information Only Report",
+          "location": "Matthews Apartments E",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0121",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "6:00 PM",
+          "summary": "Report of resident making criminal threats towards suitemate",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Found Property",
+          "location": "La Jolla Shores Beach",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170029",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "2:36 PM",
+          "summary": "Found purse turned in",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Charles David Keeling Apartments #2",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170031",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "3:08 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Brennan Apartments",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170032",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "3:36 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170036",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "4:26 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Bates Hall",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0122",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "7:00 PM - 12:00 AM",
+          "summary": "Unsecured bicycle stolen, loss $350",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170042",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "6:58 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Stewart Hall",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170043",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "6:58 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Survivance",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170045",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "7:19 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170046",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "7:23 PM",
+          "summary": "Vehicle occupied by two males in 20 min. loading zone, car smells like cannabis, \"cat calling\" students and yelling slurs",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Middle East Hall",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170047",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "7:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Scholars Dr N.",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170050",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "9:27 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Noise Disturbance",
+          "location": "Africa hall",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170053",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "10:10 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Goody's Marketplace",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0123",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "6:30 PM - 10:00 PM",
+          "summary": "Surfboard stolen, loss $800",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Smoke Check",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "1/17/2026",
+          "incident_case": "2601170059",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "11:27 PM",
+          "summary": "RP can smell smoke, but does not see any flames or smoke",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Disorderly Conduct: Alcohol",
+          "location": "Astilla",
+          "date_reported": "1/17/2026",
+          "incident_case": "2026-0124",
+          "date_occurred": "1/17/2026",
+          "time_occurred": "11:48 PM",
+          "summary": "",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Verbal Threats",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "1/17/2026",
+          "incident_case": "HC26-01-16-0041",
+          "date_occurred": "1/16/2026",
+          "time_occurred": "10:30 AM",
+          "summary": "Patient left against medical advice and made unknown verbal threats towards staff",
+          "disposition": "Hospital Incident Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -52987,6 +53335,7 @@
     "January 13, 2026.pdf",
     "January 14, 2026.pdf",
     "January 15, 2026.pdf",
-    "January 16, 2026.pdf"
+    "January 16, 2026.pdf",
+    "January 17, 2026.pdf"
   ]
 }
