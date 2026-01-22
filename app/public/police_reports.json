@@ -53485,6 +53485,314 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "January 20, 2026.pdf",
+      "date": "January 20, 2026",
+      "page_count": 5,
+      "incident_count": 30,
+      "incidents": [
+        {
+          "category": "Outside Warrant /Felony/Stay Away Order",
+          "location": "Magnolia",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0130",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "3:05 AM - 3:20 AM",
+          "summary": "Subject with an outstanding felony warrant was contacted and arrested",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Parking Lot P510",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200011",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "6:52 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Knowledge On Thurgood Marshall Ln.",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200016",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "8:40 AM",
+          "summary": "Male/ female verbal dispute, female overheard saying she was not ok",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking On Scholars Dr. North",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200019",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "9:09 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Torrey Pines Center South",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200021",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "10:25 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Regents Park Row",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200026",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "11:55 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lost Property",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200027",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "11:56 AM",
+          "summary": "Passport from India lost on campus",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Alianza",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200028",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "12:05 PM",
+          "summary": "Reporting party's daughter will not return calls or texts",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "La Jolla Shores Dr.",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200029",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "12:14 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "University Center Ln.",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200030",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "1:03 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Urey Hall",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200040",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "2:43 PM",
+          "summary": "Construction workers were catcalling female",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/ Accidental Wireless 911",
+          "location": "University Center Ln.",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200041",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "2:46 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Detention/ Attempt Suicide",
+          "location": "Mesa Apartments Central",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0131",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "3:00 PM",
+          "summary": "Subject with suicidal ideations was transported for further medical evaluation",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200043",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "3:37 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0132",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "4:00 PM",
+          "summary": "An unsecured e-bike was stolen, loss is $600.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Mahaila Ave",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200047",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "4:23 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200048",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "4:26 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Seventh College West #4",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200052",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "6:06 PM",
+          "summary": "Subject laying on the ground on the southside stairs",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0133",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "8:00 AM - 6:20 PM",
+          "summary": "A secured e-bike was stolen, loss is $1,200.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Pepper Canyon Apartments",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200054",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "6:35 PM",
+          "summary": "Caller found back door open when he returned home, nothing missing",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Check",
+          "location": "One Miramar Street",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200055",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "6:51 PM",
+          "summary": "Grinder Heard",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200057",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "6:55 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "North Torrey Pines Rd.",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200058",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "7:09 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Trolley- Central Campus Station",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200059",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "7:53 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Scholars Parking Structure",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0134",
+          "date_occurred": "",
+          "time_occurred": "5:15 PM",
+          "summary": "Unknown suspect stole a black modular toolbox, loss is $100.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Petty Theft- Micro Mobility Device",
+          "location": "Warren Lecture Hall",
+          "date_reported": "1/20/2026",
+          "incident_case": "1",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "2:45 PM - 3:55 PM",
+          "summary": "A secured e-scooter was stolen, loss is $250.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Stay Away Order",
+          "location": "OLA Parking",
+          "date_reported": "1/20/2026",
+          "incident_case": "2026-0135",
+          "date_occurred": "",
+          "time_occurred": "9:44 PM",
+          "summary": "Non affiliate was contacted for smoking on campus, blocking stairwell, and disturbing the",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Charles David Keeling Apartments 2",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200066",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "9:37 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Security Check",
+          "location": "Pepper Canyon Apartments",
+          "date_reported": "1/20/2026",
+          "incident_case": "2601200067",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "10:14 PM",
+          "summary": "Caller heard a knock from the bedroom and kitchen window from outside window",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verbal Threat",
+          "location": "UCSD Hillcrest",
+          "date_reported": "1/20/2026",
+          "incident_case": "HC26-01-19-0054",
+          "date_occurred": "1/19/2026",
+          "time_occurred": "2:45 PM",
+          "summary": "Staff advised patient made verbal threats to return and shoot unspecified people.",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -53664,6 +53972,7 @@
     "January 16, 2026.pdf",
     "January 17, 2026.pdf",
     "January 18, 2026.pdf",
-    "January 19, 2026.pdf"
+    "January 19, 2026.pdf",
+    "January 20, 2026.pdf"
   ]
 }
