@@ -54449,6 +54449,344 @@
           "disposition": "Will Cooperate"
         }
       ]
+    },
+    {
+      "filename": "January 23, 2026.pdf",
+      "date": "January 23, 2026",
+      "page_count": 6,
+      "incident_count": 33,
+      "incidents": [
+        {
+          "category": "Escort",
+          "location": "Mandeville Art Gallery",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230005",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "12:48 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tapestry",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230006",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "12:59 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Coalition",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230008",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "1:50 AM",
+          "summary": "Has not heard from daughter who usually calls her at midnight in China",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230015",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "6:20 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Non Injury Accident",
+          "location": "Scholars Parking Structure",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230022",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "8:45 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Alianza",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230023",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "8:53 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Leichtag Family Foundation Biomedical Research",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230025",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "8:59 AM",
+          "summary": "Unhoused male sleeping",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "South Parking Structure",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230026",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "9:01 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Peterson Hall",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230033",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "9:41 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Fleet Services",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0157",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "7:30 AM",
+          "summary": "Damage to university owned vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Reckless Driving",
+          "location": "State Route 56 EB",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230039",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "12:25 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Library Walk",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230043",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "1:06 PM",
+          "summary": "Solicitors on Library Walk Infront of Target refusing to comply",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Scholars Parking",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0158",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "3:00 PM - 1:23 PM",
+          "summary": "Unknown person cut a hole in a fence in a bike cage ground floor",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report Of Hit & Run No Injuries",
+          "location": "One Miramar Street",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230046",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "1:25 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230048",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "1:43 PM",
+          "summary": "Female says she was unaware of a chip implant, female sounds disoriented",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Transitional Imaging",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230051",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "2:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Medical Center Dr.",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230052",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "2:44 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Gilman Dr. Eucalyptus Grove Ln",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230056",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "3:38 PM",
+          "summary": "Unhoused male smoking cigarettes and possibly under the influence of narcotics or alcohol,",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Franklin Antonio Hall",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230057",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "3:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Applied Physics & Mathematics",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230060",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "4:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Triton Stadium",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230063",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "5:26 PM",
+          "summary": "Unhoused make was yelling nom-sense to himself",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Impound",
+          "location": "Parking Lot P510",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0159",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "7:45 PM - 8:26 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Reckless Driving",
+          "location": "South Parking Structure",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230070",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "8:32 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Grand Theft- Micro Mobility Device",
+          "location": "Gilman Drive",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0160",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "6:30 PM 8:48 PM",
+          "summary": "A secured e-bike was stolen, loss is $5,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Pangea Parking Structure",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0161",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "9:47 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Report of Petty Theft- Micro Mobility Device",
+          "location": "Central Trolley",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0162",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "9:00 AM - 5:00 PM",
+          "summary": "A secured e-scooter was stolen, loss $750.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230075",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "10:06 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Survivance Building",
+          "date_reported": "1/23/2026",
+          "incident_case": "2026-0164",
+          "date_occurred": "1/20/2026",
+          "time_occurred": "3:00 PM - 4:00 PM",
+          "summary": "$100.00 bill stolen from am unsecured desk",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Health Trolley Footbridge",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230076",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "10:19 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Tierra On Miramar Street",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230078",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "11:05 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Tierra On Miramar Street",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230079",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "11:12 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Artesa On Miramar Street",
+          "date_reported": "1/23/2026",
+          "incident_case": "2601230084",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "11:49 PM",
+          "summary": "",
+          "disposition": "Quiet Arrival"
+        },
+        {
+          "category": "Theft",
+          "location": "UCSD La Jolla",
+          "date_reported": "1/23/2026",
+          "incident_case": "LJ",
+          "date_occurred": "",
+          "time_occurred": "11:30 AM",
+          "summary": "",
+          "disposition": "Hospital Report Generated"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -54631,6 +54969,7 @@
     "January 19, 2026.pdf",
     "January 20, 2026.pdf",
     "January 21, 2026.pdf",
-    "January 22, 2026.pdf"
+    "January 22, 2026.pdf",
+    "January 23, 2026.pdf"
   ]
 }
