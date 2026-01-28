@@ -54787,6 +54787,412 @@
           "disposition": "Hospital Report Generated"
         }
       ]
+    },
+    {
+      "filename": "January 24, 2026.pdf",
+      "date": "January 24, 2026",
+      "page_count": 5,
+      "incident_count": 25,
+      "incidents": [
+        {
+          "category": "Disturbance, Party",
+          "location": "Vela",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240002",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "12:16 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Call for Help",
+          "location": "Earth Hall North",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240003",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "12:21 AM",
+          "summary": "Reporting party heard female yelling for help",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "One Miramar Street, Building 3",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240005",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "1:06 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Harlan Hall",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240007",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "1:23 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "Marea",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240008",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "1:23 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Brennan Hall",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240009",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "1:36 AM",
+          "summary": "Smoking",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Human Rights",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240011",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "1:55 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Report of Stolen Vehicle",
+          "location": "Pangea Parking Structure",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240014",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "2:27 AM",
+          "summary": "Disposition Unfounded Suspicious Person Central Mesa Apartments #9260",
+          "disposition": ""
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Central Mesa Apartments #9260",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240025",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "4:36 AM",
+          "summary": "Unknown male in the garden area, sitting on a bench, talking to himself, yelling, cursing",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Interstate 5 Southbound/Carmel Valley Road",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240030",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "8:45 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240031",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "9:03 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Injury",
+          "location": "Voigt Dip",
+          "date_reported": "1/24/2026",
+          "incident_case": "2026-0163",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "9:29 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Gilman Parking Structure",
+          "date_reported": "1/24/2026",
+          "incident_case": "2026-0165",
+          "date_occurred": "1/23/2026",
+          "time_occurred": "10:25 PM - 1:55 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Viento",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240056",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "4:35 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Missing Person",
+          "location": "Neptune Avenue",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240062",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "6:08 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "Central Utility Plant Expansion",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240063",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "6:25 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Injury",
+          "location": "Student Center Building B",
+          "date_reported": "1/24/2026",
+          "incident_case": "2026-0166",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "7:28 PM - 7:59 PM",
+          "summary": "18 year-old fell and hit head, is conscious, breathing, and talking",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Seventh College West #8",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240066",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "7:42 PM",
+          "summary": "Outside on balcony area; male who had belt in hand that looked like he was going to hit somebody with it",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Torrey Pines Living and Learning Neighborhood",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240068",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "8:05 PM",
+          "summary": "Wallet taken",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Library Walk",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240068",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "8:05 PM",
+          "summary": "Blood on west side",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Delaying Peace Officer/Blocking Bike Path or Lane",
+          "location": "Sixth Place and Market",
+          "date_reported": "1/24/2026",
+          "incident_case": "2026-0167",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "8:20 PM - 12:00 AM",
+          "summary": "Disturbance subject regarding illegal parking",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Possession of Controlled Substance/Weapons on Campus/Possession of Burglary Tools/Stay Away Order",
+          "location": "Social Sciences Building",
+          "date_reported": "1/24/2026",
+          "incident_case": "2026-0168",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "10:10 PM - 12:00 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tioga Hall",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240080",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "9:53 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Pepper Canyon Hall",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240083",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "10:43 PM",
+          "summary": "Reporting party out with an extremely intoxicated female",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "1/24/2026",
+          "incident_case": "2601240089",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "11:58 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        }
+      ]
+    },
+    {
+      "filename": "January 25, 2026.pdf",
+      "date": "January 25, 2026",
+      "page_count": 3,
+      "incident_count": 14,
+      "incidents": [
+        {
+          "category": "Information",
+          "location": "Seventh College East #4",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250008",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "1:14 AM",
+          "summary": "Burned food",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Pulse",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250013",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "2:12 AM",
+          "summary": "5 males with shopping cart",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Charles David Kneeling Apartments 1",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250018",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "3:38 AM",
+          "summary": "Intoxicated subject, possibly Indian male, no shoes, gray shirt, and shorts",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Vandalism to Vehicle",
+          "location": "South Parking Structure",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250019",
+          "date_occurred": "1/18/2026",
+          "time_occurred": "6:38 AM",
+          "summary": "Screws in tires",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "The Jeannie",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250023",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "10:09 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Injury",
+          "location": "Center Hall",
+          "date_reported": "1/25/2026",
+          "incident_case": "2026-0169",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "1:31 PM",
+          "summary": "2 subject collided on scooters. Male sustained facial injury. 19 year-old female, conscious and breathing, with scrape on her side",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Carlsbad Boulevard",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250037",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "3:16 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Europe Hall",
+          "date_reported": "1/25/2026",
+          "incident_case": "2026-0171",
+          "date_occurred": "1/24/2026",
+          "time_occurred": "10:00 PM - 10:10 PM",
+          "summary": "Roommate assaulted the reporting party last night. Reporting party not injured, but has bruise on left arm and on back of neck Disposition Report Taken Medical Aid Kaleidoscope",
+          "disposition": ""
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Kaleidoscope",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250045",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "5:44 PM",
+          "summary": "",
+          "disposition": "Referred to other agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sulpizio Family Cardiovascular Center",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250051",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "8:08 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pepper Canyon Apartments 1000",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250053",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "9:37 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Rya",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250057",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "10:16 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Possession of Marijuana",
+          "location": "Alianza",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250058",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "10:17 PM",
+          "summary": "Unknown room, odor of burnt marijuana only",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Possession of Marijuana",
+          "location": "Alianza",
+          "date_reported": "1/25/2026",
+          "incident_case": "2601250064",
+          "date_occurred": "1/25/2026",
+          "time_occurred": "11:10 PM",
+          "summary": "Unknown room, odor of burnt marijuana only",
+          "disposition": "Checks OK"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -54970,6 +55376,8 @@
     "January 20, 2026.pdf",
     "January 21, 2026.pdf",
     "January 22, 2026.pdf",
-    "January 23, 2026.pdf"
+    "January 23, 2026.pdf",
+    "January 24, 2026.pdf",
+    "January 25, 2026.pdf"
   ]
 }
