@@ -56535,6 +56535,394 @@
           "disposition": "Student Conduct Referral"
         }
       ]
+    },
+    {
+      "filename": "January 30, 2026.pdf",
+      "date": "January 30, 2026",
+      "page_count": 7,
+      "incident_count": 38,
+      "incidents": [
+        {
+          "category": "Citizen Assist",
+          "location": "Thornton Pavilion",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300002",
+          "date_occurred": "1/13/2026",
+          "time_occurred": "12:13 AM",
+          "summary": "Patient needs nurse",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Security Check",
+          "location": "Matthews Apartments C",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300004",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "12:42 AM",
+          "summary": "Hearing someone knock at the door, reporting party requesting someone to check the apartment because she heard a door in the apartment open and close",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "",
+          "location": "Kaleidoscope",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0195",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "1:22 AM",
+          "summary": "Ex-boyfriend has been continuously texting reporting party",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "9310 Redwood Drive",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300012",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "4:00 AM",
+          "summary": "Subject sleeping in vehicle",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Missing Person",
+          "location": "South Mesa Apartments #9188",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0196",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "7:27 AM - 8:14 AM",
+          "summary": "Reporting party cannot find their 4 year old son, last saw him outside location",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300024",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "7:36 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Collision - No Injury",
+          "location": "Gilman Drive/Mandeville Lane",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0197",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "8:30 AM - 8:40 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Matthews Quad",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300031",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "9:31 AM",
+          "summary": "Male attempting to cut a lock on a bike Disposition Gone on Arrival Incomplete/Accidental Landline 911 Design and Innovation Building",
+          "disposition": ""
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Design and Innovation Building",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300039",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "10:25 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Injury",
+          "location": "Extended Studies E",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300042",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "11:22 AM",
+          "summary": "20 year-old female, running then fell, cuts on knees/elbows, hit her jaw",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Housing, Dining and Hospitality",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0198",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "12:08 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Tapestry",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300046",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "12:13 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Gilman Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0199",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "9:00 AM - 12:00 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "1/30/2026",
+          "incident_case": "260130050",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "1:22 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300051",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "1:23 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Kaleidoscope",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300053",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "1:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300054",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "1:43 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Catalyst",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300055",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "2:08 PM",
+          "summary": "Elevator phone. Male caller is lost and needs directions",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0200",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "2:10 PM - 3:47 PM",
+          "summary": "Male subject recording girls team and reporting party requesting",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Catalyst",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300057",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "2:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Parking Lot P357",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0201",
+          "date_occurred": "1/29/2026",
+          "time_occurred": "11:00 AM - 2:00 PM",
+          "summary": "Reporting party thinks a scooter scratched their vehicle door",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Atkinson Hall",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300060",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "3:48 PM",
+          "summary": "Subject around, in, and out of the building since 08:00 hours. Subject possibly too a chess board from a student",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300061",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "4:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300062",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "4:28 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Theatre District Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300063",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "4:28 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Epstein Family Amphitheater",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300064",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "5:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300065",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "5:50 PM",
+          "summary": "Patient's baby's father, with restraining order against processing, showed up to hospital and was escorted out by security. Patient worried that subject may still be in the parking lot",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Tuolumne Apartments",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300066",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "5:56 PM",
+          "summary": "Marijuana smoke/odor coming through reporting party's residence vents",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300067",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "6:46 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "Tamarack Apartments",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300067",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "6:46 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300071",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "6:58 PM",
+          "summary": "Male subject shirtless and yelling at the wall near the restrooms",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Property Damage",
+          "location": "Hopkins Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0202",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "7:57 PM",
+          "summary": "UC golf cart versus bollard",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Hopkins Parking Structure",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300076",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "8:02 PM",
+          "summary": "1st floor stairs, blood at the bottom of the stairs from accident from earlier",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "Pulse",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300082",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "9:12 PM",
+          "summary": "Multiple vehicles by fire lane",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Stay Away Order",
+          "location": "Biomedical Sciences Building",
+          "date_reported": "1/30/2026",
+          "incident_case": "2026-0203",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "9:44 PM",
+          "summary": "A person inside women's restroom. Been in there for 2 hours. Possibly camping inside",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "Regents Road/La Jolla Village Drive",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300088",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "10:14 PM",
+          "summary": "Smells like gas leak",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Matthews Apartments A",
+          "date_reported": "1/30/2026",
+          "incident_case": "2601300096",
+          "date_occurred": "1/30/2026",
+          "time_occurred": "11:31 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Sulpizio Cardiovascular Center Emergency Room",
+          "date_reported": "1/30/2026",
+          "incident_case": "LJ26-01-29-0063",
+          "date_occurred": "1/29/2026",
+          "time_occurred": "7:36 PM",
+          "summary": "Disruptive patient was becoming aggressive at screening post",
+          "disposition": "Referred to Other Agency"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -56724,6 +57112,7 @@
     "January 26, 2026.pdf",
     "January 27, 2026.pdf",
     "January 28, 2026.pdf",
-    "January 29, 2026.pdf"
+    "January 29, 2026.pdf",
+    "January 30, 2026.pdf"
   ]
 }
