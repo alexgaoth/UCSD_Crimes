@@ -65273,6 +65273,294 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "February 24, 2026.pdf",
+      "date": "February 24, 2026",
+      "page_count": 5,
+      "incident_count": 28,
+      "incidents": [
+        {
+          "category": "Medical Aid",
+          "location": "Hillcrest Hospital",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240004",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "1:29 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Found Property",
+          "location": "Social Sciences Building",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240008",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "4:21 AM",
+          "summary": "Scooter found",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Scholars Parking Structure",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240009",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "5:27 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240010",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "5:27 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Villa La Jolla Drive and La Jolla Village Drive",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240016",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "7:22 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Battery",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240017",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "7:28 AM",
+          "summary": "Subject shoved security personnel",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Horizon Way and La Jolla Shores Drive",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240018",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "8:27 AM",
+          "summary": "",
+          "disposition": "Written Warning Issued"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240020",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "8:39 AM",
+          "summary": "Disposition Logged Event Incomplete/Accidental Wireless 911 Genesse Avenue",
+          "disposition": ""
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesse Avenue",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240025",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:09 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Mesa Apartments South - 9194 (Laundry)",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240027",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:37 AM",
+          "summary": "Caller concerned about laundry room security",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Stolen Vehicle",
+          "location": "Torrey Pines Center South",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240028",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:37 AM",
+          "summary": "Utility Cart",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240029",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:54 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Chemical Spill",
+          "location": "Skaggs Pharmaceutical Sciences Building",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240030",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:54 AM",
+          "summary": "Chemical Smell",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240033",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "12:35 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Found Property",
+          "location": "Viento",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240035",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "12:44 PM",
+          "summary": "Unspent bullet",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Target - PC West",
+          "date_reported": "2/24/2026",
+          "incident_case": "2026-0431",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "1:00PM - 1:58PM",
+          "summary": "Petitioners set up in front of a fire lane",
+          "disposition": "Closed, Cited and Released"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240040",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "1:58 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Library Walk",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240042",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "2:08 PM",
+          "summary": "Subject screaming",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Campus Point Parking West",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240048",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "3:28 PM",
+          "summary": "Caller could not find her car",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Grand Theft - Micromobility - E-Scooter",
+          "location": "RIMAC",
+          "date_reported": "2/24/2026",
+          "incident_case": "2026-0430",
+          "date_occurred": "2/23/2026",
+          "time_occurred": "4:20PM - 7:40PM",
+          "summary": "Reporting party noticed scooter missing outside RIMAC Gym. Loss of $1,300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Argo Hall",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240049",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "4:24 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Engineering Building Unit II",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240050",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "4:28 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Charles David Keeling Apartments #1",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240060",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "8:32 PM",
+          "summary": "Loud Rock Band",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Mosaic",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240061",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "9:01 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Catalyst",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240062",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "9:10 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240068",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "10:09 PM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240068",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "11:53 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "South Mesa Apartments",
+          "date_reported": "2/24/2026",
+          "incident_case": "2602240070",
+          "date_occurred": "2/24/2026",
+          "time_occurred": "11:59 PM",
+          "summary": "Male sitting at table with multiple items strewn around",
+          "disposition": "Verbal Warning"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -65488,6 +65776,7 @@
     "February 21, 2026.pdf",
     "February 22, 2026.pdf",
     "February 23, 2026.pdf",
-    "February 13, 2026 UPDATED.pdf"
+    "February 13, 2026 UPDATED.pdf",
+    "February 24, 2026.pdf"
   ]
 }
