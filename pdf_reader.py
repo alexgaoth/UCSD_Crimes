@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import random
 from pathlib import Path
 import pdfplumber
 
@@ -112,6 +113,43 @@ def parse_pdf_content(text):
     
     return incidents
 
+def get_supabase_client():
+    url = os.environ.get('SUPABASE_URL')
+    key = os.environ.get('SUPABASE_KEY')
+    if not url or not key:
+        return None
+    try:
+        from supabase import create_client
+        return create_client(url, key)
+    except Exception as e:
+        print(f"Supabase connection failed: {e}")
+        return None
+
+
+def seed_upvotes(client, incidents):
+    """Insert random upvote counts (3-10) for incidents not yet in report_upvotes."""
+    if not client:
+        return
+    for incident in incidents:
+        case = incident.get('incident_case', '').strip()
+        if not case:
+            continue
+        try:
+            existing = client.table('report_upvotes') \
+                .select('incident_case') \
+                .eq('incident_case', case) \
+                .execute()
+            if existing.data:
+                continue
+            count = random.randint(3, 10)
+            client.table('report_upvotes') \
+                .insert({'incident_case': case, 'upvote_count': count}) \
+                .execute()
+            print(f"  Seeded {count} upvotes for {case}")
+        except Exception as e:
+            print(f"  Failed to seed upvotes for {case}: {e}")
+
+
 def parse_pdfs_to_json(pdf_dir="ucsd_police_reports", output_file="app/public/police_reports.json"):
     pdf_path = Path(pdf_dir)
     
@@ -125,7 +163,13 @@ def parse_pdfs_to_json(pdf_dir="ucsd_police_reports", output_file="app/public/po
     pdf_files = sorted(pdf_path.glob("*.pdf"))
     
     stats = {"new": 0, "skipped": 0, "failed": 0}
-    
+
+    supabase = get_supabase_client()
+    if supabase:
+        print("Connected to Supabase for upvote seeding")
+    else:
+        print("Supabase not configured - skipping upvote seeding")
+
     for pdf_file in pdf_files:
         filename = pdf_file.name
         
@@ -155,6 +199,7 @@ def parse_pdfs_to_json(pdf_dir="ucsd_police_reports", output_file="app/public/po
             
             stats["new"] += 1
             print(f"READ {filename} ({report['page_count']} pages, {len(incidents)} incidents)")
+            seed_upvotes(supabase, incidents)
             
         except Exception as e:
             stats["failed"] += 1
