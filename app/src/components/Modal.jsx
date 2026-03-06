@@ -136,7 +136,11 @@ export default function Modal({ isOpen, onClose, report }) {
         backgroundColor: '#ffffff',
         scale: 2, // Higher quality
         logging: false,
-        useCORS: true
+        useCORS: true,
+        onclone: (clonedDoc) => {
+          const overlay = clonedDoc.querySelector('.modal-overlay');
+          if (overlay) overlay.style.background = 'transparent';
+        }
       });
 
       // Restore hidden elements
