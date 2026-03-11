@@ -1,23 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function WidgetCard({ to, title, description, className, img}) {
+export default function WidgetCard({ to, title, description, icon: Icon }) {
   return (
-    <Link to={to} className={`widget ${className}`}>
-      <div
-        className="widget-image"
-        role="img"
-        aria-label={`${title} preview image`}
-        style={{
-          backgroundImage: `url(${import.meta.env.BASE_URL}resources/${img})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center'
-        }}></div>
+    <Link to={to} className="widget">
+      <div className="widget-icon-area">
+        <span className="widget-icon" aria-hidden="true">
+          {Icon && <Icon size={32} />}
+        </span>
+      </div>
       <div className="widget-content">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
+      <span className="widget-arrow">→</span>
     </Link>
   );
 }
-

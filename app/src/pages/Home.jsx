@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
-import PageLayout from '../components/PageLayout.jsx';
+import HomeMasthead from '../components/HomeMasthead.jsx';
 import FeaturedCard from '../components/FeaturedCard.jsx';
 import IncidentRow from '../components/IncidentRow.jsx';
 import WidgetCard from '../components/WidgetCard.jsx';
@@ -11,6 +11,10 @@ import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
 import WelcomeBanner from '../components/WelcomeBanner.jsx';
 import SEO from '../components/SEO.jsx';
+import {
+  CalendarIcon, SearchIcon, BarChartIcon, MapPinIcon,
+  FolderOpenIcon, AlertTriangleIcon,
+} from '../components/Icons.jsx';
 import '../App.css';
 
 export default function Home() {
@@ -19,12 +23,11 @@ export default function Home() {
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Sort all reports by most recent first (for fallback when topRecentReports is empty)
   const sortedReports = useMemo(() => {
     return [...reports].sort((a, b) => {
       const dateA = new Date(a.date_reported || a.date_occurred);
       const dateB = new Date(b.date_reported || b.date_occurred);
-      return dateB - dateA; // Most recent first
+      return dateB - dateA;
     });
   }, [reports]);
 
@@ -58,98 +61,100 @@ export default function Home() {
         path="/"
       />
       <WelcomeBanner />
-      <PageLayout
-        title="The Website to be Safe on Campus"
-        subtitle="See all the reported Crimes in UCSD"
-        showBackLink={false}
-      >
-        <section className="featured">
-          <SectionTitle>Reports of Recent</SectionTitle>
-          <div className="featured-grid">
-            {featuredReports.map((report, idx) => (
-              <FeaturedCard 
-                key={report.incident_case} 
-                report={report} 
-                imageIndex={idx + 1}
-                onClick={() => handleCardClick(report)}
-              />
-            ))}
-          </div>
-        </section>
 
-        <section className="quick-access">
-          <SectionTitle>Check out more</SectionTitle>
-          <div className="widgets">
-            <WidgetCard
-              to="/timeline"
-              title="Report Timeline"
-              description="View incidents by time of day"
-              className="widget-1"
-              img="timeline.jpg"
-            />
-            <WidgetCard
-              to="/search"
-              title="Search Reports"
-              description="Find specific incidents"
-              className="widget-2"
-              img="campus2.jpg"
-            />
-            <WidgetCard
-              to="/statistics"
-              title="Statistics"
-              description="Category breakdown"
-              className="widget-3"
-              img="campus3.jpg"
-            />
-            <WidgetCard
-              to="/campus-map"
-              title="Campus Map"
-              description="Incident locations"
-              className="widget-4"
-              img="campus1.jpg"
-            />
-          </div>
-        </section>
+      <div className="app">
+        <HomeMasthead reports={reports} />
 
-        <section className="report-case-cta">
-          <Link to="/report-case" className="report-case-button">
-            <div className="report-button-content">
-              <h3>Report an Incident</h3>
-              <p>Help keep campus safe by reporting suspicious activity or safety concerns</p>
-            </div>
-          </Link>
-        </section>
-
-        <section className="full-directory-cta">
-          <Link to="/full-directory" className="full-directory-button">
-            <div className="directory-button-content">
-              <h3>Browse Full Directory</h3>
-              <p>View all crime reports organized by date</p>
-            </div>
-          </Link>
-        </section>
-
-        {otherReports.length > 0 && (
-          <section className="other-incidents">
-            <SectionTitle>Other Recent Reports</SectionTitle>
-            <div className="incidents-list">
-              {otherReports.map((report) => (
-                <IncidentRow 
-                  key={report.incident_case} 
+        <main className="main">
+          <section className="featured">
+            <SectionTitle>Recent Reports</SectionTitle>
+            <div className="featured-grid">
+              {featuredReports.map((report) => (
+                <FeaturedCard
+                  key={report.incident_case}
                   report={report}
                   onClick={() => handleCardClick(report)}
                 />
               ))}
             </div>
           </section>
-        )}
 
-        <Modal 
-          isOpen={isModalOpen} 
-          onClose={handleCloseModal} 
-          report={selectedReport} 
-        />
-      </PageLayout>
+          <section className="quick-access">
+            <SectionTitle>Explore the Data</SectionTitle>
+            <div className="widgets">
+              <WidgetCard
+                to="/timeline"
+                title="Timeline"
+                description="Browse incidents chronologically"
+                icon={CalendarIcon}
+              />
+              <WidgetCard
+                to="/search"
+                title="Search"
+                description="Find specific incidents"
+                icon={SearchIcon}
+              />
+              <WidgetCard
+                to="/statistics"
+                title="Statistics"
+                description="Crime breakdowns & trends"
+                icon={BarChartIcon}
+              />
+              <WidgetCard
+                to="/campus-map"
+                title="Campus Map"
+                description="Visualize incident locations"
+                icon={MapPinIcon}
+              />
+            </div>
+          </section>
+
+          <section className="home-ctas">
+            <Link to="/report-case" className="cta-report">
+              <div className="cta-content">
+                <span className="cta-icon"><AlertTriangleIcon size={28} /></span>
+                <div>
+                  <h3>Report an Incident</h3>
+                  <p>Saw something? Help keep campus informed.</p>
+                </div>
+              </div>
+              <span className="cta-arrow">→</span>
+            </Link>
+
+            <Link to="/full-directory" className="cta-directory">
+              <div className="cta-content">
+                <span className="cta-icon"><FolderOpenIcon size={28} /></span>
+                <div>
+                  <h3>Browse Full Directory</h3>
+                  <p>All reports organized by date</p>
+                </div>
+              </div>
+              <span className="cta-arrow">→</span>
+            </Link>
+          </section>
+
+          {otherReports.length > 0 && (
+            <section className="other-incidents">
+              <SectionTitle>More Recent Reports</SectionTitle>
+              <div className="incidents-list">
+                {otherReports.map((report) => (
+                  <IncidentRow
+                    key={report.incident_case}
+                    report={report}
+                    onClick={() => handleCardClick(report)}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
+        </main>
+      </div>
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+        report={selectedReport}
+      />
     </>
   );
 }

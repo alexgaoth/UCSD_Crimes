@@ -5,7 +5,6 @@ export default function WelcomeBanner() {
   const [dontShowAgain, setDontShowAgain] = useState(false);
 
   useEffect(() => {
-    // Check if user has dismissed the banner permanently
     const hasSeenBanner = localStorage.getItem('ucsd-crimes-welcome-seen');
     if (!hasSeenBanner) {
       setIsVisible(true);
@@ -13,7 +12,6 @@ export default function WelcomeBanner() {
   }, []);
 
   const handleDismiss = () => {
-    // Only store in localStorage if checkbox is checked
     if (dontShowAgain) {
       localStorage.setItem('ucsd-crimes-welcome-seen', 'true');
     }
@@ -25,14 +23,24 @@ export default function WelcomeBanner() {
   return (
     <div className="welcome-overlay">
       <div className="welcome-banner">
+        <div className="welcome-banner-header">
+          <span className="welcome-banner-tag">UCSD CRIME LOG</span>
+          <span className="welcome-banner-badge">Public Data</span>
+        </div>
         <div className="welcome-content">
-            <h2>Welcome to UCSD Crime Logs</h2>
-            <p>This website collects all the public REAL UCSD police crime logs and displays them here.</p>
-            <p>
-                Click on reports to see detailed summaries (and options to share them), explore the data broken down, search for specific incidents, or report a case of your own
-            </p>
-            <p className="welcome-content-end">We keep the Safe Campus even Safer</p>
-          
+          <h2>Know What's Happening<br />On Campus.</h2>
+          <p>
+            This site aggregates <strong>real, publicly available police crime logs</strong> from
+            the UCSD Police Department and displays them in one place.
+          </p>
+          <p>
+            Click any report for details and share options. Explore the map, search by category,
+            or report an incident of your own.
+          </p>
+          <p className="welcome-disclaimer">
+            ⚠ Data is sourced from official UCSD PD reports. User-submitted reports are clearly labeled.
+          </p>
+
           <div className="welcome-checkbox-container">
             <label className="welcome-checkbox-label">
               <input
@@ -41,12 +49,12 @@ export default function WelcomeBanner() {
                 onChange={(e) => setDontShowAgain(e.target.checked)}
                 className="welcome-checkbox"
               />
-              <span>Don't show again</span>
+              <span>Don't show this again</span>
             </label>
           </div>
 
           <button className="welcome-button" onClick={handleDismiss}>
-            Cool, I understand
+            Got it — Take me in →
           </button>
         </div>
       </div>

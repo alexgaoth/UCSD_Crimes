@@ -8,11 +8,13 @@ import CampusMap from './pages/CampusMap';
 import ReportCase from './pages/ReportCase';
 import FullDirectory from './pages/FullDirectory';
 import SMSWidget from './components/SMSWidget';
+import Navbar from './components/Navbar';
 import './App.css';
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/timeline" element={<Timeline />} />
