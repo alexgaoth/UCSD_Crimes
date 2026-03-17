@@ -72827,6 +72827,354 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "March 14, 2026.pdf",
+      "date": "March 14, 2026",
+      "page_count": 6,
+      "incident_count": 34,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Umoja",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140002",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "1:20 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Sankofa",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140003",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "1:26 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140004",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "1:59 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Pepper Canyon Apartments 1300",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140005",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "2:32 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Blake Hall",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140008",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "3:24 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Kaleidoscope",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140009",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "3:43 AM",
+          "summary": "Reporting party seen via window a male chasing a female",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Trespass",
+          "location": "Middle Earth",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140010",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "5:19 AM",
+          "summary": "Male who did not appear to be a student walked in behind a student that unlocked the study lounge with his ID Disposition Gone on Arrival Voluntary Psych Referral Catalyst",
+          "disposition": ""
+        },
+        {
+          "category": "Voluntary Psych Referral",
+          "location": "Catalyst",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0582",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "6:52 AM-8:03 AM",
+          "summary": "Student has suicidal thoughts",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Muir Field",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0581",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "7:30 AM-7:45 AM",
+          "summary": "18yo female fell of scooter and injured foot and knees, conscious and breathing",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical aid",
+          "location": "Pepper Canyon Hall",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140015",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "7:50 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Viterbi Family Vision Research Center",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140016",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "7:58 AM",
+          "summary": "For the last 3-4 years, reporting party has been having issues with subject/former student",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Injury",
+          "location": "Muir Field on Scholars",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140018",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "8:27 AM",
+          "summary": "23 year old male, broken ankle playing soccer, conscious and breathing",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Lockout",
+          "location": "Coalition",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140019",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "8:29 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140020",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "8:35 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "La Jolla Shores Dr/Discovery Way",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140021",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "9:00 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Seventh College West #2",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140022",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "11:04 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "9331 Discovery Way",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140023",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "12:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Minor Injury Accident",
+          "location": "Naga Way/Biological Grade",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0583",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "12:18 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rimac Field",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140025",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "1:14 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Lockout",
+          "location": "Wells Fargo Hall",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140031",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "4:12 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-scooter",
+          "location": "George Palade Laboratories For CMMW",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0586",
+          "date_occurred": "",
+          "time_occurred": "11:00 AM-3:00 PM",
+          "summary": "Locked e-scooter stolen, loss $300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Seventh College West #5",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0585",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "5:08 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Asante House",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140034",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "5:16 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Injury Report - Rape",
+          "location": "Unknown Off Campus Location",
+          "date_reported": "3/14/2026",
+          "incident_case": "206-0584",
+          "date_occurred": "3/7/2026",
+          "time_occurred": "3:00 PM - 4:00 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device - E-Scooter",
+          "location": "Computer Science and Engineering",
+          "date_reported": "3/14/2026",
+          "incident_case": "206-0588",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "1:50 PM - 4:00 PM",
+          "summary": "Secured e-scooter stolen, loss $265",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140037",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "6:12 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout",
+          "location": "Computer Science and Engineering Bldg.",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140038",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "8:25 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140039",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "8:31 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Kaleidoscope",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140040",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "9:12 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140041",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "9:18 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Design and Innovation Building",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140042",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "9:35 PM",
+          "summary": "Reporting party's daughter having a mental breakdown crying on the phone for 2 hours",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Stalking",
+          "location": "Target - PC West",
+          "date_reported": "3/14/2026",
+          "incident_case": "2026-0587",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "10:45 PM-11:42 PM",
+          "summary": "Female student being stalked by customer for the past 3 weeks, subject taking pics and watching employee via window",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Kaleidoscope",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140047",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "11:58 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tapestry",
+          "date_reported": "3/14/2026",
+          "incident_case": "2603140048",
+          "date_occurred": "3/14/2026",
+          "time_occurred": "11:59 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -73060,6 +73408,7 @@
     "March 8, 2026.pdf",
     "March 9, 2026.pdf",
     "March 12, 2026.pdf",
-    "March 13, 2026.pdf"
+    "March 13, 2026.pdf",
+    "March 14, 2026.pdf"
   ]
 }
