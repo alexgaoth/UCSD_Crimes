@@ -75673,6 +75673,444 @@
           "disposition": "Student Conduct Referral"
         }
       ]
+    },
+    {
+      "filename": "March 21, 2026.pdf",
+      "date": "March 21, 2026",
+      "page_count": 8,
+      "incident_count": 43,
+      "incidents": [
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Tioga Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2026-0635",
+          "date_occurred": "3/20/2026",
+          "time_occurred": "5:30 PM - 11:00 PM",
+          "summary": "Secured e-scooter stolen, loss $300",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Argo Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210001",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:17 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tenaya Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210002",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:22 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210003",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:26 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Kaleidoscope",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210004",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:37 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Argo Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210005",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:47 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Property Impound",
+          "location": "Café Ventanas",
+          "date_reported": "3/21/2026",
+          "incident_case": "2026-0634",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "1:45 AM",
+          "summary": "Found unsecured e-scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "University Curfew Violation",
+          "location": "Social Sciences Building",
+          "date_reported": "3/21/2026",
+          "incident_case": "2026-0633",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "1:58 AM",
+          "summary": "2 subjects sleeping on the ground",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Parking Lot P401",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210009",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:45 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Pepper Canyon Apartments 900",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210011",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "3:04 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Middle East Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210012",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "4:58 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Scholars Dr N",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210014",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "7:53 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Found Property",
+          "location": "Unknown",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210015",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "8:28 AM",
+          "summary": "Found wallet",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "South Mesa Apartments",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210018",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "9:24 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210020",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "9:59 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "North Campus Restroom Building",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210021",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "10:01 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire",
+          "location": "Interstate 5 Northbound/ Del Mar Heights Rd",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210026",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "11:24 AM",
+          "summary": "Vehicle on fire",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Triton Center - Student Services",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210029",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:43 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Mesa Apartments Central",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210030",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "12:51 PM",
+          "summary": "",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Tapestry",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210031",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "1:13 PM",
+          "summary": "RP lost bike lock keys, requesting lock be cut",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Porton",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210033",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Birch Aquarium",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210034",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:35 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210035",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:36 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Traffic Control",
+          "location": "Downwind Way/ Expedition Way",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210037",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:44 PM",
+          "summary": "Multiple Vehicles are stopped on the road trying to get to the Birch Aquarium",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210039",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:59 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Animal Call",
+          "location": "Almahurst Row/North Torrey Pines Rd",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210040",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "2:59 PM",
+          "summary": "Rattle snake on the sidewalk",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sio Pier",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210041",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "3:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Injury",
+          "location": "Sio Pier",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210042",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "3:06 PM",
+          "summary": "Female cut her leg while surfing",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210044",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "4:09 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210045",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "5:06 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210047",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "5:18 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210048",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "5:38 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Sankofa",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210049",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "6:19 PM",
+          "summary": "Female having suicidal ideations",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Excessive Alcohol/Drug; Over intoxication in Residence",
+          "location": "Tapestry",
+          "date_reported": "3/21/2026",
+          "incident_case": "2026-0638",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "8:32 PM",
+          "summary": "Medical aid requested for excessive drug consumption",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Sankofa",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210055",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "8:33 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Pulse",
+          "date_reported": "3/21/2026",
+          "incident_case": "2026-0639",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "6:00 PM - 7:54 PM",
+          "summary": "Stolen wallet from courtyard, loss $150",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tapestry",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210060",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "9:27 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210061",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "9:45 PM",
+          "summary": "Request for USO assistance for alcohol contact refusing to ID self",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Vela",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210062",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "9:55 PM",
+          "summary": "Male non-affiliate asked RP to open door",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Marea",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210063",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "10:26 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210064",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "10:42 PM",
+          "summary": "Request I-20 assistance",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Pulse",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210065",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "10:44 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Tioga Hall",
+          "date_reported": "3/21/2026",
+          "incident_case": "2603210069",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "11:42 PM",
+          "summary": "Smoking",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -75913,6 +76351,7 @@
     "March 17, 2026.pdf",
     "March 18, 2026.pdf",
     "March 19, 2026.pdf",
-    "March 20, 2026.pdf"
+    "March 20, 2026.pdf",
+    "March 21, 2026.pdf"
   ]
 }
