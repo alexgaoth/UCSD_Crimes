@@ -76111,6 +76111,164 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "March 22, 2026.pdf",
+      "date": "March 22, 2026",
+      "page_count": 3,
+      "incident_count": 15,
+      "incidents": [
+        {
+          "category": "Information",
+          "location": "Charles David Keeling Apartments #3",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220001",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "12:09 AM",
+          "summary": "RP requesting incident referencing a female contacted on roof top and provided false ID",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Use Restricted Access Facility , University Curfew Violation",
+          "location": "Capa",
+          "date_reported": "3/22/2026",
+          "incident_case": "2026-0640",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "5:58 AM",
+          "summary": "5th floor study room, lady with dog and bags",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Preuss School - Building A",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220017",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "8:44 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220023",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "11:37 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Earth Hall North",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220025",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "11:43 AM",
+          "summary": "Son was supposed to get a flight to Oakland, but phone is still showing at dorm",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Lockout",
+          "location": "Medical Teaching Facility",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220026",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "12:00 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "North Torrey Pines Rd",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220028",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "12:53 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220030",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "1:07 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Outside Agency Arrest Warrant",
+          "location": "Trolley - VA Medical Center",
+          "date_reported": "3/22/2026",
+          "incident_case": "2026-0641",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "2:30 PM - 3:00 PM",
+          "summary": "",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Non-Student Refuse to Leave University, Trespass: refuse leave prop.",
+          "location": "Geisel Library",
+          "date_reported": "3/22/2026",
+          "incident_case": "2026-0642",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "3:26 PM",
+          "summary": "",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Cuzco House",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220043",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "4:38 PM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Harlan Hall",
+          "date_reported": "3/22/2026",
+          "incident_case": "2026-0643",
+          "date_occurred": "3/21/2026",
+          "time_occurred": "6:00 PM - 4:30 PM",
+          "summary": "Secured e-scooter stolen, loss $830",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Kaleidoscope",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220054",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "8:27 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220061",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "9:32 PM",
+          "summary": "Patient claiming son's friend touched her face and shoulders while sedated",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "3/22/2026",
+          "incident_case": "2603220069",
+          "date_occurred": "3/22/2026",
+          "time_occurred": "10:28 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -76352,6 +76510,7 @@
     "March 18, 2026.pdf",
     "March 19, 2026.pdf",
     "March 20, 2026.pdf",
-    "March 21, 2026.pdf"
+    "March 21, 2026.pdf",
+    "March 22, 2026.pdf"
   ]
 }
