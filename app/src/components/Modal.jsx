@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import html2canvas from 'html2canvas';
-import { getUpvoteCount, incrementUpvote } from '../lib/supabaseClient';
+import { getUpvoteCount, incrementUpvote, getComments, submitComment } from '../lib/supabaseClient';
 
 // Helper function to check if a report is user-submitted
 const isUserSubmitted = (caseNumber) => {
@@ -37,6 +37,21 @@ const hasUserUpvoted = (incidentCase) => {
   return upvoted.includes(incidentCase);
 };
 
+function formatCommentTime(timestamp) {
+  const date = new Date(timestamp);
+  const now = new Date();
+  const diffMs = now - date;
+  const diffMins = Math.floor(diffMs / 60000);
+  const diffHours = Math.floor(diffMs / 3600000);
+  const diffDays = Math.floor(diffMs / 86400000);
+
+  if (diffMins < 1) return 'just now';
+  if (diffMins < 60) return `${diffMins}m ago`;
+  if (diffHours < 24) return `${diffHours}h ago`;
+  if (diffDays < 7) return `${diffDays}d ago`;
+  return date.toLocaleDateString();
+}
+
 export default function Modal({ isOpen, onClose, report }) {
   const [upvoteCount, setUpvoteCount] = useState(0);
   const [isLoadingUpvotes, setIsLoadingUpvotes] = useState(true);
@@ -44,37 +59,48 @@ export default function Modal({ isOpen, onClose, report }) {
   const [isUpvoting, setIsUpvoting] = useState(false);
   const [upvoteError, setUpvoteError] = useState(null);
 
-  // Fetch upvote count when modal opens or report changes
+  const [comments, setComments] = useState([]);
+  const [isLoadingComments, setIsLoadingComments] = useState(false);
+  const [commentText, setCommentText] = useState('');
+  const [authorName, setAuthorName] = useState('');
+  const [showNameInput, setShowNameInput] = useState(false);
+  const [isSubmittingComment, setIsSubmittingComment] = useState(false);
+  const [commentError, setCommentError] = useState(null);
+
+  // Fetch upvotes + comments when modal opens or report changes
   useEffect(() => {
-    if (!isOpen || !report) {
-      return;
-    }
+    if (!isOpen || !report) return;
+
+    setHasUpvoted(hasUserUpvoted(report.incident_case));
 
     const fetchUpvoteCount = async () => {
       setIsLoadingUpvotes(true);
       setUpvoteError(null);
-
       const result = await getUpvoteCount(report.incident_case);
-
-      if (result.success) {
-        setUpvoteCount(result.count);
-      } else {
-        setUpvoteError('Failed to load upvote count');
-      }
-
+      if (result.success) setUpvoteCount(result.count);
+      else setUpvoteError('Failed to load upvote count');
       setIsLoadingUpvotes(false);
     };
 
-    // Check if user has already upvoted this case
-    setHasUpvoted(hasUserUpvoted(report.incident_case));
+    const fetchComments = async () => {
+      setIsLoadingComments(true);
+      const result = await getComments(report.incident_case);
+      if (result.success) setComments(result.data);
+      setIsLoadingComments(false);
+    };
+
+    // Reset comment form
+    setCommentText('');
+    setAuthorName('');
+    setShowNameInput(false);
+    setCommentError(null);
 
     fetchUpvoteCount();
+    fetchComments();
   }, [isOpen, report]);
 
   const handleUpvote = async () => {
-    if (hasUpvoted || isUpvoting || !report) {
-      return;
-    }
+    if (hasUpvoted || isUpvoting || !report) return;
 
     setIsUpvoting(true);
     setUpvoteError(null);
@@ -92,6 +118,27 @@ export default function Modal({ isOpen, onClose, report }) {
     setIsUpvoting(false);
   };
 
+  const handleCommentSubmit = async (e) => {
+    e.preventDefault();
+    if (!commentText.trim() || isSubmittingComment) return;
+
+    setIsSubmittingComment(true);
+    setCommentError(null);
+
+    const result = await submitComment(report.incident_case, commentText, authorName);
+
+    if (result.success) {
+      setComments(prev => [...prev, result.data]);
+      setCommentText('');
+      setAuthorName('');
+      setShowNameInput(false);
+    } else {
+      setCommentError('Failed to post comment. Please try again.');
+    }
+
+    setIsSubmittingComment(false);
+  };
+
   if (!isOpen || !report) return null;
 
   const userSubmitted = isUserSubmitted(report.incident_case);
@@ -104,7 +151,7 @@ export default function Modal({ isOpen, onClose, report }) {
                       `Case #${report.incident_case}\n` +
                       `Summary: ${report.summary}\n\n` +
                       `View more incidents: ${websiteUrl}`;
-    
+
     if (platform === 'sms') {
       const smsUrl = `sms:?body=${encodeURIComponent(shareText)}`;
       window.location.href = smsUrl;
@@ -124,17 +171,15 @@ export default function Modal({ isOpen, onClose, report }) {
       const modalElement = document.querySelector('.modal-content');
       if (!modalElement) return;
 
-      // Temporarily hide the share buttons and close button for cleaner screenshot
       const shareSection = modalElement.querySelector('.modal-share-section');
       const closeButton = modalElement.querySelector('.modal-close');
-      
+
       if (shareSection) shareSection.style.display = 'none';
       if (closeButton) closeButton.style.display = 'none';
 
-      // Create canvas from modal
       const canvas = await html2canvas(modalElement, {
         backgroundColor: '#ffffff',
-        scale: 2, // Higher quality
+        scale: 2,
         logging: false,
         useCORS: true,
         onclone: (clonedDoc) => {
@@ -143,18 +188,15 @@ export default function Modal({ isOpen, onClose, report }) {
         }
       });
 
-      // Restore hidden elements
       if (shareSection) shareSection.style.display = '';
       if (closeButton) closeButton.style.display = '';
 
-      // Convert to blob
       canvas.toBlob(async (blob) => {
         if (!blob) {
           alert('Failed to create screenshot. Please try again.');
           return;
         }
 
-        // Try using Web Share API if available (works on mobile)
         if (navigator.share && navigator.canShare && navigator.canShare({ files: [new File([blob], 'incident.png', { type: 'image/png' })] })) {
           try {
             const file = new File([blob], 'ucsd-incident.png', { type: 'image/png' });
@@ -164,12 +206,9 @@ export default function Modal({ isOpen, onClose, report }) {
               text: `Location: ${report.location}\nDate: ${report.date_occurred}\nView more: ${websiteUrl}`
             });
           } catch (err) {
-            if (err.name !== 'AbortError') {
-              fallbackDownload(canvas);
-            }
+            if (err.name !== 'AbortError') fallbackDownload(canvas);
           }
         } else {
-          // Fallback: Download the image
           fallbackDownload(canvas);
         }
       }, 'image/png');
@@ -184,7 +223,6 @@ export default function Modal({ isOpen, onClose, report }) {
     link.download = `ucsd-incident-${report.incident_case}.png`;
     link.href = canvas.toDataURL('image/png');
     link.click();
-    
     alert('Screenshot saved! You can now share it via Instagram, SMS, or any other app.');
   };
 
@@ -274,6 +312,84 @@ export default function Modal({ isOpen, onClose, report }) {
               </button>
             </div>
             <p className="share-note">Screenshot option works best on mobile devices for sharing to Instagram Stories or DMs</p>
+          </div>
+
+          {/* Comments section */}
+          <div className="modal-comments-section">
+            <h3>Comments {!isLoadingComments && `(${comments.length})`}</h3>
+
+            {isLoadingComments ? (
+              <p className="comments-loading">Loading comments...</p>
+            ) : (
+              <>
+                {comments.length === 0 ? (
+                  <p className="comments-empty">No comments yet. Be the first to comment.</p>
+                ) : (
+                  <div className="comments-list">
+                    {comments.map((c) => (
+                      <div key={c.id} className="comment-item">
+                        <div className="comment-author-row">
+                          <span className={`comment-author${!c.author_name ? ' anonymous' : ''}`}>
+                            {c.author_name || 'Anonymous'}
+                          </span>
+                          <span className="comment-time">{formatCommentTime(c.created_at)}</span>
+                        </div>
+                        <p className="comment-text">{c.comment}</p>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                <form className="comment-form" onSubmit={handleCommentSubmit}>
+                  <textarea
+                    className="comment-textarea"
+                    placeholder="Write a comment..."
+                    value={commentText}
+                    onChange={(e) => setCommentText(e.target.value)}
+                    rows={3}
+                    maxLength={1000}
+                  />
+
+                  <div className="comment-form-footer">
+                    <div className="comment-anon-toggle">
+                      {showNameInput ? (
+                        <input
+                          type="text"
+                          className="comment-name-input"
+                          placeholder="Your name (optional)"
+                          value={authorName}
+                          onChange={(e) => setAuthorName(e.target.value)}
+                          maxLength={80}
+                          autoFocus
+                        />
+                      ) : (
+                        <span
+                          className="comment-anon-text"
+                          onClick={() => setShowNameInput(true)}
+                          role="button"
+                          tabIndex={0}
+                          onKeyDown={(e) => e.key === 'Enter' && setShowNameInput(true)}
+                        >
+                          I dont want to be anonymous
+                        </span>
+                      )}
+                    </div>
+
+                    <button
+                      type="submit"
+                      className="comment-submit-btn"
+                      disabled={!commentText.trim() || isSubmittingComment}
+                    >
+                      {isSubmittingComment ? 'Posting...' : 'Post'}
+                    </button>
+                  </div>
+
+                  {commentError && (
+                    <div className="comment-error">{commentError}</div>
+                  )}
+                </form>
+              </>
+            )}
           </div>
         </div>
       </div>

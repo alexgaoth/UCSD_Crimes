@@ -116,6 +116,56 @@ export async function getUpvoteCount(incidentCase) {
 }
 
 /**
+ * Fetch all comments for a given incident case, oldest first
+ */
+export async function getComments(incidentCase) {
+  try {
+    const { data, error } = await supabase
+      .from('report_comments')
+      .select('id, comment, author_name, created_at')
+      .eq('incident_case', incidentCase)
+      .order('created_at', { ascending: true });
+
+    if (error) {
+      console.error('Error fetching comments:', error);
+      return { success: false, error };
+    }
+
+    return { success: true, data };
+  } catch (error) {
+    console.error('Failed to fetch comments:', error);
+    return { success: false, error };
+  }
+}
+
+/**
+ * Submit a new comment for a given incident case
+ */
+export async function submitComment(incidentCase, comment, authorName) {
+  try {
+    const { data, error } = await supabase
+      .from('report_comments')
+      .insert([{
+        incident_case: incidentCase,
+        comment: comment.trim(),
+        author_name: authorName && authorName.trim() ? authorName.trim() : null,
+      }])
+      .select()
+      .single();
+
+    if (error) {
+      console.error('Error submitting comment:', error);
+      return { success: false, error };
+    }
+
+    return { success: true, data };
+  } catch (error) {
+    console.error('Failed to submit comment:', error);
+    return { success: false, error };
+  }
+}
+
+/**
  * Increment upvote count for a specific incident case
  * Creates the record if it doesn't exist
  */
