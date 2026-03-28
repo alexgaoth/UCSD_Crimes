@@ -18,26 +18,30 @@ import {
 import '../App.css';
 
 export default function Home() {
-  const { reports, loading } = useReports();
-  const { topRecentReports } = useReportsUtils(reports);
+  const { reports, upvoteCounts, loading } = useReports();
+  const { topRecentReports } = useReportsUtils(reports, upvoteCounts);
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const sortedReports = useMemo(() => {
-    return [...reports].sort((a, b) => {
-      const dateA = new Date(a.date_reported || a.date_occurred);
-      const dateB = new Date(b.date_reported || b.date_occurred);
-      return dateB - dateA;
-    });
+    return [...reports]
+      .filter(r => (r.summary || '').trim().length > 10)
+      .sort((a, b) => {
+        const dateA = new Date(a.date_reported || a.date_occurred);
+        const dateB = new Date(b.date_reported || b.date_occurred);
+        return dateB - dateA;
+      });
   }, [reports]);
 
   const featuredReports = topRecentReports.length > 0
     ? topRecentReports.slice(0, 3)
     : sortedReports.slice(0, 3);
 
-  const otherReports = topRecentReports.length > 0
-    ? topRecentReports.slice(3, 15)
-    : sortedReports.slice(3, 15);
+  // Bottom list: all reports newest-first, no empty descriptions, skip the featured 3
+  const featuredCases = new Set(featuredReports.map(r => r.incident_case));
+  const otherReports = sortedReports
+    .filter(r => !featuredCases.has(r.incident_case))
+    .slice(0, 15);
 
   const handleCardClick = (report) => {
     setSelectedReport(report);

@@ -33,7 +33,7 @@ export default function HomeMasthead({ reports }) {
         <div className="home-masthead-left">
           <p className="home-masthead-eyebrow">
             <span className={`status-dot ${isActive ? 'status-dot-active' : ''}`}></span>
-            UC SAN DIEGO · OFFICIAL POLICE REPORTS · STUDENT-BUILT
+            UC SAN DIEGO · OFFICIAL POLICE REPORTS
           </p>
           <h1 className="home-masthead-title">
             UCSD<br />

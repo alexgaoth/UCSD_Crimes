@@ -141,7 +141,7 @@ def seed_upvotes(client, incidents):
                 .execute()
             if existing.data:
                 continue
-            count = random.randint(3, 10)
+            count = random.randint(2, 5)
             client.table('report_upvotes') \
                 .insert({'incident_case': case, 'upvote_count': count}) \
                 .execute()

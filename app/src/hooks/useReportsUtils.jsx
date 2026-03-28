@@ -1,61 +1,49 @@
 import { useMemo } from 'react';
 
-export function useReportsUtils(reports) {
-  // Get top 3 reports with longest summaries from last 5 days
+export function useReportsUtils(reports, upvoteCounts = {}) {
+  // Get top reports from last 10 days with descriptions, sorted by upvote count
   const topRecentReports = useMemo(() => {
     if (!reports || reports.length === 0) return [];
-    
+
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const recentDefinition = new Date(today);
     recentDefinition.setDate(today.getDate() - 10);
-    
+
     const recentReports = reports.filter(report => {
+      // Filter out empty/missing descriptions
+      const summary = report.summary || '';
+      if (summary.trim().length <= 10) return false;
+
       try {
-        // Validate date_occurred exists and is a string
-        if (!report.date_occurred || typeof report.date_occurred !== 'string') {
-          return false;
-        }
-        
-        // Parse the date (MM/DD/YYYY format)
+        if (!report.date_occurred || typeof report.date_occurred !== 'string') return false;
+
         const parts = report.date_occurred.split('/');
-        if (parts.length !== 3) {
-          return false;
-        }
-        
+        if (parts.length !== 3) return false;
+
         const [month, day, year] = parts.map(Number);
-        
-        // Validate that all parts are valid numbers
-        if (isNaN(month) || isNaN(day) || isNaN(year)) {
-          return false;
-        }
-        
-        // Validate ranges
-        if (month < 1 || month > 12 || day < 1 || day > 31 || year < 2000 || year > 2100) {
-          return false;
-        }
-        
-        // Create date object (month is 0-indexed in JS)
+        if (isNaN(month) || isNaN(day) || isNaN(year)) return false;
+        if (month < 1 || month > 12 || day < 1 || day > 31 || year < 2000 || year > 2100) return false;
+
         const reportDate = new Date(year, month - 1, day);
         reportDate.setHours(0, 0, 0, 0);
-        
-        // Check if date is valid (catches invalid dates like 2/30)
-        if (isNaN(reportDate.getTime())) {
-          return false;
-        }
-        
-        // Check if date is within the last 5 days
+        if (isNaN(reportDate.getTime())) return false;
+
         return reportDate >= recentDefinition && reportDate <= today;
       } catch (error) {
         console.warn('Error parsing date for report:', report.incident_case, error);
         return false;
       }
     });
-    
+
     return recentReports
-      .sort((a, b) => b.summary.length - a.summary.length)
+      .sort((a, b) => {
+        const aVotes = upvoteCounts[a.incident_case] || 0;
+        const bVotes = upvoteCounts[b.incident_case] || 0;
+        return bVotes - aVotes;
+      })
       .slice(0, 15);
-  }, [reports]);
+  }, [reports, upvoteCounts]);
 
   // Get unique categories
   const uniqueCategories = useMemo(() => {

@@ -1,9 +1,11 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
+import { getAllUpvoteCounts } from '../lib/supabaseClient.js';
 
 const ReportsContext = createContext();
 
 export function ReportsProvider({ children }) {
   const [reports, setReports] = useState([]);
+  const [upvoteCounts, setUpvoteCounts] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,7 +32,7 @@ export function ReportsProvider({ children }) {
           (a, b) => new Date(b.date_reported) - new Date(a.date_reported)
         );
         setReports(sorted);
-        setLoading(false);
+        getAllUpvoteCounts().then(setUpvoteCounts).finally(() => setLoading(false));
       })
       .catch((err) => {
         console.error('Failed to load reports:', err);
@@ -39,7 +41,7 @@ export function ReportsProvider({ children }) {
   }, []);
 
   return (
-    <ReportsContext.Provider value={{ reports, loading }}>
+    <ReportsContext.Provider value={{ reports, upvoteCounts, loading }}>
       {children}
     </ReportsContext.Provider>
   );

@@ -64,6 +64,31 @@ export async function submitCrimeReport(reportData) {
 }
 
 /**
+ * Get all upvote counts as a map of incident_case -> count
+ */
+export async function getAllUpvoteCounts() {
+  try {
+    const { data, error } = await supabase
+      .from('report_upvotes')
+      .select('incident_case, upvote_count');
+
+    if (error) {
+      console.error('Error fetching all upvote counts:', error);
+      return {};
+    }
+
+    const map = {};
+    for (const row of data) {
+      map[row.incident_case] = row.upvote_count;
+    }
+    return map;
+  } catch (error) {
+    console.error('Failed to fetch all upvote counts:', error);
+    return {};
+  }
+}
+
+/**
  * Get upvote count for a specific incident case
  */
 export async function getUpvoteCount(incidentCase) {

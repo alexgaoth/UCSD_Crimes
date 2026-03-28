@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(python:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(find /d/UCSD_Crimes -type f \\\\\\(-name *.js -o -name *.ts \\\\\\) -path */server/* -o -path */api/* -o -path */routes/*)"
     ]
   }
 }
