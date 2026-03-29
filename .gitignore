@@ -10,9 +10,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -28,7 +26,6 @@ MANIFEST
 venv/
 env/
 ENV/
-# Note: lib/ removed to allow app/src/lib - Python libs in venv/ instead
 
 # Logs
 *.log
@@ -42,6 +39,10 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
+# Build outputs
+dist/
+build/
+
 # OS
 .DS_Store
 .DS_Store?
@@ -50,19 +51,21 @@ lerna-debug.log*
 .Trashes
 ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# IDE
+# IDE / editor
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# Build outputs
-dist/
-build/
+# Claude Code local settings (machine-specific, not for sharing)
+.claude/
+
+# Source PDF files (large binary data, not needed in repo)
+ucsd_police_reports/
 
 # Temporary files
 *.tmp
 *.bak
-*.swp

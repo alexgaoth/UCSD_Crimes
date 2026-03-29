@@ -7,6 +7,7 @@ import InsightCard from '../components/InsightCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import GoogleMapWidget from '../components/GoogleMapWidget.jsx';
 import SEO from '../components/SEO.jsx';
+import { normalizeLocationName } from '../utils/ucsdLocations.js';
 import './Pages.css';
 
 export default function CampusMap() {
@@ -25,15 +26,16 @@ export default function CampusMap() {
       );
 
       validReports.forEach(report => {
-        if (!locationMap[report.location]) {
-          locationMap[report.location] = {
-            name: report.location,
+        const canonicalName = normalizeLocationName(report.location);
+        if (!locationMap[canonicalName]) {
+          locationMap[canonicalName] = {
+            name: canonicalName,
             count: 0,
             reports: []
           };
         }
-        locationMap[report.location].count++;
-        locationMap[report.location].reports.push(report);
+        locationMap[canonicalName].count++;
+        locationMap[canonicalName].reports.push(report);
       });
 
       const sorted = Object.values(locationMap)

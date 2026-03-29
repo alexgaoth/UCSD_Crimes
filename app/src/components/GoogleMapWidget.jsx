@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { KNOWN_COORDS } from '../utils/ucsdLocations.js';
 
 const UCSD_CENTER = { lat: 32.8801, lng: -117.2340 };
 
@@ -79,58 +80,77 @@ export default function GoogleMapWidget({ locationData, selectedLocation, onLoca
     let processedCount = 0;
 
     const ucsdBounds = new window.google.maps.LatLngBounds(
-      new window.google.maps.LatLng(32.865, -117.250),
-      new window.google.maps.LatLng(32.895, -117.220)
+      new window.google.maps.LatLng(32.860, -117.260),
+      new window.google.maps.LatLng(32.900, -117.215)
     );
 
+    // Dummy PlacesService target (needed to instantiate PlacesService)
+    const placesService = new window.google.maps.places.PlacesService(googleMapRef.current);
+
     const tryGeocodeWithStrategies = (location, callback) => {
-      const strategy1 = `${location.name}, University of California San Diego, La Jolla, CA 92093`;
-      
-      geocoder.geocode({ address: strategy1 }, (results1, status1) => {
-        if (status1 === 'OK' && results1[0]) {
-          const position = results1[0].geometry.location;
-          const locationType = results1[0].geometry.location_type;
-          
-          const isPrecise = locationType === 'ROOFTOP' || locationType === 'RANGE_INTERPOLATED';
-          const isOnCampus = ucsdBounds.contains(position);
-          
-          if (isOnCampus && isPrecise) {
-            callback({ success: true, position, results: results1[0] });
-            return;
-          }
-        }
-        
-        const strategy2 = `${location.name}, UCSD Campus, La Jolla, CA`;
-        
-        geocoder.geocode({ address: strategy2 }, (results2, status2) => {
-          if (status2 === 'OK' && results2[0]) {
-            const position = results2[0].geometry.location;
-            const isOnCampus = ucsdBounds.contains(position);
-            
-            if (isOnCampus) {
-              callback({ success: true, position, results: results2[0] });
+      // ── STEP 1: hardcoded coordinates (instant, no API call) ─────────────
+      if (KNOWN_COORDS[location.name]) {
+        const coords = KNOWN_COORDS[location.name];
+        const position = new window.google.maps.LatLng(coords.lat, coords.lng);
+        callback({ success: true, position });
+        return;
+      }
+
+      // ── STEP 2: Places API findPlaceFromQuery (best for named buildings) ─
+      placesService.findPlaceFromQuery(
+        {
+          query: `${location.name} UCSD La Jolla`,
+          fields: ['geometry', 'name'],
+          locationBias: ucsdBounds,
+        },
+        (placesResults, placesStatus) => {
+          if (
+            placesStatus === window.google.maps.places.PlacesServiceStatus.OK &&
+            placesResults && placesResults[0]
+          ) {
+            const position = placesResults[0].geometry.location;
+            // Accept if anywhere in the extended UCSD region
+            const extendedBounds = new window.google.maps.LatLngBounds(
+              new window.google.maps.LatLng(32.740, -117.270),
+              new window.google.maps.LatLng(32.910, -117.200)
+            );
+            if (extendedBounds.contains(position)) {
+              callback({ success: true, position });
               return;
             }
           }
-          
-          const strategy3 = `${location.name} UCSD`;
-          
-          geocoder.geocode({ address: strategy3 }, (results3, status3) => {
-            if (status3 === 'OK' && results3[0]) {
-              const position = results3[0].geometry.location;
-              const isOnCampus = ucsdBounds.contains(position);
-              
-              if (isOnCampus) {
-                callback({ success: true, position, results: results3[0] });
+
+          // ── STEP 3: Geocoder fallbacks ──────────────────────────────────
+          const strategy1 = `${location.name}, University of California San Diego, La Jolla, CA 92093`;
+
+          geocoder.geocode({ address: strategy1 }, (results1, status1) => {
+            if (status1 === 'OK' && results1[0]) {
+              const position = results1[0].geometry.location;
+              const locationType = results1[0].geometry.location_type;
+              const isPrecise = locationType === 'ROOFTOP' || locationType === 'RANGE_INTERPOLATED';
+              if (ucsdBounds.contains(position) && isPrecise) {
+                callback({ success: true, position });
                 return;
               }
             }
-            
-            console.warn(`Could not precisely locate: "${location.name}"`);
-            callback({ success: false });
+
+            const strategy2 = `${location.name}, UCSD Campus, La Jolla, CA`;
+
+            geocoder.geocode({ address: strategy2 }, (results2, status2) => {
+              if (status2 === 'OK' && results2[0]) {
+                const position = results2[0].geometry.location;
+                if (ucsdBounds.contains(position)) {
+                  callback({ success: true, position });
+                  return;
+                }
+              }
+
+              console.warn(`Could not locate: "${location.name}"`);
+              callback({ success: false });
+            });
           });
-        });
-      });
+        }
+      );
     };
 
     locationData.forEach((location, index) => {
