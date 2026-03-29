@@ -385,11 +385,11 @@
 }
 
 .result-summary {
+  font-family: var(--font-mono);
   font-size: 0.88rem;
   color: var(--text-muted);
   line-height: 1.65;
   margin-bottom: 0.9rem;
-  font-family: var(--font-body);
 }
 
 .result-footer {
@@ -686,10 +686,10 @@
 }
 
 .detail-summary {
+  font-family: var(--font-mono);
   font-size: 0.875rem;
   color: var(--text-muted);
   line-height: 1.6;
-  font-family: var(--font-body);
 }
 
 .location-insights { margin-top: 3rem; }
@@ -1249,7 +1249,7 @@
 
 /* Card summary text inside DirectoryCard */
 .directory-summary {
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: 0.875rem;
   color: var(--text-muted);
   line-height: 1.65;
