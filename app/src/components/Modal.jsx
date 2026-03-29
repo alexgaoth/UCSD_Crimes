@@ -37,6 +37,31 @@ const hasUserUpvoted = (incidentCase) => {
   return upvoted.includes(incidentCase);
 };
 
+const ANIMALS = [
+  ['Otter',    '🦦'], ['Fox',      '🦊'], ['Bear',     '🐻'], ['Penguin',  '🐧'],
+  ['Wolf',     '🐺'], ['Deer',     '🦌'], ['Rabbit',   '🐰'], ['Panda',    '🐼'],
+  ['Koala',    '🐨'], ['Tiger',    '🐯'], ['Elephant', '🐘'], ['Dolphin',  '🐬'],
+  ['Owl',      '🦉'], ['Eagle',    '🦅'], ['Seal',     '🦭'], ['Hedgehog', '🦔'],
+  ['Raccoon',  '🦝'], ['Parrot',   '🦜'], ['Flamingo', '🦩'], ['Hawk',     '🐦'],
+];
+
+// Deterministic pick from UUID so same comment always gets same animal
+function getAnonymousAnimal(id) {
+  const hex = (id || '').replace(/-/g, '').slice(0, 8);
+  const num = parseInt(hex, 16) || 0;
+  return ANIMALS[num % ANIMALS.length];
+}
+
+function PersonAvatar() {
+  return (
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+      <rect width="32" height="32" fill="#182B49"/>
+      <circle cx="16" cy="13" r="5.5" fill="white"/>
+      <path d="M4 30 C4 22 10 18 16 18 C22 18 28 22 28 30Z" fill="white"/>
+    </svg>
+  );
+}
+
 function formatCommentTime(timestamp) {
   const date = new Date(timestamp);
   const now = new Date();
@@ -326,17 +351,33 @@ export default function Modal({ isOpen, onClose, report }) {
                   <p className="comments-empty">No comments yet. Be the first to comment.</p>
                 ) : (
                   <div className="comments-list">
-                    {comments.map((c) => (
-                      <div key={c.id} className="comment-item">
-                        <div className="comment-author-row">
-                          <span className={`comment-author${!c.author_name ? ' anonymous' : ''}`}>
-                            {c.author_name || 'Anonymous'}
-                          </span>
-                          <span className="comment-time">{formatCommentTime(c.created_at)}</span>
+                    {comments.map((c) => {
+                      const isAnon = !c.author_name;
+                      const [animalName, animalEmoji] = getAnonymousAnimal(c.id);
+                      const displayName = isAnon ? `Anonymous ${animalName}` : c.author_name;
+                      return (
+                        <div key={c.id} className="comment-item">
+                          <div className="comment-header">
+                            {isAnon ? (
+                              <div className="comment-avatar comment-avatar-anon">
+                                <span className="comment-avatar-emoji">{animalEmoji}</span>
+                              </div>
+                            ) : (
+                              <div className="comment-avatar comment-avatar-named">
+                                <PersonAvatar />
+                              </div>
+                            )}
+                            <div className="comment-meta">
+                              <span className={`comment-author${isAnon ? ' anonymous' : ''}`}>
+                                {displayName}
+                              </span>
+                              <span className="comment-time">{formatCommentTime(c.created_at)}</span>
+                            </div>
+                          </div>
+                          <p className="comment-text">{c.comment}</p>
                         </div>
-                        <p className="comment-text">{c.comment}</p>
-                      </div>
-                    ))}
+                      );
+                    })}
                   </div>
                 )}
 

@@ -6,7 +6,6 @@ import StatCard from '../components/StatCard.jsx';
 import StatBar from '../components/StatBar.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import SEO from '../components/SEO.jsx';
-import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
 
@@ -66,7 +65,6 @@ export default function Statistics() {
         description="Comprehensive statistics and analytics on UCSD campus crime reports. Explore data breakdowns by category, disposition, and trends to better understand campus safety patterns at UC San Diego."
         path="/statistics"
       />
-      <Breadcrumbs items={[{ name: 'Statistics', path: '/statistics' }]} />
       <PageLayout
         title="Statistics"
         subtitle="Crime Report Analytics"

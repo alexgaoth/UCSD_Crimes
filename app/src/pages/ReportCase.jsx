@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import PageLayout from '../components/PageLayout.jsx';
 import SectionTitle from '../components/SectionTitle.jsx';
 import SEO from '../components/SEO.jsx';
-import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import { submitCrimeReport } from '../lib/supabaseClient.js';
 import '../pages/Pages.css';
 
@@ -87,7 +86,6 @@ export default function ReportCase() {
         description="Report suspicious activity, safety concerns, or incidents at UCSD. Help keep the campus community safe by sharing important information about campus security matters at UC San Diego."
         path="/report-case"
       />
-      <Breadcrumbs items={[{ name: 'Report an Incident', path: '/report-case' }]} />
       <PageLayout
         title="Report an Incident"
         subtitle="Help Keep Campus Safe"

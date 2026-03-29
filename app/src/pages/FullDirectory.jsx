@@ -6,7 +6,6 @@ import SectionTitle from '../components/SectionTitle.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
 import SEO from '../components/SEO.jsx';
-import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import Calendar from '../components/Calendar.jsx';
 import './Pages.css';
 
@@ -204,9 +203,7 @@ export default function FullDirectory() {
         subtitle="Complete Crime Report Archive"
         showBackLink={true}
       >
-        <Breadcrumbs items={[{ name: 'Full Directory', path: '/full-directory' }]} />
-
-        {!hasReports && groupedReports.length === 0 ? (
+{!hasReports && groupedReports.length === 0 ? (
           <div className="no-reports">
             <p>No reports available at this time.</p>
           </div>

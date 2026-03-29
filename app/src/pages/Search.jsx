@@ -8,11 +8,12 @@ import ResultCard from '../components/ResultCard.jsx';
 import LoadingState from '../components/LoadingState.jsx';
 import Modal from '../components/Modal.jsx';
 import SEO from '../components/SEO.jsx';
-import Breadcrumbs from '../components/Breadcrumbs.jsx';
 import './Pages.css';
 
+const ITEMS_PER_PAGE = 10;
+
 export default function Search() {
-  const { reports, loading } = useReports();
+  const { reports, upvoteCounts, loading } = useReports();
   const { uniqueCategories, uniqueLocations } = useReportsUtils(reports);
 
   const [allReports, setAllReports] = useState([]);
@@ -21,26 +22,20 @@ export default function Search() {
   const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
+  const [minUpvotes, setMinUpvotes] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     if (!loading && reports.length > 0) {
-      // Sort reports by most recent first (date + time for accurate sorting)
       const sorted = [...reports].sort((a, b) => {
-        // Create datetime by combining date and time for accurate sorting
-        const dateStrA = a.date_occurred;
-        const timeStrA = a.time_occurred || '00:00';
-        const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
-
-        const dateStrB = b.date_occurred;
-        const timeStrB = b.time_occurred || '00:00';
-        const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
-
-        return dateTimeB - dateTimeA; // Most recent first
+        const dateTimeA = new Date(`${a.date_occurred} ${a.time_occurred || '00:00'}`);
+        const dateTimeB = new Date(`${b.date_occurred} ${b.time_occurred || '00:00'}`);
+        return dateTimeB - dateTimeA;
       });
       setAllReports(sorted);
-      setFilteredReports(sorted.slice(0, 10));
+      setFilteredReports(sorted);
     }
   }, [reports, loading]);
 
@@ -64,41 +59,26 @@ export default function Search() {
       filtered = filtered.filter(report => report.location === selectedLocation);
     }
 
-    // Sort by most recent first (date + time for accurate sorting)
+    if (minUpvotes > 0) {
+      filtered = filtered.filter(
+        report => (upvoteCounts[report.incident_case] || 0) >= minUpvotes
+      );
+    }
+
     filtered = filtered.sort((a, b) => {
-      // Create datetime by combining date and time for accurate sorting
-      const dateStrA = a.date_occurred;
-      const timeStrA = a.time_occurred || '00:00';
-      const dateTimeA = new Date(`${dateStrA} ${timeStrA}`);
-
-      const dateStrB = b.date_occurred;
-      const timeStrB = b.time_occurred || '00:00';
-      const dateTimeB = new Date(`${dateStrB} ${timeStrB}`);
-
-      return dateTimeB - dateTimeA; // Most recent first
+      const dateTimeA = new Date(`${a.date_occurred} ${a.time_occurred || '00:00'}`);
+      const dateTimeB = new Date(`${b.date_occurred} ${b.time_occurred || '00:00'}`);
+      return dateTimeB - dateTimeA;
     });
 
-    setFilteredReports(filtered.slice(0, 10));
-  }, [activeSearchTerm, selectedCategory, selectedLocation, allReports]);
+    setFilteredReports(filtered);
+    setCurrentPage(1);
+  }, [activeSearchTerm, selectedCategory, selectedLocation, minUpvotes, allReports, upvoteCounts]);
 
-  const calculateTotalResults = () => {
-    let count = allReports.length;
-    const term = activeSearchTerm.toLowerCase();
-    
-    if (activeSearchTerm || selectedCategory !== 'all' || selectedLocation !== 'all') {
-      count = allReports.filter(report => {
-        const matchesSearch = !activeSearchTerm || 
-          report.summary.toLowerCase().includes(term) ||
-          report.location.toLowerCase().includes(term) ||
-          report.category.toLowerCase().includes(term);
-        const matchesCategory = selectedCategory === 'all' || report.category === selectedCategory;
-        const matchesLocation = selectedLocation === 'all' || report.location === selectedLocation;
-        return matchesSearch && matchesCategory && matchesLocation;
-      }).length;
-    }
-    
-    return count;
-  };
+  const totalPages = Math.max(1, Math.ceil(filteredReports.length / ITEMS_PER_PAGE));
+  const pageStart = (currentPage - 1) * ITEMS_PER_PAGE;
+  const pageEnd = pageStart + ITEMS_PER_PAGE;
+  const paginatedReports = filteredReports.slice(pageStart, pageEnd);
 
   const handleKeyDown = (e) => {
     if (e.key === ' ' || e.key === 'Enter') {
@@ -128,8 +108,7 @@ export default function Search() {
         description="Search through UCSD crime reports using filters for location, category, and keywords. Find specific incidents that matter to you with our detailed search tool for campus safety data."
         path="/search"
       />
-      <Breadcrumbs items={[{ name: 'Search', path: '/search' }]} />
-      <PageLayout
+<PageLayout
         title="Search Reports"
         subtitle="Find Specific Incidents"
       >
@@ -143,23 +122,27 @@ export default function Search() {
         selectedLocation={selectedLocation}
         onCategoryChange={(e) => setSelectedCategory(e.target.value)}
         onLocationChange={(e) => setSelectedLocation(e.target.value)}
+        minUpvotes={minUpvotes}
+        onMinUpvotesChange={(e) => setMinUpvotes(Number(e.target.value))}
       />
 
       <section className="search-results">
         <div className="results-header">
           <SectionTitle>Search Results</SectionTitle>
           <span className="results-count">
-            Showing top {filteredReports.length} of {calculateTotalResults()} reports
+            {filteredReports.length === 0
+              ? 'No results'
+              : `${pageStart + 1}–${Math.min(pageEnd, filteredReports.length)} of ${filteredReports.length} reports`}
           </span>
         </div>
 
         <div className="results-list">
-          {filteredReports.length === 0 ? (
+          {paginatedReports.length === 0 ? (
             <div className="no-results">
               <p>No reports match your search criteria</p>
             </div>
           ) : (
-            filteredReports.map(report => (
+            paginatedReports.map(report => (
               <ResultCard
                 key={report.incident_case}
                 report={report}
@@ -168,6 +151,28 @@ export default function Search() {
             ))
           )}
         </div>
+
+        {totalPages > 1 && (
+          <div className="pagination-nav">
+            <button
+              className="pagination-btn"
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+            >
+              ← Prev
+            </button>
+            <span className="pagination-info">
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              className="pagination-btn"
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+            >
+              Next →
+            </button>
+          </div>
+        )}
       </section>
 
       <Modal

@@ -1,15 +1,17 @@
 import React from 'react';
 
-export default function SearchControls({ 
-  searchTerm, 
-  onSearchChange, 
+export default function SearchControls({
+  searchTerm,
+  onSearchChange,
   onKeyDown,
-  categories, 
-  locations, 
-  selectedCategory, 
-  selectedLocation, 
-  onCategoryChange, 
-  onLocationChange 
+  categories,
+  locations,
+  selectedCategory,
+  selectedLocation,
+  onCategoryChange,
+  onLocationChange,
+  minUpvotes,
+  onMinUpvotesChange,
 }) {
   return (
     <section className="search-controls">
@@ -50,6 +52,21 @@ export default function SearchControls({
             {locations.map(loc => (
               <option key={loc} value={loc}>{loc}</option>
             ))}
+          </select>
+        </div>
+
+        <div className="filter-group">
+          <label>Min. Upvotes</label>
+          <select
+            value={minUpvotes}
+            onChange={onMinUpvotesChange}
+            className="filter-select"
+          >
+            <option value={0}>Any</option>
+            <option value={1}>1+</option>
+            <option value={5}>5+</option>
+            <option value={10}>10+</option>
+            <option value={25}>25+</option>
           </select>
         </div>
       </div>
