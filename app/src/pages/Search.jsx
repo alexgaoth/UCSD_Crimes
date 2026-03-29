@@ -19,7 +19,6 @@ export default function Search() {
   const [allReports, setAllReports] = useState([]);
   const [filteredReports, setFilteredReports] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeSearchTerm, setActiveSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [selectedLocation, setSelectedLocation] = useState('all');
   const [minUpvotes, setMinUpvotes] = useState(0);
@@ -42,8 +41,8 @@ export default function Search() {
   useEffect(() => {
     let filtered = allReports;
 
-    if (activeSearchTerm) {
-      const term = activeSearchTerm.toLowerCase();
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase();
       filtered = filtered.filter(report =>
         report.summary.toLowerCase().includes(term) ||
         report.location.toLowerCase().includes(term) ||
@@ -73,19 +72,22 @@ export default function Search() {
 
     setFilteredReports(filtered);
     setCurrentPage(1);
-  }, [activeSearchTerm, selectedCategory, selectedLocation, minUpvotes, allReports, upvoteCounts]);
+  }, [searchTerm, selectedCategory, selectedLocation, minUpvotes, allReports, upvoteCounts]);
 
   const totalPages = Math.max(1, Math.ceil(filteredReports.length / ITEMS_PER_PAGE));
   const pageStart = (currentPage - 1) * ITEMS_PER_PAGE;
   const pageEnd = pageStart + ITEMS_PER_PAGE;
   const paginatedReports = filteredReports.slice(pageStart, pageEnd);
 
-  const handleKeyDown = (e) => {
-    if (e.key === ' ' || e.key === 'Enter') {
-      e.preventDefault();
-      setActiveSearchTerm(searchTerm);
-    }
+  const handleClearAll = () => {
+    setSearchTerm('');
+    setSelectedCategory('all');
+    setSelectedLocation('all');
+    setMinUpvotes(0);
+    setCurrentPage(1);
   };
+
+  const hasActiveFilters = searchTerm || selectedCategory !== 'all' || selectedLocation !== 'all' || minUpvotes > 0;
 
   const handleCardClick = (report) => {
     setSelectedReport(report);
@@ -115,7 +117,6 @@ export default function Search() {
       <SearchControls
         searchTerm={searchTerm}
         onSearchChange={(e) => setSearchTerm(e.target.value)}
-        onKeyDown={handleKeyDown}
         categories={uniqueCategories}
         locations={uniqueLocations}
         selectedCategory={selectedCategory}
@@ -124,6 +125,8 @@ export default function Search() {
         onLocationChange={(e) => setSelectedLocation(e.target.value)}
         minUpvotes={minUpvotes}
         onMinUpvotesChange={(e) => setMinUpvotes(Number(e.target.value))}
+        hasActiveFilters={hasActiveFilters}
+        onClearAll={handleClearAll}
       />
 
       <section className="search-results">

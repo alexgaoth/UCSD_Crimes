@@ -71,7 +71,7 @@ export default function Home() {
 
         <main className="main">
           <section className="featured">
-            <SectionTitle>Recent Reports</SectionTitle>
+            <SectionTitle>Trending This Week</SectionTitle>
             <div className="featured-grid">
               {featuredReports.map((report) => (
                 <FeaturedCard
@@ -139,7 +139,12 @@ export default function Home() {
 
           {otherReports.length > 0 && (
             <section className="other-incidents">
-              <SectionTitle>More Recent Reports</SectionTitle>
+              <div className="other-incidents-header">
+                <SectionTitle>More Recent Reports</SectionTitle>
+                <Link to="/full-directory" className="home-view-all-link">
+                  Browse all by date →
+                </Link>
+              </div>
               <div className="incidents-list">
                 {otherReports.map((report) => (
                   <IncidentRow
@@ -149,6 +154,9 @@ export default function Home() {
                   />
                 ))}
               </div>
+              <Link to="/full-directory" className="home-view-all-block">
+                View all reports in directory →
+              </Link>
             </section>
           )}
         </main>

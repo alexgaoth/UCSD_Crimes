@@ -208,10 +208,9 @@ export default function FullDirectory() {
             <p>No reports available at this time.</p>
           </div>
         ) : (
-          <>
-            {/* Calendar and Filter Controls */}
-            <div className="directory-controls">
-              {/* Calendar Widget */}
+          <div className="directory-layout">
+            {/* Sidebar: Calendar */}
+            <aside className="directory-sidebar">
               <div className="directory-calendar-container">
                 <Calendar
                   availableDates={availableDates}
@@ -219,7 +218,10 @@ export default function FullDirectory() {
                   onDateSelect={handleDateSelect}
                 />
               </div>
+            </aside>
 
+            {/* Main: Filters + Reports */}
+            <div className="directory-main">
               {/* Filter Checkbox */}
               <div className="directory-filters">
                 <label className="directory-filter-checkbox-label">
@@ -229,12 +231,12 @@ export default function FullDirectory() {
                     onChange={handleCheckboxToggle}
                     className="directory-filter-checkbox"
                   />
-                  <span>hide reports with no detailed summaries</span>
+                  <span>Hide reports with no detailed summaries</span>
                 </label>
               </div>
 
               {/* Summary Stats */}
-              <div className="directory-summary">
+              <div className="directory-date-status">
                 <p className="directory-total-count">
                   {hasSelectedDate ? (
                     hasReports ? (
@@ -245,7 +247,7 @@ export default function FullDirectory() {
                     ) : (
                       <>
                         No reports for <strong>{formatDate(selectedDate)}</strong>
-                        {hideEmptySummaries && <span> matching your filter criteria. Try unchecking the filter above.</span>}
+                        {hideEmptySummaries && <span> — try unchecking the filter.</span>}
                       </>
                     )
                   ) : (
@@ -253,51 +255,51 @@ export default function FullDirectory() {
                   )}
                 </p>
               </div>
-            </div>
 
-            {/* Selected Date Reports */}
-            {hasSelectedDate ? (
-              hasReports ? (
-                <div className="directory-content">
-                  <section
-                    className="date-group date-group-selected"
-                    id={`date-${selectedDate.replace(/\//g, '-')}`}
-                  >
-                    <div className="date-group-header">
-                      <h2 className="date-heading">
-                        {formatDate(selectedDate)}
-                        <span className="date-selected-indicator"> ✓</span>
-                      </h2>
-                      <span className="incident-count">
-                        {selectedDateReports.length} {selectedDateReports.length === 1 ? 'incident' : 'incidents'}
-                      </span>
-                    </div>
+              {/* Selected Date Reports */}
+              {hasSelectedDate ? (
+                hasReports ? (
+                  <div className="directory-content">
+                    <section
+                      className="date-group date-group-selected"
+                      id={`date-${selectedDate.replace(/\//g, '-')}`}
+                    >
+                      <div className="date-group-header">
+                        <h2 className="date-heading">
+                          {formatDate(selectedDate)}
+                          <span className="date-selected-indicator"> ✓</span>
+                        </h2>
+                        <span className="incident-count">
+                          {selectedDateReports.length} {selectedDateReports.length === 1 ? 'incident' : 'incidents'}
+                        </span>
+                      </div>
 
-                    <div className="date-group-cards">
-                      {selectedDateReports.map((report) => (
-                        <DirectoryCard
-                          key={report.incident_case}
-                          report={report}
-                          onClick={() => handleCardClick(report)}
-                        />
-                      ))}
-                    </div>
-                  </section>
-                </div>
+                      <div className="date-group-cards">
+                        {selectedDateReports.map((report) => (
+                          <DirectoryCard
+                            key={report.incident_case}
+                            report={report}
+                            onClick={() => handleCardClick(report)}
+                          />
+                        ))}
+                      </div>
+                    </section>
+                  </div>
+                ) : (
+                  <div className="no-reports">
+                    <p>
+                      No reports for {formatDate(selectedDate)}
+                      {hideEmptySummaries && ' matching your filter criteria. Try unchecking the filter above.'}
+                    </p>
+                  </div>
+                )
               ) : (
                 <div className="no-reports">
-                  <p>
-                    No reports for {formatDate(selectedDate)}
-                    {hideEmptySummaries && ' matching your filter criteria. Try unchecking the filter above.'}
-                  </p>
+                  <p>Select a date from the calendar to view reports.</p>
                 </div>
-              )
-            ) : (
-              <div className="no-reports">
-                <p>Select a date from the calendar above to view reports.</p>
-              </div>
-            )}
-          </>
+              )}
+            </div>
+          </div>
         )}
 
         <Modal

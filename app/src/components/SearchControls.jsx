@@ -3,7 +3,6 @@ import React from 'react';
 export default function SearchControls({
   searchTerm,
   onSearchChange,
-  onKeyDown,
   categories,
   locations,
   selectedCategory,
@@ -12,17 +11,19 @@ export default function SearchControls({
   onLocationChange,
   minUpvotes,
   onMinUpvotesChange,
+  hasActiveFilters,
+  onClearAll,
 }) {
   return (
     <section className="search-controls">
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search by summary, location, or category... (Press Enter to search)"
+          placeholder="Search by summary, location, or category..."
           value={searchTerm}
           onChange={onSearchChange}
-          onKeyDown={onKeyDown}
           className="search-input"
+          autoComplete="off"
         />
       </div>
 
@@ -69,6 +70,15 @@ export default function SearchControls({
             <option value={25}>25+</option>
           </select>
         </div>
+
+        {hasActiveFilters && (
+          <div className="filter-group filter-group-clear">
+            <label>&nbsp;</label>
+            <button className="filter-clear-btn" onClick={onClearAll}>
+              ✕ Clear All
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

@@ -71,58 +71,49 @@ export default function Statistics() {
       >
       <section className="stats-overview">
         <StatCard number={stats.total} label="Total Reports" />
-        <StatCard number={stats.totalCategories} label="Categories (20+ occurrences)" />
-        <StatCard number={stats.totalDispositions} label="Dispositions (20+ occurrences)" />
+        <StatCard number={stats.totalCategories} label="Crime Categories" />
+        <StatCard number={stats.totalDispositions} label="Case Dispositions" />
       </section>
 
-      <section className="stats-section">
-        <SectionTitle>Reports by Category (20+ occurrences)</SectionTitle>
-        {stats.byCategory.length === 0 ? (
-          <div className="no-results">
-            <p>No category data available</p>
-          </div>
-        ) : (
-          <div className="stat-bars">
-            {stats.byCategory.map(item => (
-              <StatBar
-                key={item.name}
-                name={item.name}
-                count={item.count}
-                maxValue={maxCategory}
-                fillClass="category-fill"
-              />
-            ))}
-          </div>
-        )}
-      </section>
+      <div className="stats-two-col">
+        <section className="stats-section">
+          <SectionTitle>By Category</SectionTitle>
+          {stats.byCategory.length === 0 ? (
+            <div className="no-results"><p>No category data available</p></div>
+          ) : (
+            <div className="stat-bars">
+              {stats.byCategory.map(item => (
+                <StatBar
+                  key={item.name}
+                  name={item.name}
+                  count={item.count}
+                  maxValue={maxCategory}
+                  fillClass="category-fill"
+                />
+              ))}
+            </div>
+          )}
+        </section>
 
-      <section className="stats-section">
-        <SectionTitle>Reports by Disposition</SectionTitle>
-        {stats.byDisposition.length === 0 ? (
-          <div className="no-results">
-            <p>No disposition data available</p>
-          </div>
-        ) : (
-          <div className="stat-bars">
-            {stats.byDisposition.map(item => {
-              const normalizedName = item.name
-                .toLowerCase()
-                .replace(/\s+/g, '-')
-                .replace(/[()]/g, '');
-              
-              return (
+        <section className="stats-section">
+          <SectionTitle>By Disposition</SectionTitle>
+          {stats.byDisposition.length === 0 ? (
+            <div className="no-results"><p>No disposition data available</p></div>
+          ) : (
+            <div className="stat-bars">
+              {stats.byDisposition.map(item => (
                 <StatBar
                   key={item.name}
                   name={item.name}
                   count={item.count}
                   maxValue={maxDisposition}
-                  fillClass={`disposition-fill`}
+                  fillClass="disposition-fill"
                 />
-              );
-            })}
-          </div>
-        )}
-      </section>
+              ))}
+            </div>
+          )}
+        </section>
+      </div>
     </PageLayout>
     </>
   );

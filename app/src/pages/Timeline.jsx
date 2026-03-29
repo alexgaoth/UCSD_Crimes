@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { useReports } from '../context/ReportsContext.jsx';
 import { useReportsUtils } from '../hooks/useReportsUtils.jsx';
 import PageLayout from '../components/PageLayout.jsx';
@@ -12,13 +13,13 @@ import './Pages.css';
 
 export default function Timeline() {
   const { reports, loading } = useReports();
-  const { occurredDistribution, reportedDistribution } = useReportsUtils(reports);
+  const { occurredDistribution } = useReportsUtils(reports);
   const [selectedReport, setSelectedReport] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const maxValue = useMemo(() => {
-    return Math.max(...occurredDistribution, ...reportedDistribution, 1);
-  }, [occurredDistribution, reportedDistribution]);
+    return Math.max(...occurredDistribution, 1);
+  }, [occurredDistribution]);
 
   const sortedReports = useMemo(() => {
     return [...reports].sort((a, b) => {
@@ -62,17 +63,22 @@ export default function Timeline() {
       >
       <section className="chart-section">
         <SectionTitle>When Incidents Occurred</SectionTitle>
-        <TimelineChart 
-          data={occurredDistribution} 
-          maxValue={maxValue} 
+        <TimelineChart
+          data={occurredDistribution}
+          maxValue={maxValue}
           type="occurred"
         />
       </section>
 
       <section className="timeline-list">
-        <SectionTitle>Most Recent Reports</SectionTitle>
+        <div className="timeline-list-header">
+          <SectionTitle>Most Recent Reports</SectionTitle>
+          <Link to="/full-directory" className="timeline-view-all">
+            View full directory →
+          </Link>
+        </div>
         <div className="timeline-items">
-          {sortedReports.slice(0, 20).map(report => (
+          {sortedReports.slice(0, 15).map(report => (
             <TimelineItem
               key={report.incident_case}
               report={report}
