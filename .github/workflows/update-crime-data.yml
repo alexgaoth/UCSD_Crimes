@@ -77,7 +77,6 @@ jobs:
         run: |
           git diff --exit-code app/public/police_reports.json || echo "changes=true" >> $GITHUB_OUTPUT
           git diff --exit-code app/public/sync_state.json || echo "changes=true" >> $GITHUB_OUTPUT
-          git diff --exit-code ucsd_police_reports/ || echo "changes=true" >> $GITHUB_OUTPUT
           
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes == 'true'
@@ -86,7 +85,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add app/public/police_reports.json
           git add app/public/sync_state.json
-          git add ucsd_police_reports/*.pdf
           git commit -m "Auto-update crime data - $(date +'%Y-%m-%d %H:%M:%S UTC')"
           git push
 
