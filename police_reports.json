@@ -81331,6 +81331,324 @@
           "disposition": "Report Taken"
         }
       ]
+    },
+    {
+      "filename": "April 5, 2026.pdf",
+      "date": "April 5, 2026",
+      "page_count": 6,
+      "incident_count": 31,
+      "incidents": [
+        {
+          "category": "Mental Health Detention",
+          "location": "Pepper Canyon Apartments 900",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0729",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "12:01AM - 12:24AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Pepper Canyon Apartments 100",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050004",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "12:28 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "One Miramar Street, Building 3",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050005",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "12:30 AM",
+          "summary": "Regarding lost and found",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Tapestry",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050006",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "12:42 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "North Break Study Lounge",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050011",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "3:04 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050014",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "3:33 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Mental Health Detention",
+          "location": "Gilman Drive and Biomedical Sciences Way",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050016",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "4:40 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "University Curfew/Use Restricted Access Facility/Camping on UC Campuses/Stay Away Order",
+          "location": "Viento",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0731",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "5:58AM - 8:21AM",
+          "summary": "Male appears to be non-affiliate sleeping in common area Disposition Closed By Citation, Adult Burglary La Jolla Del Sol Apartments",
+          "disposition": ""
+        },
+        {
+          "category": "Burglary",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0732",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "6:30AM - 6:37AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Vandalism/Conspiracy to Commit Crime/Stay Away Order",
+          "location": "Blacks Beach Gate",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0733",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "8:15AM - 8:30AM",
+          "summary": "Caller saw 2 males graffiti signs",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Birch Aquarium",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050021",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "8:58 AM",
+          "summary": "Intimate photo posted on twitter and tagged reporting party",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Gilman Parking Structure",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0734",
+          "date_occurred": "4/4/2026",
+          "time_occurred": "12:15AM - 10:00AM",
+          "summary": "Wallet stolen",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Cala",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050023",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "1:01 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Catalyst",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050024",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "1:01 PM",
+          "summary": "Has not talked to son for over a year",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050025",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "1:12 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Russell Walk and Lyman Walk",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050026",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "1:47 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Pangea Parking Structure",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050030",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "3:31 PM",
+          "summary": "Group practicing drums, reporting party advises there are posted signs that prohibit musical practices",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Parking Lot P017",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0735",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "3:44PM - 5:02PM",
+          "summary": "",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050032",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "3:54 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Trespass",
+          "location": "UC San Diego Health Urgent Care",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050033",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "4:26 PM",
+          "summary": "10 subjects skateboarding, refusing to leave",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050037",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "5:28 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Outside Agency Warrant Arrest / Stay Away Order",
+          "location": "Mandell Weiss Theatre",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0736",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "5:51PM - 8:24PM",
+          "summary": "Original call for subject pacing back and forth in the area, yelling obscenities and slurs",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Price Center East",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050041",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "6:09 PM",
+          "summary": "Unknown male followed reporting party this morning and now at price center in the area where",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Burglary to Vehicle",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0737",
+          "date_occurred": "4/4/2026",
+          "time_occurred": "5:00PM - 4:00PM",
+          "summary": "Theft from motor vehicle. Loss of $60.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0738",
+          "date_occurred": "4/4/2026",
+          "time_occurred": "10:00PM - 10:30PM",
+          "summary": "Theft from motor vehicle, loss $515",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Security Check",
+          "location": "Pepper Canyon Apartments 1600",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050049",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "9:03 PM",
+          "summary": "Alert from Instacart driver at 8:53PM",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Petty Theft - Mirco Mobility Device",
+          "location": "Peterson Hall",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0739",
+          "date_occurred": "4/4/2026",
+          "time_occurred": "10:30AM - 9:00PM",
+          "summary": "Secured e-scooter stolen, Loss $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "UC Policy Violation",
+          "location": "Geneva Hall",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050051",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "9:34 PM",
+          "summary": "Unknown number of people smoking",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Scholars Drive North",
+          "date_reported": "4/5/2026",
+          "incident_case": "2026-0740",
+          "date_occurred": "4/2/2026",
+          "time_occurred": "1:00PM - 9:15PM",
+          "summary": "Electric scooter taken. Loss between $100-$200",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Kaleidoscope",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050056",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "11:18 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Holiday Court",
+          "date_reported": "4/5/2026",
+          "incident_case": "2604050059",
+          "date_occurred": "4/5/2026",
+          "time_occurred": "11:58 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -81587,6 +81905,7 @@
     "April 1, 2026 UPDATED.pdf",
     "April 2, 2026.pdf",
     "April 3, 2026.pdf",
-    "April 4, 2026.pdf"
+    "April 4, 2026.pdf",
+    "April 5, 2026.pdf"
   ]
 }
