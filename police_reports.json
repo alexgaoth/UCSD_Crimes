@@ -82275,6 +82275,274 @@
           "disposition": "Verbal Warning Issued"
         }
       ]
+    },
+    {
+      "filename": "April 8, 2026.pdf",
+      "date": "April 8, 2026",
+      "page_count": 5,
+      "incident_count": 26,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Alianza",
+          "date_reported": "4/8/2026",
+          "incident_case": "20604080001",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "12:18 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Alianza",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080005",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "1:35 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Shores Diner",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080006",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "1:38 AM",
+          "summary": "Male on chair, hunched over, unable to tell if breathing or asleep, multiple spray cans around",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Bonner Hall",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080010",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "2:21 AM",
+          "summary": "Subjects friend advised that 30 mins ago, subject texted reporting party \"if anything happens, I'm so glad you're my best friend\", then stopped replying to reporting party",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Tenaya Hall",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080013",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "4:48 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080022",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "9:28 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080024",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "10:21 AM",
+          "summary": "Pedestrian ran into reporting party's car, was not injured, pedestrian accused reporting party of running into him and trying to leave the scene",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Thornton Pavilion",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080030",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "11:58 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080031",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "12:05 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "La Jolla Del Sol Apartments 8150",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080032",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "12:12 PM",
+          "summary": "Yesterday a resident backed into UCSD cart, no damage to cart",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Outside Agency Courtesy Report: Domestic Violence Assault",
+          "location": "La Mesa, CA",
+          "date_reported": "4/8/2026",
+          "incident_case": "2026-0755",
+          "date_occurred": "3/27/2026",
+          "time_occurred": "10:48 PM-12:00 AM",
+          "summary": "",
+          "disposition": "Referred to Outside Agency"
+        },
+        {
+          "category": "Excessive Alcohol/Drug",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "4/8/2026",
+          "incident_case": "2026-0756",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "1:11 PM-1:13PM",
+          "summary": "Student experiencing chest pain and shortness of breath after consuming marijuana",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Warren Mall",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080040",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "1:45 PM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Beacons Beach",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080041",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "2:11 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Mesa Apartments South - 9176",
+          "date_reported": "4/8/2026",
+          "incident_case": "2026-0757",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "2:50 PM",
+          "summary": "Broken gate",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Found Property",
+          "location": "Genter St.",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080051",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "3:41 PM",
+          "summary": "Found ID card",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080053",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "4:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other - Non Clery Crime",
+          "location": "UC San Diego",
+          "date_reported": "4/8/2026",
+          "incident_case": "2026-0758",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "Report of possible sexual assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Lockout",
+          "location": "Engineering Building Unit II",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080054",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "5:04 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Mesa Apartments Central - 9270",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080055",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "6:05 PM",
+          "summary": "For the past 30 mins, male vs female yelling",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Vela",
+          "date_reported": "4/8/2026",
+          "incident_case": "2026-0760",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "6:41 PM",
+          "summary": "Reporting party observed 2 subjects attempting to steal a bicycle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Umoja",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080058",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "7:27 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Sankofa",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080059",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "8:19 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Petty Theft - Micro Mobility Device/ Possess burglary tools/ Stay Away Order Issuance",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080060",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "5:10 PM - 9:03 PM",
+          "summary": "Attempted theft of secured e-bike",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Veterans Affairs Medical Center",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080063",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "10:02 PM",
+          "summary": "Male rambling",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Vela",
+          "date_reported": "4/8/2026",
+          "incident_case": "2604080068",
+          "date_occurred": "4/8/2026",
+          "time_occurred": "11:23 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -82534,6 +82802,7 @@
     "April 4, 2026.pdf",
     "April 5, 2026.pdf",
     "April 6, 2026.pdf",
-    "April 7, 2026.pdf"
+    "April 7, 2026.pdf",
+    "April 8, 2026.pdf"
   ]
 }
