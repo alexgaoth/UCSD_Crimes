@@ -84115,6 +84115,304 @@
           "disposition": "Logged Event"
         }
       ]
+    },
+    {
+      "filename": "April 13, 2026.pdf",
+      "date": "April 13, 2026",
+      "page_count": 5,
+      "incident_count": 29,
+      "incidents": [
+        {
+          "category": "",
+          "location": "Cala",
+          "date_reported": "4/13/2026",
+          "incident_case": "2026-0794",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "2:59 AM",
+          "summary": "Loud verbal argument",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Parking Lot P401",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130002",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "3:17 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Matthews Apartments D",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130003",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "3:21 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Biomedical Sciences Building",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130004",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:15 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Conrad Prebys Music Center",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130010",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "6:53 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130011",
+          "date_occurred": "4/10/2026",
+          "time_occurred": "3:02 PM",
+          "summary": "Hospital Security completed theft report for patient, who reported $210 missing from her wallet",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Gilman Parking Structure",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130012",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "7:04 AM",
+          "summary": "Male cursing at RP for parking next to him",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130013",
+          "date_occurred": "4/11/2026",
+          "time_occurred": "1:49 PM",
+          "summary": "Hospital Security completed report for patient missing $600 from wallet",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Torrey Pines Center South",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130017",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "8:13 AM",
+          "summary": "Concerning patron sending harassing messages to parking",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Medical Center - East Campus",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130018",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "8:50 AM",
+          "summary": "Subject escorted out of facility after refusing to check in and harassing patrons",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Seventh College West #4",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130021",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "9:10 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Torrey Pines Center South",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130022",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "9:32 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Mayer Hall",
+          "date_reported": "4/13/2026",
+          "incident_case": "2026-0796",
+          "date_occurred": "4/12/2026",
+          "time_occurred": "5:00 PM - 9:30 AM",
+          "summary": "Victim's earphones stolen from unsecured office, loss $200",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130032",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "11:06 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Balboa Avenue/ Clairemont Drive",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130038",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "12:49 PM",
+          "summary": "RP felt it was suspicious that a wire was along a hiking trail",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911 Call",
+          "location": "Genesee Avenue",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130039",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "1:00 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Scholars Lane",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130041",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "1:27 PM",
+          "summary": "Caller wanting to report a domestic violence incident in Tustin, CA",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "ACTRI",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130049",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "3:18 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Follow Up",
+          "location": "The Trove - Price Center West",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130053",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:02 PM",
+          "summary": "RP thinks she found her bike that was taken back in January",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130054",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Coalition",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130055",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:13 PM",
+          "summary": "Somone inside bathroom for 2 hours",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130056",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:43 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Security Alarm",
+          "location": "Umoja",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130058",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "4:58 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130059",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "5:02 PM",
+          "summary": "Parent of student claims to have important paperwork for child, student does not desire contact with family",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Injury",
+          "location": "Gilman Parking Structure",
+          "date_reported": "4/13/2026",
+          "incident_case": "2026-0795",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "5:48 PM",
+          "summary": "Solo e-scooter accident",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Medical Center - Hillcrest",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130061",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "6:07 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Lost Property",
+          "location": "Neighborhood - Health Sciences West",
+          "date_reported": "4/13/2026",
+          "incident_case": "2026-0797",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "10:00 AM - 11:30 AM",
+          "summary": "RP lost wallet on campus",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Porton",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130063",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "7:28 PM",
+          "summary": "Unknown subject looking inside windows and knocking on doors",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Geisel Library",
+          "date_reported": "4/13/2026",
+          "incident_case": "2604130068",
+          "date_occurred": "4/13/2026",
+          "time_occurred": "9:57 PM",
+          "summary": "Male calling from near Geisel sculpture, saying he is afraid to go home and making paranoid statements",
+          "disposition": "Checks OK"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -84379,6 +84677,7 @@
     "April 10, 2026.pdf",
     "April 9, 2026.pdf",
     "April 11, 2026.pdf",
-    "April 12, 2026.pdf"
+    "April 12, 2026.pdf",
+    "April 13, 2026.pdf"
   ]
 }
