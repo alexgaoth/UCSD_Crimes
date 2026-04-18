@@ -85019,6 +85019,364 @@
           "disposition": "Will Cooperate"
         }
       ]
+    },
+    {
+      "filename": "April 16, 2026.pdf",
+      "date": "April 16, 2026",
+      "page_count": 7,
+      "incident_count": 35,
+      "incidents": [
+        {
+          "category": "Medical Aid",
+          "location": "Vela",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0808",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "12:00 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Stewart Hall",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0809",
+          "date_occurred": "4/15/2026",
+          "time_occurred": "8:00PM - 11:00PM",
+          "summary": "Undergarments taken from dryer",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Rya",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160004",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "12:27 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Vela",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160011",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "2:28 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "LGBT Resource center",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160018",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "6:34 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Gilman Parking Structure",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160020",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "6:57 AM",
+          "summary": "Male called 911 because he does not have access to phone and needs to get to brother who lives off campus. Sounds disoriented",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Kaleidoscope",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160023",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "8:04 AM",
+          "summary": "Mom concerned about student. Told Mom that she is being hospitalized but mom does not know which hospital",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Justice",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160025",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "8:48 AM",
+          "summary": "Subject walking around on the back patio of building, peaking into window",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Knowledge",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160027",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "9:23 AM",
+          "summary": "Male subject who seems like he is looking for someone, related to call from earlier",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Tapestry",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160028",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "9:48 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Applied Physics and Mathematics",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160032",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "10:14 AM",
+          "summary": "Student was followed by a man, attempted to follow her into the testing center",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Fraud",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0810",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "8:00AM - 10:30AM",
+          "summary": "Person impersonating Chief of Police, requesting staff bank account numbers",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "One Miramar Street",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160034",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "10:56 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Cellular and Molecular Medicine East",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160035",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "10:59 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Petty Theft with 2 or more priors/Resisting Peace Office/Stay Away Order/Mental Health Detention",
+          "location": "Revelle Plaza",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0811",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "11:31AM - 1:16PM",
+          "summary": "Male suspect stole items from coffee cart and had generated multiple calls for his odd behavior around campus",
+          "disposition": "Transported to Hospital"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "Student Health and Wellness Center",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160039",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "12:02 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Vandalism",
+          "location": "Seventh College East #5",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0812",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "9:30AM - 11:45AM",
+          "summary": "Unknown suspect damaged window. Loss of $500.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Main Gym",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0813",
+          "date_occurred": "4/15/2026",
+          "time_occurred": "9:45PM - 12:30PM",
+          "summary": "Secured Bicycle Stolen, loss of $200.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Porton",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160046",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "12:58 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Battery",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160047",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "1:08 PM",
+          "summary": "Patient became aggressive and spat on security agency while being escorted back to their assigned room",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Price Center Plaza",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160048",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "1:17 PM",
+          "summary": "Caller is organizer for field trip for middle schoolers. 2 eight grade females wandered off into Price Center and they are not answering their cell phones",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Target",
+          "date_reported": "4/16/2026",
+          "incident_case": "2026-0814",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "2:10PM - 2:19PM",
+          "summary": "Subject has been in the store for about an hour, has left a note on a random shelf saying \"Watch Your Back\"",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Avenue",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160052",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "2:52 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160053",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "4:45 PM",
+          "summary": "Instructor got email from a student saying they are having a mental health issues this week",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Geisel Library",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160055",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "4:45 PM",
+          "summary": "Security contacted a female on the forum level sitting on the ledge",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Cognitive Sciences Building",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160056",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "6:24 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lockout",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160059",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "8:07 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Central Mesa Apartments",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160064",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "8:21 PM",
+          "summary": "Male in parking lot throwing up, wandering around, making \"weird noises\", yelling at people",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Coalition",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160068",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "9:10 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Mosaic",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160068",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "9:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "Foodworx",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160076",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "10:19 PM",
+          "summary": "Burst Drain Pipe, lots of water shooting up in air",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Vela",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160087",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "11:32 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160088",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "11:34 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Lockout",
+          "location": "Price Center East",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160089",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "11:37 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Galathea Hall",
+          "date_reported": "4/16/2026",
+          "incident_case": "2604160092",
+          "date_occurred": "4/16/2026",
+          "time_occurred": "11:51 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -85286,6 +85644,7 @@
     "April 12, 2026.pdf",
     "April 13, 2026.pdf",
     "April 14, 2026.pdf",
-    "April 15, 2026.pdf"
+    "April 15, 2026.pdf",
+    "April 16, 2026.pdf"
   ]
 }
