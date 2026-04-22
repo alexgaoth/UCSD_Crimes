@@ -86241,6 +86241,284 @@
           "disposition": "Student Conduct Referral"
         }
       ]
+    },
+    {
+      "filename": "April 20, 2026.pdf",
+      "date": "April 20, 2026",
+      "page_count": 5,
+      "incident_count": 27,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Kaleidoscope",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200003",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "12:12 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Europe Hall",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200005",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "2:15 AM",
+          "summary": "",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Ridge Walk",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200010",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "4:49 AM",
+          "summary": "Facilities Management needs gate arm near IRPS opened so they can move a crane in",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Canyon view Rec/Athletics Administration",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200011",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "5:35 AM",
+          "summary": "Male passed out outside the administration building",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Outside Agency Courtesy Report: Corporal Injury/etc. on Child",
+          "location": "Hyatt Regency La Jolla",
+          "date_reported": "4/20/2026",
+          "incident_case": "2026-0839",
+          "date_occurred": "",
+          "time_occurred": "12:00 AM-12:00 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200018",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "8:01 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200027",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "9:09 AM",
+          "summary": "Hospital security received report of subject stealing food from cafeteria",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Coalition",
+          "date_reported": "4/20/2026",
+          "incident_case": "2026-0836",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "9:47 AM",
+          "summary": "Reporting party advised student has what they believe is a stun gun, requesting officer meet with staff at resident life office",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Burglary",
+          "location": "Extended Studies A",
+          "date_reported": "4/20/2026",
+          "incident_case": "2026-0837",
+          "date_occurred": "4/17/2026",
+          "time_occurred": "5:00 PM - 12:00 AM",
+          "summary": "Laptop and other electronics taken, loss $3035",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Radiation Oncology Center",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200036",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "11:30 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Capa",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200037",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "11:40 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Frost St.",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200038",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "11:55 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Voigt Dr/Hopkins Dr.",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200039",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "12:37 PM",
+          "summary": "RP observed a California Border Patrol vehicle on campus at approximately 11:40 AM",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Thornton Pavilion",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200043",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "2:10 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Battery",
+          "location": "Gilman Parking Structure",
+          "date_reported": "4/20/2026",
+          "incident_case": "2026-0838",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "1:50 PM - 2:00 PM",
+          "summary": "White male hit reporting party in the face as he was walking",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Design and Innovation Building",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200045",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "3:13 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Design and Innovation Building",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200046",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "3:14 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200047",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "3:35 PM",
+          "summary": "Property pick up",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Applied Physics and Mathematics",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200049",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "4:52 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Lockout",
+          "location": "Structural and Material Engineering Building",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200050",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "5:09 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200053",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "6:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Student Center Building B",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200054",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "7:07 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lockout",
+          "location": "Communication Building",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200055",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "7:26 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Geneva Hall",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200056",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "7:33 PM",
+          "summary": "Reporting party last spoke to student on Saturday and student was crying, unknown reason, student has not responded to phone calls since and voice mail box full",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Geisel Library",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200060",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "10:08 PM",
+          "summary": "Front desk, subject approached reporting party and required police, advised unknown subjects are attempting to kill him, subject is rambling nonsensical statements",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Porton",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200063",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "10:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lockout",
+          "location": "Coalition",
+          "date_reported": "4/20/2026",
+          "incident_case": "2604200065",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "11:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -86512,6 +86790,7 @@
     "April 16, 2026.pdf",
     "April 17, 2026.pdf",
     "April 18, 2026.pdf",
-    "April 19, 2026.pdf"
+    "April 19, 2026.pdf",
+    "April 20, 2026.pdf"
   ]
 }
