@@ -90287,6 +90287,434 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "May 1, 2026.pdf",
+      "date": "May 1, 2026",
+      "page_count": 8,
+      "incident_count": 42,
+      "incidents": [
+        {
+          "category": "Disturbance, General",
+          "location": "Kaleidoscope",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010001",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:17 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Podemos",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010002",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:29 AM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Kaleidoscope",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010003",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:31 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Engineering Building Unit II",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010004",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:50 AM",
+          "summary": "Fume monitor alarm",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010010",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "1:49 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Cuzco House",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010011",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "1:53 AM",
+          "summary": "Last spoke to daughter on 4/24/26 via phone, told mom left to get a drink and has not had contact since",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Foodworx",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010015",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "2:48 AM",
+          "summary": "3 males with 1 female",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "LGBT Resource Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010019",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "5:24 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Campus Services Complex - Building D",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010022",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "UC vehicle hit while parked",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Veterans Affairs Medical Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010025",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "7:36 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Vela",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0916",
+          "date_occurred": "4/3/2026",
+          "time_occurred": "11:010 AM - 8:00 AM",
+          "summary": "Damage to door that leads to roof, cost of damage $500",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "LGBT Resource Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010030",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "8:59 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "Student Business Services - SSC",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010032",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "9:16 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010034",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "10:21 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Shiley Eye Institute",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010035",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "10:22 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Alumni & Welcome Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010036",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "10:26 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010039",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "10:53 AM",
+          "summary": "Property pick-up",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "ACTRI",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010040",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "11:11 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Shiley Eye Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010043",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "11:30 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device",
+          "location": "Student Center Building A",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0917",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "9:00 AM - 12:00 PM",
+          "summary": "Secured e-scooter stolen, loss $300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Under Influence of Drugs",
+          "location": "Campus Service Complex",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010046",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:35 PM",
+          "summary": "2 male subjects smoking from glass pipe at picnic table",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Center Hall",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010047",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:35 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Medical Education & Telemedicine",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010048",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:42 PM",
+          "summary": "Non-affiliate vendor sent \"threatening\" email last night",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Central Ave",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010051",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "1:43 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Goody's Marketplace",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010052",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "2:05 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "UC San Diego",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010053",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "3:17 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Scholars Parking Structure",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010054",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "3:20 PM",
+          "summary": "Rp's vehicle was parked and hit by another vehicle, other party left note",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Mosaic",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010055",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "3:30 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Stay Away Order Issuance",
+          "location": "Theatre District Parking Structure",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0918",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "3:45 PM - 4:05 PM",
+          "summary": "Non-affiliate contacted after being reported for checking door handles",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010057",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "4:02 PM",
+          "summary": "Property pick-up",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Justice",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010060",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "4:47 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "El Cajon Blvd",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010061",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "5:05 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010062",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "5:05 PM",
+          "summary": "Male caller requesting to cancel Fire Department response",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Pulse",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010068",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "6:23 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0919",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "5:30 AM - 6:00 PM",
+          "summary": "Reporting party tracked missing e-skateboard to another persons vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Pulse",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010070",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "6:34 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "CSA/Clery: Aggravated Assault",
+          "location": "East Campus Medical Center",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010077",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "8:09 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "Parking Lot P310",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010087",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "9:49 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Tuolumne Apartments",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010088",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "10:10 PM",
+          "summary": "Parents requesting to check on son who they have not been able to get ahold of son since 2:30 PM",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Knowledge",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0921",
+          "date_occurred": "1/15/2026",
+          "time_occurred": "12:09 AM - 2:00 AM",
+          "summary": "Two female students reported that a male student took explicit photos of them with out their consent on two different dates",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Information Only Report",
+          "location": "Student Center Building A",
+          "date_reported": "5/1/2026",
+          "incident_case": "2026-0920",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "11:30 PM",
+          "summary": "Original call for a disturbance, group of juveniles being very obnoxious",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "5/1/2026",
+          "incident_case": "2605010099",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "11:54 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -90570,6 +90998,7 @@
     "April 28, 2026.pdf",
     "April 29, 2026.pdf",
     "April 29, 2026 UPDATED.pdf",
-    "April 30, 2026.pdf"
+    "April 30, 2026.pdf",
+    "May 1, 2026.pdf"
   ]
 }
