@@ -94415,6 +94415,224 @@
           "disposition": "Will Cooperate"
         }
       ]
+    },
+    {
+      "filename": "May 11, 2026.pdf",
+      "date": "May 11, 2026",
+      "page_count": 4,
+      "incident_count": 21,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Catalyst",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110001",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "12:17 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Charles David Keeling Apartments #1",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110004",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "1:23 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Charles David Keeling Apartments #1",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110005",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "1:35 AM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Power Islanding",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110009",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "2:35 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Outside Agency Felony Warrant Arrest/ Fraud/ Possess Narcotic Controlled Substance",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1031",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "3:24 AM-4:18 AM",
+          "summary": "Subject contacted following report of 2 persons sleeping at roundabout",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Trespass/ University Curfew Violation/ Use Restricted Access Facility / Stay Away Order Issuance",
+          "location": "Engineering Building Unit II",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1032",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "4:20 AM-4:57 AM",
+          "summary": "Non-affiliate subject contacted following report of subject sleeping on couch inside building",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Parking Lot 406",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1034",
+          "date_occurred": "",
+          "time_occurred": "7:30 PM-7:30 AM",
+          "summary": "Rear spoiler and roof spoiler removed from car exterior",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Humanities and Social Sciences",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110021",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "8:39 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110029",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "11:32 AM",
+          "summary": "Unhoused female came in for help for her laptop",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Center Hall",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1033",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "12:40 PM",
+          "summary": "Secured e-scooter stolen, loss $300",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110036",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "1:01 PM",
+          "summary": "Property pickup",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Unknown Trouble",
+          "location": "Kaleidoscope",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110039",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "1:16 PM",
+          "summary": "Female voice heard yelling for help between 4th and 6th floor",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "",
+          "location": "UC San Diego Campus",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1036",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "12:00 AM-1:30 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Information",
+          "location": "Geisel Library",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110041",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "1:44 PM",
+          "summary": "Sitting in main tunnel on 1st floor, male came to the desk and told security that someone tried to kill him last year, doesn’t appear to be in distress",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110047",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "2:49 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Gilman Parking Structure",
+          "date_reported": "5/11/2026",
+          "incident_case": "2026-1039",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "3:49 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Traffic Hazard",
+          "location": "Scholars Dr S",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110052",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "6:21 PM",
+          "summary": "Female sitting on sidewalk using computer with legs on the street",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Pepper Canyon Apartments 400",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110053",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "6:54 PM",
+          "summary": "Strong burning plastic smell coming in from outside, no smoke/fire seen",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Lockout",
+          "location": "Brian C. Malk Hall",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110054",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "7:50 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110056",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "8:01 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Coalition",
+          "date_reported": "5/11/2026",
+          "incident_case": "2605110070",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "11:50 PM",
+          "summary": "Subject casing bicycle rack by coalition building",
+          "disposition": "Checks OK"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -94709,6 +94927,7 @@
     "May 10, 2026.pdf",
     "May 7, 2026.pdf",
     "May 8, 2026.pdf",
-    "May 9, 2026.pdf"
+    "May 9, 2026.pdf",
+    "May 11, 2026.pdf"
   ]
 }
