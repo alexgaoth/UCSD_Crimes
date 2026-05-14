@@ -94633,6 +94633,344 @@
           "disposition": "Checks OK"
         }
       ]
+    },
+    {
+      "filename": "May 12, 2026.pdf",
+      "date": "May 12, 2026",
+      "page_count": 6,
+      "incident_count": 33,
+      "incidents": [
+        {
+          "category": "Found Property",
+          "location": "Coalition",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120001",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "12:05 AM",
+          "summary": "Found tablet and black t-shirt, will hold for safekeeping in residential life office",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Catalyst",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120002",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Foodworx",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1038",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "10:30PM - 12:00AM",
+          "summary": "Unknown subject took reporting party's e-scooter from location. Loss of $400.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Umoja",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120007",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "3:08 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Harlan Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120008",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "3:53 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Lockout",
+          "location": "La Jolla Family House",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120013",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "5:45 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Birch Admissions",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120018",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "7:16 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Central Research Services",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120019",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "7:22 AM",
+          "summary": "Female lying on top of pallet of salt on south side of building",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120029",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "9:20 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120030",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "9:25 AM",
+          "summary": "Reporting party is mom who has not spoken to son in a month",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "",
+          "location": "UC San Diego Campus",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1041",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "12:00AM - 10:13AM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Gilman Parking Structure",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120037",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "11:18 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Matthews Apartments",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1042",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "11:40PM - 11:40AM",
+          "summary": "Secured e-scooter taken, $400",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Umoja",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120042",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "12:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Media",
+          "location": "Wells Fargo Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120043",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "1:04 PM",
+          "summary": "",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Atkinson Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120044",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "1:11 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information Only",
+          "location": "Unity",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1040",
+          "date_occurred": "4/20/2026",
+          "time_occurred": "12:00 AM",
+          "summary": "Concerning civil matter where parents have access to her bank account",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Grand Theft - Micro-Mobility Device",
+          "location": "Foodworx",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1043",
+          "date_occurred": "5/10/2026",
+          "time_occurred": "7:06PM - 7:15PM",
+          "summary": "Spin scooter stolen, loss $1000",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Alianza",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120050",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "2:25 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "North America Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120051",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "3:41 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Mesa Canyon Parking Structure",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120054",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "4:19 PM",
+          "summary": "Student aged male sleeping in a stall leaning up against wall",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120055",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "4:25 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Seventh College West #2",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120056",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "4:40 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Lockout",
+          "location": "Jacobs Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120061",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "5:39 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Argument",
+          "location": "Central Mesa Apartments",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120062",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "6:15 PM",
+          "summary": "Reporting party heard male and female arguing",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120068",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "7:23 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120069",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "7:26 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "RIMAC",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1044",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "6:15 PM - 7:40 PM",
+          "summary": "Secured e-scooter stolen, loss $500",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout",
+          "location": "Galbraith Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120072",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "8:21 PM",
+          "summary": "",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Collision with Injury",
+          "location": "Café Ventanas",
+          "date_reported": "5/12/2026",
+          "incident_case": "2026-1045",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "9:00 PM",
+          "summary": "18 year old female, concsious and breathing, fell off a scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "UC San Diego",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120077",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "9:58 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Argo Hall",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120078",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "10:29 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Information",
+          "location": "Douglas Apartments",
+          "date_reported": "5/12/2026",
+          "incident_case": "2605120082",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "10:56 PM",
+          "summary": "Smoke detector going off from cooking",
+          "disposition": "Information Only"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -94928,6 +95266,7 @@
     "May 7, 2026.pdf",
     "May 8, 2026.pdf",
     "May 9, 2026.pdf",
-    "May 11, 2026.pdf"
+    "May 11, 2026.pdf",
+    "May 12, 2026.pdf"
   ]
 }
