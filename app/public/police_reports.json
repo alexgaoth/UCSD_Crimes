@@ -94971,6 +94971,762 @@
           "disposition": "Information Only"
         }
       ]
+    },
+    {
+      "filename": "May 13, 2026.pdf",
+      "date": "May 13, 2026",
+      "page_count": 7,
+      "incident_count": 37,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Gilman Parking Structure",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130002",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "12:21 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Center Hall",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1046",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "9:30PM - 12:30AM",
+          "summary": "Unknown subject took reporting party's locked e-scooter. Loss of $270.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "University Curfew Violation",
+          "location": "Capa",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1047",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "1:17AM - 2:06Am",
+          "summary": "Reporting party observed 2 subjects casing bicycles",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Bates Hall",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130009",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "2:17 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Alianza",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130010",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "2:28 AM",
+          "summary": "Male adult, 30s, sitting on outdoor furniture, curfew violation",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Foodworx",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130011",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "3:12 AM",
+          "summary": "Occurred between 8:00PM and 3:12, E-Scooter screws removed",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Parking Lot P504",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130013",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "4:40 AM",
+          "summary": "Subject sleeping inside vehicle for multiple hours",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Trespass",
+          "location": "Engineering Building Unit II",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130014",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "4:56 AM",
+          "summary": "Reporting party entered the room and found a subject sleeping inside",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Hillcrest Hospital",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130026",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "7:23 AM",
+          "summary": "Patient's wallet stolen",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Trespass",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1048",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "7:20AM - 8:21AM",
+          "summary": "",
+          "disposition": "Closed By Citation, Adult"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Neptune Avenue",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130029",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:03 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Housing, Dining, and Hospitality Services",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130030",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:14 AM",
+          "summary": "Second floor balcony, not open to public, male adult transient, with blanket and bike",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Che Café",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130031",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:30 AM",
+          "summary": "Subject possibly living in vehicle",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "",
+          "location": "64 Degrees",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1049",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Information",
+          "location": "Birch Aquarium",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130035",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "9:37 AM",
+          "summary": "Male parked in remote part of lot and looked at cameras, subject was ducking down when staff drove by",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Vela",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130038",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "9:46",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Exhibiting a Deadly Weapon other than Firearm, Threaten Crime with Intent to Terrorize",
+          "location": "Preuss School",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1053",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "9:57 AM",
+          "summary": "Concerning threatening video sent to a student by non-affiliate",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Sexual Battery",
+          "location": "Solis Hall",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1051",
+          "date_occurred": "5/5/2026",
+          "time_occurred": "6:00 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Parking Lot P406",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1050",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "10:44 AM",
+          "summary": "Graffiti",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "",
+          "location": "UC San Diego Campus",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1052",
+          "date_occurred": "5/11/2026",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Natatorium",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130047",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "11:33 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Blake Hall",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1055",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "12:00AM - 11:00AM",
+          "summary": "Secured e-scooter taken, loss $450",
+          "disposition": "Online Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "University Center Lane",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130049",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "12:03 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Library Walk",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130050",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "12:13 PM",
+          "summary": "Last week a female told reporting party, she should die",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Rya",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1054",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "11:38 PM",
+          "summary": "Secured e-scooter stolen. Loss of $380.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130055",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "2:24 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Scripps Memorial Hospital",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130060",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "3:57 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Catalyst",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130061",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "4:11 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rya",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130063",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "4:33 PM",
+          "summary": "Reporting party is subject's mother, advised 4 hours ago subject called her and left a voice message saying \"Mom, answer the phone, help me\" sounded distressed",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Information Only Report",
+          "location": "Rya",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1056",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "7:57 PM",
+          "summary": "Subject has not been seen since Monday",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Umoja",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130070",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:38 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Indecent Exposure",
+          "location": "Nobel Trolley Station",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130071",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:47 PM",
+          "summary": "Unknown subject was masturbating while looking at reporting party and his girlfriend while on trolley",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "RIMAC",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130072",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "8:52 PM",
+          "summary": "Reporting party found scooter previously reported stolen",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Party",
+          "location": "South Mesa Apartments",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130073",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "9:58 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Report of Petty Theft - Micro-Mobility Device",
+          "location": "Otterson Hall",
+          "date_reported": "5/13/2026",
+          "incident_case": "2026-1057",
+          "date_occurred": "5/12/2026",
+          "time_occurred": "11:00AM - 10:00PM",
+          "summary": "Secured e-bike stolen, loss $400",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Unknown Trouble",
+          "location": "Thornton Pavilion",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130076",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "11:26 PM",
+          "summary": "Reporting party advised there is a shooter at the location",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Security Check",
+          "location": "Capa",
+          "date_reported": "5/13/2026",
+          "incident_case": "2605130078",
+          "date_occurred": "5/13/2026",
+          "time_occurred": "11:40 PM",
+          "summary": "Vehicle with back hatch open for the past hour",
+          "disposition": "Service Provided"
+        }
+      ]
+    },
+    {
+      "filename": "May 14, 2026.pdf",
+      "date": "May 14, 2026",
+      "page_count": 7,
+      "incident_count": 37,
+      "incidents": [
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pulse",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140002",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "12:15 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140003",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "12:28 AM",
+          "summary": "Uber driver requesting welfare check on subject he dropped off, subject rambling nonsensical statements throughout the ride",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Thornton Pavilion",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140005",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "12:59 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Gilman Dr/I-5 Overpass Bridge",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140007",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "1:12 AM",
+          "summary": "Sleeper, male 30-40 laying down with blankets",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Target",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140009",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "1:37 AM",
+          "summary": "Female subject sitting on the floor swaying back and forth shaking their head",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Seventh College West #8",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140010",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "1:52 AM",
+          "summary": "Request for welfare check of intoxicated female who entered wrong suite",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Otterson Hall",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140022",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "7:08 AM",
+          "summary": "On the 2nd floor in the graduate student lounge locker room, subject is sleeping, has been doing this for the last month",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "ACTRI",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140027",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "8:09 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Middle Earth",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140031",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "8:23 AM",
+          "summary": "2nd hand info, subject sleeping at location",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Price Center West",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140036",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "9:34 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "",
+          "location": "Koman Family Outpatient Pavilion",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1058",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "P785",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140040",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "11:05 AM",
+          "summary": "Reporting party received notification of AirTag in vehicle and is concerned about being tracked",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Check",
+          "location": "Seventh College West #5",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140041",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "11:23 AM",
+          "summary": "Subject talking to himself and saying weird things to reporting party",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Supplemental Storage",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140046",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "12:11 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Hillel of San Diego at UCSD",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140047",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "12:14 PM",
+          "summary": "Reporting party received call from unknown number stating that they know where she lives",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Library Walk",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1059",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "2:02 PM",
+          "summary": "Subject destroyed property hosted by Hillel",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140062",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "3:31 PM",
+          "summary": "Reporting party is mom of student and is requesting to speak with supervisor regarding Housing Maintenance opening a window and refusing to close it",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire",
+          "location": "Scholars Dr N",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140064",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "3:49 PM",
+          "summary": "Toaster oven caught on fire, put out by resident with fire extinguisher from hallway",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Bookstore",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140066",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "4:06 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Mental Health Detention",
+          "location": "Preuss School",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1060",
+          "date_occurred": "",
+          "time_occurred": "12:00 PM-9:48 PM",
+          "summary": "Original call from students parent requesting assistance with possible additional resources for their student who they believed was a victim of an assault",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Battery",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140070",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "5:01 PM",
+          "summary": "Transient male made fist and tried to punch reporting party",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Fraud",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1061",
+          "date_occurred": "",
+          "time_occurred": "12:00 AM-12:00 AM",
+          "summary": "Requesting to speak with an officer regarding a fraudulent check or a check deposited incorrectly",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140073",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "5:20 PM",
+          "summary": "Reporting party requesting to speak with someone regarding concern's about a student's photo being released in connection with a crime",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Tenaya Hall",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140074",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "5:24 PM",
+          "summary": "Professor sent an email regarding student who had attempted suicide before and was concerned",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout",
+          "location": "Tata Hall",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140075",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "6:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Annoying/Harassing Phone Call",
+          "location": "Tamarack Apartments",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1062",
+          "date_occurred": "",
+          "time_occurred": "12:00 AM-12:00 AM",
+          "summary": "Reporting party getting harassing phone messages from ex boyfriend regarding sexual favors",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Preserve the Peach",
+          "location": "Cala",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140077",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "6:20 PM",
+          "summary": "Reporting party requesting officer to standby while she moves out",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Warren Lecture Hall",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140078",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "6:38 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Hopkins Drive",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140079",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "6:51 PM",
+          "summary": "Burning smell, no fire seen, gray colored smoke",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Triton Center - Student Services Center",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140080",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "7:49 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Target",
+          "date_reported": "5/14/2026",
+          "incident_case": "2026-1063",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "8:00 PM-8:14 PM",
+          "summary": "Student caught stealing a $1 soda",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Robert Paine Scripps Forum - Auditorium",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140084",
+          "date_occurred": "04/01/2026",
+          "time_occurred": "Unknown",
+          "summary": "A male told reporting party he has a gun, but did not make any threats of harming",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140087",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "9:18 PM",
+          "summary": "Regarding insta post comment about potential threat against campus speaker at TPUSA event",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Lockout",
+          "location": "La Jolla Family House",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140088",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "9:25 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Sweetwater Rd",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140090",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "9:48 PM",
+          "summary": "Student made vague comments he does not want to live in same planet as staff",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Lockout",
+          "location": "Science and Engineering Research Facility",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140093",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "10:32 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Podemos",
+          "date_reported": "5/14/2026",
+          "incident_case": "2605140095",
+          "date_occurred": "5/14/2026",
+          "time_occurred": "11:26 PM",
+          "summary": "1st floor lights off in classroom, seen naked male inside",
+          "disposition": "Unable to Locate"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -95267,6 +96023,8 @@
     "May 8, 2026.pdf",
     "May 9, 2026.pdf",
     "May 11, 2026.pdf",
-    "May 12, 2026.pdf"
+    "May 12, 2026.pdf",
+    "May 13, 2026.pdf",
+    "May 14, 2026.pdf"
   ]
 }
