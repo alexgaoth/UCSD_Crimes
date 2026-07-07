@@ -111953,6 +111953,294 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "July 1, 2026.pdf",
+      "date": "July 1, 2026",
+      "page_count": 5,
+      "incident_count": 28,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010001",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "12:30 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010002",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "2:16 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "La Jolla Institute For Immunology",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010006",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "6:21 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "School of Medicine Building 3",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010013",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "8:46 AM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010014",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "8:50 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Science and Engineering Research Facility",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010015",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "8:51 AM",
+          "summary": "Chronic trespasser",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Preuss School",
+          "date_reported": "7/1/2026",
+          "incident_case": "2026-1417",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "9:09 AM-10:18 AM",
+          "summary": "Subject refusing to leave",
+          "disposition": "Cited."
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Joan and Irwin Jacobs La Jolla Playhouse",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010027",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "11:52 AM",
+          "summary": "Male with bolt cutters",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Mayer Hall",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010029",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "12:11 PM",
+          "summary": "Reporting party thought e-scooter was stolen, but then located it",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010031",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "12:31 PM",
+          "summary": "ID verification",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "7/1/2026",
+          "incident_case": "2026-1418",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "12:38 PM-1:11 PM",
+          "summary": "Argument between former couple",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010033",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "1:21 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "Urey Hall",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010035",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "1:45 PM",
+          "summary": "Possible CO2 gas leak",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Coalition",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010038",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "2:03 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Survivance",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010039",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "2:36 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "ACTRI",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010042",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "3:37 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "LGBT Resource Center",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010043",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "3:56 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "7/1/2026",
+          "incident_case": "2026-1419",
+          "date_occurred": "6/30/2026",
+          "time_occurred": "4:52 PM-5:22 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Refusal to Leave",
+          "location": "Parking Lot P510",
+          "date_reported": "7/1/2026",
+          "incident_case": "2026-1420",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "12:00 AM",
+          "summary": "Subject who had just been given a stay away order immediately violated it",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Computer Science and Engineering Building",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010045",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "5:52 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Criminal Threat",
+          "location": "Executive Dr",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010047",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "7:30 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Cala",
+          "date_reported": "7/1/2026",
+          "incident_case": "2026-1421",
+          "date_occurred": "",
+          "time_occurred": "2:15 PM",
+          "summary": "UPS package picked up by another student",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010048",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "7:41 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Parking Lot P202",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010049",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "7:45 PM",
+          "summary": "Dumpster diver",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010051",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "9:01 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Showa Ramen",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010052",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "9:19 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010054",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "9:46 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Sanford Consortium For Regenerative Medicine",
+          "date_reported": "7/1/2026",
+          "incident_case": "2607010057",
+          "date_occurred": "7/1/2026",
+          "time_occurred": "11:34 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -112293,6 +112581,7 @@
     "June 23, 2026.pdf",
     "June 24, 2026.pdf",
     "June 25, 2026.pdf",
-    "June 30, 2026.pdf"
+    "June 30, 2026.pdf",
+    "July 1, 2026.pdf"
   ]
 }
