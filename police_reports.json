@@ -113403,6 +113403,502 @@
           "disposition": "Will Cooperate"
         }
       ]
+    },
+    {
+      "filename": "July 2, 2026.pdf",
+      "date": "July 2, 2026",
+      "page_count": 5,
+      "incident_count": 25,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020001",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "12:07 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Sulpizio Family Cardiovascular Center",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020003",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:08 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020004",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:19 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Arbor Dr",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020005",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:45 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Ola Parking",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020006",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "2:07 AM",
+          "summary": "Subject rummaging",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Sexual Battery",
+          "location": "Stage Room - Student Center Pub",
+          "date_reported": "7/2/2026",
+          "incident_case": "2026-1422",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:30 AM-3:30 AM",
+          "summary": "Suspect fondled victim",
+          "disposition": "Arrest."
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Athena Parking",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020018",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "6:47 AM",
+          "summary": "Subject trying to open vehicle doors",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "7/2/2026",
+          "incident_case": "2026-1423",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "9:02 AM",
+          "summary": "Secured bicycle taken; loss $2,500",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "One Miramar Street, Parking Garage",
+          "date_reported": "7/2/2026",
+          "incident_case": "2026-1424",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "Unknown",
+          "summary": "Graffiti on structure",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Thornton Pavilion",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020031",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "11:28 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Injury",
+          "location": "Target - PC West",
+          "date_reported": "7/2/2026",
+          "incident_case": "2026-1425",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:15 PM",
+          "summary": "Subject hit their head and is bleeding",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Triton Center",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020039",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:26 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Cresta",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020040",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:32 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020042",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "1:46 PM",
+          "summary": "Possible overdose",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Scooter",
+          "location": "Goody's Marketplace",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020044",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "3:16 PM",
+          "summary": "Unsecured e-scooter taken, loss $150",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020046",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "3:30 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020047",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "3:31 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Stuart Collection Storage",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020052",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "4:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Mesa Canyon Parking Structure",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020053",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "5:11 PM",
+          "summary": "Male and female arguing",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020054",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "5:56 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Security Check",
+          "location": "McGill Hall",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020055",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "6:15 PM",
+          "summary": "Reporting party believe they see someone that previously stole items",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Women's Resource Center",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020063",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "8:48 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Porton",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020064",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "8:49 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Marea",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020067",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "9:24 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "7/2/2026",
+          "incident_case": "2607020068",
+          "date_occurred": "7/2/2026",
+          "time_occurred": "10:00 PM",
+          "summary": "Subject sleeping",
+          "disposition": "Unable to Locate"
+        }
+      ]
+    },
+    {
+      "filename": "July 3, 2026.pdf",
+      "date": "July 3, 2026",
+      "page_count": 4,
+      "incident_count": 23,
+      "incidents": [
+        {
+          "category": "Medical Aid",
+          "location": "Rya",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030002",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "12:20 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030007",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "2:25 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Bonner Hall",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030010",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "8:12 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "The Jeannie",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030011",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "9:10 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UC San Diego",
+          "date_reported": "7/3/2026",
+          "incident_case": "2026-1426",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "Unknown",
+          "summary": "Report of individuals selling child pornography",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Theatre District Parking Structure",
+          "date_reported": "7/3/2026",
+          "incident_case": "2026-1427",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "9:13 AM-12:00 AM",
+          "summary": "Damage to pillar",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030014",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "9:29 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Bookstore",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030016",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "10:38 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Gang or Terrorist Threat",
+          "location": "Thornton Pavilion",
+          "date_reported": "7/3/2026",
+          "incident_case": "2026-1428",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "10:22 AM-10:32 AM",
+          "summary": "Male made threats about blowing up the hospital",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Biological Grade",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030018",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "11:42 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030019",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "12:42 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Brisa",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030020",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "1:19 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Astilla",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030021",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "2:02 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Check",
+          "location": "Seventh College West #3",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030022",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "2:48 PM",
+          "summary": "Dumpster diver",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Capa",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030024",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "3:26 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030025",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "3:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Central Mesa Apartments",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030026",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "3:54 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 1",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030027",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "5:30 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Possession of Marijuana",
+          "location": "Marea",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030028",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "7:11 PM",
+          "summary": "Strong odor of marijuana",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Astilla",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030029",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "7:13 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030030",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "7:30 PM",
+          "summary": "",
+          "disposition": "Cancelled After Dispatch"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "McGill Hall",
+          "date_reported": "7/3/2026",
+          "incident_case": "2026-1429",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "7:52 PM",
+          "summary": "Subjects ran away when seen",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 3",
+          "date_reported": "7/3/2026",
+          "incident_case": "2607030032",
+          "date_occurred": "7/3/2026",
+          "time_occurred": "9:00 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -113748,6 +114244,8 @@
     "June 26, 2026.pdf",
     "June 27, 2026.pdf",
     "June 28, 2026.pdf",
-    "June 29, 2026.pdf"
+    "June 29, 2026.pdf",
+    "July 2, 2026.pdf",
+    "July 3, 2026.pdf"
   ]
 }
