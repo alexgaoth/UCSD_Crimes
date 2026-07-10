@@ -115349,6 +115349,264 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "July 9, 2026.pdf",
+      "date": "July 9, 2026",
+      "page_count": 5,
+      "incident_count": 25,
+      "incidents": [
+        {
+          "category": "Stay Away Order",
+          "location": "Rya",
+          "date_reported": "7/9/2026",
+          "incident_case": "2026-1448",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "12:38 AM-12:43 AM",
+          "summary": "Subject found inside closed building",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090003",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "12:51 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Preuss School",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090004",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "1:06 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Bonner Hall",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090007",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "4:40 AM",
+          "summary": "Subject running around naked",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090015",
+          "date_occurred": "7/7/2026",
+          "time_occurred": "7:40 AM",
+          "summary": "Visitor reported receiving telephonic threats from known subject",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090016",
+          "date_occurred": "7/7/2026",
+          "time_occurred": "8:55 AM",
+          "summary": "Hospital security responded to patient displaying lewd act in main room",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090018",
+          "date_occurred": "7/7/2026",
+          "time_occurred": "2:09 PM",
+          "summary": "Patient attempted to bite nurse",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Warren Field House",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090024",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "9:33 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Grassy Knoll",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090026",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "9:59 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Matthews Apartments E",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090027",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "10:26 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Matthews Apartments D",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090028",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "10:32 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090031",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "11:29 AM",
+          "summary": "Property pickup",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Hopkins Parking Structure",
+          "date_reported": "7/9/2026",
+          "incident_case": "2026-1449",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "11:43 AM",
+          "summary": "",
+          "disposition": "Closed By Adult Arrest"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Applied Physics and Mathematics",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090035",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "12:09 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Liberation",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090037",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "2:31 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090041",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "4:10 PM",
+          "summary": "Campus vendor requesting to speak with an officer regarding sex offender registration",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Bookstore - PC West",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090043",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "5:26 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090044",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "5:47 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Library Walk",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090046",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "6:09 PM",
+          "summary": "Male adult, yelling went into target",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090049",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "7:42 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Tamarack Apartments",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090051",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "8:55 PM",
+          "summary": "2 subjects in construction site moving equipment and climbing over gate",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090053",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "9:54 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "South Mesa Apartments",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090054",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "10:27 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090055",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "10:55 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "7/9/2026",
+          "incident_case": "2607090058",
+          "date_occurred": "7/9/2026",
+          "time_occurred": "11:18 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -115701,6 +115959,7 @@
     "July 5, 2026.pdf",
     "July 6, 2026.pdf",
     "July 7, 2026.pdf",
-    "July 8, 2026.pdf"
+    "July 8, 2026.pdf",
+    "July 9, 2026.pdf"
   ]
 }
