@@ -121506,6 +121506,494 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "July 29, 2026.pdf",
+      "date": "July 29, 2026",
+      "page_count": 8,
+      "incident_count": 48,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290001",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:52 AM",
+          "summary": "Male shouting to himself",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Liontree Arena",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290002",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "1:13 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Jacobs Hall",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290003",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:20 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Liontree Arena",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290004",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:40 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Halicioglu Data Science Institute",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290005",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:57 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Brisa",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290010",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "7:02 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Cala",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290011",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "7:31 AM",
+          "summary": "Unknown subject rummaging through golf cart",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Burglary, Hot Prowl",
+          "location": "Cala",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290013",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "8:37 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Parking Lot P601",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290017",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "9:38 AM",
+          "summary": "Subject possibly sleeping in vehicle",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Old Scripps Building",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290020",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "10:45 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290021",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "10:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Parking Lot P017",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290022",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "10:55 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290023",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:03 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290024",
+          "date_occurred": "7/28/2026",
+          "time_occurred": "6:45 PM",
+          "summary": "Petty theft",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSDH Hillcrest Hospital",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290025",
+          "date_occurred": "7/28/2026",
+          "time_occurred": "10:56 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290026",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:25 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Regents Road",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290030",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:46 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Campus Point Parking West",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290031",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:48 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Viento",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290032",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:55 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Nobel Dr Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290033",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:57 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Nobel Dr Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290035",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:01 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "East Campus Utilities Plant Expansion",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290037",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Nobel Dr Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290038",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:14 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Nobel Dr Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290039",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:30 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Campus Point Parking West",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290040",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "12:32 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Veterans Affairs Medical Center",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290043",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "1:59 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290044",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "2:01 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290045",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "2:05 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Expedition Way",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290046",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "2:13 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290047",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "2:13 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290049",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "2:24 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Costa Verde Blvd",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290053",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:01 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Parking Lot P507",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290055",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:06 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Martin Johnson House",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290057",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:13 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Illegal Parking",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290063",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "3:49 PM",
+          "summary": "",
+          "disposition": "Verbal Warning"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Scholars Dr N",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290064",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "4:12 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Tamarack Ave",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290066",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "4:17 PM",
+          "summary": "Elderly female walking, might need help",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Torrey Pines Gliderport",
+          "date_reported": "7/29/2026",
+          "incident_case": "2026-1550",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "5:24 PM-12:00 AM",
+          "summary": "Reported missing person vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Marine Sciences Development Center",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290069",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "6:05 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Parking Lot P406",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290070",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "7:06 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Clery Rape",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "7/29/2026",
+          "incident_case": "2026-1551",
+          "date_occurred": "7/6/2026",
+          "time_occurred": "1:30 PM-3:30 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Gas/Water/Sewer Leak",
+          "location": "Arena",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290071",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "7:08 PM",
+          "summary": "Strong smell of gas",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Triton Administrative Services Building",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290073",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "8:04 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Capa",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290074",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "8:30 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Marine Conservation and Technology Facilities",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290075",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "8:47 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Sexual Battery",
+          "location": "Rya",
+          "date_reported": "7/29/2026",
+          "incident_case": "2026-1552",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "8:30 PM-8:50 PM",
+          "summary": "Subject touched victim's breast",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Rya",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290079",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "10:30 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "The Exchange",
+          "date_reported": "7/29/2026",
+          "incident_case": "2607290082",
+          "date_occurred": "7/29/2026",
+          "time_occurred": "11:27 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -121879,6 +122367,7 @@
     "July 25, 2026.pdf",
     "July 26, 2026.pdf",
     "July 27, 2026.pdf",
-    "July 28, 2026.pdf"
+    "July 28, 2026.pdf",
+    "July 29, 2026.pdf"
   ]
 }
