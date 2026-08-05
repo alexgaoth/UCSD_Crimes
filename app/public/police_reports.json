@@ -122352,6 +122352,304 @@
           "disposition": "Quiet on Arrival"
         }
       ]
+    },
+    {
+      "filename": "July 31, 2026.pdf",
+      "date": "July 31, 2026",
+      "page_count": 6,
+      "incident_count": 29,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "Survivance",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310007",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "3:34 AM",
+          "summary": "Subject in vehicle",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Injury",
+          "location": "La Jolla Family House",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310008",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "5:10 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Russell Ln",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310013",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "6:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310017",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "8:33 AM",
+          "summary": "Pick up property",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "02ND Ave",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310018",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "9:12 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Preuss School",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310019",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "9:15 AM",
+          "summary": "Male rummaging through vehicle that was unlocked",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Student Health and Wellness Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310022",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "11:03 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Center Hall",
+          "date_reported": "7/31/2026",
+          "incident_case": "2026-1560",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "11:32 AM-12:19 PM",
+          "summary": "Couple arguing",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310032",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "12:55 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Theatre District Parking Structure",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310033",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "1:17 PM",
+          "summary": "Reporting party is trying to find a summer program on campus",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310035",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "1:31 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310036",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "1:35 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310039",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "2:01 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310041",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "2:19 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310044",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "2:55 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "South Mesa Apartments",
+          "date_reported": "7/31/2026",
+          "incident_case": "2062-1561",
+          "date_occurred": "",
+          "time_occurred": "8:00 AM-11:59 PM",
+          "summary": "Student being contacted by staff",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Stalking",
+          "location": "Club Med",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310046",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "3:01 PM",
+          "summary": "Student has been followed by an unknown male off campus; pending callback from reporting party",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Grand Theft - Micro Mobility Device - E-Scooter",
+          "location": "Douglas Apartments",
+          "date_reported": "7/31/2026",
+          "incident_case": "2026-1563",
+          "date_occurred": "",
+          "time_occurred": "2:20 PM-4:00 PM",
+          "summary": "Secured e-scooter; $400.00 UCSD POLICE DEPARTMENT CRIME AND FIRE LOG/MEDIA BULLETIN JULY 31, 2026",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "CSA/Clery: Rape",
+          "location": "East Campus Medical Center",
+          "date_reported": "7/31/2026",
+          "incident_case": "2026-1562",
+          "date_occurred": "",
+          "time_occurred": "10:00 AM-11:50 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Caroline's Seaside Café",
+          "date_reported": "7/31/2026",
+          "incident_case": "2026-1565",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "Surf wax and nail polish used to damage items and structure",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Vela",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310054",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "5:32 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310056",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "5:47 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Impound Vehicle",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "7/31/2026",
+          "incident_case": "2026-1564",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "6:20 PM-7:20 PM",
+          "summary": "Subject was unlicensed driver, and had no insurance",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Tapestry",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310061",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "8:20 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Brisa",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310062",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "8:37 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Charles David Keeling Apartments #1",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310064",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "9:29 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Pepper Canyon Apartments 1700",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310066",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "9:50 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "La Jolla Village Dr/Regents Rd",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310067",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "10:48 PM",
+          "summary": "Providing cover for San Diego Police",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Charles David Keeling Apartments #2",
+          "date_reported": "7/31/2026",
+          "incident_case": "2607310068",
+          "date_occurred": "7/31/2026",
+          "time_occurred": "11:35 PM",
+          "summary": "Loud music and people being loud",
+          "disposition": "Cancelled."
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -122727,6 +123025,7 @@
     "July 27, 2026.pdf",
     "July 28, 2026.pdf",
     "July 29, 2026.pdf",
-    "July 30. 2026.pdf"
+    "July 30. 2026.pdf",
+    "July 31, 2026.pdf"
   ]
 }
