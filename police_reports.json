@@ -124062,6 +124062,374 @@
           "disposition": "Gone on Arrival"
         }
       ]
+    },
+    {
+      "filename": "August 5, 2026.pdf",
+      "date": "August 5, 2026",
+      "page_count": 6,
+      "incident_count": 36,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050002",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "12:49 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Security Check",
+          "location": "Main Gym",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050008",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "2:02 AM",
+          "summary": "Open door",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050012",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "2:53 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Urey Hall",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050015",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "5:15 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Gilman Parking Structure",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050023",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "7:45 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "CSA/Clery: Other Non Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050024",
+          "date_occurred": "7/30/2026",
+          "time_occurred": "4:55 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050026",
+          "date_occurred": "8/1/2026",
+          "time_occurred": "10:30 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050027",
+          "date_occurred": "8/1/2026",
+          "time_occurred": "6:24 PM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050028",
+          "date_occurred": "8/2/2026",
+          "time_occurred": "10:06 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Found Property",
+          "location": "Foodworx",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050029",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "8:07 AM",
+          "summary": "Backpack",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Center Hall",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050030",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "9:09 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "University Center Ln",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050031",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "9:24 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/5/2026",
+          "incident_case": "2026-1586",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "10:30 AM",
+          "summary": "Roommate dispute",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Target",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050042",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "12:57 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Target",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050043",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "12:58 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Town Square",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050045",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "1:03 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050047",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "1:13 PM",
+          "summary": "Directions",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050048",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "1:18 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050049",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "1:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Miramar St.",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050050",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "1:35 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Ruffin Rd.",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050051",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "2:20 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Found Property",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/5/2026",
+          "incident_case": "2026-1587",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "2:30 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Fan-Fan",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050058",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "2:56 PM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Information",
+          "location": "Center Hall",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050067",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "3:32 PM",
+          "summary": "Someone was sitting on roof",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Triton Health and Wellness",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050068",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "3:40 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "UC Extended Studies",
+          "date_reported": "8/5/2026",
+          "incident_case": "2026-1588",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "4:10 PM",
+          "summary": "Wallet",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Geisel Library",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050078",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "5:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Price Center West",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050079",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "5:41 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Price Center West",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050080",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "5:49 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Neighborhood - Triton Center",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050081",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "5:49 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Mobile Pet/Ct Scanner",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050083",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "6:12 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "Black's Beach Restrooms",
+          "date_reported": "8/5/2026",
+          "incident_case": "2026-1589",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "7:53 PM",
+          "summary": "Individual injured ankle on beach",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Capa",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050091",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "8:44 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Tapestry",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050093",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "9:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Information",
+          "location": "Torrey Pines Gliderport",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050094",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "10:38 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/5/2026",
+          "incident_case": "2608050098",
+          "date_occurred": "8/5/2026",
+          "time_occurred": "11:26 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -124442,6 +124810,7 @@
     "August 1, 2026.pdf",
     "August 2, 2026.pdf",
     "August 3, 2026.pdf",
-    "August 4, 2026.pdf"
+    "August 4, 2026.pdf",
+    "August 5, 2026.pdf"
   ]
 }
