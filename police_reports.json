@@ -126138,6 +126138,234 @@
           "disposition": "Checks OK"
         }
       ]
+    },
+    {
+      "filename": "August 12, 2026.pdf",
+      "date": "August 12, 2026",
+      "page_count": 4,
+      "incident_count": 22,
+      "incidents": [
+        {
+          "category": "Disturbance, General",
+          "location": "Hopkins Parking Structure",
+          "date_reported": "8/12/2026",
+          "incident_case": "2026-1617",
+          "date_occurred": "8/10/2026",
+          "time_occurred": "12:01 AM-12:54 AM",
+          "summary": "Subject refusing to exit reporting party's vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Security Check",
+          "location": "Science and Engineering Research Facility",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120002",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "1:07 AM",
+          "summary": "Unknown group on 3rd floor",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120012",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "7:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Central Research Services",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120023",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "11:02 AM",
+          "summary": "UC employee found license plate",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Scripps Memorial Hospital",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120024",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "11:48 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Russell Walk/Lyman Walk",
+          "date_reported": "8/12/2026",
+          "incident_case": "2026-1618",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "11:27 AM-11:50 AM",
+          "summary": "Secured e-bike; loss $800.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120028",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "12:56 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/12/2026",
+          "incident_case": "2026-1619",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "1:47 PM-2:01 PM",
+          "summary": "Parole violation",
+          "disposition": "Arrest."
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Parking Lot P752",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120034",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "2:18 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Fire",
+          "location": "La Jolla Shores Dr/Vallecitos",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120035",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "2:25 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "Thornmint",
+          "date_reported": "8/12/2026",
+          "incident_case": "2026-1620",
+          "date_occurred": "6/11/2026",
+          "time_occurred": "2:45 PM-2:51 PM",
+          "summary": "Unknown person keyed into apartment",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120039",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "3:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Warren Field",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120042",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "4:46 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Pulse",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120043",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "5:01 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Igpp 3000 - Revelle Laboratory",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120045",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "5:31 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Stewart Commons",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120048",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "6:34 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "North Torrey Pines Rd",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120049",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "7:06 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "SIO New Director's Office",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120052",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "7:29 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Student Health and Wellness Center",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120054",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "7:57 PM",
+          "summary": "Directions",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Arena",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120057",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "8:57 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120058",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "9:20 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Guava",
+          "date_reported": "8/12/2026",
+          "incident_case": "2608120067",
+          "date_occurred": "8/12/2026",
+          "time_occurred": "11:32 PM",
+          "summary": "Sleeper behind building",
+          "disposition": "Field Interview"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -126525,6 +126753,7 @@
     "August 8, 2026.pdf",
     "August 9, 2026.pdf",
     "August 10, 2026.pdf",
-    "August 11, 2026.pdf"
+    "August 11, 2026.pdf",
+    "August 12, 2026.pdf"
   ]
 }
