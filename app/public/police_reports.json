@@ -126366,6 +126366,314 @@
           "disposition": "Field Interview"
         }
       ]
+    },
+    {
+      "filename": "August 13, 2026.pdf",
+      "date": "August 13, 2026",
+      "page_count": 5,
+      "incident_count": 30,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130002",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "12:32 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "North Torrey Pines Road",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130003",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "12:38 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130004",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "1:44 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Atlas Courtyard",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130005",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "1:52 AM",
+          "summary": "Camping",
+          "disposition": "Verbal Warning"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Student Health and Wellness Center",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130009",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "6:07 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130013",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "6:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130021",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "8:40 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Gilman Dr/Pepper Canyon Dr",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130024",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "9:13 AM",
+          "summary": "Male walking and talking to himself",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Astilla",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130030",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "9:46 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Mt. Soledad Lab 1",
+          "date_reported": "8/13/2026",
+          "incident_case": "2026-1622",
+          "date_occurred": "",
+          "time_occurred": "12:00 AM-9:30 AM",
+          "summary": "Graffiti",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Price Center East",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130038",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "11:29 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Domestic Violence",
+          "location": "La Jolla Shores Dr/Naga Way",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130041",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "12:11 PM",
+          "summary": "Reporting party advises saw male hitting the female and pulling her hair",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "CSA/Clery: Fondling",
+          "location": "La Jolla Village Dr",
+          "date_reported": "8/13/2026",
+          "incident_case": "2026-1621",
+          "date_occurred": "8/8/2026",
+          "time_occurred": "2:00 PM-12:00 AM",
+          "summary": "Therapist touched patient's breasts",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130042",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "12:19 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Piedra",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130044",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "12:38 PM",
+          "summary": "Bike locked to another bike",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Design and Innovation Building",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130045",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "1:32 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Impound Vehicle",
+          "location": "Ola Parking",
+          "date_reported": "8/13/2026",
+          "incident_case": "2026-1623",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "2:00 PM-12:00 AM",
+          "summary": "Excess speed, no valid identification or license",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Helix Del Sur",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130049",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "2:13 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130057",
+          "date_occurred": "8/11/2026",
+          "time_occurred": "7:27 PM",
+          "summary": "Petty theft",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130059",
+          "date_occurred": "8/11/2026",
+          "time_occurred": "3:50 PM",
+          "summary": "Disturbance - subject yelling",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Neighborhood - Price Center",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130061",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "4:08 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "Camino Ticino",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130063",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "4:35 PM",
+          "summary": "Student called about expiring I-20",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Rya",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130067",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "5:41 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Target",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130068",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "5:51 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Pulse",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130071",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "10:06 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Drunk Driving",
+          "location": "Parking Lot P672",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130072",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "10:06 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Tioga Hall",
+          "date_reported": "8/13/2026",
+          "incident_case": "2026-1624",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "10:54 PM-11:48 PM",
+          "summary": "",
+          "disposition": "Arrest."
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "SIO New Director's Office",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130075",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "11:11 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Vandalism",
+          "location": "Parking Lot P707",
+          "date_reported": "8/13/2026",
+          "incident_case": "2026-1625",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "1:50 PM-10:40 PM",
+          "summary": "Rock thrown at reporting party's vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Umoja",
+          "date_reported": "8/13/2026",
+          "incident_case": "2608130077",
+          "date_occurred": "8/13/2026",
+          "time_occurred": "11:45 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -126754,6 +127062,7 @@
     "August 9, 2026.pdf",
     "August 10, 2026.pdf",
     "August 11, 2026.pdf",
-    "August 12, 2026.pdf"
+    "August 12, 2026.pdf",
+    "August 13, 2026.pdf"
   ]
 }
