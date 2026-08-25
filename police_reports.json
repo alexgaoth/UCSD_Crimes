@@ -127854,6 +127854,334 @@
           "disposition": "Quiet on Arrival"
         }
       ]
+    },
+    {
+      "filename": "August 19, 2026.pdf",
+      "date": "August 19, 2026",
+      "page_count": 7,
+      "incident_count": 32,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Umoja",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190001",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "12:02 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Smoke Check",
+          "location": "North Torrey Pines Rd/Theatre District Dr.",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190002",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "12:11 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Geisel Library",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190004",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:43 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Call for Help",
+          "location": "Umoja",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190010",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "5:07 AM",
+          "summary": "Male yelling \"help me\"",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Chancellor House",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190015",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "6:53 AM",
+          "summary": "Subject possibly casing",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "ACTRI",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190020",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "8:11 AM",
+          "summary": "UCSD POLICE DEPARTMENT CRIME AND FIRE LOG/MEDIA BULLETIN AUGUST 19, 2026",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Parking Lot P752",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190022",
+          "date_occurred": "8/17/2026",
+          "time_occurred": "5:30 AM",
+          "summary": "Annoying/harassing phone calls",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "IGPP 3000 - Revelle Laboratory",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190023",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "8:31 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "East Campus Medical Center",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190024",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "8:34 AM",
+          "summary": "Caller can't locate father",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Downwind Way/La Jolla Shores Dr",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190025",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "8:38 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Black's Beach",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190026",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "8:58 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "In Custody",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "8/19/2026",
+          "incident_case": "2026-1648",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "11:18 AM-1:02 PM",
+          "summary": "Hospital security requesting an officer",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Rape",
+          "location": "Cresta",
+          "date_reported": "8/19/2026",
+          "incident_case": "2026-1649",
+          "date_occurred": "",
+          "time_occurred": "Unknown",
+          "summary": "Occurred in 2023-2024",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Price Center Plaza",
+          "date_reported": "8/19/2026",
+          "incident_case": "2026-1650",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:25 PM-2:33 PM",
+          "summary": "Subject screaming at people",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Call for Help",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190036",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:29 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Geisel Library",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190037",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:30 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190038",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:33 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Point La Jolla Dr.",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190040",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "1:42 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Motor Vehicle Theft",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190045",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "2:42 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190046",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "2:55 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Clery Stalking",
+          "location": "Vela",
+          "date_reported": "8/19/2026",
+          "incident_case": "2026-1651",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "Unknown",
+          "summary": "Subject reported being stalked by father",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "CSA/Clery: Aggravated Assault",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190047",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "3:07 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "UC San Diego",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190049",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "3:15 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "UC San Diego",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190051",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "3:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Pepper Canyon Apartments 1200",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190056",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "4:01 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Atlas Courtyard",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190059",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "6:11 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Russell Ln/Rupertus Walk",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190062",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "7:15 PM",
+          "summary": "Female requesting assistance",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Piedra",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190063",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "7:41 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190066",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "9:14 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Sally T. Wongavery Library",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190068",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "9:54 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Found Property",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190069",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "10:50 PM",
+          "summary": "Key",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Pulse",
+          "date_reported": "8/19/2026",
+          "incident_case": "2608190073",
+          "date_occurred": "8/19/2026",
+          "time_occurred": "11:09 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -128248,6 +128576,7 @@
     "August 15, 2026.pdf",
     "August 16, 2026.pdf",
     "August 17, 2026.pdf",
-    "August 18, 2026.pdf"
+    "August 18, 2026.pdf",
+    "August 19, 2026.pdf"
   ]
 }
