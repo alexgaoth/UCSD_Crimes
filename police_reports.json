@@ -129694,6 +129694,802 @@
           "disposition": "Report Taken"
         }
       ]
+    },
+    {
+      "filename": "August 24, 2026.pdf",
+      "date": "August 24, 2026",
+      "page_count": 9,
+      "incident_count": 43,
+      "incidents": [
+        {
+          "category": "Drunk in Public",
+          "location": "Caroline's Seaside Café",
+          "date_reported": "8/24/2026",
+          "incident_case": "2026-1670",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "12:27 AM - 1:54 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Security Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240002",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "12:34 AM",
+          "summary": "Trolley platform callbox activated",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240003",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "1:16 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240004",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "1:20 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Biology Bldg",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240005",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "2:31 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240015",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "5:36 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240017",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "5:53 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Biology Bldg",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240020",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "6:54 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240024",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "7:27 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240025",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "8:23 AM",
+          "summary": "",
+          "disposition": "Unfounded"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240026",
+          "date_occurred": "8/20/2026",
+          "time_occurred": "12:30 PM",
+          "summary": "Simple Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hilcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240027",
+          "date_occurred": "8/20/2026",
+          "time_occurred": "5:07 AM",
+          "summary": "Simple Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240028",
+          "date_occurred": "8/21/2026",
+          "time_occurred": "12:00 PM",
+          "summary": "Simple Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240029",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:06 AM",
+          "summary": "Grand theft",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240030",
+          "date_occurred": "8/22/2026",
+          "time_occurred": "4:38 AM",
+          "summary": "Simple Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240031",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:12 AM",
+          "summary": "Vandalism",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Trespass",
+          "location": "Gilman Ct",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240034",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:21 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Torrey Pines Center North",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240035",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:31 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Atkinson Hall",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240036",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:47 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Woodlawn",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240039",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "10:42 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240045",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "11:26 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Tioga Hall",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240054",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "1:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240057",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "2:35 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Hate Motivated Vandalism",
+          "location": "Alianza",
+          "date_reported": "8/24/2026",
+          "incident_case": "2026-1671",
+          "date_occurred": "8/21/2026",
+          "time_occurred": "11:56 PM - 3:30 PM",
+          "summary": "",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Athena Parking Structure",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240061",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "3:22 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Stein Clinical Research Building",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240062",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "3:44 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Athena Parking Structure",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240063",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "4:05 PM",
+          "summary": "Unoccupied vehicle left running.",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2026-1672",
+          "date_occurred": "8/22/2026",
+          "time_occurred": "8:45 AM - 3:48 PM",
+          "summary": "Secured e-bike; Loss: $265.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Athena Parking Structure",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240066",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "6:08 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Mobil Gas Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240067ele",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "6:28 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Piedra",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240068",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "7:02 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Scholars Dr N",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240071",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "7:29 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Catalyst",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240075",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:15 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Escort",
+          "location": "Vela",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240076",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Capa",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240077",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:35 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/24/2026",
+          "incident_case": "2026-1673",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "9:44 PM - 11:48 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Scholars Dr N",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240079",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "10:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Marea",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240080",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "10:17 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Vela",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240081",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "10:32 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "8/24/2026",
+          "incident_case": "2608240084",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "11:48 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "",
+          "location": "AUGUST 24, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        }
+      ]
+    },
+    {
+      "filename": "August 25, 2026.pdf",
+      "date": "August 25, 2026",
+      "page_count": 6,
+      "incident_count": 35,
+      "incidents": [
+        {
+          "category": "Welfare Check",
+          "location": "Parking Lot P406",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250003",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "1:15 AM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Applied Physics and Mathematics",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250009",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "5:58 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Voigt Dr/Campus Point Dr",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250016",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "8:32 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "9331 Discovery Way",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250021",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "9:43 AM",
+          "summary": "Alarm sounding",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Tapestry",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250030",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "11:26 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Neighborhood - Triton Center",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250032",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "11:52 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Mandeville Center",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250034",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:06 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Target - PC West",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250037",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:20 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Medical Education and Telemedicine",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250038",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:28 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "La Jolla Shores Dr",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250039",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:L31",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Coast Blvd",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250040",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:37 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250044",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "12:57 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Animal Call",
+          "location": "Scholars Parking Structure",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250047",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "2:32 PM",
+          "summary": "Dog inside parked vehicle",
+          "disposition": "Verbal Warning"
+        },
+        {
+          "category": "Security Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250052",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "3:37 PM",
+          "summary": "Checking open window",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Villa La Jolla Dr",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250054",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "3:42 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250056",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "4:17 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Catalyst",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250059",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "4:29 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Interstate 5 SB/Genesee Ave",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250061",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "4:34 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "I-5",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250062",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "4:35 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Regents Road",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250063",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "4:41 PM",
+          "summary": "Bike missing, caller will notify owner",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Athena Parking",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250064",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "6:50 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Student Health and Wellness Center",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250065",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "6:52 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Gilman Dr",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250066",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "6:55 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Safety Escort",
+          "location": "Geisel Library",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250068",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "7:29 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Discovery Way",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250070",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "7:43 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Redwood Dr/Discovery Way",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250071",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "7:49 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "North Star",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250072",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "8:04 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Sexual Battery",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/25/2026",
+          "incident_case": "2026-1674",
+          "date_occurred": "",
+          "time_occurred": "8:10 PM-12:33 AM",
+          "summary": "Caller said male \"groped\" her",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tierra",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250074",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "8:18 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Artesa",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250075",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "8:18 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250076",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "9:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250077",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "9:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Ridge Walk Academic Building",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250078",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "10:03 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Athena Parking",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250079",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "10:05 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/25/2026",
+          "incident_case": "2608250082",
+          "date_occurred": "8/25/2026",
+          "time_occurred": "10:33 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -130093,6 +130889,8 @@
     "August 20, 2026.pdf",
     "August 21, 2026.pdf",
     "August 22, 2026.pdf",
-    "August 23, 2026.pdf"
+    "August 23, 2026.pdf",
+    "August 24, 2026.pdf",
+    "August 25, 2026.pdf"
   ]
 }
