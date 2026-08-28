@@ -130490,6 +130490,454 @@
           "disposition": "Service Provided"
         }
       ]
+    },
+    {
+      "filename": "August 26, 2026.pdf",
+      "date": "August 26, 2026",
+      "page_count": 9,
+      "incident_count": 44,
+      "incidents": [
+        {
+          "category": "Disturbance, General",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260003",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "12:30 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Triton Stadium",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260016",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "8:44 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260019",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "9:09 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Pangea Parking Structure",
+          "date_reported": "8/26/2026",
+          "incident_case": "2026-1675",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "9:00 AM - 12:00AM",
+          "summary": "UCSD vehicle damaged",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "South Mesa Apartments",
+          "date_reported": "8/26/2026",
+          "incident_case": "2026-1676",
+          "date_occurred": "7/28/2026",
+          "time_occurred": "Unknown",
+          "summary": "Parent reported concerns regarding the nature of a relationship",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "8/26/2026",
+          "incident_case": "2026-1678",
+          "date_occurred": "8/23/2026",
+          "time_occurred": "3:00 PM - 4:30 PM",
+          "summary": "Secured bicycle; loss $1,300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Pepper Canyon Dr/Voigt Dr",
+          "date_reported": "8/26/2026",
+          "incident_case": "2026-1677",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "12:28 PM - 12:45 PM",
+          "summary": "Injured party transported to hospital",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260040",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "1:12 PM",
+          "summary": "Indecent exposure",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Biology Field Station - 1",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260044",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "1:51 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Student Services Center",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260045",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "2:04 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260051",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "2:51 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260053",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "3:50 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260055",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "4:17 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "La Jolla Village Dr",
+          "date_reported": "8/26/2026",
+          "incident_case": "1608260056",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "4:24 PM",
+          "summary": "Bicycle wheel; Unable to contact reporting party to take report at this time",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Kaleidoscope",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260061",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "5:41 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Center For Novel Therapeutics",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260064",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "7:15 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Alianza",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260066",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "7:45 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Kaleidoscope",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260067",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "7:47 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Artesa",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260073",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "9:10 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Ola Parking",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260075",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "9:49 PM",
+          "summary": "",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260077",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "9:54 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Pulse",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260079",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "10:32 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Information",
+          "location": "Trolley - VA Medical Center",
+          "date_reported": "8/26/2026",
+          "incident_case": "2608260080",
+          "date_occurred": "8/26/2026",
+          "time_occurred": "10:59 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "",
+          "location": "AUGUST 26, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "AUGUST 26, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "AUGUST 26, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "AUGUST 26, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -130891,6 +131339,7 @@
     "August 22, 2026.pdf",
     "August 23, 2026.pdf",
     "August 24, 2026.pdf",
-    "August 25, 2026.pdf"
+    "August 25, 2026.pdf",
+    "August 26, 2026.pdf"
   ]
 }
