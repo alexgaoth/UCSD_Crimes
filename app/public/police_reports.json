@@ -132530,6 +132530,394 @@
           "disposition": "False Alarm"
         }
       ]
+    },
+    {
+      "filename": "August 31, 2026.pdf",
+      "date": "August 31, 2026",
+      "page_count": 8,
+      "incident_count": 38,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310002",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "12:31 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Viento",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310006",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "1:58 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Applied Physics And Mathematics",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310008",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "4:24 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Illegal Camping",
+          "location": "Warren Lecture Hall",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310019",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "8:18 AM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Chemical Spill",
+          "location": "Biomedical Sciences Building",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310023",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "9:30 AM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Franklin Antonio Hall",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310024",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "9:41 AM",
+          "summary": "UCSD POLICE DEPARTMENT CRIME AND FIRE LOG/MEDIA BULLETIN AUGUST 31, 2026",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "IGPP 4000",
+          "date_reported": "8/31/2026",
+          "incident_case": "2026-1698",
+          "date_occurred": "5/1/2026",
+          "time_occurred": "12:00 AM - 9:50 AM",
+          "summary": "UCSD vehicle damaged",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310027",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:05 AM",
+          "summary": "Simple assault occurred 8/28/2026 at 9:44 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310028",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:06 AM",
+          "summary": "Disturbance occurred 8/28/2026 at 12:39 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310029",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:09 AM",
+          "summary": "Verbal threat occurred 8/29/2026 at 8:30 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310032",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:30 AM",
+          "summary": "Verbal threat occurred 8/30/2026 at 11:26 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Health Center Dr",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310033",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:48 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310034",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "11:10 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other-Non Clery Crime",
+          "location": "Perlman Ambulatory Care",
+          "date_reported": "8/31/2026",
+          "incident_case": "2026-1699",
+          "date_occurred": "7/15/2026",
+          "time_occurred": "Unknown",
+          "summary": "Simple Assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310036",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "11:24 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Sulpizio Family Cardiovascular Center",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310038",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "12:02 AM",
+          "summary": "Simple assault",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310041",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "12:31 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Villa La Jolla Dr",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310042",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "12:37 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310043",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "12:39 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310046",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "1:28 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310049",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "2:48 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Restraining Order Violation",
+          "location": "Torrey Pines Gliderport",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310052",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "3:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Canyonview Aquatic & Climbing Wall Facility",
+          "date_reported": "8/31/2026",
+          "incident_case": "2026-1700",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "3:15 PM - 12:00 AM",
+          "summary": "Bicycle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Perlman Ambulatory Care",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310056",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "4:17 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Perlman Ambulatory Care",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310057",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "4:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Crooked Creek Ct",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310058",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "4:29 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Mobile Pet/Ct Scanner",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310062",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "6:07 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Kaleidoscope",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310063",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "6:14 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Sankofa",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310066",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "7:19 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Scholars Dr N",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310068",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "7:53 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Umoja",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310070",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "8:07 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rya",
+          "date_reported": "8/31/2026",
+          "incident_case": "2026-1701",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "8:29 PM - 9:14 PM",
+          "summary": "Excessive alcohol or drug consumption",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rya",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310073",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "8:31 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 1",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310074",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "8:31 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Escort",
+          "location": "Franklin Antonio Hall",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310078",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "9:20 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310079",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "9:40 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "8/31/2026",
+          "incident_case": "2608310080",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "10:01 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobilty Device - E-Bike",
+          "location": "Vela",
+          "date_reported": "8/31/2026",
+          "incident_case": "2026-1702",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "11:11 PM - 11:54 PM",
+          "summary": "Attempted theft of two e-bikes",
+          "disposition": "Gone on Arrival"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -132936,6 +133324,7 @@
     "August 27, 2026.pdf",
     "August 28, 2026.pdf",
     "August 29, 2026.pdf",
-    "August 30, 2026.pdf"
+    "August 30, 2026.pdf",
+    "August 31, 2026.pdf"
   ]
 }
