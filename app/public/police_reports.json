@@ -132918,6 +132918,602 @@
           "disposition": "Gone on Arrival"
         }
       ]
+    },
+    {
+      "filename": "September 1, 2026.pdf",
+      "date": "September 1, 2026",
+      "page_count": 5,
+      "incident_count": 25,
+      "incidents": [
+        {
+          "category": "Burglary Alarm",
+          "location": "Triton Pay",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010006",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "5:38 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Health Center Dr",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010011",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "7:14 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Drunk in Public",
+          "location": "IGPP 2000",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1703",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "8:58 AM - 10:56 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010025",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "11:43 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Fred N. Spiess Hall",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1704",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "8:00 AM - 12:00 AM",
+          "summary": "Vehicle damage",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "IGPP - Munk Lab",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010029",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "12:32 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Skaggs Pharmaceutical Science Building",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010030",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "12:39 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Center Hall",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1705",
+          "date_occurred": "8/31/2026",
+          "time_occurred": "7:00 PM - 1:00 PM",
+          "summary": "Secured bicycle; Loss: $1,500.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010035",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "1:47 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Stein Clinical Research Building",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010039",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "2:30 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Argument",
+          "location": "Central Mesa Apartments",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010040",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "2:35 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Parking Lot P418",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010042",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "3:11 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "Black's Beach",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010047",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "3:48 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sunshine Market",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010048",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "3:57 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Artesa",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1707",
+          "date_occurred": "8/30/2026",
+          "time_occurred": "2:00 PM - 4:45 PM",
+          "summary": "Secured E-scooter; Loss: $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Voigt Dr",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010051",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "5:01 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "CSA/Clery: Fondling",
+          "location": "Meteor Hall",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1706",
+          "date_occurred": "9/1/2025",
+          "time_occurred": "Unknown",
+          "summary": "Victim reported multiple occurrences",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Flagdown",
+          "location": "Gilman Parking Structure",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010052",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "5:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Coalition",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1708",
+          "date_occurred": "8/27/2026",
+          "time_occurred": "7:56 AM - 8:52 AM",
+          "summary": "Phone; Loss: $500.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Found Property",
+          "location": "Stein Clinical Research Building",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010054",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "6:34 PM",
+          "summary": "Box of BB pellets",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tapestry",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010055",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "6:44 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Burger King",
+          "date_reported": "9/1/2026",
+          "incident_case": "2026-1709",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "7:46 PM",
+          "summary": "E-scooter stolen and recovered",
+          "disposition": "Arrest"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Mosaic",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010058",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "8:17 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Brisa",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010059",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "9:47 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tapestry",
+          "date_reported": "9/1/2026",
+          "incident_case": "2609010060",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "10:39 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
+    },
+    {
+      "filename": "September 2, 2026.pdf",
+      "date": "September 2, 2026",
+      "page_count": 6,
+      "incident_count": 33,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020001",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "12:01 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020002",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "12:47 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020003",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "2:24 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Information",
+          "location": "One Miramar Street, Building 3",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020004",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "4:05 AM",
+          "summary": "Custodial cleanup for broken bottle",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 3",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020005",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "4:18 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "CSA/Clery: Other Non-Clery Crime",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020007",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "4:39 AM",
+          "summary": "Verbal threats",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Scripps Memorial Hospital",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020015",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "7:11 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report - Non Crime",
+          "location": "Parking Lot P703",
+          "date_reported": "9/2/2026",
+          "incident_case": "2026-1710",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "12:00 AM - 9:10 AM",
+          "summary": "Vehicle damage",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Tierra",
+          "date_reported": "9/2/2026",
+          "incident_case": "2026-1711",
+          "date_occurred": "9/1/2026",
+          "time_occurred": "10:00 PM - 9:30 AM",
+          "summary": "Secured bicycle; Loss: $700.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020024",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "9:48 AM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Suspicious Circumstance",
+          "location": "San Diego Supercomputer Center",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020025",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "9:50 AM",
+          "summary": "Object found in office",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020027",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "9:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "South Mesa Apartments",
+          "date_reported": "9/2/2026",
+          "incident_case": "2026-1712",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "1:15 AM - 8:15 AM",
+          "summary": "Secured bicycle; Loss: $450.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "SIO New Director's Office",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020033",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "11:50 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Thornton Pavilion",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020036",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "12:38 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020039",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "1:45 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Trespass",
+          "location": "Price Center West",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020040",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "1:57 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020041",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "2:05 PM",
+          "summary": "Property pickup",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Carlsbad Blvd",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020047",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "3:43 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Genesee Ave",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020048",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "3:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Unknown Injury Accident",
+          "location": "Interstate 5 Sb",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020050",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "5:29 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Gilman Parking Structure",
+          "date_reported": "9/2/2026",
+          "incident_case": "2026-1714",
+          "date_occurred": "8/24/2026",
+          "time_occurred": "11:00 PM - 1:00 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020053",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "5:57 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Drunk in Public",
+          "location": "Executive Dr/Regent Rd",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020057",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "6:55 PM",
+          "summary": "",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "York Hall",
+          "date_reported": "9/2/2026",
+          "incident_case": "2026-1713",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "12:00 AM - 12:00 AM",
+          "summary": "Bag with tools taken",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Hazard Situation",
+          "location": "Gilman Parking Structure",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020059",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "7:27 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "La Jolla Del Sol Apartments",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020063",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "8:19 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Neighborhood - Torrey Pines",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020064",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "8:21 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Quiet Hours Contact",
+          "location": "Neighborhood - Ntpll",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020065",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "8:30 PM",
+          "summary": "",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020066",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "8:44 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "One Miramar Street, Building 1",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020071",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "10:19 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020072",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "10:52 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "9/2/2026",
+          "incident_case": "2609020075",
+          "date_occurred": "9/2/2026",
+          "time_occurred": "11:11 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -133325,6 +133921,8 @@
     "August 28, 2026.pdf",
     "August 29, 2026.pdf",
     "August 30, 2026.pdf",
-    "August 31, 2026.pdf"
+    "August 31, 2026.pdf",
+    "September 1, 2026.pdf",
+    "September 2, 2026.pdf"
   ]
 }
