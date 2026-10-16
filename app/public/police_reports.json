@@ -150010,6 +150010,744 @@
           "disposition": "Checks OK"
         }
       ]
+    },
+    {
+      "filename": "October 5, 2026.pdf",
+      "date": "October 5, 2026",
+      "page_count": 13,
+      "incident_count": 73,
+      "incidents": [
+        {
+          "category": "Fire",
+          "location": "Theatre District Parking Structure",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1935",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:10 AM - 1:55 AM",
+          "summary": "Small fire in trash chute",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Pepper Canyon Apartments 1700",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050002",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:18 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Umoja",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050003",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:19 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 2",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050004",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:50 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Escort",
+          "location": "Geisel Library",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050006",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "1:30 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Azad",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050007",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "2:10 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tapestry",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050008",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "2:12 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Sankofa",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050009",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "2:23 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Earth Hall North",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050012",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:52 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Biomedical Sciences Building",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050022",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "8:17 AM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Pepper Canyon Hall",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1937",
+          "date_occurred": "10/4/2026",
+          "time_occurred": "7:10 PM - 9:53 AM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Campus Security Authority Report - Stalking",
+          "location": "UC San Diego",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1936",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "10:58 AM",
+          "summary": "Unknown dates/times",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Fraud",
+          "location": "Kathmandu House",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1938",
+          "date_occurred": "9/26/2026",
+          "time_occurred": "11:01 AM",
+          "summary": "Unknown suspect posed as Chinese police; Loss: $120,000.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Triton Health And Wellness",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1939",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:19 AM - 1:16 PM",
+          "summary": "",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050030",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:28",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Found Property",
+          "location": "Parking Lot P401",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1940",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:49 AM",
+          "summary": "E-Scooter",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Matthews Maintenance And Lounge",
+          "date_reported": "10/5/2026",
+          "incident_case": "2026-1941",
+          "date_occurred": "10/2/2026",
+          "time_occurred": "4:30 PM - 11:00 AM",
+          "summary": "Secured E-Bike; Loss: $200.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Coalition",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050033",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:49 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "261005034",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "12:51 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050036",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "1:35 PM",
+          "summary": "Threats",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Tenaya Hall",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050038",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "1:47 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Athena Parking",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050041",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "2:42 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Elliott Field",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050042",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:06 PM",
+          "summary": "Possibly abandoned vehicles",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050044",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:27 PM",
+          "summary": "Disturbance; occurred 9/19/2026 @ 00:30 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050045",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:28 PM",
+          "summary": "Disturbance; occurred 9/19/2026 @ 5:32 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050046",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:30 PM",
+          "summary": "Disturbance; occurred 9/19/2026 @ 5:47 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050047",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:32 PM",
+          "summary": "Threats; occurred 9/20/2026 @ 7:21 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050048",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:34 PM",
+          "summary": "Disturbance; occurred 9/20/2026 @ 8:41 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050049",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:35 PM",
+          "summary": "Disturbance; occurred 9/20/2026 @ 9:07 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050051",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:37 PM",
+          "summary": "Disturbance; occurred 9/21/2026 @ 10:17 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050052",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:39 PM",
+          "summary": "Petty theft; occurred 9/21/2026 @ 7:00 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050053",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:40 PM",
+          "summary": "Simple assault; occurred 9/21/2026 @ 11:23 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Survivance",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050054",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:41 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050055",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:41 PM",
+          "summary": "Petty theft; occurred 9/21/2026 @ 12:40 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050056",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:47 PM",
+          "summary": "Disturbance; occurred 9/23/2026 @ 1:50 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050057",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:48 PM",
+          "summary": "Petty theft; occurred between 9/22/2026 and 9/23/2026",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050058",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:49 PM",
+          "summary": "Simple assault; occurred 9/23/2026 @ 12:42 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hill crest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050059",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:50 PM",
+          "summary": "Simple assault; occurred 9/23/2026 @ 10:40 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050060",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:53 PM",
+          "summary": "Simple assault; occurred 9/24/2026 @ 10:30 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "University Center 214",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050061",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:54 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050062",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:55 PM",
+          "summary": "Simple assault; occurred 9/24/2026 @ 11:10 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050063",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:56 PM",
+          "summary": "Outstanding warrant arrest; occurred 9/24/2026 @ 4:09 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050064",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "3:57 PM",
+          "summary": "Disturbance; occurred 9/24/2026 @ 2:40 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hilcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050065",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:00 PM",
+          "summary": "Disturbance; occurred 9/25/2026 @ 11:00 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050067",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:06 PM",
+          "summary": "Petty theft; occurred 9/28/2026 @ 1:00 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "UC San Diego",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050068",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:06 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050069",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:09 PM",
+          "summary": "Disturbance; occurred 9/29/2026 @ 3:14 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "Jacobs Medical Center - Bed Tower",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050070",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:12 PM",
+          "summary": "Threats; occurred 9/29/2026 @ 2:45 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050071",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:17 PM",
+          "summary": "Threats; occurred 10/1/2026 @ 3:55 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "Thornton Pavilion",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050072",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:18 PM",
+          "summary": "Simple assault; occurred 10/1/2026 @ 11:20 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "East Campus Medical Center",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050073",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:21 PM",
+          "summary": "Simple assault; occurred 10/2/2026 @ 3:43 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050074",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:22 PM",
+          "summary": "Simple assault; occurred 10/2/2026 at 12:45 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050075",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:26 PM",
+          "summary": "Threats; occurred 10/2/2026 @ 3:55 AM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050076",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:31 PM",
+          "summary": "Simple assault; occurred 10/4/2026 @ 3:09 PM",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050077",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "4:33 PM",
+          "summary": "Vandalism; occurred some time on 10/4/2026",
+          "disposition": "CSA Report Filed"
+        },
+        {
+          "category": "Security Check",
+          "location": "Amanecer",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050084",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "7:31 PM",
+          "summary": "Caller has no contact order and wants to confirme other party is not present",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Reckless Driving",
+          "location": "Chinquapin Ave",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050085",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "7:43 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Information",
+          "location": "Parking Lot P604",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050086",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "7:55 PM",
+          "summary": "Caller has parking questions",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Fire",
+          "location": "Kaleidoscope",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050087",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "7:59 PM",
+          "summary": "Possible fire on patio",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Israni Biomedical Research Facility",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050089",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "8:08 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Geisel Library",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050090",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "8:41 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050095",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "8:51 PM",
+          "summary": "Pick up property",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050096",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "9:18 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Mosaic",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050098",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "9:24 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "University Center 111",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050099",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "9:24 PM",
+          "summary": "Automated call stating medical assistance needed",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Security Check",
+          "location": "UC Extended Studies",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050100",
+          "date_occurred": "",
+          "time_occurred": "9:41 PM",
+          "summary": "Building secured with cable lock",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Brisa",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050102",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "9:44 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Porton",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050103",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "10:47 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050105",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:14 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "North Star",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050106",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:17 PM",
+          "summary": "Loud talking",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Douglas Apartment",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050107",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:44 PM",
+          "summary": "Loud talking",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tapestry",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050108",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:50 PM",
+          "summary": "People shouting",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Trespass",
+          "location": "Burger King - PC East",
+          "date_reported": "10/5/2026",
+          "incident_case": "2610050109",
+          "date_occurred": "10/5/2026",
+          "time_occurred": "11:58 PM",
+          "summary": "Subject refusing to leave",
+          "disposition": "Field Interview"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -150451,6 +151189,7 @@
     "October 2, 2026.pdf",
     "October 3, 2026.pdf",
     "October 4, 2026.pdf",
-    "September 30, 2026.pdf"
+    "September 30, 2026.pdf",
+    "October 5, 2026.pdf"
   ]
 }
