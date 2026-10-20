@@ -152462,6 +152462,1462 @@
           "disposition": "CSA Report Filed"
         }
       ]
+    },
+    {
+      "filename": "October 10, 2026.pdf",
+      "date": "October 10, 2026",
+      "page_count": 13,
+      "incident_count": 74,
+      "incidents": [
+        {
+          "category": "Citizen Contact",
+          "location": "Panorama Courtyard",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100001",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "12:15 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Scholars Dr.",
+          "date_reported": "10/10/2026",
+          "incident_case": "1610100002",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "12:57 AM",
+          "summary": "Unable to contact friend",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Ola Surface Lot",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100003",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:07 AM",
+          "summary": "Subject sleeping inside vehicle",
+          "disposition": "Will Cooperate"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100004",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:17 AM",
+          "summary": "Subject walking barefoot, yelling, talking to himself",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Coalition",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100005",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:19 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Catalyst",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100008",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:37 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Alianza",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100009",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:47 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100010",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:52 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Brisa",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100011",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "1:59 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Tenaya Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100012",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:00 AM",
+          "summary": "Parent unable to contact child",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Asante Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100013",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:05 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Trolley - La Jolla Health Station",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100014",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:09 AM",
+          "summary": "Subject laying in the middle of the road; transported to hospital",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Pepper Canyon Apartments 700",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100015",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:39 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100016",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "3:51 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Campus Security Authority Report - Rape",
+          "location": "Unknown",
+          "date_reported": "10/10/2026",
+          "incident_case": "2026-1995",
+          "date_occurred": "10/8/2026",
+          "time_occurred": "Unknown",
+          "summary": "Reporting party informed by resident that a friend was sexually assaulted",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Earth Hall South",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100017",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "4:12 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100018",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "6:56 AM",
+          "summary": "Someone found son's phone; phone recovered and returned",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Alianza",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100019",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:22 AM",
+          "summary": "Roommate dispute",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Suspicious Vehicle",
+          "location": "Parking Lot P008",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100020",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:40 AM",
+          "summary": "Vehicle parked with engine running",
+          "disposition": "Verbal Warning"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Alianza",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100021",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "8:16 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Africa hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100022",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "8:59 AM",
+          "summary": "Unable to contact friend; friend was located",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Citizen Assist",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100023",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "9:18 AM",
+          "summary": "Reporting party believes stolen bike is posted for sale online; related case 2026-1950.",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Triton Stadium",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100025",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "9:54 AM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Preserve the Peace",
+          "location": "Otterson Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100027",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:38 AM",
+          "summary": "Possible suspected student",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Podemos",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100028",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:08 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Elevator Problem",
+          "location": "Destiny Coast Restaurant",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100029",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:27 AM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Geisel Library",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100030",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:28 AM",
+          "summary": "Caller concerned sister wants to harm herself",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Cala",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100032",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:40 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Assist Other Agency",
+          "location": "Village Place and Market",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100033",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:53 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100034",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "12:30 PM",
+          "summary": "Parents concerned about child's mental state",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Information",
+          "location": "Interstate 15",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100036",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:27 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Trolley - Central Campus Station",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100037",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "2:30 PM",
+          "summary": "Person trying to unsecure bike from bike rack; Was their own property",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Extortion",
+          "location": "Tioga Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2026-1996",
+          "date_occurred": "10/08/2026",
+          "time_occurred": "4:08 PM - 12:22 PM",
+          "summary": "Reporting party being threatened if they don't pay bail for suspect",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Attempt to Contact",
+          "location": "Brown Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100042",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "4:43 PM",
+          "summary": "Parent unable to contact child",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Birch Aquarium",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100044",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "4:47 PM",
+          "summary": "Couple with stroller arguing.",
+          "disposition": "Field Interview"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100046",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "5:29 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Artesa",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100047",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "5:35 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Tapestry",
+          "date_reported": "10/10/2026",
+          "incident_case": "2026-1997",
+          "date_occurred": "10/09/2026",
+          "time_occurred": "6:05 Pm - 11:50 AM",
+          "summary": "Reporting party's food has gone missing on multiple occasions",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Brisa",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100048",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "6:10 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100049",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:44 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Genesse Ave.",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100050",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:46 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Price Center East",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100051",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:49 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "One Miramar Street, Building 4",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100052",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "7:52 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Galbraith Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100054",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "8:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100055",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "8:39 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Mosaic",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100056",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "8:53 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100057",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "9:16 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Tuolumne Apartments",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100058",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "9:47 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "Cala",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100060",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:06 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Tapestry",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100061",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:25 PM",
+          "summary": "Music/people being loud",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Stewart Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100062",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:35 PM",
+          "summary": "Loud music/people being loud",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Catalyst",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100063",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:40 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Fire Alarm",
+          "location": "Vela",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100064",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "10:47 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cuzco Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100065",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:03 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Asia Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2026-1998",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:15 PM - 11:51 PM",
+          "summary": "Overintoxication; transported to hospital",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Argo Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100067",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:20 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Rya",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100068",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:51 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Alcohol Contact",
+          "location": "Asia Hall",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100069",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:52 PM",
+          "summary": "",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100070",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:54 PM",
+          "summary": "",
+          "disposition": "Cancelled."
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/10/2026",
+          "incident_case": "2610100071",
+          "date_occurred": "10/10/2026",
+          "time_occurred": "11:59 PM",
+          "summary": "Caller received text from friend saying subject wouldn't let her leave.",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "",
+          "location": "OCTOBER 10, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "OCTOBER 10, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "OCTOBER 10, 2026",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        },
+        {
+          "category": "",
+          "location": "",
+          "date_reported": "",
+          "incident_case": "",
+          "date_occurred": "",
+          "time_occurred": "",
+          "summary": "",
+          "disposition": ""
+        }
+      ]
+    },
+    {
+      "filename": "October 9, 2026.pdf",
+      "date": "October 9, 2026",
+      "page_count": 14,
+      "incident_count": 70,
+      "incidents": [
+        {
+          "category": "Verified Lockout",
+          "location": "Alianza",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090001",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:03 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Mosaic",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090002",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:18 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Quest",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090003",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:20 AM",
+          "summary": "Someone yelling and knocking on doors and laughing",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Pangea Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090004",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:38 AM",
+          "summary": "Couple arguing",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Matthews Apartments A",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090005",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:40 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Burglary Alarm",
+          "location": "Coalition",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090006",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:44 AM",
+          "summary": "UCSD POLICE DEPARTMENT CRIME AND FIRE LOG/MEDIA BULLETIN OCTOBER 9, 2026",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tierra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090007",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:53 AM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Security Check",
+          "location": "Pangea Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090008",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:55 AM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Pepper Canyon Apartments 200",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090009",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "1:08 AM",
+          "summary": "People playing in pickleball court",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Blake Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090010",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "1:15 AM",
+          "summary": "Two subjects sleeping",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "UCSD Hillcrest Hospital",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090011",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "3:21 AM",
+          "summary": "Patient having suicidal and homicidal ideations",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Extortion",
+          "location": "Piedra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090012",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:57 AM",
+          "summary": "Questions concerning extortion attempt",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Piedra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090013",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "6:11 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Person Down",
+          "location": "Villa La Jolla Dr/Gilman Dr",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1980",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "7:50 AM - 12:00 PM",
+          "summary": "Male lying on sidewalk subject was arrested for outstanding felony warrant",
+          "disposition": "Arrest"
+        },
+        {
+          "category": "Injury",
+          "location": "Villa La Jolla Dr/Gilman Dr",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090019",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "7:54",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Kaleidoscope",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090020",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "8:09 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090023",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "8:54 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "School of Medicine Building 3",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090024",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "8:58 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Identity Theft",
+          "location": "Scholars Dr N",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1983",
+          "date_occurred": "4/6/2026",
+          "time_occurred": "10:29 AM",
+          "summary": "Fraudulent use of social security number",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Injury",
+          "location": "Tata Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1981",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:21 AM - 10:31 AM",
+          "summary": "Fell off E-Scooter and suffered injuries; transported to hospital",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Tierra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090031",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:38 AM",
+          "summary": "Subject sleeping",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Isaacs Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1982",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:35 AM - 10:40 AM",
+          "summary": "Vehicle VS Vehicle",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Price Center West",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090035",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:16 AM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Ticket Sign Off",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090037",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:02 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "Gilman Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090040",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:22 PM",
+          "summary": "Unable to contact reporting party",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Campus Security Authority Report - Other Non-Clery Crime",
+          "location": "Vaughan Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1984",
+          "date_occurred": "10/8/2026",
+          "time_occurred": "Unknown",
+          "summary": "Racially derogatory language written on door in tape",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Birch Aquarium",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090048",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "1:34 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Price Center East",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090049",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "1:37 PM",
+          "summary": "Subject disrupting others studying by playing really loud videos",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Report of Grand Theft",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1985",
+          "date_occurred": "10/8/2026",
+          "time_occurred": "9:30 PM - 12:30 PM",
+          "summary": "Secured Bicycle; Loss: $800.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Wireless 911",
+          "location": "Communication Building",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090053",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "2:55 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Report of Petty Theft - Micro Mobility Device - E-Bike",
+          "location": "Otterson Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1979",
+          "date_occurred": "10/8/2026",
+          "time_occurred": "11:00 AM - 2:00 PM",
+          "summary": "Secured E-Bike; Loss: $300.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Report of Hit and Run - No Injuries",
+          "location": "South Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1986",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:30 AM - 3:24 PM",
+          "summary": "Damage on drivers' door",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Gabacho Dr",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090059",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:00 PM",
+          "summary": "Reporting party concerned student is having suicidal ideations",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Rebecca and John Moores Cancer Center",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090060",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:02 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Non-Injury Accident",
+          "location": "Target",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1987",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "12:00 AM",
+          "summary": "Truck hit tree",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, General",
+          "location": "Villa La Jolla Dr",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090062",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:19 PM",
+          "summary": "Irate person banging on door UCSD POLICE DEPARTMENT CRIME AND FIRE LOG/MEDIA BULLETIN OCTOBER 9, 2026",
+          "disposition": "Referred to Other Agency"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Campus Emergency Services Building",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090064",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:25 PM",
+          "summary": "Towed vehicle release",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Pangea Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090065",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:29 PM",
+          "summary": "Bag missing from vehicle; unable to contact reporting party",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Report of Petty Theft",
+          "location": "Charles David Keeling Apartments #2",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1988",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:05 PM - 5:49 PM",
+          "summary": "Misc. items; Loss: $136.00",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Lockout Request",
+          "location": "ACTRI",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090068",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:13 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Indecent Exposure",
+          "location": "Shiley Eye Center",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1989",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:30 PM - 6:24 PM",
+          "summary": "Reporting party stated male had his pants down and was touching himself",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Incomplete/Accidental Landline 911",
+          "location": "Scholars Parking Structure",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090073",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "5:58 PM",
+          "summary": "",
+          "disposition": "Logged Event"
+        },
+        {
+          "category": "Panic/Silent Alarm",
+          "location": "Bookstore",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090074",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "6:53 PM",
+          "summary": "",
+          "disposition": "False Alarm"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tierra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090076",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "7:29 PM",
+          "summary": "",
+          "disposition": "Cancelled"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cresta",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090078",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "8:38 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Africa hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090080",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "8:39 PM",
+          "summary": "Hears someone calling for help",
+          "disposition": "Unable to Locate"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Piedra",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090081",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:06 PM",
+          "summary": "",
+          "disposition": "Referred to Other Department (UCSD)"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Rita Atkinson Residences",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1991",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:08 PM",
+          "summary": "Person of concern",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090084",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:30 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Rya",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090085",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:32 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Epstein Family Amphitheater",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090086",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:37 PM",
+          "summary": "",
+          "disposition": "Information Only"
+        },
+        {
+          "category": "Lost Property",
+          "location": "Parking Lot P405",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1990",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "4:00 PM - 5:45 PM",
+          "summary": "Wallet",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Voluntary Psych Referral",
+          "location": "SIO Neighborhood",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090088",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "9:56 PM",
+          "summary": "Related to case 2026-1988",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Welfare Check",
+          "location": "Stewart Commons",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1992",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:00 PM - 12:00 AM",
+          "summary": "Overintoxication; transported to hospital",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Psych Subject",
+          "location": "Martin Johnson House",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1993",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:17 PM - 12:19 AM",
+          "summary": "Subject having suicidal ideations; transported to CMH",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Cala",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090091",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:22 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Domestic Violence",
+          "location": "Café Ventanas",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090092",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:22 PM",
+          "summary": "Verbal argument",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Cala",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090093",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "10:26 PM",
+          "summary": "Party noises",
+          "disposition": "Quiet on Arrival"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Tuolumne Apartments",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090094",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:07 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Brisa",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090095",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:13 PM",
+          "summary": "People being loud",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Goldberg Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090096",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:21 PM",
+          "summary": "People yelling",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Blake Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090097",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Sankofa",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090098",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:28 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Citizen Contact",
+          "location": "Blake Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090099",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:30 PM",
+          "summary": "",
+          "disposition": "Checks OK"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "Astilla",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090100",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:31 PM",
+          "summary": "",
+          "disposition": "Gone on Arrival"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Kaleidoscope",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090101",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:34 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Suspicious Person",
+          "location": "Atlantis Hall",
+          "date_reported": "10/9/2026",
+          "incident_case": "2026-1994",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:40 PM - 12:00 AM",
+          "summary": "Subject possibly recording through window",
+          "disposition": "Report Taken"
+        },
+        {
+          "category": "Disturbance, Noise",
+          "location": "North Star",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090103",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:53 PM",
+          "summary": "Loud music",
+          "disposition": "Student Conduct Referral"
+        },
+        {
+          "category": "Verified Lockout",
+          "location": "Charles David Keeling Apartments #2",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090104",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:55 PM",
+          "summary": "",
+          "disposition": "Service Provided"
+        },
+        {
+          "category": "Medical Aid",
+          "location": "Sulpizio Family Cardiovascular Center",
+          "date_reported": "10/9/2026",
+          "incident_case": "2610090105",
+          "date_occurred": "10/9/2026",
+          "time_occurred": "11:56 PM",
+          "summary": "",
+          "disposition": "Referred to Other Agency"
+        }
+      ]
     }
   ],
   "processed_files": [
@@ -152907,6 +154363,8 @@
     "October 5, 2026.pdf",
     "October 6, 2026.pdf",
     "October 7, 2026.pdf",
-    "October 8, 2026.pdf"
+    "October 8, 2026.pdf",
+    "October 10, 2026.pdf",
+    "October 9, 2026.pdf"
   ]
 }
